@@ -22,6 +22,65 @@
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
+  /* Password screen */
+  .password-screen {
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: opacity 0.5s;
+  }
+  .password-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .password-logo {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+  .password-hint {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  .password-input {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    color: var(--text);
+    text-align: center;
+    width: 250px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .password-input:focus { border-color: var(--accent); }
+  .password-input.wrong {
+    border-color: var(--red);
+    animation: shake 0.4s ease;
+  }
+  .password-error {
+    color: var(--red);
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    height: 1.2rem;
+  }
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    75% { transform: translateX(8px); }
+  }
+  .app-content { display: none; }
+  .app-content.visible { display: block; }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans JP', sans-serif;
     background: var(--bg);
@@ -123,6 +182,73 @@
   .mastery-new .stat-value { color: var(--accent); }
   .mastery-learning .stat-value { color: var(--orange); }
   .mastery-known .stat-value { color: var(--green); }
+
+  /* Daily chart */
+  .daily-chart {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .daily-chart h3 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.8rem;
+  }
+  .daily-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+    height: 100px;
+  }
+  .daily-bar-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .daily-bar {
+    width: 100%;
+    max-width: 40px;
+    background: var(--accent);
+    border-radius: 4px 4px 0 0;
+    min-height: 2px;
+    position: relative;
+    transition: height 0.5s ease;
+  }
+  .daily-bar-count {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .daily-bar-date {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+  .daily-total {
+    text-align: right;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+  }
+
+  /* Speak button */
+  .speak-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--text-muted);
+    transition: all 0.2s;
+    margin-top: 0.5rem;
+  }
+  .speak-btn:hover { border-color: var(--accent); color: var(--accent); }
 
   /* Word list */
   .word-list { display: flex; flex-direction: column; gap: 0.5rem; }
@@ -491,6 +617,16 @@
 </head>
 <body>
 
+<!-- Password Screen -->
+<div class="password-screen" id="passwordScreen">
+  <div class="password-logo">LKY English</div>
+  <div class="password-hint">What kind of person do you want to become?</div>
+  <input type="password" class="password-input" id="passwordInput" placeholder="Enter password" autofocus>
+  <div class="password-error" id="passwordError"></div>
+</div>
+
+<!-- App Content -->
+<div class="app-content" id="appContent">
 <div class="header">
   <h1>LKY English</h1>
   <p class="subtitle">The Singapore Story — 遠山寛治の英語学習</p>
@@ -526,6 +662,7 @@
     <div class="stat-card mastery-learning"><div class="stat-value" id="countLearning">0</div><div class="stat-label">Learning</div></div>
     <div class="stat-card mastery-known"><div class="stat-value" id="countKnown">0</div><div class="stat-label">Mastered</div></div>
   </div>
+  <div class="daily-chart" id="dailyChart"></div>
   <div class="word-list" id="wordList"></div>
 </div>
 
@@ -577,7 +714,7 @@ const WORDS = [
     quote: 'the <mark>ablest</mark> man I have ever met',
     speaker: 'LKY on George H.W. Bush', flag: '🇸🇬',
     etymology: { root: 'habilis (Latin)', meaning: '扱いやすい、適切な', words: ['able', 'ablest', 'ability', 'enable'] },
-    category: 'power', related: ['brilliant', 'forceful']
+    category: 'power', related: ['brilliant', 'forceful'], date: '2026-04-04'
   },
   {
     id: 'penetrate', term: 'penetrate', meaning: '貫く、見通す',
@@ -585,7 +722,7 @@ const WORDS = [
     quote: 'He had a way of <mark>penetrating</mark> the fog of propaganda',
     speaker: 'Margaret Thatcher on LKY', flag: '🇬🇧',
     etymology: { root: 'penetrare (Latin)', meaning: '中に入る', words: ['penetrate', 'penetrating', 'impenetrable'] },
-    category: 'intellect', related: ['grasp', 'intricate']
+    category: 'intellect', related: ['grasp', 'intricate'], date: '2026-04-04'
   },
   {
     id: 'seminal', term: 'seminal', meaning: '先駆的な、種を蒔くような',
@@ -593,7 +730,7 @@ const WORDS = [
     quote: 'Lee is one of the <mark>seminal</mark> figures of Asia',
     speaker: 'Henry Kissinger on LKY', flag: '🇺🇸',
     etymology: { root: 'semen (Latin)', meaning: '種', words: ['seminal', 'seminary', 'disseminate', 'seed'] },
-    category: 'power', related: ['brilliant', 'ablest']
+    category: 'power', related: ['brilliant', 'ablest'], date: '2026-04-04'
   },
   {
     id: 'candid', term: 'candid', meaning: '率直な、忖度なく本音を言う',
@@ -601,7 +738,7 @@ const WORDS = [
     quote: '<mark>Candid</mark>, informed, forceful, brilliant',
     speaker: 'George P. Shultz on LKY', flag: '🇺🇸',
     etymology: { root: 'candidus (Latin)', meaning: '白い、純粋な', words: ['candid', 'candidate', 'candor'] },
-    category: 'character', related: ['refreshing', 'forceful']
+    category: 'character', related: ['refreshing', 'forceful'], date: '2026-04-04'
   },
   {
     id: 'sought_out', term: 'sought out', meaning: 'わざわざ探し求めて会いに行く',
@@ -609,7 +746,7 @@ const WORDS = [
     quote: 'leaders throughout the world have <mark>sought out</mark> Lee Kuan Yew',
     speaker: 'George P. Shultz on LKY', flag: '🇺🇸',
     etymology: { root: 'sēcan (Old English)', meaning: '探す', words: ['seek', 'sought', 'seek out'] },
-    category: 'power', related: ['counsellor']
+    category: 'power', related: ['counsellor'], date: '2026-04-04'
   },
   {
     id: 'intricate', term: 'intricate', meaning: '入り組んだ、精巧に絡み合った',
@@ -617,7 +754,7 @@ const WORDS = [
     quote: 'how to analyse <mark>intricate</mark> problems',
     speaker: 'George P. Shultz on LKY', flag: '🇺🇸',
     etymology: { root: 'intricare (Latin)', meaning: '絡ませる', words: ['intricate', 'intrigue', 'extricate'] },
-    category: 'intellect', related: ['penetrate', 'fabric']
+    category: 'intellect', related: ['penetrate', 'fabric'], date: '2026-04-04'
   },
   {
     id: 'post_hoc', term: 'post hoc', meaning: '後から、事後の',
@@ -625,7 +762,7 @@ const WORDS = [
     quote: 'the normal run of autobiographies, which are usually full of <mark>post hoc</mark> justifications',
     speaker: 'Dr Goh Keng Swee on LKY', flag: '🇸🇬',
     etymology: { root: 'post hoc (Latin)', meaning: 'after this（この後に）', words: ['post hoc', 'posthumous', 'posterior'] },
-    category: 'intellect', related: ['candid', 'refreshing']
+    category: 'intellect', related: ['candid', 'refreshing'], date: '2026-04-04'
   },
   {
     id: 'adversaries', term: 'adversaries', meaning: '敵、対立者',
@@ -633,7 +770,7 @@ const WORDS = [
     quote: 'No one can accuse you of unfairness to your <mark>adversaries</mark>',
     speaker: 'Dr Goh Keng Swee on LKY', flag: '🇸🇬',
     etymology: { root: 'adversarius (Latin)', meaning: '対立する者', words: ['adversary', 'adverse', 'adversity'] },
-    category: 'power', related: ['resoluteness', 'forceful']
+    category: 'power', related: ['resoluteness', 'forceful'], date: '2026-04-04'
   },
   {
     id: 'resoluteness', term: 'resoluteness', meaning: '断固たる決意、不屈の意志',
@@ -641,7 +778,7 @@ const WORDS = [
     quote: 'His <mark>resoluteness</mark>, energy, and vision have left a deep impression on Singapore',
     speaker: 'Helmut Kohl on LKY', flag: '🇩🇪',
     etymology: { root: 'resolvere (Latin)', meaning: '解き放つ、決心する', words: ['resolute', 'resoluteness', 'resolve', 'resolution'] },
-    category: 'character', related: ['forceful', 'ablest']
+    category: 'character', related: ['forceful', 'ablest'], date: '2026-04-04'
   },
   {
     id: 'powerhouse', term: 'powerhouse', meaning: '強力な存在（元は発電所）',
@@ -649,7 +786,7 @@ const WORDS = [
     quote: 'making it a political and economic <mark>powerhouse</mark>',
     speaker: 'Helmut Kohl on LKY', flag: '🇩🇪',
     etymology: { root: 'power + house', meaning: '発電所 → 強力な存在', words: ['powerhouse', 'power', 'empower'] },
-    category: 'power', related: ['seminal', 'resoluteness']
+    category: 'power', related: ['seminal', 'resoluteness'], date: '2026-04-04'
   },
   {
     id: 'exacting', term: 'exacting', meaning: '厳格、妥協を許さない',
@@ -657,7 +794,7 @@ const WORDS = [
     quote: 'transforming the most <mark>exacting</mark> standards into a system of government',
     speaker: 'Jacques Chirac on LKY', flag: '🇫🇷',
     etymology: { root: 'exigere (Latin)', meaning: '要求する、正確に量る', words: ['exact', 'exactly', 'exacting', 'exigent'] },
-    category: 'character', related: ['resoluteness', 'candid']
+    category: 'character', related: ['resoluteness', 'candid'], date: '2026-04-04'
   },
   {
     id: 'primacy', term: 'primacy', meaning: '絶対的な首位',
@@ -665,7 +802,7 @@ const WORDS = [
     quote: 'the <mark>primacy</mark> of the general interest',
     speaker: 'Jacques Chirac on LKY', flag: '🇫🇷',
     etymology: { root: 'primus (Latin)', meaning: '最初の', words: ['primacy', 'primary', 'prime', 'primitive'] },
-    category: 'structure', related: ['exacting']
+    category: 'structure', related: ['exacting'], date: '2026-04-04'
   },
   {
     id: 'threshold', term: 'threshold', meaning: '敷居、境界線、閾値',
@@ -673,7 +810,7 @@ const WORDS = [
     quote: 'rise from the <mark>threshold</mark> of subsistence',
     speaker: 'Jacques Chirac on LKY', flag: '🇫🇷',
     etymology: { root: 'thresh + hold', meaning: '脱穀する場所 → 敷居', words: ['threshold', 'thresh'] },
-    category: 'boundary', related: ['brink', 'verge', 'cusp', 'subsistence']
+    category: 'boundary', related: ['brink', 'verge', 'cusp', 'subsistence'], date: '2026-04-04'
   },
   {
     id: 'fabric', term: 'fabric', meaning: '織物 → 構造、仕組み',
@@ -681,7 +818,7 @@ const WORDS = [
     quote: 'his grasp of the world\'s political and economic <mark>fabric</mark>',
     speaker: 'Helmut Schmidt on LKY', flag: '🇩🇪',
     etymology: { root: 'fabrica (Latin)', meaning: '工房、作られたもの', words: ['fabric', 'fabricate', 'prefabricate'] },
-    category: 'structure', related: ['intricate', 'grasp']
+    category: 'structure', related: ['intricate', 'grasp'], date: '2026-04-04'
   },
   {
     id: 'grasp', term: 'grasp', meaning: '把握、深い理解（掴む）',
@@ -689,7 +826,7 @@ const WORDS = [
     quote: 'his <mark>grasp</mark> of the world\'s political and economic fabric',
     speaker: 'Helmut Schmidt on LKY', flag: '🇩🇪',
     etymology: { root: 'graspian (Middle English)', meaning: '掴む', words: ['grasp', 'grip', 'grope'] },
-    category: 'intellect', related: ['penetrate', 'fabric']
+    category: 'intellect', related: ['penetrate', 'fabric'], date: '2026-04-04'
   },
   {
     id: 'of_moment', term: 'of moment', meaning: '重要な（格式高い）',
@@ -697,7 +834,7 @@ const WORDS = [
     quote: 'He has much <mark>of moment</mark> to say to us',
     speaker: 'Helmut Kohl on LKY', flag: '🇩🇪',
     etymology: { root: 'momentum (Latin)', meaning: '動き、重要さ', words: ['moment', 'momentous', 'momentum'] },
-    category: 'intellect', related: ['seminal']
+    category: 'intellect', related: ['seminal'], date: '2026-04-04'
   }
 ];
 
@@ -762,7 +899,40 @@ function showSection(name) {
 }
 
 // ===== DASHBOARD =====
+function renderDailyChart() {
+  const chart = document.getElementById('dailyChart');
+  const dateCounts = {};
+  WORDS.forEach(w => {
+    if (!w.date) return;
+    dateCounts[w.date] = (dateCounts[w.date] || 0) + 1;
+  });
+  const dates = Object.keys(dateCounts).sort();
+  if (dates.length === 0) { chart.style.display = 'none'; return; }
+
+  const maxCount = Math.max(...Object.values(dateCounts));
+  const totalWords = WORDS.length;
+  const barHeight = 80;
+
+  chart.innerHTML = `
+    <h3>Daily Progress</h3>
+    <div class="daily-bars">
+      ${dates.map(d => {
+        const count = dateCounts[d];
+        const h = Math.max(4, (count / maxCount) * barHeight);
+        const label = d.slice(5).replace('-', '/');
+        return `<div class="daily-bar-group">
+          <div class="daily-bar-count">${count}</div>
+          <div class="daily-bar" style="height:${h}px"></div>
+          <div class="daily-bar-date">${label}</div>
+        </div>`;
+      }).join('')}
+    </div>
+    <div class="daily-total">Total: ${totalWords} words in ${dates.length} day${dates.length > 1 ? 's' : ''}</div>
+  `;
+}
+
 function renderDashboard() {
+  renderDailyChart();
   const list = document.getElementById('wordList');
   list.innerHTML = '';
   WORDS.forEach(w => {
@@ -798,6 +968,7 @@ function renderFlashcard() {
 
   document.getElementById('fcFront').innerHTML = `
     <div class="flashcard-word">${w.term}</div>
+    <button class="speak-btn" onclick="event.stopPropagation(); speak('${w.term.replace(/'/g, "\\'")}')">🔊</button>
     <div class="flashcard-speaker">${w.flag} ${w.speaker}</div>
     <div class="flashcard-quote">${w.quote}</div>
     <div class="flashcard-hint">タップして意味を確認</div>
@@ -813,6 +984,7 @@ function renderFlashcard() {
 
   document.getElementById('fcBack').innerHTML = `
     <div class="flashcard-meaning">${w.meaning}</div>
+    <button class="speak-btn" onclick="event.stopPropagation(); speak('${w.term.replace(/'/g, "\\'")}')">🔊</button>
     <div class="flashcard-detail">${w.detail}</div>
     ${etymHtml}
   `;
@@ -1069,8 +1241,59 @@ function renderEtymology() {
   });
 }
 
-// ===== START =====
-init();
+// ===== SPEAK =====
+let voicesLoaded = false;
+speechSynthesis.onvoiceschanged = () => { voicesLoaded = true; };
+
+function speak(text) {
+  speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'en-US';
+  utterance.rate = 0.9;
+  utterance.pitch = 1.0;
+  const voices = speechSynthesis.getVoices();
+  // Mac: prefer high-quality voices
+  const preferred = ['Evan', 'Zoe', 'Samantha', 'Karen', 'Daniel', 'Moira', 'Tessa'];
+  let voice = null;
+  for (const name of preferred) {
+    voice = voices.find(v => v.name.includes(name) && v.lang.startsWith('en'));
+    if (voice) break;
+  }
+  if (!voice) voice = voices.find(v => v.lang === 'en-US');
+  if (!voice) voice = voices.find(v => v.lang.startsWith('en'));
+  if (voice) utterance.voice = voice;
+  speechSynthesis.speak(utterance);
+}
+
+// ===== PASSWORD =====
+function checkPassword() {
+  const input = document.getElementById('passwordInput');
+  if (input.value.toLowerCase() === 'ablest') {
+    const screen = document.getElementById('passwordScreen');
+    const app = document.getElementById('appContent');
+    screen.classList.add('hidden');
+    app.classList.add('visible');
+    sessionStorage.setItem('lky-auth', 'true');
+    init();
+  } else {
+    input.classList.add('wrong');
+    document.getElementById('passwordError').textContent = 'Try again.';
+    setTimeout(() => { input.classList.remove('wrong'); }, 400);
+    input.value = '';
+  }
+}
+
+document.getElementById('passwordInput').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') checkPassword();
+});
+
+// Check if already authenticated this session
+if (sessionStorage.getItem('lky-auth') === 'true') {
+  document.getElementById('passwordScreen').classList.add('hidden');
+  document.getElementById('appContent').classList.add('visible');
+  init();
+}
 </script>
+</div><!-- end app-content -->
 </body>
 </html>
