@@ -598,6 +598,277 @@
   .copy-btn:hover { border-color: var(--accent); color: var(--text); }
   .copy-btn.copied { border-color: var(--green); color: var(--green); }
 
+  /* ===== QUOTES ===== */
+  .quote-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.8rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .quote-card:hover { border-color: var(--accent); }
+  .quote-card.expanded { border-color: var(--accent); }
+  .quote-speaker {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.8rem;
+  }
+  .quote-speaker-flag { font-size: 1.3rem; }
+  .quote-speaker-name { font-weight: 700; font-size: 0.95rem; }
+  .quote-speaker-title {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+  .quote-text {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: var(--text);
+    position: relative;
+    padding-left: 1.2rem;
+    border-left: 3px solid var(--accent);
+  }
+  .quote-text mark {
+    background: rgba(74, 111, 165, 0.12);
+    color: var(--accent);
+    border-radius: 3px;
+    padding: 0 3px;
+    font-weight: 600;
+    cursor: help;
+  }
+  .quote-translation {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--surface2);
+    border-radius: 8px;
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    display: none;
+  }
+  .quote-card.expanded .quote-translation { display: block; }
+  .quote-vocab {
+    margin-top: 0.8rem;
+    display: none;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .quote-card.expanded .quote-vocab { display: flex; }
+  .quote-vocab-tag {
+    padding: 0.25rem 0.7rem;
+    background: rgba(74, 111, 165, 0.08);
+    border: 1px solid rgba(74, 111, 165, 0.2);
+    border-radius: 15px;
+    font-size: 0.75rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .quote-detail {
+    margin-top: 0.8rem;
+    padding: 1rem;
+    background: rgba(74, 111, 165, 0.04);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    line-height: 1.8;
+    color: var(--text);
+    display: none;
+  }
+  .quote-card.expanded .quote-detail { display: block; }
+  .quote-detail h4 {
+    font-size: 0.8rem;
+    color: var(--accent);
+    margin: 0.8rem 0 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .quote-detail h4:first-child { margin-top: 0; }
+  .quote-detail ul {
+    padding-left: 1.2rem;
+    margin: 0.3rem 0;
+  }
+  .quote-detail li {
+    margin-bottom: 0.3rem;
+  }
+  .quote-detail .vocab-inline {
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .quote-detail .example {
+    padding: 0.5rem 0.8rem;
+    background: rgba(58, 125, 68, 0.06);
+    border-left: 2px solid var(--green);
+    border-radius: 4px;
+    margin: 0.4rem 0;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+  .quote-expand-hint {
+    text-align: right;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    opacity: 0.5;
+  }
+  .quote-card.expanded .quote-expand-hint { display: none; }
+  .quote-play-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: all 0.2s;
+    margin-top: 0.8rem;
+    display: none;
+  }
+  .quote-card.expanded .quote-play-btn { display: inline-block; }
+  .quote-play-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* Quote Challenge Mode */
+  .quote-mode-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .quote-mode-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+  }
+  .quote-mode-btn:hover { border-color: var(--accent); color: var(--text); }
+  .quote-mode-btn.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .challenge-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  .challenge-speaker {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .challenge-japanese {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text);
+    padding: 1rem;
+    background: var(--surface2);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  .challenge-hint-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: all 0.2s;
+    margin-right: 0.5rem;
+  }
+  .challenge-hint-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .challenge-hint-btn.active { border-color: var(--gold); color: var(--gold); }
+  .challenge-keywords {
+    display: none;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.8rem;
+  }
+  .challenge-keywords.show { display: flex; }
+  .challenge-keyword {
+    padding: 0.3rem 0.7rem;
+    background: rgba(184, 134, 11, 0.1);
+    border: 1px solid rgba(184, 134, 11, 0.25);
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: var(--gold);
+    font-weight: 600;
+  }
+  .challenge-reveal {
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem 1.2rem;
+    border-left: 3px solid var(--green);
+    font-size: 1rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: var(--text);
+  }
+  .challenge-reveal.show { display: block; }
+  .challenge-reveal mark {
+    background: rgba(74, 111, 165, 0.12);
+    color: var(--accent);
+    border-radius: 3px;
+    padding: 0 3px;
+    font-weight: 600;
+  }
+  .challenge-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .challenge-show-btn {
+    background: var(--accent);
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .challenge-show-btn:hover { filter: brightness(1.15); }
+  .challenge-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .challenge-nav-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.85rem;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+  .challenge-nav-btn:hover { border-color: var(--accent); }
+  .challenge-progress {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.8rem;
+  }
+
   /* Animations */
   @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
   .animate-in { animation: fadeIn 0.4s ease forwards; }
@@ -652,6 +923,7 @@
   <button onclick="showSection('flashcard')">Flashcard</button>
   <button onclick="showSection('quiz')">Quiz</button>
   <button onclick="showSection('wordmap')">Word Map</button>
+  <button onclick="showSection('quotes')">Quotes</button>
   <button onclick="showSection('etymology')">Etymology</button>
 </nav>
 
@@ -698,6 +970,16 @@
     <span><span class="legend-dot" style="background:var(--accent2)"></span> Boundary</span>
   </div>
   <div class="wordmap-container" id="wordmapContainer"></div>
+</div>
+
+<!-- QUOTES -->
+<div class="section" id="sec-quotes">
+  <div class="quote-mode-toggle">
+    <button class="quote-mode-btn active" onclick="setQuoteMode('read')">Read</button>
+    <button class="quote-mode-btn" onclick="setQuoteMode('challenge')">Challenge</button>
+  </div>
+  <div id="quotesReadArea"></div>
+  <div id="quotesChallengeArea" style="display:none"></div>
 </div>
 
 <!-- ETYMOLOGY -->
@@ -858,6 +1140,7 @@ function init() {
   initFlashcards();
   renderWordMap();
   renderEtymology();
+  renderQuotes();
   updateStats();
 }
 
@@ -1243,26 +1526,597 @@ function renderEtymology() {
 
 // ===== SPEAK =====
 let voicesLoaded = false;
-speechSynthesis.onvoiceschanged = () => { voicesLoaded = true; };
+let bestVoice = null;
+speechSynthesis.onvoiceschanged = () => { voicesLoaded = true; bestVoice = null; findBestVoice(); };
+
+function findBestVoice() {
+  if (bestVoice) return bestVoice;
+  const voices = speechSynthesis.getVoices();
+  // Prefer Premium > Enhanced > standard, English voices on macOS
+  const tiers = [
+    v => v.name.includes('Premium') && v.lang.startsWith('en'),
+    v => v.name.includes('Enhanced') && v.lang.startsWith('en'),
+  ];
+  for (const test of tiers) {
+    bestVoice = voices.find(test);
+    if (bestVoice) return bestVoice;
+  }
+  const preferred = ['Evan', 'Zoe', 'Samantha', 'Karen', 'Daniel', 'Moira', 'Tessa', 'Fiona'];
+  for (const name of preferred) {
+    bestVoice = voices.find(v => v.name.includes(name) && v.lang.startsWith('en'));
+    if (bestVoice) return bestVoice;
+  }
+  bestVoice = voices.find(v => v.lang === 'en-US') || voices.find(v => v.lang.startsWith('en'));
+  return bestVoice;
+}
 
 function speak(text) {
   speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'en-US';
-  utterance.rate = 0.9;
-  utterance.pitch = 1.0;
-  const voices = speechSynthesis.getVoices();
-  // Mac: prefer high-quality voices
-  const preferred = ['Evan', 'Zoe', 'Samantha', 'Karen', 'Daniel', 'Moira', 'Tessa'];
-  let voice = null;
-  for (const name of preferred) {
-    voice = voices.find(v => v.name.includes(name) && v.lang.startsWith('en'));
-    if (voice) break;
+  const voice = findBestVoice();
+  // Split into sentences for natural pauses
+  const sentences = text.match(/[^.;!?—]+[.;!?—]+|[^.;!?—]+$/g) || [text];
+  sentences.forEach((sentence, i) => {
+    const s = sentence.trim();
+    if (!s) return;
+    const utterance = new SpeechSynthesisUtterance(s);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.65;
+    utterance.pitch = 1.0;
+    if (voice) utterance.voice = voice;
+    // Add a pause between sentences
+    if (i > 0) {
+      const pause = new SpeechSynthesisUtterance('');
+      pause.lang = 'en-US';
+      if (voice) pause.voice = voice;
+      pause.volume = 0;
+      // Comma/semicolon = short pause, period = longer pause
+      pause.rate = 0.1;
+      speechSynthesis.speak(pause);
+    }
+    speechSynthesis.speak(utterance);
+  });
+}
+
+// ===== QUOTES =====
+const QUOTES = [
+  {
+    speaker: 'Margaret Thatcher', title: 'Former British Prime Minister', flag: '🇬🇧',
+    text: 'He had a way of <mark>penetrating</mark> the fog of propaganda and expressing with <mark>unique clarity</mark> the issues of our times and the way to tackle them.',
+    translation: '彼にはプロパガンダの霧を見通し、我々の時代の課題とその解決策を、唯一無二の明晰さで表現する力があった。',
+    vocab: ['penetrating', 'fog of propaganda', 'unique clarity', 'tackle'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">penetrating</span> = 貫く、見通す。物理的にも比喩的にも使える。ここでは「霧を見通す」という比喩。penetrate の現在分詞が形容詞的に使われている</li>
+<li><span class="vocab-inline">fog of propaganda</span> = プロパガンダの霧。情報の混乱・嘘を「霧」に喩えた詩的表現。fog は「見えなくするもの」の比喩として頻出（fog of war = 戦場の混乱）</li>
+<li><span class="vocab-inline">unique clarity</span> = 唯一無二の明晰さ。ただの clear ではなく unique がつくことで「他の誰にもできない表現力」を強調</li>
+<li><span class="vocab-inline">tackle</span> = 取り組む。ラグビーのタックルが語源。問題に正面からぶつかるニュアンス。address より力強い</li>
+<li><span class="vocab-inline">had a way of ~ing</span> = 〜する独特の力があった。能力を柔らかく表現する言い回し</li>
+</ul>
+<h4>文の構造</h4>
+<ul>
+<li>penetrating（見通す力）→ expressing with unique clarity（表現する力）の2段構成。LKYの知性を「分析力」と「伝達力」に分解している</li>
+<li>the issues ... and the way to tackle them — 課題を見抜くだけでなく、解決策まで示せることを強調</li>
+</ul>
+<h4>サッチャーの表現の巧みさ</h4>
+<p>「鉄の女」と呼ばれたサッチャーが他国のリーダーをここまで称えるのは極めて異例。penetrating（見通す）という言葉はサッチャー自身の強さとも通じ、対等なリーダーとしての敬意が感じられる。</p>
+<div class="example">"She has a way of penetrating the fog of complexity and expressing the core issue with clarity."</div>`
+  },
+  {
+    speaker: 'Henry Kissinger', title: 'Former US Secretary of State', flag: '🇺🇸',
+    text: 'Lee is one of the <mark>seminal</mark> figures of Asia.',
+    translation: 'リーはアジアの先駆的人物のひとりである。',
+    vocab: ['seminal'],
+    detail: `<h4>単語の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">seminal</span> = 先駆的な、後世に影響を与えた。ラテン語 semen（種）が語源</li>
+<li>「種を蒔くような」→ 後に続くものの方向を決定づけた存在。important より遥かに格が高い</li>
+<li>seminal figure = 歴史を形作った重要人物。seminal work = その分野の方向を決定づけた著作。seminal moment = 転換点となった瞬間</li>
+</ul>
+<h4>キッシンジャーの一文の凄さ</h4>
+<p>たった一文。しかし世界外交の巨人キッシンジャーが「アジアの先駆的人物」と断言する重みは計り知れない。短いからこそ、余計な修飾なしの確信が伝わる。</p>
+<div class="example">"Steve Jobs is a seminal figure in the tech industry."</div>
+<div class="example">"This was a seminal moment in our company's history."</div>`
+  },
+  {
+    speaker: 'George P. Shultz', title: 'Former US Secretary of State', flag: '🇺🇸',
+    text: '<mark>Candid</mark>, informed, <mark>forceful</mark>, brilliant: these <mark>attributes</mark> explain why leaders throughout the world have <mark>sought out</mark> Lee Kuan Yew — and the words apply to his great memoir.',
+    translation: '率直で、博識で、力強く、卓越している。これらの資質こそ、世界中の指導者がリー・クワンユーを訪ねた理由であり、その言葉は彼の偉大な回顧録にもそのまま当てはまる。',
+    vocab: ['candid', 'forceful', 'attributes', 'sought out'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">candid</span> = 率直な、忖度なく本音を言う。語源はラテン語 candidus（白い、純粋な）。candidate（候補者）と同語源で、古代ローマで候補者が白い服を着たことから</li>
+<li><span class="vocab-inline">informed</span> = 知識が豊富な、情報に基づいた。ただ物知りなだけでなく「正確な情報を持っている」ニュアンス</li>
+<li><span class="vocab-inline">forceful</span> = 力強い、説得力のある。force（力）から。発言や態度に迫力がある</li>
+<li><span class="vocab-inline">attributes</span> = 特質、資質。quality より格式が高い。人物の本質的な特徴を表す</li>
+<li><span class="vocab-inline">sought out</span>（seek out の過去形）= わざわざ探し求めて会いに行く。ただの visit ではなく「教えを請いに行く」ニュアンス。世界のリーダーがLKYに会いに行った、という事実の重み</li>
+</ul>
+<h4>文の構造の巧みさ</h4>
+<ul>
+<li>4つの形容詞を並べてコロン → 「これらの資質が理由だ」と結論。リズミカルで力強い</li>
+<li>最後に「and the words apply to his great memoir」で、人物への評価を本への評価にスライドさせる。LKYの人間性がそのまま本に出ている、という最高の書評</li>
+</ul>
+<div class="example">"These attributes explain why so many partners have sought out Sonoligo."</div>`
+  },
+  {
+    speaker: 'Dr Goh Keng Swee', title: 'Former Singapore Deputy Prime Minister', flag: '🇸🇬',
+    text: 'Your memoirs <mark>strike me as</mark> excellent stuff, far better than <mark>the normal run of</mark> autobiographies, which are usually full of <mark>post hoc</mark> justifications.',
+    translation: 'あなたの回顧録は素晴らしいものに思える。後付けの正当化ばかりのありふれた自伝よりはるかに良い。',
+    vocab: ['strike me as', 'the normal run of', 'post hoc'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">strike A as B</span> = AにBという印象を与える。"It strikes me as odd" = 奇妙に感じる。think や feel より「不意にそう感じた」ニュアンスが強い</li>
+<li><span class="vocab-inline">the normal run of ~</span> = ありふれた〜、普通の〜。run = 一連のもの。「よくあるタイプの」という軽い軽蔑を含む</li>
+<li><span class="vocab-inline">post hoc</span> = ラテン語で「後から」（after the fact）。学術的・知的な響き</li>
+<li><span class="vocab-inline">post hoc justifications</span> = 後付けの正当化。過去の判断を後から美化すること。自伝にありがちな「あの時の判断は正しかった」式の言い訳を一刀両断</li>
+</ul>
+<h4>ゴー・ケンスイの批評眼</h4>
+<p>シンガポール建国の立役者の一人であるゴー・ケンスイが、LKYの回顧録を「普通の自伝とは違う」と評価。内部の人間だからこそ「後付けの正当化がない」ことの価値がわかる。率直な批評であり、同時に最高の賛辞。</p>
+<div class="example">"His presentation struck me as remarkably honest."</div>
+<div class="example">"We should avoid post hoc justifications and be candid about our mistakes."</div>`
+  },
+  {
+    speaker: 'Dr Goh Keng Swee', title: 'Former Singapore Deputy Prime Minister', flag: '🇸🇬',
+    text: 'The treatment of events is <mark>refreshing</mark>. No one can <mark>accuse</mark> you of unfairness to your <mark>adversaries</mark>.',
+    translation: '出来事の扱い方が新鮮だ。あなたの敵に対して不公正だと非難できる者はいない。',
+    vocab: ['refreshing', 'accuse A of B', 'adversaries'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">refreshing</span> = 新鮮な、さわやかな。ありきたりな中で「他と違って良い」という褒め言葉。飲み物が「爽やか」と同じ語だが、ここでは知的な新鮮さ</li>
+<li><span class="vocab-inline">accuse A of B</span> = AをBで非難する。"No one can accuse you of ~" = 誰もあなたを〜で責められない = 完全に公正だ、という最上級の褒め方。二重否定で強調する英語の修辞技法</li>
+<li><span class="vocab-inline">adversaries</span> = 敵、対立者。enemy より格式高く、政治・ビジネスの文脈で使う。ラテン語 adversarius（対立する者）が語源。adversity（逆境）と同根</li>
+<li><span class="vocab-inline">treatment</span> = 扱い方、論じ方。医学の「治療」と同語だが、ここでは文章における題材の扱い方</li>
+</ul>
+<h4>文のポイント</h4>
+<p>政治家が自伝を書くと、敵を悪く書きがち。しかしLKYは敵に対しても公正に書いた。「誰も不公正だと非難できない」は、裏を返せば「敵ですら認めざるを得ない公正さ」。これはリーダーとしての器の大きさを示す。</p>
+<div class="example">"No one can accuse her of cutting corners."</div>`
+  },
+  {
+    speaker: 'Helmut Kohl', title: 'Former German Chancellor', flag: '🇩🇪',
+    text: 'His <mark>resoluteness</mark>, energy, and vision have left a deep impression on Singapore, making it a political and economic <mark>powerhouse</mark> whose influence <mark>extends far beyond</mark> its own region.',
+    translation: '彼の断固たる決意、エネルギー、そしてビジョンはシンガポールに深い印象を刻み、その影響力が自国の地域をはるかに超える政治・経済の強力な存在にした。',
+    vocab: ['resoluteness', 'powerhouse', 'extends far beyond'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">resoluteness</span> = 断固たる決意、不屈の意志。determination より強く「何があっても揺るがない」ニュアンス。resolve（決心する）→ resolute（断固とした）→ resoluteness（その性質）</li>
+<li><span class="vocab-inline">powerhouse</span> = 強力な存在。元は「発電所」。エネルギーの源泉というイメージ。面積700km²の小国シンガポールを powerhouse と呼ぶ表現力がすごい</li>
+<li><span class="vocab-inline">extends far beyond</span> = 〜をはるかに超えて広がる。extend（伸ばす）+ far beyond（はるか彼方に）。影響力のスケール感を表現</li>
+<li><span class="vocab-inline">left a deep impression on</span> = 深い印象を残した。「刻み込んだ」くらいの強さ</li>
+</ul>
+<h4>ヘルムート・コールの視点</h4>
+<p>東西ドイツ統一を成し遂げたコール首相が、LKYの resoluteness を称える。コール自身も統一に向けて断固たる意志を持った人物。同じ資質を持つリーダーからの評価だからこそ重みがある。</p>
+<div class="example">"Her resoluteness in building the company from zero is what I admire most."</div>
+<div class="example">"Sonoligo is becoming a cultural powerhouse whose influence extends far beyond Nagoya."</div>`
+  },
+  {
+    speaker: 'Helmut Kohl', title: 'Former German Chancellor', flag: '🇩🇪',
+    text: 'Lee Kuan Yew is not only a remarkable political figure, but a <mark>challenging thinker</mark>. He has much <mark>of moment</mark> to say to us as we <mark>steer our course</mark> into the future.',
+    translation: 'リー・クワンユーは卓越した政治家であるだけでなく、挑発的な思考家でもある。我々が未来への舵を取る中で、彼は多くの重要なことを語っている。',
+    vocab: ['challenging thinker', 'of moment', 'steer our course'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">challenging thinker</span> = 挑発的な思考家。既存の考え方に挑戦する人。challenging は「難しい」ではなく「挑戦を突きつける」の意味</li>
+<li><span class="vocab-inline">of moment</span> = 重要な（= of importance）。格式高い書き言葉。"of no moment" = 重要でない。momentum（勢い）と同語源で、ラテン語 momentum（動き、重要さ）から</li>
+<li><span class="vocab-inline">steer our course</span> = 進路の舵を取る。船の操舵のイメージ。navigate より能動的で「自分の意志で方向を決める」ニュアンス</li>
+<li><span class="vocab-inline">not only A, but B</span> = AだけでなくBも。格式高い文章の定番構文</li>
+</ul>
+<h4>文の構造</h4>
+<p>political figure（実行する人）→ challenging thinker（考える人）。LKYが単なる政治家ではなく、思想家でもあることを示す。さらに「未来への舵取り」で、LKYの言葉が今も有効であることを強調。</p>
+<div class="example">"This is a matter of great moment for our company's future."</div>
+<div class="example">"We need to steer our course carefully as we expand overseas."</div>`
+  },
+  {
+    speaker: 'Helmut Schmidt', title: 'Former German Chancellor', flag: '🇩🇪',
+    text: 'Lee Kuan Yew is fascinating due to his <mark>grasp</mark> of the world\'s political and economic <mark>fabric</mark>. Many American and European readers have <mark>profited from</mark> his wisdom.',
+    translation: 'リー・クワンユーは世界の政治・経済の構造を深く把握しているがゆえに魅力的だ。多くの欧米の読者が彼の知恵から恩恵を得てきた。',
+    vocab: ['grasp', 'fabric', 'profited from'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">grasp</span> = 把握、深い理解。物理的に「掴む」→ 比喩的に「深く理解する」。understanding より確実に掴んでいる感じ。"have a grasp of ~" で定型</li>
+<li><span class="vocab-inline">fabric</span> = 織物 → 比喩的に「構造、仕組み」。社会が糸のように織り合わさっているイメージ。the fabric of society = 社会の構造。fabricate（捏造する）と同語源（fabrica = 工房）</li>
+<li><span class="vocab-inline">profited from</span> = 〜から恩恵を得る。金銭的な利益だけでなく、知的な恩恵にも使える。benefit from より格式高い</li>
+<li><span class="vocab-inline">fascinating</span> = 魅力的な。interesting より遥かに強い。引き込まれるような魅力</li>
+</ul>
+<h4>シュミットの知的な視点</h4>
+<p>シュミットは「知識人宰相」と呼ばれたドイツの首相。彼が grasp（把握）と fabric（構造）という知的な単語を使ってLKYを評価しているのが特徴的。知性で知性を認める、という構図。</p>
+<div class="example">"He has a deep grasp of the social fabric of rural Japan."</div>
+<div class="example">"We have profited greatly from his advice."</div>`
+  },
+  {
+    speaker: 'Jacques Chirac', title: 'Former French President', flag: '🇫🇷',
+    text: 'For a country to rise from the <mark>threshold of subsistence</mark> to one of the highest living standards in the world in 30 years is <mark>no common achievement</mark>.',
+    translation: '生存の境界線から世界最高水準の生活レベルに30年で上り詰めることは、並の偉業ではない。',
+    vocab: ['threshold', 'subsistence', 'no common achievement'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">threshold</span> = 閾値、境界線。ドアの敷居が原語（thresh = 脱穀する + hold = 場所）。超えたら新しい領域に入るイメージ。日本語の「敷居が高い」と同じ感覚。pain threshold（痛みの閾値）、"on the threshold of ~"（〜の入口に立つ）</li>
+<li><span class="vocab-inline">subsistence</span> = 最低限の生活、生存ギリギリ。ラテン語 sub（下から）+ sistere（立つ）= かろうじて立っている。subsistence farming = 自給農業、subsistence wage = 最低賃金</li>
+<li><span class="vocab-inline">threshold of subsistence</span> = 生存の境界線。食べていくのがやっとの状態</li>
+<li><span class="vocab-inline">no common achievement</span> = 並の偉業ではない。控えめな表現（litotes）で最大限に褒める英語の修辞技法。"not bad" = かなり良い、と同じ構造</li>
+</ul>
+<h4>threshold の類語を押さえる</h4>
+<ul>
+<li><strong>threshold</strong> = 敷居。超えたら新しい領域に入る</li>
+<li><strong>brink</strong> = 崖っぷち。危機的・緊迫感。"on the brink of bankruptcy"</li>
+<li><strong>verge</strong> = 今にも〜しそう。時間的に直前。"on the verge of tears"</li>
+<li><strong>cusp</strong> = 尖端。2つの時代の境目。"on the cusp of a new era"</li>
+</ul>
+<div class="example">"To build a venture from zero to 200 million yen in revenue in seven years is no common achievement."</div>`
+  },
+  {
+    speaker: 'Jacques Chirac', title: 'Former French President', flag: '🇫🇷',
+    text: 'Mr. Lee has gathered around himself the most brilliant minds, transforming the most <mark>exacting</mark> standards into a system of government. Under his leadership, the <mark>primacy</mark> of the general interest, the <mark>cult of</mark> education, work, and saving, and the capability to <mark>foresee</mark> the needs of the city has enabled Singapore to take what I call <mark>shortcuts to progress</mark>.',
+    translation: 'リー氏は最も優秀な頭脳を周囲に集め、最も厳格な基準を政治の仕組みに変えた。彼のリーダーシップの下、公益の絶対的優位、教育・労働・貯蓄の重視、そして都市のニーズを見通す力が、シンガポールに「進歩への近道」を可能にした。',
+    vocab: ['exacting', 'primacy', 'cult of', 'foresee', 'shortcuts to progress'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">exacting</span> = 厳格な、妥協を許さない。exact / exactly と同語源（ラテン語 exigere = 要求する、正確に量る）。exact = 自分が正確、exacting = 他者にも正確さを求める。strict より職人的・ポジティブ寄り</li>
+<li><span class="vocab-inline">primacy</span> = 絶対的な首位。priority（優先リストの順位）と違い「議論の余地なく最上位」という宣言。ラテン語 primus（最初の）から。primary、prime と同根</li>
+<li><span class="vocab-inline">cult of ~</span> = 〜を徹底的に重視する文化・信奉。宗教的な cult（カルト）と同語だが、ここではネガティブではなく「それくらい真剣に信じている」の意味</li>
+<li><span class="vocab-inline">foresee</span> = 先を見通す。fore（前）+ see（見る）。predict（予測する）より直感的で「見える」ニュアンス</li>
+<li><span class="vocab-inline">shortcuts to progress</span> = 進歩への近道。シラク自身が "what I call" と言って自分のオリジナル表現であることを示している</li>
+</ul>
+<h4>シラクの文章構造</h4>
+<p>フランス大統領らしい格調高い長文。gathered（人材を集め）→ transforming（基準を仕組みに変え）→ primacy / cult of / foresee（3つの原則）→ shortcuts to progress（結果）という論理の流れが美しい。</p>
+<div class="example">"We maintain exacting standards for our partner selection."</div>
+<div class="example">"The primacy of user experience guides all our decisions."</div>`
+  },
+  {
+    speaker: 'Jacques Chirac', title: 'Former French President', flag: '🇫🇷',
+    text: 'The reader will gain deep insight into the highly <mark>singular</mark> character of Singapore.',
+    translation: '読者はシンガポールの極めて独特な性格について深い洞察を得るだろう。',
+    vocab: ['singular', 'gain insight into'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">singular</span> = 唯一無二の、類のない。unique より「際立って他と違う」ニュアンスが強い。文法用語の「単数形」と同語だが、形容詞としては「ただ一つしかない」→「他に類を見ない」の意味</li>
+<li><span class="vocab-inline">highly singular</span> = 極めて独特な。highly で強調。very singular とは言わず highly を使うのが格式高い英語</li>
+<li><span class="vocab-inline">gain insight into</span> = 〜についての洞察を得る。gain（獲得する）は get より格式高い。insight = 内側（in）を見る（sight）力</li>
+<li><span class="vocab-inline">character</span> = 性格、特質。人にも国にも使える。personality より本質的</li>
+</ul>
+<div class="example">"Sonoligo has a highly singular business model — no competitor has replicated it."</div>`
+  },
+  {
+    speaker: 'Kiichi Miyazawa', title: 'Former Japanese Prime Minister', flag: '🇯🇵',
+    text: 'This is the personal history of a man who almost <mark>single-handedly</mark> built a great nation from a small island.',
+    translation: 'これは、小さな島からほぼ独力で偉大な国家を築いた一人の男の物語である。',
+    vocab: ['single-handedly'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">single-handedly</span> = たった一人で、独力で。片手（single hand）だけで成し遂げるイメージ。alone より「困難なことを一人でやった」強調がある</li>
+<li><span class="vocab-inline">almost single-handedly</span> = ほぼ独力で。almost をつけることで「周囲の助けもあったが、中心は紛れもなくこの人」という絶妙なバランス。almost がなければ周囲の貢献を無視することになる</li>
+<li><span class="vocab-inline">personal history</span> = 個人史。history（歴史）ではなく personal history とすることで「一人の人間の物語」に焦点を当てている</li>
+<li><span class="vocab-inline">built a great nation from a small island</span> = 小さな島から偉大な国家を築いた。from → （暗黙の to）の変化を凝縮した表現</li>
+</ul>
+<h4>宮澤喜一の英語力</h4>
+<p>宮澤喜一は日本の政治家の中でも屈指の英語の使い手として知られた。この一文は簡潔で格調高く、無駄な修飾が一切ない。一文で「個人の物語」「独力」「小島→大国」という3つの要素を詰め込んでいる。</p>
+<div class="example">"She almost single-handedly transformed the department's culture."</div>`
+  },
+  {
+    speaker: 'Kiichi Miyazawa', title: 'Former Japanese Prime Minister', flag: '🇯🇵',
+    text: 'Mr. Lee has also been a great friend and often an <mark>astute</mark> observer of Japan.',
+    translation: 'リー氏はまた、素晴らしい友人であり、日本の鋭い観察者でもあった。',
+    vocab: ['astute'],
+    detail: `<h4>単語の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">astute</span> = 鋭い、洞察力のある。物事の本質を見抜く力。ラテン語 astutus（賢い、抜け目ない）から</li>
+<li>smart（頭が良い）、clever（器用）とは違い、<strong>状況を読む力・判断の鋭さ</strong>に焦点を当てた単語</li>
+<li>ビジネス・政治の文脈で人を褒める時に格が高い。知識量ではなく判断力の鋭さを褒める言葉</li>
+</ul>
+<h4>astute の類語</h4>
+<ul>
+<li><strong>astute</strong> — 状況を読み、本質を見抜く鋭さ</li>
+<li><strong>shrewd</strong> — 抜け目なく実利的。やや計算高い響き</li>
+<li><strong>perceptive</strong> — 感受性が鋭い。人の感情や微妙な変化に気づく</li>
+<li><strong>insightful</strong> — 深い洞察がある。分析の結果として</li>
+</ul>
+<h4>文のポイント</h4>
+<p>a great friend（友人）と an astute observer（鋭い分析者）を and で並列。友情と知性を同時に称えている。日本について的確な洞察を持つ外国人リーダーは稀であり、それを日本の首相が認めている。</p>
+<div class="example">"She is an astute negotiator who always finds the right leverage."</div>
+<div class="example">"He's an astute businessman."</div>`
+  },
+  {
+    speaker: 'Kiichi Miyazawa', title: 'Former Japanese Prime Minister', flag: '🇯🇵',
+    text: 'Japanese readers will learn in this book not only about their present images, but also about their future portrait as seen through the <mark>penetrating</mark> eyes of this great political leader.',
+    translation: '日本の読者はこの本から、現在の自分たちの姿だけでなく、この偉大な政治指導者の見通す眼を通して見た未来の肖像をも学ぶだろう。',
+    vocab: ['penetrating eyes', 'present images vs future portrait'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">present images</span>（複数）vs <span class="vocab-inline">future portrait</span>（単数）の対比が見事</li>
+<li><strong>images</strong>（複数）= 断片的な印象、いろいろな側面。現在の日本は様々な角度から見えている</li>
+<li><strong>portrait</strong>（単数）= 一枚の肖像画。統合された全体像。LKYの目を通すと、断片がひとつの絵に統合される</li>
+<li><span class="vocab-inline">penetrating eyes</span> = 見通す眼。サッチャー（#1）の "penetrating the fog of propaganda" と同じ penetrate。複数のリーダーが同じ単語でLKYを評している → これがLKYの本質的な特徴</li>
+<li><span class="vocab-inline">as seen through</span> = 〜の目を通して見た。受動態で「見せてもらう」ニュアンス</li>
+</ul>
+<h4>宮澤の文章の美しさ</h4>
+<p>images（複数・断片的）→ portrait（単数・統合的）の対比で、LKYの洞察力が「散らばった情報を一枚の絵にまとめる力」であることを暗示。not only A but also B の構文で、読者が得られるものの深さを段階的に示している。</p>
+<div class="example">"Through his penetrating analysis, we could see not just our current challenges, but our future direction."</div>`
+  },
+  {
+    speaker: 'Tony Blair', title: 'Former British Prime Minister', flag: '🇬🇧',
+    text: 'I\'m sure everyone who reads them will enjoy them <mark>immensely</mark>.',
+    translation: 'この本を読む全ての人が、心から楽しむだろうと確信している。',
+    vocab: ['immensely'],
+    detail: `<h4>単語の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">immensely</span> = 非常に、計り知れないほど。immense（巨大な）の副詞形。ラテン語 immensus = im（否定）+ mensus（測る）= <strong>測れないほど大きい</strong></li>
+<li>very / really より格式が高く、大人の英語。"enjoy very much" より "enjoy immensely" の方がはるかに洗練されている</li>
+<li>動詞を修飾（enjoy immensely, benefit immensely）にも、形容詞を修飾（immensely grateful, immensely proud）にも使える</li>
+</ul>
+<h4>「非常に」の格の違い</h4>
+<ul>
+<li><strong>very</strong> — 日常会話。万能だが平凡</li>
+<li><strong>really</strong> — カジュアル</li>
+<li><strong>greatly</strong> — フォーマル。感謝・恩恵の文脈に</li>
+<li><strong>immensely</strong> — 格式高い。スケールの大きさを感じさせる</li>
+<li><strong>tremendously</strong> — エネルギッシュ。成長・変化の文脈に</li>
+</ul>
+<h4>ブレアの一文の巧みさ</h4>
+<p>短く、シンプル。しかし immensely の一語で全体の格が上がる。政治家が推薦文で "very much" と書くのは凡庸だが、immensely と書くだけで知的な印象になる。</p>
+<div class="example">"We have benefited immensely from this partnership."</div>
+<div class="example">"I'm immensely grateful for your support."</div>`
+  },
+  {
+    speaker: 'James Callaghan', title: 'Former British Prime Minister', flag: '🇬🇧',
+    text: 'He always <mark>commands</mark> an <mark>attentive</mark> audience among Western leaders.',
+    translation: '彼は常に西洋の指導者たちの真剣な傾聴を集める。',
+    vocab: ['commands', 'attentive'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">command</span> = ここでは「命令する」ではなく「自然と引きつける、獲得する」の意味。command attention（注目を集める）、command respect（敬意を集める）、command an audience（聴衆を引きつける）</li>
+<li>「お願いして得る」のではなく、存在感や実力によって<strong>自然とそうなる</strong>ニュアンス。get / earn / gain より格が高く、力の源泉が本人の内側にある</li>
+<li><span class="vocab-inline">attentive</span> = 注意深く耳を傾ける。ただ聞いているのではなく、真剣に聴いている。attend（出席する、心を向ける）と同語源</li>
+<li><span class="vocab-inline">among Western leaders</span> = 西洋の指導者たちの間で。小国シンガポールの首相が、大国のリーダーたちを引きつけるというスケール感</li>
+</ul>
+<h4>command の多彩な用法</h4>
+<ul>
+<li>"He commands respect" = 敬意を集める（自然と）</li>
+<li>"She commands a high salary" = 高い報酬を得ている（実力で当然）</li>
+<li>"The view commands the whole valley" = その眺望は谷全体を見渡す</li>
+</ul>
+<div class="example">"His presentations always command an attentive audience."</div>
+<div class="example">"Sonoligo's track record commands respect from potential partners."</div>`
+  },
+  {
+    speaker: 'Malcolm Fraser', title: 'Former Australian Prime Minister', flag: '🇦🇺',
+    text: 'He was fortunate in being supported by a group of ministers of extraordinary ability who would have <mark>graced</mark> the <mark>cabinet room</mark> of any major country.',
+    translation: '彼は、どの大国の閣議室に入っても遜色ないほど並外れた能力を持つ閣僚たちに支えられていた点で、幸運だった。',
+    vocab: ['graced', 'cabinet room', 'fortunate in being'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">fortunate in being ~</span> = 〜という点で幸運だった。lucky より格式が高い。in being で「〜されていたという点において」を表す</li>
+<li><span class="vocab-inline">grace</span> = 動詞で「〜に花を添える、〜を飾る」。名詞の grace（優雅さ、恩寵）から。「その場にいるだけで格が上がる」というニュアンス。"She graced the stage" = 彼女がステージに花を添えた</li>
+<li><span class="vocab-inline">would have graced</span> = 仮定法過去完了。「〜を飾っただろう」= どの大国の内閣に入っても通用した、という最大級の褒め方</li>
+<li><span class="vocab-inline">cabinet room</span> = 閣議室。内閣の中枢。cabinet は元々「小さな部屋」の意味</li>
+<li><span class="vocab-inline">of extraordinary ability</span> = 並外れた能力を持つ。of + 名詞 で形容詞的に使う格式高い表現</li>
+</ul>
+<h4>この文が暗示していること</h4>
+<p>一見LKYの部下を褒めているが、そういう人材を集められたこと自体がLKYのリーダーシップの証。「幸運だった」と言いつつ、その幸運を引き寄せた力量を暗に称えている。</p>
+<div class="example">"She would have graced the boardroom of any Fortune 500 company."</div>
+<div class="example">"We are fortunate in being supported by partners of extraordinary commitment."</div>`
+  },
+  {
+    speaker: 'Edward Heath', title: 'Former British Prime Minister', flag: '🇬🇧',
+    text: 'Equally so, is his account of his first contact with China. By <mark>breadth</mark> of its coverage.',
+    translation: '同様に素晴らしいのが、彼が中国と初めて接触した時の記述である。その扱う範囲の広さにおいて。',
+    vocab: ['equally so', 'breadth', 'account'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">equally so</span> = 同様に。前の文で述べたことと同じくらい素晴らしい。文頭に置いて倒置（is his account）にすることで格式を出している</li>
+<li><span class="vocab-inline">account</span> = 記述、語り。「会計」の意味ではなく「物語としての記述」。an account of ~ = 〜についての記述</li>
+<li><span class="vocab-inline">breadth</span> = 幅広さ、範囲の広さ。broad（広い）の名詞形。発音注意: /brɛdθ/（ブレドゥス）。breath（呼吸 /brɛθ/）と紛らわしい — dが入る</li>
+<li><strong>width</strong> は物理的な幅（机、画面）、<strong>breadth</strong> は抽象的な幅（知識、経験、視野の広さ）</li>
+<li><span class="vocab-inline">coverage</span> = 扱う範囲、網羅性。cover（覆う）+ -age</li>
+</ul>
+<h4>文のポイント</h4>
+<p>LKYの中国との初接触の記述を評価。中国政策はシンガポール外交の最重要テーマであり、エドワード・ヒース自身も1970年代にイギリスの対中外交を主導した人物。その視点からの評価は重い。</p>
+<div class="example">"The breadth of his network across Asia is remarkable."</div>
+<div class="example">"What impressed me was the breadth and depth of their research."</div>`
+  },
+  {
+    speaker: 'Tun Daim Zainuddin', title: 'Former Malaysian Finance Minister', flag: '🇲🇾',
+    text: 'His vision, <mark>astute</mark> political judgment, and strategy turned Singapore from a <mark>trading post</mark> into the successful, <mark>thriving</mark> nation that it is today.',
+    translation: '彼のビジョン、鋭い政治判断、そして戦略がシンガポールを交易拠点から今日の成功し繁栄する国家へと変えた。',
+    vocab: ['astute', 'trading post', 'thriving'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">astute</span> = 鋭い、洞察力のある。宮澤喜一（#13）も同じ単語でLKYを評している。ビジネス・政治で人を褒める格の高い単語</li>
+<li><span class="vocab-inline">trading post</span> = 交易拠点。植民地時代の小さな貿易の中継地。シンガポールは1819年にイギリスの trading post として開かれた歴史がある。「港町として商品を売り買いするだけの場所」というニュアンス</li>
+<li><span class="vocab-inline">thriving</span> = 繁栄している、活気にあふれている。thrive（繁栄する）の現在分詞。successful とセットで使うことで「成功しているだけでなく、今も成長し続けている」動的なニュアンス。growing が単に大きくなるのに対し、thriving は「生き生きと栄えている」</li>
+<li><span class="vocab-inline">turned A from B into C</span> = AをBからCに変えた。変化の起点と終点を明確にする構文</li>
+</ul>
+<h4>文の構造</h4>
+<p>vision（ビジョン）+ astute political judgment（鋭い政治判断）+ strategy（戦略）の3つで、LKYの力を「構想力・判断力・実行力」に分解。マレーシアの財務大臣という隣国の視点からの評価。かつてシンガポールはマレーシアの一部だったことを考えると、この評価の重みがわかる。</p>
+<div class="example">"We want to turn Sonoligo from a regional platform into a thriving national network."</div>`
+  },
+  {
+    speaker: 'Denis Healey', title: 'Former British Chancellor of the Exchequer', flag: '🇬🇧',
+    text: 'Combining what is best in the Chinese and British traditions, his <mark>penetrating</mark> intellect gives political <mark>pragmatism</mark> a <mark>unique edge</mark> which has made the city-state of Singapore a model far beyond Asia. The memoirs provide <mark>a mine of</mark> wisdom and information which politicians should be wise to <mark>quarry</mark>.',
+    translation: '中国とイギリスの伝統の最良の部分を組み合わせた、彼の見通す知性は、政治的実用主義に唯一無二の切れ味を与え、それがシンガポールという都市国家をアジアをはるかに超えた手本にした。この回顧録は知恵と情報の鉱山であり、政治家たちはそこから採掘するのが賢明であろう。',
+    vocab: ['penetrating', 'pragmatism', 'unique edge', 'a mine of', 'quarry'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">penetrating intellect</span> = 見通す知性。サッチャー、宮澤喜一に続き3人目が penetrating でLKYを評している。LKYの本質的な特徴</li>
+<li><span class="vocab-inline">pragmatism</span> = 実用主義。理想論ではなく「何が実際に機能するか」で判断する思想。LKYの政治哲学そのもの。イデオロギーより結果を重視</li>
+<li><span class="vocab-inline">unique edge</span> = 唯一無二の優位性。edge = 刃 → 切れ味 → 競争力。ビジネスでも "competitive edge"（競争優位）として頻出</li>
+<li><span class="vocab-inline">city-state</span> = 都市国家。シンガポールの呼び方として定番</li>
+<li><span class="vocab-inline">a mine of wisdom</span> = 知恵の鉱山。掘れば掘るほど価値あるものが出てくる</li>
+<li><span class="vocab-inline">quarry</span> = 採石する、採掘する。mine（鉱山）→ quarry（採掘する）の比喩が一文の中で一貫している。「読めば読むほど価値がある」の最高に知的な表現</li>
+<li><span class="vocab-inline">should be wise to quarry</span> = 採掘するのが賢明であろう。「読まないのは損だ」という上品な言い回し</li>
+</ul>
+<h4>ヒーリーの文章構造</h4>
+<p>Chinese + British traditions → penetrating intellect → pragmatism → unique edge → model far beyond Asia。論理が一直線に繋がっている。さらに鉱山の比喩（a mine → quarry）で、回顧録の知的価値を物理的なイメージで伝える。二文で完結する密度の高さ。</p>
+<div class="example">"His background gives him a unique edge in cross-cultural negotiations."</div>
+<div class="example">"This report is a mine of insights that every team member should quarry."</div>`
+  },
+  {
+    speaker: 'David Lange', title: 'Former New Zealand Prime Minister', flag: '🇳🇿',
+    text: 'He returned to it when it was a <mark>rump of empire</mark>. He and it are now a critical geopolitical <mark>pivot</mark>.',
+    translation: '彼がシンガポールに戻った時、それは帝国の残りカスに過ぎなかった。今や彼もシンガポールも、地政学上の重要な要となっている。',
+    vocab: ['rump of empire', 'pivot'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">rump</span> = 残り物、残骸。元は動物の「尻」の部分。非常に辛辣で生々しい表現。「帝国のケツの残り」くらいのニュアンス</li>
+<li><span class="vocab-inline">rump of empire</span> = 帝国の残りカス。大英帝国が崩壊した後に取り残された小さな植民地。歴史用語で rump state（残存国家）、Rump Parliament（残部議会 — 17世紀イングランドの議会粛清の後に残った議会）</li>
+<li><span class="vocab-inline">geopolitical pivot</span> = 地政学的な要。pivot = 回転軸。pivotal（中心的な）と同語源。世界の政治がそこを中心に動く存在</li>
+<li><span class="vocab-inline">He and it</span> = 彼（LKY）とそれ（シンガポール）。人と国を同一視する力強い表現。二つが不可分であることを示す</li>
+</ul>
+<h4>対比の破壊力</h4>
+<p><strong>rump of empire</strong>（帝国の残骸）→ <strong>geopolitical pivot</strong>（地政学の要）。最低の出発点から最高の到達点へ。この落差でLKYの偉業を表現。たった二文でこれだけの物語を語れるのがDavid Langeの文章力。ニュージーランド人として同じ英連邦の小国から見た実感がこもっている。</p>
+<div class="example">"When I joined, the company was a rump of its former self. Now it's a market leader."</div>`
+  },
+  {
+    speaker: 'David Lange', title: 'Former New Zealand Prime Minister', flag: '🇳🇿',
+    text: 'To <mark>yield to</mark> objectivity rather than populism; to create a nation <mark>in his own image</mark>, and having done so, to be <mark>revered</mark> rather than <mark>despised</mark>.',
+    translation: 'ポピュリズムではなく客観性に従い、自らの姿に似せて国を作り、そうした上で、軽蔑ではなく崇敬を受けた。',
+    vocab: ['yield to', 'in his own image', 'revered', 'despised'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">yield to</span> = 〜に従う、〜に身を委ねる。surrender に近いが、もっと知的な選択のニュアンス。「大衆迎合ではなく客観性を選んだ」という意志的な決断</li>
+<li><span class="vocab-inline">objectivity rather than populism</span> = ポピュリズムではなく客観性。政治家として最も難しい選択。populism = 国民に耳障りの良いことを言って支持を得る政治。objectivity = 人気がなくても正しいことをやる</li>
+<li><span class="vocab-inline">in his own image</span> = 自らの姿に似せて。聖書の創世記「God created man in His own image」のエコー。LKYを暗に神に準えている。シンガポールの実力主義・合理主義・清廉さはLKY自身の性格そのもの</li>
+<li><span class="vocab-inline">revere</span> = 深く敬う、崇敬する。respect より遥かに強い。畏敬に近い感情</li>
+<li><span class="vocab-inline">despise</span> = 軽蔑する。心の底から見下す。hate より冷たい</li>
+<li><span class="vocab-inline">having done so</span> = そうした上で。分詞構文。時系列の連結</li>
+</ul>
+<h4>この文が突いている矛盾</h4>
+<p>独裁的な手法で国を「自分の姿に作る」と、普通は独裁者として despised（軽蔑）される。しかしLKYは客観性を選んだからこそ、結果として revered（崇敬）された。<strong>revered rather than despised</strong> — 普通は両立しないこの二つの対比が、LKYの異例さを際立たせている。</p>
+<div class="example">"A leader who yields to objectivity over short-term popularity earns lasting respect."</div>
+<div class="example">"She is revered by her team, not despite her high standards, but because of them."</div>`
+  },
+  {
+    speaker: 'Paul Keating', title: 'Former Australian Prime Minister', flag: '🇦🇺',
+    text: 'This is a work <mark>every bit as</mark> insightful, <mark>astringent</mark>, <mark>opinionated</mark>, and intelligent as we would have hoped for from its <mark>distinguished</mark> author.',
+    translation: 'この著作は、その高名な著者に期待したであろう通りの、洞察に満ち、辛辣で、歯に衣着せず、知性的な作品である。',
+    vocab: ['every bit as', 'astringent', 'opinionated', 'distinguished'],
+    detail: `<h4>単語・表現の深掘り</h4>
+<ul>
+<li><span class="vocab-inline">every bit as ~ as</span> = 〜と全く同じくらい。just as より強調。bit = かけら。every bit = すべてのかけらにおいて。「1ミリも劣らず」というニュアンス</li>
+<li><span class="vocab-inline">astringent</span> = 辛辣な、厳しい。元は医学用語で「収れん性の」（肌を引き締める薬品）。文章や発言が甘くなく、ピリッと引き締まっているイメージ。sharp / harsh より知的で、批判に品格がある</li>
+<li><span class="vocab-inline">opinionated</span> = 自分の意見をはっきり持っている。普通はややネガティブ（頑固、自説を曲げない）だが、ここでは<strong>褒め言葉として使っている</strong>。LKYの遠慮なく本音を言う性格を肯定的に評価</li>
+<li><span class="vocab-inline">distinguished</span> = 卓越した、高名な。distinguish（区別する）から。他と一線を画す存在。"a distinguished career"、"our distinguished guest"</li>
+<li><span class="vocab-inline">would have hoped for</span> = 期待したであろう通りの。仮定法で「我々の期待を裏切らない」を格式高く表現</li>
+</ul>
+<h4>ポール・キーティングの技</h4>
+<p>4つの形容詞（insightful, astringent, opinionated, intelligent）のうち、astringent と opinionated は通常ネガティブ。それを褒め言葉として並べることで「LKYの辛辣さ・頑固さこそが魅力だ」と言っている。ネガティブをポジティブに反転させる高等技術。</p>
+<div class="example">"Her feedback is astringent but always valuable."</div>
+<div class="example">"He is every bit as capable as his reputation suggests."</div>
+<div class="example">"Our distinguished guest needs no introduction."</div>`
   }
-  if (!voice) voice = voices.find(v => v.lang === 'en-US');
-  if (!voice) voice = voices.find(v => v.lang.startsWith('en'));
-  if (voice) utterance.voice = voice;
-  speechSynthesis.speak(utterance);
+];
+
+let quoteMode = 'read';
+let challengeIndex = 0;
+let challengeOrder = [];
+
+function setQuoteMode(mode) {
+  quoteMode = mode;
+  document.querySelectorAll('.quote-mode-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  if (mode === 'read') {
+    document.getElementById('quotesReadArea').style.display = 'block';
+    document.getElementById('quotesChallengeArea').style.display = 'none';
+  } else {
+    document.getElementById('quotesReadArea').style.display = 'none';
+    document.getElementById('quotesChallengeArea').style.display = 'block';
+    startChallenge();
+  }
+}
+
+function renderQuotes() {
+  const area = document.getElementById('quotesReadArea');
+  area.innerHTML = '';
+  QUOTES.forEach((q, i) => {
+    const card = document.createElement('div');
+    card.className = 'quote-card animate-in';
+    card.style.animationDelay = (i * 0.05) + 's';
+    card.onclick = () => card.classList.toggle('expanded');
+    card.innerHTML = `
+      <div class="quote-speaker">
+        <span class="quote-speaker-flag">${q.flag}</span>
+        <div>
+          <div class="quote-speaker-name">${q.speaker}</div>
+          <div class="quote-speaker-title">${q.title}</div>
+        </div>
+      </div>
+      <div class="quote-text">${q.text}</div>
+      <div class="quote-expand-hint">タップして訳と単語を表示</div>
+      <div class="quote-translation">${q.translation}</div>
+      <div class="quote-detail">${q.detail || ''}</div>
+      <div class="quote-vocab">
+        ${q.vocab.map(v => `<span class="quote-vocab-tag">${v}</span>`).join('')}
+      </div>
+      <button class="quote-play-btn" style="display:inline-block;" onclick="event.stopPropagation(); speakQuote(${i})">🔊 Listen</button>
+    `;
+    area.appendChild(card);
+  });
+}
+
+function speakQuote(idx) {
+  const q = QUOTES[idx];
+  const plainText = q.text.replace(/<[^>]*>/g, '');
+  speak(plainText);
+}
+
+function startChallenge() {
+  challengeOrder = [...Array(QUOTES.length).keys()].sort(() => Math.random() - 0.5);
+  challengeIndex = 0;
+  renderChallenge();
+}
+
+function renderChallenge() {
+  const area = document.getElementById('quotesChallengeArea');
+  if (challengeIndex >= challengeOrder.length) {
+    area.innerHTML = `
+      <div class="quiz-score">
+        <div class="quiz-score-number" style="color:var(--green)">Complete!</div>
+        <div class="quiz-score-label">全${QUOTES.length}文を練習しました</div>
+        <br>
+        <button class="challenge-show-btn" onclick="startChallenge()">もう一度</button>
+      </div>`;
+    return;
+  }
+  const q = QUOTES[challengeOrder[challengeIndex]];
+  const qIdx = challengeOrder[challengeIndex];
+  area.innerHTML = `
+    <div class="challenge-progress">${challengeIndex + 1} / ${challengeOrder.length}</div>
+    <div class="challenge-card animate-in">
+      <div class="challenge-speaker">
+        ${q.flag} ${q.speaker} — ${q.title}
+      </div>
+      <div class="challenge-japanese">${q.translation}</div>
+      <div class="challenge-actions">
+        <button class="challenge-hint-btn" onclick="toggleHint(this, ${qIdx})">Hint</button>
+        <button class="challenge-show-btn" onclick="revealChallenge(${qIdx})">Answer</button>
+        <button class="challenge-hint-btn" onclick="event.stopPropagation(); speakQuote(${qIdx})" style="margin-left:auto;">🔊</button>
+      </div>
+      <div class="challenge-keywords" id="challengeHint-${qIdx}">
+        ${q.vocab.map(v => `<span class="challenge-keyword">${v}</span>`).join('')}
+      </div>
+      <div class="challenge-reveal" id="challengeReveal-${qIdx}">${q.text}${q.detail ? '<div style="margin-top:1rem;font-style:normal;font-size:0.85rem;line-height:1.8;">' + q.detail + '</div>' : ''}</div>
+    </div>
+    <div class="challenge-nav">
+      <button class="challenge-nav-btn" onclick="prevChallenge()" ${challengeIndex === 0 ? 'disabled style="opacity:0.3"' : ''}>← Prev</button>
+      <button class="challenge-nav-btn" onclick="nextChallenge()">Next →</button>
+    </div>
+  `;
+}
+
+function toggleHint(btn, idx) {
+  const hints = document.getElementById('challengeHint-' + idx);
+  hints.classList.toggle('show');
+  btn.classList.toggle('active');
+}
+
+function revealChallenge(idx) {
+  document.getElementById('challengeReveal-' + idx).classList.add('show');
+}
+
+function nextChallenge() {
+  challengeIndex++;
+  renderChallenge();
+}
+
+function prevChallenge() {
+  if (challengeIndex > 0) { challengeIndex--; renderChallenge(); }
 }
 
 // ===== PASSWORD =====
