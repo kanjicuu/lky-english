@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LKY English — 遠山寛治</title>
+<title>LKY English</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234a6fa5'/><text x='32' y='24' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='16' fill='white'>LKY</text><text x='32' y='48' text-anchor='middle' font-size='22'>📖</text></svg>">
 <style>
   :root {
     --bg: #f7f6f3;
@@ -461,12 +462,23 @@
     padding: 1rem;
     border-radius: 8px;
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.7;
     display: none;
+    color: var(--text);
   }
   .quiz-feedback.show { display: block; }
-  .quiz-feedback.correct-fb { background: rgba(58, 125, 68, 0.1); color: var(--green); }
-  .quiz-feedback.wrong-fb { background: rgba(192, 57, 43, 0.1); color: var(--red); }
+  .quiz-feedback.correct-fb { background: rgba(58, 125, 68, 0.08); border: 1px solid rgba(58, 125, 68, 0.2); }
+  .quiz-feedback.wrong-fb { background: rgba(192, 57, 43, 0.08); border: 1px solid rgba(192, 57, 43, 0.2); }
+  .quiz-feedback .fb-result { font-weight: 700; margin-bottom: 0.5rem; }
+  .quiz-feedback .fb-result.correct-text { color: var(--green); }
+  .quiz-feedback .fb-result.wrong-text { color: var(--red); }
+  .quiz-feedback .fb-word { font-size: 1.1rem; font-weight: 700; color: var(--accent); margin-bottom: 0.3rem; }
+  .quiz-feedback .fb-meaning { font-weight: 600; margin-bottom: 0.4rem; }
+  .quiz-feedback .fb-detail { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+  .quiz-feedback .fb-quote { font-size: 0.85rem; font-style: italic; color: var(--text-muted); padding: 0.5rem; background: rgba(0,0,0,0.03); border-radius: 6px; margin-bottom: 0.4rem; }
+  .quiz-feedback .fb-speaker { font-size: 0.75rem; color: var(--text-muted); }
+  .quiz-feedback .fb-etymology { font-size: 0.8rem; margin-top: 0.4rem; padding: 0.4rem 0.6rem; background: rgba(184,134,11,0.08); border-radius: 6px; }
+  .quiz-feedback .fb-etymology .root { color: var(--gold); font-weight: 700; }
   .quiz-score {
     text-align: center;
     padding: 2rem;
@@ -1515,7 +1527,10 @@ function renderQuizQuestion() {
       <div class="quiz-type">${q.typeLabel}</div>
       <div class="quiz-question">${q.question}</div>
       <div class="quiz-options">
-        ${q.options.map((o, i) => `<button class="quiz-option" onclick="answerQuiz(${i})">${o}</button>`).join('')}
+        ${q.options.map((o, i) => {
+          const speakText = q.type === 'fill' ? o : q.word.term;
+          return `<button class="quiz-option" onclick="answerQuiz(${i})" style="display:flex;align-items:center;justify-content:space-between;">${o}<span class="speak-btn" style="margin-left:0.4rem;width:28px;height:28px;font-size:0.8rem;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;" onclick="event.stopPropagation(); speak('${speakText.replace(/'/g, "\\'")}')">🔊</span></button>`;
+        }).join('')}
       </div>
       <div class="quiz-feedback" id="quizFeedback"></div>
     </div>
@@ -1539,15 +1554,29 @@ function answerQuiz(idx) {
   const fb = document.getElementById('quizFeedback');
   const card = document.getElementById('currentQuiz');
 
+  const w = q.word;
+  let etymHtml = '';
+  if (w.etymology) {
+    etymHtml = `<div class="fb-etymology"><span class="root">${w.etymology.root}</span> = ${w.etymology.meaning} → ${w.etymology.words.join(', ')}</div>`;
+  }
+  const detailHtml = `
+    <div class="fb-word">${w.term} <button class="speak-btn" onclick="event.stopPropagation(); speak('${w.term.replace(/'/g, "\\'")}')">🔊</button></div>
+    <div class="fb-meaning">${w.meaning}</div>
+    <div class="fb-detail">${w.detail}</div>
+    <div class="fb-quote">${w.quote}</div>
+    <div class="fb-speaker">${w.flag} ${w.speaker}</div>
+    ${etymHtml}
+  `;
+
   if (correct) {
     quizCorrect++;
     fb.className = 'quiz-feedback show correct-fb';
-    fb.textContent = '✓ 正解!';
+    fb.innerHTML = `<div class="fb-result correct-text">✓ 正解!</div>${detailHtml}`;
     card.classList.add('correct');
     spawnConfetti();
   } else {
     fb.className = 'quiz-feedback show wrong-fb';
-    fb.innerHTML = `✗ 正解: <strong>${q.answer}</strong><br>${q.word.detail}`;
+    fb.innerHTML = `<div class="fb-result wrong-text">✗ 正解: ${q.answer}</div>${detailHtml}`;
     card.classList.add('wrong');
   }
 
