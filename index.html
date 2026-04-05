@@ -1291,6 +1291,7 @@ const WORDS = [
 ];
 
 // ===== STATE =====
+const SYNC_URL = 'https://jsonblob.com/api/jsonBlob/019d5b93-c923-76d6-a3c1-0780abe37691';
 let mastery = JSON.parse(localStorage.getItem('lky-mastery') || '{}');
 let quizHistory = JSON.parse(localStorage.getItem('lky-quiz-history') || '[]');
 let streak = JSON.parse(localStorage.getItem('lky-streak') || '{"count":1,"lastDate":"2026-04-04"}');
@@ -1301,9 +1302,50 @@ let quizQuestions = [];
 let quizIndex = 0;
 let quizCorrect = 0;
 let quizResults = [];
+let syncDebounce = null;
+
+// ===== CLOUD SYNC =====
+async function cloudLoad() {
+  try {
+    const res = await fetch(SYNC_URL);
+    if (!res.ok) return;
+    const cloud = await res.json();
+    // Merge: take the higher mastery for each word, more quiz history, higher streak
+    if (cloud.mastery) {
+      for (const [k, v] of Object.entries(cloud.mastery)) {
+        if (mastery[k] === undefined || v > mastery[k]) mastery[k] = v;
+      }
+      localStorage.setItem('lky-mastery', JSON.stringify(mastery));
+    }
+    if (cloud.quizHistory && cloud.quizHistory.length > quizHistory.length) {
+      quizHistory = cloud.quizHistory;
+      localStorage.setItem('lky-quiz-history', JSON.stringify(quizHistory));
+    }
+    if (cloud.streak && cloud.streak.count > streak.count) {
+      streak = cloud.streak;
+      localStorage.setItem('lky-streak', JSON.stringify(streak));
+    }
+  } catch (e) { console.log('Cloud load failed:', e); }
+}
+
+async function cloudSave() {
+  try {
+    await fetch(SYNC_URL, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ mastery, quizHistory, streak })
+    });
+  } catch (e) { console.log('Cloud save failed:', e); }
+}
+
+function scheduleSync() {
+  if (syncDebounce) clearTimeout(syncDebounce);
+  syncDebounce = setTimeout(cloudSave, 2000);
+}
 
 // ===== INIT =====
-function init() {
+async function init() {
+  await cloudLoad();
   WORDS.forEach(w => { if (!mastery[w.id]) mastery[w.id] = 0; });
   updateStreak();
   renderDashboard();
@@ -1322,6 +1364,7 @@ function updateStreak() {
     streak.count = diff === 1 ? streak.count + 1 : 1;
     streak.lastDate = today;
     localStorage.setItem('lky-streak', JSON.stringify(streak));
+    scheduleSync();
   }
   document.getElementById('streakCount').textContent = streak.count;
 }
@@ -1340,6 +1383,7 @@ function updateStats() {
 function saveMastery() {
   localStorage.setItem('lky-mastery', JSON.stringify(mastery));
   updateStats();
+  scheduleSync();
 }
 
 // ===== NAVIGATION =====
@@ -1572,17 +1616,23 @@ function answerQuiz(idx) {
     ${etymHtml}
   `;
 
+  // Update mastery based on quiz result
+  const prevMastery = mastery[w.id] || 0;
   if (correct) {
     quizCorrect++;
+    mastery[w.id] = Math.min(2, prevMastery + 1);
     fb.className = 'quiz-feedback show correct-fb';
     fb.innerHTML = `<div class="fb-result correct-text">✓ 正解!</div>${detailHtml}`;
     card.classList.add('correct');
     spawnConfetti();
   } else {
+    mastery[w.id] = Math.max(0, prevMastery - 1);
     fb.className = 'quiz-feedback show wrong-fb';
     fb.innerHTML = `<div class="fb-result wrong-text">✗ 正解: ${q.answer}</div>${detailHtml}`;
     card.classList.add('wrong');
   }
+  saveMastery();
+  renderDashboard();
 
   quizResults.push({ word: q.word.term, correct });
   document.getElementById('quizNextBtn').style.display = 'block';
@@ -1611,6 +1661,7 @@ function renderQuizScore() {
   quizHistory.push({ date: new Date().toISOString(), correct: quizCorrect, total: quizQuestions.length });
   localStorage.setItem('lky-quiz-history', JSON.stringify(quizHistory));
   updateStats();
+  scheduleSync();
 }
 
 function spawnConfetti() {
