@@ -885,6 +885,94 @@
     margin-bottom: 0.8rem;
   }
 
+  /* Word Popup */
+  .word-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .word-popup {
+    background: var(--surface);
+    border-radius: 14px;
+    padding: 1.5rem;
+    max-width: 400px;
+    width: 100%;
+    max-height: 70vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  .word-popup-close {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--text-muted);
+  }
+  .word-popup-term {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    margin-bottom: 0.3rem;
+  }
+  .word-popup-meaning {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .word-popup-detail {
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+  }
+  .word-popup-etymology {
+    padding: 0.5rem 0.7rem;
+    background: rgba(184,134,11,0.08);
+    border-radius: 8px;
+    font-size: 0.82rem;
+    margin-top: 0.5rem;
+  }
+  .word-popup-etymology .root { color: var(--gold); font-weight: 700; }
+
+  /* Challenge cloze */
+  .challenge-cloze {
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem 1.2rem;
+    border-left: 3px solid var(--orange);
+    font-size: 1rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: var(--text);
+  }
+  .challenge-cloze.show { display: block; }
+  .challenge-cloze .cloze-blank {
+    display: inline-block;
+    min-width: 60px;
+    border-bottom: 2px solid var(--orange);
+    margin: 0 3px;
+    text-align: center;
+    color: transparent;
+  }
+
+  /* Clickable marks in reveal */
+  .challenge-reveal mark, .quote-text mark {
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .challenge-reveal mark:hover, .quote-text mark:hover {
+    background: rgba(74, 111, 165, 0.25);
+  }
+
   /* Animations */
   @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
   .animate-in { animation: fadeIn 0.4s ease forwards; }
@@ -935,16 +1023,16 @@
 </div>
 
 <nav class="nav">
-  <button class="active" onclick="showSection('dashboard')">Dashboard</button>
+  <button class="active" onclick="showSection('quotes')">Quotes</button>
+  <button onclick="showSection('dashboard')">Dashboard</button>
   <button onclick="showSection('flashcard')">Flashcard</button>
   <button onclick="showSection('quiz')">Quiz</button>
   <button onclick="showSection('wordmap')">Word Map</button>
-  <button onclick="showSection('quotes')">Quotes</button>
   <button onclick="showSection('etymology')">Etymology</button>
 </nav>
 
 <!-- DASHBOARD -->
-<div class="section active" id="sec-dashboard">
+<div class="section" id="sec-dashboard">
   <div class="stats-grid">
     <div class="stat-card mastery-new"><div class="stat-value" id="countNew">0</div><div class="stat-label">New</div></div>
     <div class="stat-card mastery-learning"><div class="stat-value" id="countLearning">0</div><div class="stat-label">Learning</div></div>
@@ -989,7 +1077,7 @@
 </div>
 
 <!-- QUOTES -->
-<div class="section" id="sec-quotes">
+<div class="section active" id="sec-quotes">
   <div class="quote-mode-toggle">
     <button class="quote-mode-btn active" onclick="setQuoteMode('read')">Read</button>
     <button class="quote-mode-btn" onclick="setQuoteMode('challenge')">Challenge</button>
@@ -2325,7 +2413,7 @@ function renderQuotes() {
           <div class="quote-speaker-title">${q.title}</div>
         </div>
       </div>
-      <div class="quote-text">${q.text}</div>
+      <div class="quote-text">${makeClickableMarks(q.text, i)}</div>
       <div class="quote-expand-hint">タップして訳と単語を表示</div>
       <div class="quote-translation">${q.translation}</div>
       <div class="quote-detail">${q.detail || ''}</div>
@@ -2344,10 +2432,28 @@ function speakQuote(idx) {
   speak(plainText);
 }
 
+let challengeStep = 0; // 0=japanese, 1=cloze, 2=full answer
+
 function startChallenge() {
   challengeOrder = [...Array(QUOTES.length).keys()].sort(() => Math.random() - 0.5);
   challengeIndex = 0;
+  challengeStep = 0;
   renderChallenge();
+}
+
+function makeCloze(html) {
+  // Replace <mark>...</mark> with blanks
+  return html.replace(/<mark>(.*?)<\/mark>/g, (match, word) => {
+    return `<span class="cloze-blank">${word}</span>`;
+  });
+}
+
+function makeClickableMarks(html, quoteIdx) {
+  // Make each <mark> clickable → opens word popup
+  return html.replace(/<mark>(.*?)<\/mark>/g, (match, word) => {
+    const escaped = word.replace(/'/g, "\\'");
+    return `<mark onclick="event.stopPropagation(); showWordPopup('${escaped}', ${quoteIdx})">${word}</mark>`;
+  });
 }
 
 function renderChallenge() {
@@ -2362,8 +2468,11 @@ function renderChallenge() {
       </div>`;
     return;
   }
+  challengeStep = 0;
   const q = QUOTES[challengeOrder[challengeIndex]];
   const qIdx = challengeOrder[challengeIndex];
+  const clozeHtml = makeCloze(q.text);
+  const revealHtml = makeClickableMarks(q.text, qIdx);
   area.innerHTML = `
     <div class="challenge-progress">${challengeIndex + 1} / ${challengeOrder.length}</div>
     <div class="challenge-card animate-in">
@@ -2372,14 +2481,11 @@ function renderChallenge() {
       </div>
       <div class="challenge-japanese">${q.translation}</div>
       <div class="challenge-actions">
-        <button class="challenge-hint-btn" onclick="toggleHint(this, ${qIdx})">Hint</button>
-        <button class="challenge-show-btn" onclick="revealChallenge(${qIdx})">Answer</button>
+        <button class="challenge-show-btn" id="challengeNextStep" onclick="nextStep(${qIdx})">穴埋めを見る →</button>
         <button class="challenge-hint-btn" onclick="event.stopPropagation(); speakQuote(${qIdx})" style="margin-left:auto;">🔊</button>
       </div>
-      <div class="challenge-keywords" id="challengeHint-${qIdx}">
-        ${q.vocab.map(v => `<span class="challenge-keyword">${v}</span>`).join('')}
-      </div>
-      <div class="challenge-reveal" id="challengeReveal-${qIdx}">${q.text}${q.detail ? '<div style="margin-top:1rem;font-style:normal;font-size:0.85rem;line-height:1.8;">' + q.detail + '</div>' : ''}</div>
+      <div class="challenge-cloze" id="challengeCloze-${qIdx}">${clozeHtml}</div>
+      <div class="challenge-reveal" id="challengeReveal-${qIdx}">${revealHtml}${q.detail ? '<div style="margin-top:1rem;font-style:normal;font-size:0.85rem;line-height:1.8;">' + q.detail + '</div>' : ''}</div>
     </div>
     <div class="challenge-nav">
       <button class="challenge-nav-btn" onclick="prevChallenge()" ${challengeIndex === 0 ? 'disabled style="opacity:0.3"' : ''}>← Prev</button>
@@ -2388,14 +2494,90 @@ function renderChallenge() {
   `;
 }
 
-function toggleHint(btn, idx) {
-  const hints = document.getElementById('challengeHint-' + idx);
-  hints.classList.toggle('show');
-  btn.classList.toggle('active');
+function nextStep(qIdx) {
+  challengeStep++;
+  const btn = document.getElementById('challengeNextStep');
+  if (challengeStep === 1) {
+    document.getElementById('challengeCloze-' + qIdx).classList.add('show');
+    btn.textContent = '答えを見る →';
+  } else if (challengeStep === 2) {
+    document.getElementById('challengeCloze-' + qIdx).classList.remove('show');
+    document.getElementById('challengeReveal-' + qIdx).classList.add('show');
+    btn.textContent = '🔊 読み上げ';
+  } else {
+    speakQuote(challengeOrder[challengeIndex]);
+  }
 }
 
-function revealChallenge(idx) {
-  document.getElementById('challengeReveal-' + idx).classList.add('show');
+function showWordPopup(word, quoteIdx) {
+  // Find matching WORD entry
+  const wordLower = word.toLowerCase().replace(/[^a-z\s]/g, '');
+  let w = WORDS.find(entry =>
+    entry.term.toLowerCase() === wordLower ||
+    wordLower.includes(entry.term.toLowerCase()) ||
+    entry.term.toLowerCase().includes(wordLower)
+  );
+
+  // Also check vocab in the quote
+  const q = QUOTES[quoteIdx];
+
+  let etymHtml = '';
+  if (w && w.etymology) {
+    etymHtml = `<div class="word-popup-etymology"><span class="root">${w.etymology.root}</span> = ${w.etymology.meaning} → ${w.etymology.words.join(', ')}</div>`;
+  }
+
+  const overlay = document.createElement('div');
+  overlay.className = 'word-popup-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+
+  if (w) {
+    overlay.innerHTML = `
+      <div class="word-popup">
+        <button class="word-popup-close" onclick="this.closest('.word-popup-overlay').remove()">✕</button>
+        <div class="word-popup-term">${w.term} <button class="speak-btn" onclick="speak('${w.term.replace(/'/g, "\\'")}')">🔊</button></div>
+        <div class="word-popup-meaning">${w.meaning}</div>
+        <div class="word-popup-detail">${w.detail}</div>
+        ${etymHtml}
+      </div>
+    `;
+  } else {
+    // Search in quote's detail for relevant info
+    let detailExcerpt = '';
+    if (q && q.detail) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = q.detail;
+      const lis = tmp.querySelectorAll('li');
+      for (const li of lis) {
+        const vocabSpan = li.querySelector('.vocab-inline');
+        if (vocabSpan && vocabSpan.textContent.toLowerCase().includes(wordLower)) {
+          detailExcerpt = li.innerHTML;
+          break;
+        }
+      }
+      // Also search in paragraphs if not found in li
+      if (!detailExcerpt) {
+        const allText = tmp.querySelectorAll('li, p');
+        for (const el of allText) {
+          if (el.textContent.toLowerCase().includes(wordLower)) {
+            detailExcerpt = el.innerHTML;
+            break;
+          }
+        }
+      }
+    }
+
+    overlay.innerHTML = `
+      <div class="word-popup">
+        <button class="word-popup-close" onclick="this.closest('.word-popup-overlay').remove()">✕</button>
+        <div class="word-popup-term">${word} <button class="speak-btn" onclick="speak('${word.replace(/'/g, "\\'")}')">🔊</button></div>
+        ${detailExcerpt
+          ? `<div class="word-popup-detail">${detailExcerpt}</div>`
+          : `<div class="word-popup-detail" style="color:var(--text-muted);">この単語はまだ解説が登録されていません。</div>`
+        }
+      </div>
+    `;
+  }
+  document.body.appendChild(overlay);
 }
 
 function nextChallenge() {
