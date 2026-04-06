@@ -768,6 +768,23 @@
     color: #fff;
     border-color: var(--accent);
   }
+  .quote-filter-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.75rem;
+    transition: all 0.2s;
+  }
+  .quote-filter-btn:hover { border-color: var(--accent); color: var(--text); }
+  .quote-filter-btn.active {
+    background: var(--accent2);
+    color: #fff;
+    border-color: var(--accent2);
+  }
   .challenge-card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -1023,8 +1040,8 @@
 </div>
 
 <nav class="nav">
-  <button class="active" onclick="showSection('quotes')">Quotes</button>
-  <button onclick="showSection('dashboard')">Dashboard</button>
+  <button onclick="showSection('quotes')">Quotes</button>
+  <button class="active" onclick="showSection('dashboard')">Dashboard</button>
   <button onclick="showSection('flashcard')">Flashcard</button>
   <button onclick="showSection('quiz')">Quiz</button>
   <button onclick="showSection('wordmap')">Word Map</button>
@@ -1032,7 +1049,7 @@
 </nav>
 
 <!-- DASHBOARD -->
-<div class="section" id="sec-dashboard">
+<div class="section active" id="sec-dashboard">
   <div class="stats-grid">
     <div class="stat-card mastery-new"><div class="stat-value" id="countNew">0</div><div class="stat-label">New</div></div>
     <div class="stat-card mastery-learning"><div class="stat-value" id="countLearning">0</div><div class="stat-label">Learning</div></div>
@@ -1077,10 +1094,16 @@
 </div>
 
 <!-- QUOTES -->
-<div class="section active" id="sec-quotes">
+<div class="section" id="sec-quotes">
   <div class="quote-mode-toggle">
     <button class="quote-mode-btn active" onclick="setQuoteMode('read')">Read</button>
     <button class="quote-mode-btn" onclick="setQuoteMode('challenge')">Challenge</button>
+  </div>
+  <div class="quote-mode-toggle" style="margin-top:0.3rem;">
+    <button class="quote-filter-btn active" onclick="setChapterFilter('all')">All</button>
+    <button class="quote-filter-btn" onclick="setChapterFilter('Tributes')">Tributes</button>
+    <button class="quote-filter-btn" onclick="setChapterFilter('Preface')">Preface</button>
+    <button class="quote-filter-btn" onclick="setChapterFilter('Ch.1')">Ch.1</button>
   </div>
   <div id="quotesReadArea"></div>
   <div id="quotesChallengeArea" style="display:none"></div>
@@ -1481,6 +1504,16 @@ function showSection(name) {
   document.getElementById('sec-' + name).classList.add('active');
   event.target.classList.add('active');
   if (name === 'quiz') startQuiz();
+  // Show header/streak only on dashboard
+  const header = document.querySelector('.header');
+  const streak = document.querySelector('.streak-bar');
+  if (name === 'dashboard') {
+    header.style.display = '';
+    streak.style.display = '';
+  } else {
+    header.style.display = 'none';
+    streak.style.display = 'none';
+  }
 }
 
 // ===== DASHBOARD =====
@@ -1886,8 +1919,8 @@ function speak(text) {
     if (!s) return;
     const utterance = new SpeechSynthesisUtterance(s);
     utterance.lang = 'en-US';
-    utterance.rate = 0.65;
-    utterance.pitch = 1.0;
+    utterance.rate = 0.55;
+    utterance.pitch = 0.85;
     if (voice) utterance.voice = voice;
     // Add a pause between sentences
     if (i > 0) {
@@ -2376,23 +2409,212 @@ const QUOTES = [
 <p>サッチャー首相の Private Secretary（首相秘書官）として、イギリス外交の裏側を知り尽くした人物。LKYの文体を hallmark（品質保証マーク）と呼び、その判断が explosive とまで言い切る。内側の人間からの評価だからこそ、trenchant（鋭い）という表現に実感がこもっている。</p>
 <div class="example">"His trenchant analysis left no room for ambiguity."</div>
 <div class="example">"Directness has become the hallmark of our company culture."</div>`
-  }
+  },
+  // === Preface ===
+  { speaker: 'LKY', title: 'Preface p.8', flag: '🇸🇬', chapter: 'Preface',
+    text: 'I was also <mark>troubled</mark> by the apparent <mark>overconfidence</mark> of a generation that has only known stability, growth, and prosperity.',
+    translation: '安定、成長、繁栄しか知らない世代の見かけ上の過信に、私はまた心を悩ませていた。',
+    vocab: ['troubled', 'overconfidence', 'apparent'], detail: '' },
+  { speaker: 'LKY', title: 'Preface p.8', flag: '🇸🇬', chapter: 'Preface',
+    text: 'I thought our people should understand how <mark>vulnerable</mark> Singapore was, the dangers that <mark>beset</mark> us, and how we nearly did not make it.',
+    translation: '我々の国民は、シンガポールがいかに脆弱で、いかなる危険に囲まれ、もう少しでダメになるところだったかを理解すべきだと思った。',
+    vocab: ['vulnerable', 'beset', 'nearly did not make it'], detail: '' },
+  { speaker: 'LKY', title: 'Preface p.8', flag: '🇸🇬', chapter: 'Preface',
+    text: 'Many not born or too young when I took office in 1959 do not know how a small country with no natural resources was cut off from its national <mark>hinterland</mark> and had to survive in a tough world of nationalistic new states in Southeast Asia.',
+    translation: '1959年の就任時にまだ生まれていなかった、あるいは幼すぎた多くの人々は、天然資源を持たない小国が後背地から切り離され、国家主義的な新興国がひしめく厳しい世界で生き延びなければならなかったことを知らない。',
+    vocab: ['hinterland', 'cut off', 'nationalistic'], detail: '' },
+  { speaker: 'LKY', title: 'Preface p.9', flag: '🇸🇬', chapter: 'Preface',
+    text: 'To write this book, I had to <mark>revive</mark> memories of events long forgotten.',
+    translation: 'この本を書くために、とうに忘れられた出来事の記憶を蘇らせなければならなかった。',
+    vocab: ['revive', 'long forgotten'], detail: '' },
+  { speaker: 'LKY', title: 'Preface p.9', flag: '🇸🇬', chapter: 'Preface',
+    text: 'A Singapore that would offer all citizens equal and <mark>ample</mark> opportunities for a <mark>fulfilling</mark> future.',
+    translation: '全ての市民に平等で豊富な機会を提供し、充実した未来を約束するシンガポール。',
+    vocab: ['ample', 'fulfilling'], detail: '' },
+  { speaker: 'LKY', title: 'Preface p.9', flag: '🇸🇬', chapter: 'Preface',
+    text: 'It was just life in an immigrant Asian society that <mark>spurred us on</mark> to fight and win <mark>against all odds</mark>.',
+    translation: '我々を駆り立てたのは、ただのアジアの移民社会での生活だった。あらゆる困難を乗り越えて戦い、勝つために。',
+    vocab: ['spurred us on', 'against all odds'], detail: '' },
+  // === Chapter 1: Suddenly, Independence ===
+  { speaker: 'LKY', title: 'Ch.1 p.13', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'The pop tunes on the radio were cut off <mark>abruptly</mark>.',
+    translation: 'ラジオのポップスが突然途切れた。',
+    vocab: ['abruptly', 'cut off'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.13', flag: '🇸🇬', chapter: 'Ch.1',
+    text: '<mark>Stunned</mark> listeners heard the announcer <mark>solemnly</mark> read out a <mark>proclamation</mark>, a 90-words that changed the lives of the people of Singapore and Malaysia.',
+    translation: '呆然とした聴取者は、アナウンサーが厳かに宣言を読み上げるのを聞いた。シンガポールとマレーシアの人々の人生を変えた90語を。',
+    vocab: ['stunned', 'solemnly', 'proclamation'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.13', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'Singapore shall be forever a <mark>sovereign</mark>, democratic, and independent nation, founded upon the principles of liberty and justice and ever seeking the welfare and happiness of her people in a more just and equal society.',
+    translation: 'シンガポールは永遠に、自由と正義の原則の上に建てられた、主権を有する民主的かつ独立の国家であり、より公正で平等な社会において常にその国民の福祉と幸福を追い求めるものとする。',
+    vocab: ['sovereign', 'inalienable', 'welfare', 'ever seeking'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.13', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'Singapore shall <mark>cease to be</mark> a state of Malaysia and shall forever be an independent and sovereign state and nation, <mark>separate from and independent of</mark> Malaysia.',
+    translation: 'シンガポールはマレーシアの一州であることを止め、永遠にマレーシアから分離し独立した国家であるものとする。',
+    vocab: ['cease to be', 'separate from and independent of'], detail: '' },
+  { speaker: 'Tunku Abdul Rahman', title: 'Ch.1 p.14', flag: '🇲🇾', chapter: 'Ch.1',
+    text: 'The course of action we are taking now, to <mark>sever</mark> with the state government of Singapore that has <mark>ceased to give a measure of loyalty</mark> to the central government.',
+    translation: '中央政府への最低限の忠誠すら示さなくなったシンガポール州政府との関係を断ち切るという行動を今取る。',
+    vocab: ['sever', 'ceased to give', 'a measure of loyalty'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'The house listened in <mark>utter silence</mark>.',
+    translation: '議場は完全な沈黙の中で聴いた。',
+    vocab: ['utter silence'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'The head of state gave his <mark>royal assent</mark> that same day, concluding the constitutional <mark>formalities</mark>. Singapore was <mark>cast out</mark>.',
+    translation: '国家元首はその日のうちに勅裁を与え、憲法上の手続きを完了させた。シンガポールは捨てられた。',
+    vocab: ['royal assent', 'formalities', 'cast out'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'Under Malay Muslim customs, a husband (but not the wife) can declare a <mark>talak</mark>, "I divorce thee," and the woman is divorced.',
+    translation: 'マレー・ムスリムの慣習では、夫は（妻にはできないが）タラクを宣言できる。「我、汝を離縁す」と言えば、妻は離婚される。',
+    vocab: ['talak', 'thee'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'They can <mark>reconcile</mark> and he can remarry her, but not after he has said talak three times.',
+    translation: '和解して再婚もできる。しかし3回タラクを唱えた後はもう戻れない。',
+    vocab: ['reconcile'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'The partners, <mark>predominantly</mark> Malay in Malaya and predominantly Chinese in Singapore, had not been <mark>compatible</mark>.',
+    translation: 'パートナーは、マラヤでは圧倒的にマレー系、シンガポールでは圧倒的に華人系であり、相性が合わなかった。',
+    vocab: ['predominantly', 'compatible'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'The union has been <mark>marred</mark> by increasing <mark>conjugal strife</mark> over whether the new federation should be a truly multiracial society or one <mark>dominated</mark> by the Malays.',
+    translation: 'この結合は、新しい連邦が真の多民族社会であるべきか、マレー系に支配された社会であるべきかをめぐる、日増しに激しくなる夫婦の争いによって傷つけられてきた。',
+    vocab: ['marred', 'conjugal strife', 'dominated'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'Singapore went for the <mark>substance</mark> of the divorce, not its legal <mark>formalities</mark>.',
+    translation: 'シンガポールは離婚の実質を取り、法的手続きにはこだわらなかった。',
+    vocab: ['substance', 'formalities'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.14', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'If there was to be separation, I wanted to ensure that the terms were <mark>practical</mark>, <mark>workable</mark>, and <mark>final</mark>.',
+    translation: 'もし分離するというのなら、その条件が現実的で、実行可能で、最終的なものであることを確実にしたかった。',
+    vocab: ['practical', 'workable', 'final'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.15', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I had started the day with a series of meetings with key <mark>civil servants</mark> (especially those under federal <mark>jurisdiction</mark>) to inform them that Singapore ministers would now <mark>assume control</mark>.',
+    translation: '主要な官僚たち（特に連邦管轄下の者）に、シンガポールの大臣が支配権を引き継ぐと伝える会議からその日を始めた。',
+    vocab: ['civil servants', 'jurisdiction', 'assume control'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.15', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I met those members of the <mark>diplomatic corps</mark> in Singapore who could be gathered <mark>at short notice</mark>.',
+    translation: '急な通知で集められる限りのシンガポール駐在の外交団メンバーに会った。',
+    vocab: ['diplomatic corps', 'at short notice'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.15', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'As the diplomats left, I <mark>drew aside</mark> the Indian Deputy High Commissioner and the UAR Consul General and gave them letters for Prime Minister Shastri and President Nasser.',
+    translation: '外交官たちが帰る際、インドの高等弁務官代理とUARの総領事を脇に引き寄せ、シャストリ首相とナセル大統領への手紙を渡した。',
+    vocab: ['drew aside', 'Deputy High Commissioner', 'Consul General'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.15', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'In my letters, I <mark>sought</mark> their recognition and support. From India, I asked for advice to train an army, and from Egypt, an advisor to build a coastal defense force.',
+    translation: '手紙の中で承認と支持を求めた。インドには軍隊の訓練の助言を、エジプトには沿岸防衛力構築の顧問を求めた。',
+    vocab: ['sought', 'recognition', 'coastal defense force'], detail: '' },
+  { speaker: 'Reporter', title: 'Ch.1 p.15', flag: '🎤', chapter: 'Ch.1',
+    text: 'Could you <mark>outline</mark> for us the <mark>train of events</mark> that <mark>led to</mark> this morning\'s proclamation?',
+    translation: '今朝の宣言に至った一連の出来事を、かいつまんで説明していただけますか？',
+    vocab: ['outline', 'train of events', 'led to'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.15', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'This is a moment of <mark>anguish</mark> because all my life I have believed in merger and the unity of these two territories, with the people connected by geography, economics, and <mark>ties of kinship</mark>. Would you mind if we stop for a while?',
+    translation: 'これは苦悶の瞬間なのです。なぜなら私は生涯を通じて、地理、経済、血縁の絆で結ばれたこの2つの領土の合併と統一を信じてきたからです。— 少し中断してもよろしいですか。',
+    vocab: ['anguish', 'ties of kinship', 'merger'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'It was only after another 20 minutes that I was able to regain my <mark>composure</mark> and <mark>resume</mark> the press conference.',
+    translation: 'さらに20分が経ってようやく、落ち着きを取り戻し、記者会見を再開できた。',
+    vocab: ['composure', 'resume', 'regain'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I asked P.S. Raman to cut the <mark>footage</mark> of my <mark>breakdown</mark>.',
+    translation: 'P.S.ラマンに、自分が崩れた場面の映像をカットするよう頼んだ。',
+    vocab: ['footage', 'breakdown'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'Among Chinese, it is <mark>unbecoming</mark> to exhibit such a lack of manliness.',
+    translation: '中国人の間では、そのような男らしさの欠如をさらけ出すのはみっともないことである。',
+    vocab: ['unbecoming', 'exhibit', 'manliness'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'It was some <mark>consolation</mark> that my viewers in Britain, Australia, and New Zealand <mark>sympathized</mark> with me and with Singapore.',
+    translation: 'イギリス、オーストラリア、ニュージーランドの視聴者が私とシンガポールに同情してくれたことは、いくらかの慰めだった。',
+    vocab: ['consolation', 'sympathized'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I was emotionally <mark>overstressed</mark>, having gone through three days and nights of a <mark>wrenching</mark> experience.',
+    translation: '感情的に限界を超えており、3日3晩の身を引き裂かれるような経験を経てきたのだった。',
+    vocab: ['overstressed', 'wrenching'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I was <mark>weighted down</mark> by a heavy sense of <mark>guilt</mark>.',
+    translation: '重い罪悪感に押しつぶされていた。',
+    vocab: ['weighted down', 'guilt'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.16', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I felt I had <mark>let down</mark> several million people in Malaysia.',
+    translation: 'マレーシアの数百万の人々を裏切ってしまったと感じていた。',
+    vocab: ['let down'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I was <mark>ashamed</mark> that I had left our allies and supporters to <mark>fend for themselves</mark>.',
+    translation: '仲間や支持者たちを自力で生き延びさせるために置き去りにしたことを恥じていた。',
+    vocab: ['ashamed', 'fend for themselves'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I had <mark>aroused</mark> their hopes, and they had joined people in Singapore in resisting Malay <mark>hegemony</mark>, the <mark>root cause</mark> of our dispute.',
+    translation: '私が彼らの希望を掻き立て、彼らはシンガポールの人々と共にマレー系の覇権 — 争いの根本原因 — に抵抗してきたのだ。',
+    vocab: ['aroused', 'hegemony', 'root cause'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'I was also filled with <mark>remorse</mark> and guilt for having had to <mark>deceive</mark> the Prime Ministers of Britain, Australia, and New Zealand.',
+    translation: 'イギリス、オーストラリア、ニュージーランドの首相たちを欺かなければならなかったことへの後悔と罪悪感にも満たされていた。',
+    vocab: ['remorse', 'deceive'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'All those thoughts <mark>preyed on</mark> me during the three weeks of our negotiations with Razak, the Tunku\'s deputy.',
+    translation: 'それらの思いすべてが、ラザクとの3週間の交渉の間、私に食らいついて離れなかった。',
+    vocab: ['preyed on'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'But once the <mark>deed was done</mark>, my feelings <mark>got the better of</mark> me.',
+    translation: 'しかし事が済んでしまうと、感情が私を打ち負かした。',
+    vocab: ['deed was done', 'got the better of'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'While I was thus <mark>overawed</mark>, the merchants in Singapore\'s Chinatown were <mark>jubilant</mark>.',
+    translation: '私がこうして圧倒されている間、チャイナタウンの商人たちは歓喜に沸いていた。',
+    vocab: ['overawed', 'jubilant'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.17', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'We have set out to create a broad <mark>coalition</mark> for a <mark>Malaysian Malaysia</mark>, not a <mark>Malay Malaysia</mark>.',
+    translation: 'マレー人のマレーシアではなく、マレーシア人のマレーシアのために、幅広い連合を作ろうとしていた。',
+    vocab: ['coalition', 'Malaysian Malaysia', 'Malay Malaysia'], detail: '' },
+  { speaker: 'LKY', title: 'Ch.1 p.18', flag: '🇸🇬', chapter: 'Ch.1',
+    text: 'By the next day, investors had decided independence was good for the economy, and there was an even larger <mark>turnover</mark>. The value of 25 out of 27 industrial stocks rose.',
+    translation: '翌日までに投資家たちは独立が経済に良いと判断し、さらに大きな出来高を記録した。27の工業株のうち25が値上がりした。',
+    vocab: ['turnover', 'industrial stocks'], detail: '' }
 ];
 
+// Add chapter to existing quotes if not set
+QUOTES.forEach(q => { if (!q.chapter) q.chapter = 'Tributes'; });
+
 let quoteMode = 'read';
+let chapterFilter = 'all';
 let challengeIndex = 0;
 let challengeOrder = [];
+
+function getFilteredQuotes() {
+  if (chapterFilter === 'all') return QUOTES;
+  return QUOTES.filter(q => q.chapter === chapterFilter);
+}
+
+function setChapterFilter(filter) {
+  chapterFilter = filter;
+  document.querySelectorAll('.quote-filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  if (quoteMode === 'read') {
+    renderQuotes();
+  } else {
+    startChallenge();
+  }
+}
 
 function setQuoteMode(mode) {
   quoteMode = mode;
   document.querySelectorAll('.quote-mode-btn').forEach(b => b.classList.remove('active'));
   event.target.classList.add('active');
+  const header = document.querySelector('.header');
+  const streak = document.querySelector('.streak-bar');
   if (mode === 'read') {
     document.getElementById('quotesReadArea').style.display = 'block';
     document.getElementById('quotesChallengeArea').style.display = 'none';
+    header.style.display = '';
+    streak.style.display = '';
+    renderQuotes();
   } else {
     document.getElementById('quotesReadArea').style.display = 'none';
     document.getElementById('quotesChallengeArea').style.display = 'block';
+    header.style.display = 'none';
+    streak.style.display = 'none';
     startChallenge();
   }
 }
@@ -2400,7 +2622,9 @@ function setQuoteMode(mode) {
 function renderQuotes() {
   const area = document.getElementById('quotesReadArea');
   area.innerHTML = '';
-  QUOTES.forEach((q, i) => {
+  const filtered = getFilteredQuotes();
+  filtered.forEach((q, fi) => {
+    const i = QUOTES.indexOf(q);
     const card = document.createElement('div');
     card.className = 'quote-card animate-in';
     card.style.animationDelay = (i * 0.05) + 's';
@@ -2434,8 +2658,11 @@ function speakQuote(idx) {
 
 let challengeStep = 0; // 0=japanese, 1=cloze, 2=full answer
 
+let filteredQuotes = [];
+
 function startChallenge() {
-  challengeOrder = [...Array(QUOTES.length).keys()].sort(() => Math.random() - 0.5);
+  filteredQuotes = getFilteredQuotes();
+  challengeOrder = [...Array(filteredQuotes.length).keys()].sort(() => Math.random() - 0.5);
   challengeIndex = 0;
   challengeStep = 0;
   renderChallenge();
@@ -2462,19 +2689,19 @@ function renderChallenge() {
     area.innerHTML = `
       <div class="quiz-score">
         <div class="quiz-score-number" style="color:var(--green)">Complete!</div>
-        <div class="quiz-score-label">全${QUOTES.length}文を練習しました</div>
+        <div class="quiz-score-label">全${filteredQuotes.length}文を練習しました</div>
         <br>
         <button class="challenge-show-btn" onclick="startChallenge()">もう一度</button>
       </div>`;
     return;
   }
   challengeStep = 0;
-  const q = QUOTES[challengeOrder[challengeIndex]];
-  const qIdx = challengeOrder[challengeIndex];
+  const q = filteredQuotes[challengeOrder[challengeIndex]];
+  const qIdx = QUOTES.indexOf(q);
   const clozeHtml = makeCloze(q.text);
   const revealHtml = makeClickableMarks(q.text, qIdx);
   area.innerHTML = `
-    <div class="challenge-progress">${challengeIndex + 1} / ${challengeOrder.length}</div>
+    <div class="challenge-progress">${challengeIndex + 1} / ${filteredQuotes.length}</div>
     <div class="challenge-card animate-in">
       <div class="challenge-speaker">
         ${q.flag} ${q.speaker} — ${q.title}
@@ -2505,7 +2732,7 @@ function nextStep(qIdx) {
     document.getElementById('challengeReveal-' + qIdx).classList.add('show');
     btn.textContent = '🔊 読み上げ';
   } else {
-    speakQuote(challengeOrder[challengeIndex]);
+    speakQuote(QUOTES.indexOf(filteredQuotes[challengeOrder[challengeIndex]]));
   }
 }
 
