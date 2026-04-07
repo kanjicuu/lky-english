@@ -1038,8 +1038,8 @@
 <!-- QUOTES -->
 <div class="section" id="sec-quotes">
   <div class="quote-mode-toggle">
-    <button class="quote-mode-btn active" onclick="setQuoteMode('read')">Read</button>
-    <button class="quote-mode-btn" onclick="setQuoteMode('challenge')">Challenge</button>
+    <button class="quote-mode-btn" onclick="setQuoteMode('read')">Read</button>
+    <button class="quote-mode-btn active" onclick="setQuoteMode('challenge')">Challenge</button>
   </div>
   <div class="quote-mode-toggle" style="margin-top:0.3rem;">
     <button class="quote-filter-btn active" onclick="setChapterFilter('all')">All</button>
@@ -2765,7 +2765,7 @@ const QUOTES = [
 // Add chapter to existing quotes if not set
 QUOTES.forEach(q => { if (!q.chapter) q.chapter = 'Tributes'; });
 
-let quoteMode = 'read';
+let quoteMode = 'challenge';
 let chapterFilter = 'all';
 let challengeIndex = 0;
 let challengeOrder = [];
