@@ -994,15 +994,15 @@
 </div>
 
 <nav class="nav">
+  <button class="active" onclick="showSection('flashcard')">Flashcard</button>
   <button onclick="showSection('quotes')">Quotes</button>
-  <button class="active" onclick="showSection('dashboard')">Dashboard</button>
-  <button onclick="showSection('flashcard')">Flashcard</button>
   <button onclick="showSection('quiz')">Quiz</button>
-<button onclick="showSection('etymology')">Etymology</button>
+  <button onclick="showSection('etymology')">Etymology</button>
+  <button onclick="showSection('dashboard')">Dashboard</button>
 </nav>
 
 <!-- DASHBOARD -->
-<div class="section active" id="sec-dashboard">
+<div class="section" id="sec-dashboard">
   <div class="stats-grid">
     <div class="stat-card mastery-new"><div class="stat-value" id="countNew">0</div><div class="stat-label">New</div></div>
     <div class="stat-card mastery-learning"><div class="stat-value" id="countLearning">0</div><div class="stat-label">Learning</div></div>
@@ -1013,7 +1013,7 @@
 </div>
 
 <!-- FLASHCARD -->
-<div class="section" id="sec-flashcard">
+<div class="section active" id="sec-flashcard">
   <div class="flashcard-container">
     <div class="flashcard-progress" id="fcProgress">1 / 1</div>
     <div class="flashcard" id="flashcard" onclick="flipCard()">
