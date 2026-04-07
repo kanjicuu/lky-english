@@ -2864,8 +2864,15 @@ function makeCloze(html) {
 }
 
 function makeClickableMarks(html, quoteIdx) {
-  // Make each <mark> clickable → opens word popup
+  // Make each <mark> clickable → opens word popup (only if word is in WORDS)
   return html.replace(/<mark>(.*?)<\/mark>/g, (match, word) => {
+    const wordLower = word.toLowerCase().replace(/[^a-z\s]/g, '');
+    const hasEntry = WORDS.some(entry =>
+      entry.term.toLowerCase() === wordLower ||
+      wordLower.includes(entry.term.toLowerCase()) ||
+      entry.term.toLowerCase().includes(wordLower)
+    );
+    if (!hasEntry) return `<mark style="cursor:default;">${word}</mark>`;
     const escaped = word.replace(/'/g, "\\'");
     return `<mark onclick="event.stopPropagation(); showWordPopup('${escaped}', ${quoteIdx})">${word}</mark>`;
   });
@@ -2956,41 +2963,8 @@ function showWordPopup(word, quoteIdx) {
       </div>
     `;
   } else {
-    // Search in quote's detail for relevant info
-    let detailExcerpt = '';
-    if (q && q.detail) {
-      const tmp = document.createElement('div');
-      tmp.innerHTML = q.detail;
-      const lis = tmp.querySelectorAll('li');
-      for (const li of lis) {
-        const vocabSpan = li.querySelector('.vocab-inline');
-        if (vocabSpan && vocabSpan.textContent.toLowerCase().includes(wordLower)) {
-          detailExcerpt = li.innerHTML;
-          break;
-        }
-      }
-      // Also search in paragraphs if not found in li
-      if (!detailExcerpt) {
-        const allText = tmp.querySelectorAll('li, p');
-        for (const el of allText) {
-          if (el.textContent.toLowerCase().includes(wordLower)) {
-            detailExcerpt = el.innerHTML;
-            break;
-          }
-        }
-      }
-    }
-
-    overlay.innerHTML = `
-      <div class="word-popup">
-        <button class="word-popup-close" onclick="this.closest('.word-popup-overlay').remove()">✕</button>
-        <div class="word-popup-term">${word} <button class="speak-btn" onclick="speak('${word.replace(/'/g, "\\'")}')">🔊</button></div>
-        ${detailExcerpt
-          ? `<div class="word-popup-detail">${detailExcerpt}</div>`
-          : `<div class="word-popup-detail" style="color:var(--text-muted);">この単語はまだ解説が登録されていません。</div>`
-        }
-      </div>
-    `;
+    // No WORDS entry found — don't show popup
+    return;
   }
   document.body.appendChild(overlay);
 }
