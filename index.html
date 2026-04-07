@@ -1047,8 +1047,8 @@
     <button class="quote-filter-btn" onclick="setChapterFilter('Preface')">Preface</button>
     <button class="quote-filter-btn" onclick="setChapterFilter('Ch.1')">Ch.1</button>
   </div>
-  <div id="quotesReadArea"></div>
-  <div id="quotesChallengeArea" style="display:none"></div>
+  <div id="quotesReadArea" style="display:none"></div>
+  <div id="quotesChallengeArea"></div>
 </div>
 
 <!-- ETYMOLOGY -->
@@ -1060,7 +1060,7 @@
 // ===== DATA =====
 const WORDS = [
   {
-    id: 'ablest', term: 'ablest', meaning: '最も有能な',
+    id: 'ablest', emoji: '🏆', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/43_George_H.W._Bush_3x4.jpg/400px-43_George_H.W._Bush_3x4.jpg', term: 'ablest', meaning: '最も有能な',
     detail: 'able の最上級。capable より格式が高い。政治家・経営者を評する文脈で使う。',
     quote: 'the <mark>ablest</mark> man I have ever met',
     quoteJa: '私が出会った中で最も有能な人物',
@@ -1069,7 +1069,7 @@ const WORDS = [
     category: 'power', related: ['brilliant', 'forceful'], date: '2026-04-04'
   },
   {
-    id: 'penetrate', term: 'penetrate', meaning: '貫く、見通す',
+    id: 'penetrate', emoji: '🔍', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Margaret_Thatcher.png/400px-Margaret_Thatcher.png', term: 'penetrate', meaning: '貫く、見通す',
     detail: '物理的にも比喩的にも使える。fog of propaganda = プロパガンダの霧を見通す。',
     quote: 'He had a way of <mark>penetrating</mark> the fog of propaganda',
     quoteJa: '彼にはプロパガンダの霧を見通す力があった',
@@ -1078,7 +1078,7 @@ const WORDS = [
     category: 'intellect', related: ['grasp', 'intricate'], date: '2026-04-04'
   },
   {
-    id: 'seminal', term: 'seminal', meaning: '先駆的な、種を蒔くような',
+    id: 'seminal', emoji: '🌱', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Henry_A._Kissinger%2C_U.S._Secretary_of_State%2C_1973-1977.jpg/400px-Henry_A._Kissinger%2C_U.S._Secretary_of_State%2C_1973-1977.jpg', term: 'seminal', meaning: '先駆的な、種を蒔くような',
     detail: 'ラテン語 semen（種）が語源。後に続くものの方向を決定づけた存在。',
     quote: 'Lee is one of the <mark>seminal</mark> figures of Asia',
     quoteJa: 'リーはアジアの先駆的人物のひとりである',
@@ -1087,7 +1087,7 @@ const WORDS = [
     category: 'power', related: ['brilliant', 'ablest'], date: '2026-04-04'
   },
   {
-    id: 'candid', term: 'candid', meaning: '率直な、忖度なく本音を言う',
+    id: 'candid', emoji: '💬', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/George_Pratt_Shultz.jpg/400px-George_Pratt_Shultz.jpg', term: 'candid', meaning: '率直な、忖度なく本音を言う',
     detail: '嘘をつかず本音で語る。honest より格式高い。',
     quote: '<mark>Candid</mark>, informed, forceful, brilliant',
     quoteJa: '率直で、博識で、力強く、卓越している',
@@ -1096,7 +1096,7 @@ const WORDS = [
     category: 'character', related: ['refreshing', 'forceful'], date: '2026-04-04'
   },
   {
-    id: 'sought_out', term: 'sought out', meaning: 'わざわざ探し求めて会いに行く',
+    id: 'sought_out', emoji: '🧭', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/George_Pratt_Shultz.jpg/400px-George_Pratt_Shultz.jpg', term: 'sought out', meaning: 'わざわざ探し求めて会いに行く',
     detail: 'seek out の過去形。ただの visit ではなく「教えを請いに行く」ニュアンス。',
     quote: 'leaders throughout the world have <mark>sought out</mark> Lee Kuan Yew',
     quoteJa: '世界中の指導者がリー・クワンユーを訪ねた',
@@ -1105,7 +1105,7 @@ const WORDS = [
     category: 'power', related: ['counsellor'], date: '2026-04-04'
   },
   {
-    id: 'intricate', term: 'intricate', meaning: '入り組んだ、精巧に絡み合った',
+    id: 'intricate', emoji: '🧩', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/George_Pratt_Shultz.jpg/400px-George_Pratt_Shultz.jpg', term: 'intricate', meaning: '入り組んだ、精巧に絡み合った',
     detail: 'complicated（面倒）、complex（要素多い）と違い、精巧さのニュアンス。',
     quote: 'how to analyse <mark>intricate</mark> problems',
     quoteJa: '入り組んだ問題をどう分析するか',
@@ -1114,7 +1114,7 @@ const WORDS = [
     category: 'intellect', related: ['penetrate', 'fabric'], date: '2026-04-04'
   },
   {
-    id: 'post_hoc', term: 'post hoc', meaning: '後から、事後の',
+    id: 'post_hoc', emoji: '⏪', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Goh_Keng_Swee_in_Australia%2C_1967.jpg/400px-Goh_Keng_Swee_in_Australia%2C_1967.jpg', term: 'post hoc', meaning: '後から、事後の',
     detail: 'ラテン語。post hoc justifications = 後付けの正当化。',
     quote: 'the normal run of autobiographies, which are usually full of <mark>post hoc</mark> justifications',
     quoteJa: '後付けの正当化ばかりのありふれた自伝',
@@ -1123,7 +1123,7 @@ const WORDS = [
     category: 'intellect', related: ['candid', 'refreshing'], date: '2026-04-04'
   },
   {
-    id: 'adversaries', term: 'adversaries', meaning: '敵、対立者',
+    id: 'adversaries', emoji: '⚔️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Goh_Keng_Swee_in_Australia%2C_1967.jpg/400px-Goh_Keng_Swee_in_Australia%2C_1967.jpg', term: 'adversaries', meaning: '敵、対立者',
     detail: 'enemy より格式高い。政治・ビジネスの文脈で使う。',
     quote: 'No one can accuse you of unfairness to your <mark>adversaries</mark>',
     quoteJa: 'あなたの敵に対して不公正だと非難できる者はいない',
@@ -1132,7 +1132,7 @@ const WORDS = [
     category: 'power', related: ['resoluteness', 'forceful'], date: '2026-04-04'
   },
   {
-    id: 'resoluteness', term: 'resoluteness', meaning: '断固たる決意、不屈の意志',
+    id: 'resoluteness', emoji: '💪', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Helmut_Kohl_1994.jpg/400px-Helmut_Kohl_1994.jpg', term: 'resoluteness', meaning: '断固たる決意、不屈の意志',
     detail: 'determination より強い。揺るがないニュアンス。',
     quote: 'His <mark>resoluteness</mark>, energy, and vision have left a deep impression on Singapore',
     quoteJa: '彼の断固たる決意、エネルギー、ビジョンはシンガポールに深い印象を刻んだ',
@@ -1141,7 +1141,7 @@ const WORDS = [
     category: 'character', related: ['forceful', 'ablest'], date: '2026-04-04'
   },
   {
-    id: 'powerhouse', term: 'powerhouse', meaning: '強力な存在（元は発電所）',
+    id: 'powerhouse', emoji: '⚡', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Helmut_Kohl_1994.jpg/400px-Helmut_Kohl_1994.jpg', term: 'powerhouse', meaning: '強力な存在（元は発電所）',
     detail: '小国シンガポールを powerhouse と呼ぶ表現力。',
     quote: 'making it a political and economic <mark>powerhouse</mark>',
     quoteJa: '政治・経済の強力な存在にした',
@@ -1150,7 +1150,7 @@ const WORDS = [
     category: 'power', related: ['seminal', 'resoluteness'], date: '2026-04-04'
   },
   {
-    id: 'exacting', term: 'exacting', meaning: '厳格、妥協を許さない',
+    id: 'exacting', emoji: '📏', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/President_Chirac_%28cropped%29.jpg/400px-President_Chirac_%28cropped%29.jpg', term: 'exacting', meaning: '厳格、妥協を許さない',
     detail: 'exact/exactly と同語源。自分が正確 → 他者にも正確さを求める。',
     quote: 'transforming the most <mark>exacting</mark> standards into a system of government',
     quoteJa: '最も厳格な基準を政治の仕組みに変えた',
@@ -1159,7 +1159,7 @@ const WORDS = [
     category: 'character', related: ['resoluteness', 'candid'], date: '2026-04-04'
   },
   {
-    id: 'primacy', term: 'primacy', meaning: '絶対的な首位',
+    id: 'primacy', emoji: '🥇', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/President_Chirac_%28cropped%29.jpg/400px-President_Chirac_%28cropped%29.jpg', term: 'primacy', meaning: '絶対的な首位',
     detail: 'priority（順位）と違い「議論の余地なく最上位」という宣言。',
     quote: 'the <mark>primacy</mark> of the general interest',
     quoteJa: '公益の絶対的な優先',
@@ -1168,7 +1168,7 @@ const WORDS = [
     category: 'structure', related: ['exacting'], date: '2026-04-04'
   },
   {
-    id: 'threshold', image: 'https://images.unsplash.com/photo-1662967550720-709d4a0c7765?w=400&q=80', term: 'threshold', meaning: '敷居、境界線、閾値',
+    id: 'threshold', emoji: '🚪', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/SupremeCourt-CityHall-Singapore-196009.jpg/400px-SupremeCourt-CityHall-Singapore-196009.jpg', term: 'threshold', meaning: '敷居、境界線、閾値',
     detail: '超えたら新しい領域に入る。日本語の「敷居が高い」と同じ感覚。',
     quote: 'rise from the <mark>threshold</mark> of subsistence',
     quoteJa: '生存の敷居から立ち上がる',
@@ -1177,7 +1177,7 @@ const WORDS = [
     category: 'boundary', related: ['brink', 'verge', 'cusp', 'subsistence'], date: '2026-04-04'
   },
   {
-    id: 'fabric', term: 'fabric', meaning: '織物 → 構造、仕組み',
+    id: 'fabric', emoji: '🕸️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bundeskanzler_Helmut_Schmidt.jpg/400px-Bundeskanzler_Helmut_Schmidt.jpg', term: 'fabric', meaning: '織物 → 構造、仕組み',
     detail: '社会が糸のように織り合わさっているイメージ。',
     quote: 'his grasp of the world\'s political and economic <mark>fabric</mark>',
     quoteJa: '世界の政治・経済の構造を把握する力',
@@ -1186,7 +1186,7 @@ const WORDS = [
     category: 'structure', related: ['intricate', 'grasp'], date: '2026-04-04'
   },
   {
-    id: 'grasp', term: 'grasp', meaning: '把握、深い理解（掴む）',
+    id: 'grasp', emoji: '✊', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bundeskanzler_Helmut_Schmidt.jpg/400px-Bundeskanzler_Helmut_Schmidt.jpg', term: 'grasp', meaning: '把握、深い理解（掴む）',
     detail: 'understanding より確実に掴んでいる感じ。',
     quote: 'his <mark>grasp</mark> of the world\'s political and economic fabric',
     quoteJa: '世界の政治・経済の構造を把握する力',
@@ -1195,7 +1195,7 @@ const WORDS = [
     category: 'intellect', related: ['penetrate', 'fabric'], date: '2026-04-04'
   },
   {
-    id: 'of_moment', term: 'of moment', meaning: '重要な（格式高い）',
+    id: 'of_moment', emoji: '⏳', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Helmut_Kohl_1994.jpg/400px-Helmut_Kohl_1994.jpg', term: 'of moment', meaning: '重要な（格式高い）',
     detail: 'of importance と同じ。書き言葉・スピーチ向き。',
     quote: 'He has much <mark>of moment</mark> to say to us',
     quoteJa: '彼は我々に重要なことを多く語っている',
@@ -1205,7 +1205,7 @@ const WORDS = [
   },
   // === Preface ===
   {
-    id: 'troubled', term: 'troubled', meaning: '心を悩ませた、憂慮した',
+    id: 'troubled', emoji: '😰', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/National_Day_Singapore_early_1960s_01.jpg/400px-National_Day_Singapore_early_1960s_01.jpg', term: 'troubled', meaning: '心を悩ませた、憂慮した',
     detail: 'worried より重い。心が乱されたニュアンス。',
     quote: 'I was also <mark>troubled</mark> by the apparent overconfidence',
     quoteJa: '見かけの過信にも心を悩ませていた',
@@ -1214,7 +1214,7 @@ const WORDS = [
     category: 'character', related: ['turbulent'], date: '2026-04-04', chapter: 'Preface', page: 8
   },
   {
-    id: 'overconfidence', term: 'overconfidence', meaning: '過信、自信過剰',
+    id: 'overconfidence', emoji: '😤', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Singapore_skyline.JPG/400px-Singapore_skyline.JPG', term: 'overconfidence', meaning: '過信、自信過剰',
     detail: '苦労を知らない世代への警告。stability, growth, prosperity しか知らない。',
     quote: 'the apparent <mark>overconfidence</mark> of a generation',
     quoteJa: 'ある世代の見かけの過信',
@@ -1223,7 +1223,7 @@ const WORDS = [
     category: 'character', related: ['troubled'], date: '2026-04-04', chapter: 'Preface', page: 8
   },
   {
-    id: 'vulnerable', term: 'vulnerable', meaning: '脆弱な、傷つきやすい',
+    id: 'vulnerable', emoji: '🫣', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kampong_in_Braddell_Hill_Singapore_about_1964.jpg/400px-Kampong_in_Braddell_Hill_Singapore_about_1964.jpg', term: 'vulnerable', meaning: '脆弱な、傷つきやすい',
     detail: '国家、企業、人に対して使える。',
     quote: 'how <mark>vulnerable</mark> Singapore was',
     quoteJa: 'シンガポールがいかに脆弱であったか',
@@ -1232,7 +1232,7 @@ const WORDS = [
     category: 'boundary', related: ['beset'], date: '2026-04-04', chapter: 'Preface', page: 8
   },
   {
-    id: 'beset', term: 'beset', meaning: '取り囲む、つきまとう',
+    id: 'beset', emoji: '🌊', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/400px-Presiden_Sukarno.jpg', term: 'beset', meaning: '取り囲む、つきまとう',
     detail: 'be（周りに）+ set（置く）= 四方から困難が押し寄せる。',
     quote: 'the dangers that <mark>beset</mark> us',
     quoteJa: '我々を取り囲む危険',
@@ -1241,7 +1241,7 @@ const WORDS = [
     category: 'power', related: ['vulnerable', 'peril'], date: '2026-04-04', chapter: 'Preface', page: 8
   },
   {
-    id: 'hinterland', image: 'https://images.unsplash.com/photo-1749055500027-67d75fa6db68?w=400&q=80', term: 'hinterland', meaning: '後背地、内陸部',
+    id: 'hinterland', emoji: '🏝️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Singapore_-_Keppel_Harb_1952.jpg/400px-Singapore_-_Keppel_Harb_1952.jpg', term: 'hinterland', meaning: '後背地、内陸部',
     detail: 'ドイツ語由来。港湾都市の背後の経済圏。シンガポールにとってはマレー半島。',
     quote: 'cut off from its national <mark>hinterland</mark>',
     quoteJa: '国の後背地から切り離されて',
@@ -1250,7 +1250,7 @@ const WORDS = [
     category: 'structure', related: ['vulnerable'], date: '2026-04-04', chapter: 'Preface', page: 8
   },
   {
-    id: 'revive', term: 'revive', meaning: '蘇らせる、よみがえらせる',
+    id: 'revive', emoji: '🔄', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Collyer_Quay_February_1965_01.jpg/400px-Collyer_Quay_February_1965_01.jpg', term: 'revive', meaning: '蘇らせる、よみがえらせる',
     detail: 're（再び）+ vivere（生きる）。埋もれていたものを掘り起こす。',
     quote: 'I had to <mark>revive</mark> memories of events long forgotten',
     quoteJa: '長く忘れていた出来事の記憶を蘇らせなければならなかった',
@@ -1259,7 +1259,7 @@ const WORDS = [
     category: 'intellect', related: [], date: '2026-04-04', chapter: 'Preface', page: 9
   },
   {
-    id: 'ample', term: 'ample', meaning: '十分すぎるほどの、豊富な',
+    id: 'ample', emoji: '🌾', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Malay_village_near_Tengah_Singapore_October_1964.jpg/400px-Malay_village_near_Tengah_Singapore_October_1964.jpg', term: 'ample', meaning: '十分すぎるほどの、豊富な',
     detail: 'enough より多い。たっぷりの余裕感。',
     quote: 'equal and <mark>ample</mark> opportunities for a fulfilling future',
     quoteJa: '充実した未来のための平等で十分な機会',
@@ -1268,7 +1268,7 @@ const WORDS = [
     category: 'power', related: ['fulfilling'], date: '2026-04-04', chapter: 'Preface', page: 9
   },
   {
-    id: 'spurred', term: 'spurred on', meaning: '駆り立てた、奮い立たせた',
+    id: 'spurred', emoji: '🐎', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Singapore_River_early_1960s_01.jpg/400px-Singapore_River_early_1960s_01.jpg', term: 'spurred on', meaning: '駆り立てた、奮い立たせた',
     detail: 'spur = 拍車。馬に拍車をかけるように行動を促す。',
     quote: 'life in an immigrant Asian society that <mark>spurred</mark> us on',
     quoteJa: '我々を駆り立てたアジア移民社会での生活',
@@ -1278,7 +1278,7 @@ const WORDS = [
   },
   // === Chapter 1: Suddenly, Independence ===
   {
-    id: 'abruptly', term: 'abruptly', meaning: '突然に、唐突に',
+    id: 'abruptly', emoji: '⚡', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ST10August1965.jpg/400px-ST10August1965.jpg', term: 'abruptly', meaning: '突然に、唐突に',
     detail: 'suddenly より不快さ・衝撃を伴う。ラテン語 abruptus（断ち切られた）。',
     quote: 'The pop tunes on the radio were cut off <mark>abruptly</mark>',
     quoteJa: 'ラジオのポップスが突然途切れた',
@@ -1287,7 +1287,7 @@ const WORDS = [
     category: 'boundary', related: ['stunned'], date: '2026-04-04', chapter: 'Ch.1', page: 13
   },
   {
-    id: 'stunned', term: 'stunned', meaning: '呆然とした、衝撃を受けた',
+    id: 'stunned', emoji: '😶', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/National_Day_Singapore_early_1960s_01.jpg/400px-National_Day_Singapore_early_1960s_01.jpg', term: 'stunned', meaning: '呆然とした、衝撃を受けた',
     detail: 'shocked より強い。思考が止まるレベル。',
     quote: '<mark>Stunned</mark> listeners heard the announcer',
     quoteJa: '呆然としたリスナーたちはアナウンサーの声を聞いた',
@@ -1296,7 +1296,7 @@ const WORDS = [
     category: 'character', related: ['abruptly'], date: '2026-04-04', chapter: 'Ch.1', page: 13
   },
   {
-    id: 'proclamation', term: 'proclamation', meaning: '宣言、布告',
+    id: 'proclamation', emoji: '📜', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ST10August1965.jpg/400px-ST10August1965.jpg', term: 'proclamation', meaning: '宣言、布告',
     detail: 'pro（前に）+ claim（叫ぶ）。国家レベルの公式宣言。',
     quote: 'solemnly read out a <mark>proclamation</mark>',
     quoteJa: '厳粛に宣言を読み上げた',
@@ -1305,7 +1305,7 @@ const WORDS = [
     category: 'power', related: ['sovereign'], date: '2026-04-04', chapter: 'Ch.1', page: 13
   },
   {
-    id: 'sovereign', image: 'https://images.unsplash.com/photo-1620726192689-b6f61ef42611?w=400&q=80', term: 'sovereign', meaning: '主権を持つ、誰にも支配されない',
+    id: 'sovereign', emoji: '👑', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/400px-Flag_of_Singapore.svg.png', term: 'sovereign', meaning: '主権を持つ、誰にも支配されない',
     detail: '発音: /ˈsɒvrɪn/（ソヴリン）。gは無音。ソブリンファンドのソブリン。',
     quote: 'Singapore shall be forever a <mark>sovereign</mark>, democratic, and independent nation',
     quoteJa: 'シンガポールは永遠に主権を持つ民主的で独立した国家である',
@@ -1314,7 +1314,7 @@ const WORDS = [
     category: 'power', related: ['proclamation', 'inalienable'], date: '2026-04-04', chapter: 'Ch.1', page: 13
   },
   {
-    id: 'inalienable', term: 'inalienable', meaning: '奪うことのできない、不可侵の',
+    id: 'inalienable', emoji: '🔒', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Merdeka_1957_tunku_abdul_rahman.jpg/400px-Merdeka_1957_tunku_abdul_rahman.jpg', term: 'inalienable', meaning: '奪うことのできない、不可侵の',
     detail: 'in + alienable（譲渡できる）の否定。アメリカ独立宣言にも同じ表現。',
     quote: 'the <mark>inalienable</mark> right of the people to be free',
     quoteJa: '人民の奪うことのできない自由の権利',
@@ -1323,7 +1323,7 @@ const WORDS = [
     category: 'power', related: ['sovereign'], date: '2026-04-04', chapter: 'Ch.1', page: 13
   },
   {
-    id: 'sever', term: 'sever', meaning: '断ち切る、切断する',
+    id: 'sever', emoji: '✂️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tunku_Abdul_Rahman_Official_Portrait.jpg/400px-Tunku_Abdul_Rahman_Official_Portrait.jpg', term: 'sever', meaning: '断ち切る、切断する',
     detail: '関係を完全に切る重い単語。severe（厳しい）とは別語。',
     quote: 'to <mark>sever</mark> with the state government of Singapore',
     quoteJa: 'シンガポール州政府との関係を断ち切る',
@@ -1332,7 +1332,7 @@ const WORDS = [
     category: 'power', related: ['cast_out'], date: '2026-04-05', chapter: 'Ch.1', page: 14
   },
   {
-    id: 'cast_out', image: 'https://images.unsplash.com/photo-1739533018538-a2aee30317ad?w=400&q=80', term: 'cast out', meaning: '追い出す、放逐する',
+    id: 'cast_out', emoji: '🚪', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Malaysia_with_Singapore_map.svg/400px-Malaysia_with_Singapore_map.svg.png', term: 'cast out', meaning: '追い出す、放逐する',
     detail: '聖書のアダムが楽園から追放されたのと同じ表現。捨てられた冷酷さ。',
     quote: 'Singapore was <mark>cast out</mark>',
     quoteJa: 'シンガポールは追い出された',
@@ -1341,7 +1341,7 @@ const WORDS = [
     category: 'power', related: ['sever'], date: '2026-04-05', chapter: 'Ch.1', page: 14
   },
   {
-    id: 'anguish', image: 'https://images.unsplash.com/photo-1512581574034-6f1da619c5fa?w=400&q=80', term: 'anguish', meaning: '苦悶、激しい苦しみ',
+    id: 'anguish', emoji: '😣', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ST10August1965.jpg/400px-ST10August1965.jpg', term: 'anguish', meaning: '苦悶、激しい苦しみ',
     detail: '心が引き裂かれるレベル。anger, anxiety と同語源。',
     quote: 'it would be a moment of <mark>anguish</mark>',
     quoteJa: 'それは苦悶の瞬間であろう',
@@ -1350,7 +1350,7 @@ const WORDS = [
     category: 'character', related: ['composure'], date: '2026-04-05', chapter: 'Ch.1', page: 15
   },
   {
-    id: 'composure', image: 'https://images.unsplash.com/photo-1706641931728-e4f638619352?w=400&q=80', term: 'composure', meaning: '冷静さ、平静、落ち着き',
+    id: 'composure', emoji: '🧘', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mr._Lee_Kuan_Yew_Mayoral_reception_1965_%28cropped%29.jpg/400px-Mr._Lee_Kuan_Yew_Mayoral_reception_1965_%28cropped%29.jpg', term: 'composure', meaning: '冷静さ、平静、落ち着き',
     detail: 'compose（構成する）から。崩れた自分を再び「置き直す」。',
     quote: 'I was able to regain my <mark>composure</mark>',
     quoteJa: '冷静さを取り戻すことができた',
@@ -1359,7 +1359,7 @@ const WORDS = [
     category: 'character', related: ['anguish'], date: '2026-04-05', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'shrewd', term: 'shrewd', meaning: '抜け目ない、鋭い',
+    id: 'shrewd', emoji: '🦊', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Goh_Keng_Swee_in_Australia%2C_1967.jpg/400px-Goh_Keng_Swee_in_Australia%2C_1967.jpg', term: 'shrewd', meaning: '抜け目ない、鋭い',
     detail: 'astute に近いが、より実利的・計算高いニュアンス。',
     quote: 'a <mark>shrewd</mark> and sound advisor',
     quoteJa: '抜け目なく堅実な助言者',
@@ -1368,7 +1368,7 @@ const WORDS = [
     category: 'intellect', related: ['astute'], date: '2026-04-05', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'unbecoming', term: 'unbecoming', meaning: 'ふさわしくない、みっともない',
+    id: 'unbecoming', emoji: '😤', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lee_Kuan_Yew.jpg/400px-Lee_Kuan_Yew.jpg', term: 'unbecoming', meaning: 'ふさわしくない、みっともない',
     detail: 'inappropriate より品位に関わる。その立場の人間がやるべきでないこと。',
     quote: 'it is <mark>unbecoming</mark> to exhibit such a lack of manliness',
     quoteJa: 'そのような男らしさの欠如を見せるのはふさわしくない',
@@ -1377,7 +1377,7 @@ const WORDS = [
     category: 'character', related: ['composure'], date: '2026-04-05', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'consolation', term: 'consolation', meaning: '慰め',
+    id: 'consolation', emoji: '🤝', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chinatown_Singapore_1965_01.jpg/400px-Chinatown_Singapore_1965_01.jpg', term: 'consolation', meaning: '慰め',
     detail: 'ラテン語 con（共に）+ solari（慰める）。some consolation = 完全な救いではないが少しは救われた。',
     quote: 'It was some <mark>consolation</mark> that my viewers in Britain, Australia, and New Zealand <mark>sympathized</mark> with me and with Singapore.',
     quoteJa: '英国、豪州、NZの視聴者が私とシンガポールに同情してくれたことは、いくらかの慰めだった',
@@ -1386,7 +1386,7 @@ const WORDS = [
     category: 'character', related: ['sympathized'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'sympathized', term: 'sympathized', meaning: '同情した',
+    id: 'sympathized', emoji: '💛', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chinatown_Singapore_1965_01.jpg/400px-Chinatown_Singapore_1965_01.jpg', term: 'sympathized', meaning: '同情した',
     detail: 'ギリシャ語 syn（共に）+ pathos（感情）。empathize より距離がある共感。',
     quote: 'my viewers in Britain, Australia, and New Zealand <mark>sympathized</mark> with me and with Singapore.',
     quoteJa: '英国、豪州、NZの視聴者が私とシンガポールに同情してくれた',
@@ -1395,7 +1395,7 @@ const WORDS = [
     category: 'character', related: ['consolation'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'euphemism', term: 'euphemism', meaning: '婉曲表現',
+    id: 'euphemism', emoji: '🎭', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/400px-Presiden_Sukarno.jpg', term: 'euphemism', meaning: '婉曲表現',
     detail: 'ギリシャ語 eu（良い）+ pheme（言葉）。euphemism と呼ぶこと自体がスカルノへの批判。',
     quote: '\'armed confrontation\'—the <mark>euphemism</mark> President Sukarno of Indonesia used to describe his small-scale and <mark>undeclared war</mark>',
     quoteJa: '「武力対峙」——インドネシアのスカルノ大統領が小規模な宣戦布告なき戦争を表す婉曲表現',
@@ -1404,7 +1404,7 @@ const WORDS = [
     category: 'intellect', related: ['obliqueness'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'overstressed', term: 'overstressed', meaning: '限界を超えたストレス',
+    id: 'overstressed', emoji: '😩', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Lee_Kuan_Yew_1985.jpg/400px-Lee_Kuan_Yew_1985.jpg', term: 'overstressed', meaning: '限界を超えたストレス',
     detail: 'over- でキャパ超えを示す。emotionally overstressed = 感情的に限界突破。',
     quote: 'I was emotionally <mark>overstressed</mark>, having gone through three days and nights of a <mark>wrenching</mark> experience.',
     quoteJa: '身を引き裂かれるような3日間を経て、感情的に限界を超えていた',
@@ -1413,7 +1413,7 @@ const WORDS = [
     category: 'character', related: ['wrenching'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'wrenching', term: 'wrenching', meaning: '身を引き裂かれるような',
+    id: 'wrenching', emoji: '🔧', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Lee_Kuan_Yew_1985.jpg/400px-Lee_Kuan_Yew_1985.jpg', term: 'wrenching', meaning: '身を引き裂かれるような',
     detail: 'wrench = ねじる、もぎ取る（工具のレンチと同語源）。gut-wrenching で腸をねじられる。',
     quote: 'having gone through three days and nights of a <mark>wrenching</mark> experience.',
     quoteJa: '身を引き裂かれるような体験の3日3晩を経て',
@@ -1422,7 +1422,7 @@ const WORDS = [
     category: 'character', related: ['overstressed', 'anguish'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'weighted_down', term: 'weighted down', meaning: '重みで押しつぶされた',
+    id: 'weighted_down', emoji: '⚓', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lee_Kuan_Yew.jpg/400px-Lee_Kuan_Yew.jpg', term: 'weighted down', meaning: '重みで押しつぶされた',
     detail: '物理的に重荷を背負い動けないイメージ。a heavy sense of guilt との組み合わせ。',
     quote: 'I was <mark>weighted down</mark> by a heavy sense of guilt.',
     quoteJa: '重い罪悪感に押しつぶされていた',
@@ -1431,7 +1431,7 @@ const WORDS = [
     category: 'character', related: ['let_down', 'remorse'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'let_down', term: 'let down', meaning: '期待を裏切る、がっかりさせる',
+    id: 'let_down', emoji: '💔', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Merdeka_1957_tunku_abdul_rahman.jpg/400px-Merdeka_1957_tunku_abdul_rahman.jpg', term: 'let down', meaning: '期待を裏切る、がっかりさせる',
     detail: 'betray より個人的で感情的。信じてくれた人への裏切り。',
     quote: 'I felt I had <mark>let down</mark> several million people in Malaysia.',
     quoteJa: 'マレーシアの数百万の人々を裏切ってしまったと感じた',
@@ -1440,7 +1440,7 @@ const WORDS = [
     category: 'character', related: ['weighted_down', 'ashamed'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'hegemony', term: 'hegemony', meaning: '覇権、支配権',
+    id: 'hegemony', emoji: '👊', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Merdeka_1957_tunku_abdul_rahman.jpg/400px-Merdeka_1957_tunku_abdul_rahman.jpg', term: 'hegemony', meaning: '覇権、支配権',
     detail: 'ギリシャ語 hegemonia。dominance より政治的・学術的。発音: /hɪˈdʒɛməni/',
     quote: 'resisting Malay <mark>hegemony</mark>, the <mark>root cause</mark> of our dispute.',
     quoteJa: 'マレー系の覇権——争いの根本原因——に抵抗していた',
@@ -1449,7 +1449,7 @@ const WORDS = [
     category: 'power', related: ['root_cause'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'root_cause', term: 'root cause', meaning: '根本原因',
+    id: 'root_cause', emoji: '🌳', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Merdeka_1957_tunku_abdul_rahman.jpg/400px-Merdeka_1957_tunku_abdul_rahman.jpg', term: 'root cause', meaning: '根本原因',
     detail: 'ビジネスでも超頻出。root cause analysis = 根本原因分析。',
     quote: 'Malay hegemony, the <mark>root cause</mark> of our <mark>dispute</mark>.',
     quoteJa: 'マレー系の覇権、争いの根本原因',
@@ -1458,7 +1458,7 @@ const WORDS = [
     category: 'intellect', related: ['hegemony'], date: '2026-04-06', chapter: 'Ch.1', page: 16
   },
   {
-    id: 'ashamed', term: 'ashamed', meaning: '恥じている',
+    id: 'ashamed', emoji: '😔', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Lee_Kuan_Yew_1985.jpg/400px-Lee_Kuan_Yew_1985.jpg', term: 'ashamed', meaning: '恥じている',
     detail: 'embarrassed より深く道義的。自分の行為が道徳的に間違っていたと感じるレベル。',
     quote: 'I was <mark>ashamed</mark> that I had left our allies and supporters to <mark>fend for themselves</mark>.',
     quoteJa: '仲間や支持者たちを自力で生きさせるために置き去りにしたことを恥じた',
@@ -1467,7 +1467,7 @@ const WORDS = [
     category: 'character', related: ['remorse', 'let_down'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'fend_for_themselves', term: 'fend for themselves', meaning: '自力でやっていく',
+    id: 'fend_for_themselves', emoji: '🛡️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kampong_in_Braddell_Hill_Singapore_about_1964.jpg/400px-Kampong_in_Braddell_Hill_Singapore_about_1964.jpg', term: 'fend for themselves', meaning: '自力でやっていく',
     detail: 'fend = defend の短縮形。置き去りにして自力でやらせる定型表現。',
     quote: 'I had left our allies and supporters to <mark>fend for themselves</mark>.',
     quoteJa: '仲間や支持者たちを自力でやっていくよう置き去りにした',
@@ -1476,7 +1476,7 @@ const WORDS = [
     category: 'power', related: ['ashamed'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'solidarity', term: 'solidarity', meaning: '連帯、団結',
+    id: 'solidarity', emoji: '🤜🤛', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/National_Day_Singapore_early_1960s_01.jpg/400px-National_Day_Singapore_early_1960s_01.jpg', term: 'solidarity', meaning: '連帯、団結',
     detail: 'ラテン語 solidus（固い）。solid と同語源。人々の結束。',
     quote: 'The Malaysian <mark>Solidarity</mark> Convention, which had been meeting and coordinating our activities to <mark>mobilize</mark> the people',
     quoteJa: '人々を動員するために活動を調整してきたマレーシア連帯会議',
@@ -1485,7 +1485,7 @@ const WORDS = [
     category: 'power', related: ['mobilize', 'coalition'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'mobilize', term: 'mobilize', meaning: '動員する',
+    id: 'mobilize', emoji: '📢', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/People%27s_Action_Party_Headquarters.JPG/400px-People%27s_Action_Party_Headquarters.JPG', term: 'mobilize', meaning: '動員する',
     detail: '軍事用語から。人々を行動に駆り立てる。',
     quote: 'coordinating our activities to <mark>mobilize</mark> the people to <mark>stand up for</mark> a non-communal society.',
     quoteJa: '非民族主義社会のために立ち上がるよう人々を動員する',
@@ -1494,7 +1494,7 @@ const WORDS = [
     category: 'power', related: ['solidarity'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'remorse', term: 'remorse', meaning: '後悔、自責の念',
+    id: 'remorse', emoji: '😢', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Lee_Kuan_Yew_1985.jpg/400px-Lee_Kuan_Yew_1985.jpg', term: 'remorse', meaning: '後悔、自責の念',
     detail: 'ラテン語 re（再び）+ mordere（噛む）= 何度も噛みつかれる。regret より遥かに深い。',
     quote: 'I was also filled with <mark>remorse</mark> and guilt for having had to <mark>deceive</mark> the Prime Ministers',
     quoteJa: '首相たちを欺かなければならなかったことへの後悔と罪悪感にも満たされていた',
@@ -1503,7 +1503,7 @@ const WORDS = [
     category: 'character', related: ['ashamed', 'preyed_on'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'preyed_on', term: 'preyed on', meaning: '食い物にした、苛んだ',
+    id: 'preyed_on', emoji: '🦅', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lee_Kuan_Yew.jpg/400px-Lee_Kuan_Yew.jpg', term: 'preyed on', meaning: '食い物にした、苛んだ',
     detail: 'prey = 獲物。思考が自分を「食い尽くす」イメージ。prey on one\'s mind = 心から離れない。',
     quote: 'All those thoughts <mark>preyed on</mark> me during the three weeks of our negotiations with Razak',
     quoteJa: 'それらの思いが、ラザクとの3週間の交渉中ずっと私に食らいついて離れなかった',
@@ -1512,7 +1512,7 @@ const WORDS = [
     category: 'character', related: ['remorse', 'wrenching'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'got_the_better_of', term: 'got the better of me', meaning: '感情が理性を圧倒した',
+    id: 'got_the_better_of', emoji: '😭', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lee_Kuan_Yew.jpg/400px-Lee_Kuan_Yew.jpg', term: 'got the better of me', meaning: '感情が理性を圧倒した',
     detail: '定型表現。感情・好奇心が自制心に勝つ。the deed was done = もう取り返しがつかない。',
     quote: 'once the deed was done, my feelings <mark>got the better of</mark> me.',
     quoteJa: '事が済むと、感情が私を打ち負かした',
@@ -1521,7 +1521,7 @@ const WORDS = [
     category: 'character', related: ['preyed_on', 'overawed'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'overawed', term: 'overawed', meaning: '圧倒された',
+    id: 'overawed', emoji: '😧', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lee_Kuan_Yew.jpg/400px-Lee_Kuan_Yew.jpg', term: 'overawed', meaning: '圧倒された',
     detail: 'over + awed（畏敬）。事の重大さに打ちのめされた。jubilant と対比。',
     quote: 'While I was thus <mark>overawed</mark>, the merchants in Singapore\'s Chinatown were <mark>jubilant</mark>.',
     quoteJa: '私がこうして圧倒されている間、チャイナタウンの商人たちは歓喜に沸いていた',
@@ -1530,7 +1530,7 @@ const WORDS = [
     category: 'character', related: ['jubilant'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'jubilant', image: 'https://images.unsplash.com/photo-1603190287605-e6ade32fa852?w=400&q=80', term: 'jubilant', meaning: '歓喜に沸く',
+    id: 'jubilant', emoji: '🎉', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/National_Day_Singapore_early_1960s_01.jpg/400px-National_Day_Singapore_early_1960s_01.jpg', term: 'jubilant', meaning: '歓喜に沸く',
     detail: 'ラテン語 jubilare（歓声を上げる）。jubilee と同語源。overawed との対比が鮮烈。',
     quote: 'the merchants in Singapore\'s Chinatown were <mark>jubilant</mark>.',
     quoteJa: 'チャイナタウンの商人たちは歓喜に沸いていた',
@@ -1539,7 +1539,7 @@ const WORDS = [
     category: 'character', related: ['overawed'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'obliqueness', term: 'obliqueness', meaning: '遠回し',
+    id: 'obliqueness', emoji: '↗️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chinatown_Singapore_1965_01.jpg/400px-Chinatown_Singapore_1965_01.jpg', term: 'obliqueness', meaning: '遠回し',
     detail: 'ラテン語 obliquus（斜めの）。直接言わず行動で示す文化的表現。',
     quote: 'Reporting that people had firecrackers to mark this good day, said with typical Chinese <mark>obliqueness</mark>.',
     quoteJa: '人々がこの良き日を祝って爆竹を持っていたと、典型的な中国的遠回しで語った',
@@ -1548,7 +1548,7 @@ const WORDS = [
     category: 'intellect', related: ['euphemism'], date: '2026-04-06', chapter: 'Ch.1', page: 17
   },
   {
-    id: 'turnover', term: 'turnover', meaning: '出来高、取引高',
+    id: 'turnover', emoji: '📊', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Collyer_Quay_February_1965_01.jpg/400px-Collyer_Quay_February_1965_01.jpg', term: 'turnover', meaning: '出来高、取引高',
     detail: 'ビジネスでは売上高。staff turnover = 離職率。文脈で意味が変わる多義語。',
     quote: 'there was an even larger <mark>turnover</mark>. The value of 25 out of 27 industrial stocks rose.',
     quoteJa: 'さらに大きな出来高を記録した。27の工業株のうち25が値上がりした',
@@ -1558,7 +1558,7 @@ const WORDS = [
   },
   // === Day 4 (2026-04-07) — Ch.1 p.18-19 ===
   {
-    id: 'deserted', image: 'https://images.unsplash.com/photo-1552499333-b7bc29c28b93?w=400&q=80', term: 'deserted', meaning: '人けのない、見捨てられた',
+    id: 'deserted', emoji: '🏚️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/SG_Singapore_street_scene_-_1963_%28W63-K26-34%29.jpg/400px-SG_Singapore_street_scene_-_1963_%28W63-K26-34%29.jpg', term: 'deserted', meaning: '人けのない、見捨てられた',
     detail: 'ラテン語 desertus（見捨てられた）。desert（砂漠）と同語源。abandoned より一時的で、人が消えた状態。',
     quote: 'the streets were <mark>deserted</mark> by the afternoon of 9 August',
     quoteJa: '8月9日の午後には通りは人けがなくなっていた',
@@ -1567,7 +1567,7 @@ const WORDS = [
     category: 'character', related: ['jubilant'], date: '2026-04-07', chapter: 'Ch.1', page: 18
   },
   {
-    id: 'impending', term: 'impending', meaning: '差し迫った',
+    id: 'impending', emoji: '⏰', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ST10August1965.jpg/400px-ST10August1965.jpg', term: 'impending', meaning: '差し迫った',
     detail: 'ラテン語 impendere（頭上にぶら下がる）= in + pendere。pendant と同語源。upcoming より重大で不安を含む。',
     quote: 'I had informed John Lee Chan of the <mark>impending</mark> announcement',
     quoteJa: 'ジョン・リー・チャンに差し迫った発表を伝えていた',
@@ -1576,7 +1576,7 @@ const WORDS = [
     category: 'power', related: [], date: '2026-04-07', chapter: 'Ch.1', page: 18
   },
   {
-    id: 'deployed', image: 'https://images.unsplash.com/photo-1608396941316-ea89219bd56e?w=400&q=80', term: 'deployed', meaning: '配置した、展開した',
+    id: 'deployed', emoji: '⚔️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Singapore_Gurkha_01.jpg/400px-Singapore_Gurkha_01.jpg', term: 'deployed', meaning: '配置した、展開した',
     detail: 'ラテン語 dis（離す）+ plicare（折る）→ 折りたたんだものを広げる。軍事でもビジネスでも頻出。',
     quote: 'Lee Kuan Yew had <mark>deployed</mark> his police reserve units',
     quoteJa: 'リー・クワンユーは警察予備部隊を配置していた',
@@ -1585,7 +1585,7 @@ const WORDS = [
     category: 'power', related: ['paramilitary'], date: '2026-04-07', chapter: 'Ch.1', page: 18
   },
   {
-    id: 'paramilitary', term: 'paramilitary', meaning: '準軍事的',
+    id: 'paramilitary', emoji: '🪖', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Singapore_Gurkha_01.jpg/400px-Singapore_Gurkha_01.jpg', term: 'paramilitary', meaning: '準軍事的',
     detail: 'para（〜に準ずる）+ military。正規軍ではないが軍事訓練を受けた部隊。',
     quote: '<mark>paramilitary</mark> Gurkhas specially trained to deal with violent rioters',
     quoteJa: '暴徒鎮圧の特別訓練を受けた準軍事組織のグルカ兵',
@@ -1594,7 +1594,7 @@ const WORDS = [
     category: 'structure', related: ['deployed'], date: '2026-04-07', chapter: 'Ch.1', page: 18
   },
   {
-    id: 'equivocal', term: 'equivocal', meaning: 'あいまいな、どちらとも取れる',
+    id: 'equivocal', emoji: '🤷', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Collyer_Quay_February_1965_01.jpg/400px-Collyer_Quay_February_1965_01.jpg', term: 'equivocal', meaning: 'あいまいな、どちらとも取れる',
     detail: 'ラテン語 aequus（等しい）+ vox（声）= 二つの声が等しい → どっちか分からない。反対語 unequivocal = 明確な。',
     quote: 'my relations with him had suddenly become <mark>equivocal</mark>',
     quoteJa: '彼との関係が突然あいまいなものになっていた',
@@ -1603,7 +1603,7 @@ const WORDS = [
     category: 'intellect', related: ['candid'], date: '2026-04-07', chapter: 'Ch.1', page: 19
   },
   {
-    id: 'on_behalf_of', term: 'on behalf of', meaning: '〜を代表して',
+    id: 'on_behalf_of', emoji: '🗣️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Collyer_Quay_February_1965_01.jpg/400px-Collyer_Quay_February_1965_01.jpg', term: 'on behalf of', meaning: '〜を代表して',
     detail: 'behalf = 利益、味方。古英語 be healfe（〜の側に）。独立した瞬間にLord Headの立場を突く鋭い質問。',
     quote: 'Who are you talking <mark>on behalf of</mark>?',
     quoteJa: 'あなたは誰を代表して話しているのですか？',
@@ -1612,7 +1612,7 @@ const WORDS = [
     category: 'power', related: ['accredited'], date: '2026-04-07', chapter: 'Ch.1', page: 19
   },
   {
-    id: 'accredited', term: 'accredited to', meaning: '〜に信任された',
+    id: 'accredited', emoji: '📋', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Collyer_Quay_February_1965_01.jpg/400px-Collyer_Quay_February_1965_01.jpg', term: 'accredited to', meaning: '〜に信任された',
     detail: 'ラテン語 ad + credere（信じる）。credit と同語源。外交官が特定国に正式派遣されること。',
     quote: 'I am <mark>accredited to</mark> a foreign government',
     quoteJa: '私は外国政府に対して信任されている身です',
@@ -1621,7 +1621,7 @@ const WORDS = [
     category: 'structure', related: ['on_behalf_of'], date: '2026-04-07', chapter: 'Ch.1', page: 19
   },
   {
-    id: 'tete_a_tete', term: 'tête-à-tête', meaning: '二人きりの内密な会話',
+    id: 'tete_a_tete', emoji: '🗨️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lee_Kuan_Yew.jpg/400px-Lee_Kuan_Yew.jpg', term: 'tête-à-tête', meaning: '二人きりの内密な会話',
     detail: 'フランス語で「頭と頭」。chit-chat と対で使い、公式会談を雑談に格下げ。',
     quote: 'Then this is the <mark>tête-à-tête</mark>; it is just a chit-chat',
     quoteJa: 'では、これは内輪の雑談ですね。ただのおしゃべりです',
@@ -1630,7 +1630,7 @@ const WORDS = [
     category: 'intellect', related: [], date: '2026-04-07', chapter: 'Ch.1', page: 19
   },
   {
-    id: 'foreign_correspondents', term: 'foreign correspondents', meaning: '外国人特派員',
+    id: 'foreign_correspondents', emoji: '📰', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ST10August1965.jpg/400px-ST10August1965.jpg', term: 'foreign correspondents', meaning: '外国人特派員',
     detail: 'correspond（通信する）から。LKY自身が「演出した」と認める三重構造の語り。',
     quote: 'describing this meeting to a group of British and Australian <mark>foreign correspondents</mark>',
     quoteJa: '英国・豪州の外国人特派員たちにこの会合を語った',
@@ -1639,7 +1639,7 @@ const WORDS = [
     category: 'structure', related: ['adversaries'], date: '2026-04-07', chapter: 'Ch.1', page: 19
   },
   {
-    id: 'demeanor', term: 'demeanor', meaning: '立ち居振る舞い',
+    id: 'demeanor', emoji: '🧑‍✈️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Singapore_Gurkha_01.jpg/400px-Singapore_Gurkha_01.jpg', term: 'demeanor', meaning: '立ち居振る舞い',
     detail: 'bearing（#93）より表情・雰囲気を含む全体的な印象。',
     quote: 'His <mark>demeanor</mark> was that of a Sandhurst-trained officer in the Life Guards',
     quoteJa: '彼の立ち居振る舞いはサンドハースト仕込みのライフガーズ将校そのものだった',
@@ -1648,7 +1648,7 @@ const WORDS = [
     category: 'character', related: [], date: '2026-04-07', chapter: 'Ch.1', page: 19
   },
   {
-    id: 'bearing', image: 'https://images.unsplash.com/photo-1636922861058-ac8d49cb5147?w=400&q=80', term: 'bearing', meaning: '物腰、振る舞い',
+    id: 'bearing', emoji: '🎖️', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Louis_Mountbatten_Inspection%2C_Singapore_1945.jpg/400px-Louis_Mountbatten_Inspection%2C_Singapore_1945.jpg', term: 'bearing', meaning: '物腰、振る舞い',
     detail: 'bear（運ぶ）から。自分の身体をどう「運んでいるか」→ 立ち居振る舞い。',
     quote: 'His <mark>bearing</mark> impressed me',
     quoteJa: '彼の物腰に感銘を受けた',
@@ -1719,7 +1719,11 @@ async function init() {
   renderDashboard();
   initFlashcards();
   renderEtymology();
-  renderQuotes();
+  if (quoteMode === 'challenge') {
+    startChallenge();
+  } else {
+    renderQuotes();
+  }
   updateStats();
 }
 
@@ -1842,7 +1846,7 @@ function renderFlashcard() {
 
   document.getElementById('fcFront').innerHTML = `
     ${w.image ? '<img src="' + w.image + '" alt="' + w.term + '" style="width:100%;max-height:160px;object-fit:cover;border-radius:10px;margin-bottom:0.8rem;">' : ''}
-    <div class="flashcard-word">${w.term}</div>
+    <div class="flashcard-word">${w.emoji ? w.emoji + ' ' : ''}${w.term}</div>
     <button class="speak-btn" onclick="event.stopPropagation(); speak('${w.term.replace(/'/g, "\\'")}')">🔊</button>
     <div class="flashcard-speaker">${w.flag} ${w.speaker}</div>
     <div class="flashcard-quote">${w.quote}</div>
