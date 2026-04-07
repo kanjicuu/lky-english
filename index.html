@@ -513,52 +513,6 @@
   }
   .quiz-next-btn:hover { filter: brightness(1.2); }
 
-  /* ===== WORD MAP ===== */
-  .wordmap-container {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background: var(--surface);
-    border-radius: 14px;
-    border: 1px solid var(--border);
-    overflow: hidden;
-    margin-bottom: 1rem;
-  }
-  .wordmap-node {
-    position: absolute;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s;
-    white-space: nowrap;
-    z-index: 2;
-  }
-  .wordmap-node:hover { transform: scale(1.15); z-index: 10; }
-  .wordmap-node.cat-power { background: rgba(74,111,165,0.1); color: var(--accent); border: 1px solid rgba(74,111,165,0.3); }
-  .wordmap-node.cat-intellect { background: rgba(120,100,170,0.1); color: #6b5fa0; border: 1px solid rgba(120,100,170,0.3); }
-  .wordmap-node.cat-character { background: rgba(58,125,68,0.1); color: var(--green); border: 1px solid rgba(58,125,68,0.3); }
-  .wordmap-node.cat-structure { background: rgba(201,123,42,0.1); color: var(--orange); border: 1px solid rgba(201,123,42,0.3); }
-  .wordmap-node.cat-boundary { background: rgba(192,105,74,0.1); color: var(--accent2); border: 1px solid rgba(192,105,74,0.3); }
-  .wordmap-legend {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 0.8rem;
-  }
-  .wordmap-legend span {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-  }
-  .legend-dot {
-    width: 8px; height: 8px; border-radius: 50%;
-  }
-
   /* Etymology tree */
   .etymology-section { margin-top: 1.5rem; }
   .etymology-tree {
@@ -1044,8 +998,7 @@
   <button class="active" onclick="showSection('dashboard')">Dashboard</button>
   <button onclick="showSection('flashcard')">Flashcard</button>
   <button onclick="showSection('quiz')">Quiz</button>
-  <button onclick="showSection('wordmap')">Word Map</button>
-  <button onclick="showSection('etymology')">Etymology</button>
+<button onclick="showSection('etymology')">Etymology</button>
 </nav>
 
 <!-- DASHBOARD -->
@@ -1081,17 +1034,6 @@
   <button class="copy-btn" id="copyResults" onclick="copyResults()" style="display:none;">📋 結果をClaude Codeにコピー</button>
 </div>
 
-<!-- WORD MAP -->
-<div class="section" id="sec-wordmap">
-  <div class="wordmap-legend">
-    <span><span class="legend-dot" style="background:var(--accent)"></span> Power</span>
-    <span><span class="legend-dot" style="background:#a78bfa"></span> Intellect</span>
-    <span><span class="legend-dot" style="background:var(--green)"></span> Character</span>
-    <span><span class="legend-dot" style="background:var(--orange)"></span> Structure</span>
-    <span><span class="legend-dot" style="background:var(--accent2)"></span> Boundary</span>
-  </div>
-  <div class="wordmap-container" id="wordmapContainer"></div>
-</div>
 
 <!-- QUOTES -->
 <div class="section" id="sec-quotes">
@@ -1710,7 +1652,6 @@ async function init() {
   updateStreak();
   renderDashboard();
   initFlashcards();
-  renderWordMap();
   renderEtymology();
   renderQuotes();
   updateStats();
@@ -2062,53 +2003,6 @@ function copyResults() {
     btn.classList.add('copied');
     setTimeout(() => { btn.textContent = '📋 結果をClaude Codeにコピー'; btn.classList.remove('copied'); }, 2000);
   });
-}
-
-// ===== WORD MAP =====
-function renderWordMap() {
-  const container = document.getElementById('wordmapContainer');
-  const catColors = { power: 'cat-power', intellect: 'cat-intellect', character: 'cat-character', structure: 'cat-structure', boundary: 'cat-boundary' };
-
-  // Simple force-directed-ish layout
-  const positions = [];
-  const w = container.offsetWidth || 700;
-  const h = 500;
-  const cx = w / 2, cy = h / 2;
-
-  WORDS.forEach((word, i) => {
-    const angle = (i / WORDS.length) * Math.PI * 2 - Math.PI / 2;
-    const radius = 140 + Math.random() * 60;
-    const x = cx + Math.cos(angle) * radius - 40;
-    const y = cy + Math.sin(angle) * radius - 15;
-    positions.push({ x, y });
-
-    const node = document.createElement('div');
-    node.className = `wordmap-node ${catColors[word.category]}`;
-    node.style.left = x + 'px';
-    node.style.top = y + 'px';
-    node.textContent = word.term;
-    node.title = word.meaning;
-    container.appendChild(node);
-  });
-
-  // Draw SVG lines for related words
-  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  svg.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;';
-  WORDS.forEach((word, i) => {
-    (word.related || []).forEach(relId => {
-      const j = WORDS.findIndex(w => w.id === relId);
-      if (j === -1 || j <= i) return;
-      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-      line.setAttribute('x1', positions[i].x + 40);
-      line.setAttribute('y1', positions[i].y + 15);
-      line.setAttribute('x2', positions[j].x + 40);
-      line.setAttribute('y2', positions[j].y + 15);
-      line.setAttribute('stroke', 'rgba(74,111,165,0.2)');
-      line.setAttribute('stroke-width', '1');
-      svg.appendChild(line);
-    });
-  });
-  container.insertBefore(svg, container.firstChild);
 }
 
 // ===== ETYMOLOGY =====
