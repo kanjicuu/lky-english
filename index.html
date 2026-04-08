@@ -294,19 +294,11 @@
   }
   .flashcard {
     width: 100%;
-    min-height: 350px;
-    position: relative;
     cursor: pointer;
-    transform-style: preserve-3d;
-    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .flashcard.flipped { transform: rotateY(180deg); }
   .flashcard-face {
-    position: absolute;
-    top: 0; left: 0;
     width: 100%;
     min-height: 350px;
-    backface-visibility: hidden;
     border-radius: 16px;
     padding: 2rem;
     display: flex;
@@ -322,8 +314,10 @@
   .flashcard-back {
     background: linear-gradient(135deg, #f5f9f5, #eef5ee);
     border: 1px solid #c5d8c5;
-    transform: rotateY(180deg);
+    display: none;
   }
+  .flashcard.flipped .flashcard-front { display: none; }
+  .flashcard.flipped .flashcard-back { display: flex; }
   .flashcard-word {
     font-size: 2.2rem;
     font-weight: 800;
@@ -2008,23 +2002,12 @@ function renderFlashcard() {
     <div class="flashcard-quote" style="margin-top:0.8rem;">${w.quote}</div>
     ${w.quoteJa ? '<div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.3rem;">' + w.quoteJa + '</div>' : ''}
   `;
-  setTimeout(adjustCardHeight, 50);
-}
-
-function adjustCardHeight() {
-  const fc = document.getElementById('flashcard');
-  const front = document.getElementById('fcFront');
-  const back = document.getElementById('fcBack');
-  const visibleFace = fcFlipped ? back : front;
-  const h = Math.max(350, visibleFace.scrollHeight);
-  fc.style.height = h + 'px';
 }
 
 function flipCard() {
   const fc = document.getElementById('flashcard');
   fcFlipped = !fcFlipped;
   fc.classList.toggle('flipped');
-  setTimeout(adjustCardHeight, 50);
 }
 
 function rateCard(level) {
