@@ -303,6 +303,7 @@
   .flashcard.flipped { transform: rotateY(180deg); }
   .flashcard-face {
     position: absolute;
+    top: 0; left: 0;
     width: 100%;
     min-height: 350px;
     backface-visibility: hidden;
@@ -381,6 +382,8 @@
     gap: 0.8rem;
     justify-content: center;
     margin-top: 1.5rem;
+    position: relative;
+    z-index: 10;
   }
   .flashcard-actions button {
     padding: 0.8rem 1.5rem;
@@ -2005,12 +2008,23 @@ function renderFlashcard() {
     <div class="flashcard-quote" style="margin-top:0.8rem;">${w.quote}</div>
     ${w.quoteJa ? '<div style="font-size:0.8rem;color:var(--text-muted);margin-top:0.3rem;">' + w.quoteJa + '</div>' : ''}
   `;
+  setTimeout(adjustCardHeight, 50);
+}
+
+function adjustCardHeight() {
+  const fc = document.getElementById('flashcard');
+  const front = document.getElementById('fcFront');
+  const back = document.getElementById('fcBack');
+  const visibleFace = fcFlipped ? back : front;
+  const h = Math.max(350, visibleFace.scrollHeight);
+  fc.style.height = h + 'px';
 }
 
 function flipCard() {
   const fc = document.getElementById('flashcard');
   fcFlipped = !fcFlipped;
   fc.classList.toggle('flipped');
+  setTimeout(adjustCardHeight, 50);
 }
 
 function rateCard(level) {
