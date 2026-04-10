@@ -2,7 +2,7 @@
 
 Book: The Singapore Story (Lee Kuan Yew)
 
-## 133. compound (Ch.2, p.25)
+## 133. compound (Ch.2, p.25) — 2026-04-10
 
 > "My earliest and most vivid recollection is of being held by my ears over a well in the compound of a house where my family was then living, at what is now Tembeling Road in Singapore." — LKY
 
@@ -14,7 +14,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The family lived in a large compound with several buildings."
 - "Security guards patrolled the compound."
 
-## 134. mischievous / jar / brilliantine (Ch.2, p.25)
+## 134. mischievous / jar / brilliantine (Ch.2, p.25) — 2026-04-10
 
 > "I had been mischievous and had messed up an expensive jar of my father's 4711 pale green scented brilliantine." — LKY
 
@@ -28,7 +28,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The kids were being mischievous as usual."
 - "A jar of honey."
 
-## 135. temper / went through the roof (Ch.2, p.25)
+## 135. temper / went through the roof (Ch.2, p.25) — 2026-04-10
 
 > "My father had a violent temper, but that evening his rage went through the roof." — LKY
 
@@ -41,7 +41,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "He has a short temper — be careful."
 - "Prices went through the roof after the announcement."
 
-## 136. scruff of the neck (Ch.2, p.25)
+## 136. scruff of the neck (Ch.2, p.25) — 2026-04-10
 
 > "He took me by the scruff of the neck from the house to this well and held me over it." — LKY
 
@@ -53,7 +53,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "She grabbed the puppy by the scruff of the neck."
 
-## 137. ripped off (Ch.2, p.25)
+## 137. ripped off (Ch.2, p.25) — 2026-04-10
 
 > "How could my ears have been so tough that they were not ripped off, dropping me into that well?" — LKY
 
@@ -66,7 +66,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The wind ripped off the roof."
 - "Don't rip off the label."
 
-## 138. neuropeptides / stamping (Ch.2, p.25)
+## 138. neuropeptides / stamping (Ch.2, p.25) — 2026-04-10
 
 > "Fifty years later, in the 1970s, I read in the Scientific American an article explaining how pain and shock released neuropeptides in the brain, stamping the new experience into the brain cells and thus ensuring that the experience would be remembered for a long time afterwards." — LKY
 
@@ -75,7 +75,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - **neuropeptides** = 神経ペプチド。neuro（神経）+ peptides（短いタンパク質鎖）。脳内で信号を伝える化学物質。痛みやショックで放出され、記憶を強く刻み込む
 - 50年後に科学記事で自分の幼少体験を裏付けるLKY — 体験を感情で終わらせず科学的に理解しようとする知性
 
-## 139. paternal / maternal (Ch.2, p.26)
+## 139. paternal / maternal (Ch.2, p.26) — 2026-04-10
 
 > "My family history in Singapore began with my paternal great-grandfather, Lee Bok Boon, a Hakka." — LKY
 
@@ -87,7 +87,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "He inherited the house from his paternal grandmother."
 
-## 140. plains / latecomers / squeeze / fertile / hilly (Ch.2, p.26)
+## 140. plains / latecomers / squeeze / fertile / hilly (Ch.2, p.26) — 2026-04-10
 
 > "The Hakkas are Han Chinese from the northern and central plains of China who migrated to Fujian, Guangdong and other provinces in the south some 700 to 1,000 years ago, and as latecomers were only able to squeeze themselves into the less fertile and more hilly areas unoccupied by the local inhabitants." — LKY
 
@@ -104,7 +104,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She squeezed into the crowded train."
 - "The region is known for its fertile soil."
 
-## 141. inscription / tombstone (Ch.2, p.26)
+## 141. inscription / tombstone (Ch.2, p.26) — 2026-04-10
 
 > "According to the inscription on the tombstone on his grave behind the house he built in China, Lee Bok Boon was born in 1846 in the village of Tangxi in the Dabu prefecture of Guangdong." — LKY
 
@@ -117,7 +117,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The inscription on the monument was barely legible."
 - "His tombstone reads 'beloved father and husband.'"
 
-## 142. junk (Ch.2, p.26)
+## 142. junk (Ch.2, p.26) — 2026-04-10
 
 > "He had migrated to Singapore on a Chinese junk." — LKY
 
@@ -128,7 +128,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "Chinese junks once dominated the South China Sea trade routes."
 
-## 143. gentry (Ch.2, p.26)
+## 143. gentry (Ch.2, p.26) — 2026-04-10
 
 > "In 1882 he decided that he had made enough money to return to his ancestral village in China, build himself a large house, and set himself up as local gentry." — LKY
 
@@ -140,7 +140,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The landed gentry controlled much of the countryside."
 
-## 144. duly / mandarinate (Ch.2, p.27)
+## 144. duly / mandarinate (Ch.2, p.27) — 2026-04-10
 
 > "There he married again, built his large house, and duly bought a minor mandarinate." — LKY
 

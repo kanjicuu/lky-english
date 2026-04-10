@@ -2,7 +2,7 @@
 
 Book: The Singapore Story (Lee Kuan Yew)
 
-## 42. cut off abruptly (Ch.1, p.13)
+## 42. cut off abruptly (Ch.1, p.13) — 2026-04-04
 
 > "The pop tunes on the radio were cut off abruptly." — LKY
 
@@ -15,7 +15,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The meeting was cut off abruptly when the CEO walked in."
 
-## 43. stunned / solemnly / proclamation (Ch.1, p.13)
+## 43. stunned / solemnly / proclamation (Ch.1, p.13) — 2026-04-04
 
 > "Stunned listeners heard the announcer solemnly read out a proclamation, a 90-words that changed the lives of the people of Singapore and Malaysia." — LKY
 
@@ -29,7 +29,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The audience was stunned by the announcement."
 - "He solemnly declared his resignation."
 
-## 44. inalienable / hereby / proclaim / sovereign / welfare (Ch.1, p.13)
+## 44. inalienable / hereby / proclaim / sovereign / welfare (Ch.1, p.13) — 2026-04-04
 
 > Singapore's Proclamation of Independence — 9 August 1965
 
@@ -52,7 +52,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "shall be forever" = 資源ゼロ・軍隊なしの小国が「永遠」を宣言する覚悟
 - people を Government より先に置き、政府の宣言ではなく国民の意志の代弁と位置づけている
 
-## 45. shall cease to be / separate from and independent of (Ch.1, p.13)
+## 45. shall cease to be / separate from and independent of (Ch.1, p.13) — 2026-04-04
 
 > "Singapore shall cease to be a state of Malaysia and shall forever be an independent and sovereign state and nation, separate from and independent of Malaysia."
 
@@ -65,7 +65,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The subsidiary shall cease to be a part of the parent company."
 
-## 46. courses open to us / sever / ceased to give a measure of loyalty (Ch.1, p.14)
+## 46. courses open to us / sever / ceased to give a measure of loyalty (Ch.1, p.14) — 2026-04-05
 
 > "In the end, we find that there are only two courses open to us: 1. To take representative measures against the Singapore government regarding the behavior of some of their leaders. 2. The course of action we are taking now, to sever with the state government of Singapore that has ceased to give a measure of loyalty to the central government." — Tunku Abdul Rahman
 
@@ -79,7 +79,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "We had no choice but to sever ties with the supplier."
 - "The partnership ceased to give a measure of value to either side."
 
-## 47. utter silence (Ch.1, p.14)
+## 47. utter silence (Ch.1, p.14) — 2026-04-05
 
 > "The house listened in utter silence." — LKY
 
@@ -91,7 +91,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The boardroom fell into utter silence after the announcement."
 
-## 48. royal assent / formalities / cast out (Ch.1, p.14)
+## 48. royal assent / formalities / cast out (Ch.1, p.14) — 2026-04-05
 
 > "The head of state, the Yang di-Pertuan Agong, gave his royal assent that same day, concluding the constitutional formalities. Singapore was cast out." — LKY
 
@@ -111,7 +111,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - expelled（公式除名）、banished（追放）、exiled（流刑）、kicked out（カジュアル）と違い、cast out は「もう要らない」という冷酷さ
 - LKYは合併を望んでいた。捨てられた。独立宣言の会見で泣いた
 
-## 49. talak / I divorce thee (Ch.1, p.14)
+## 49. talak / I divorce thee (Ch.1, p.14) — 2026-04-05
 
 > "Under Malay Muslim customs, a husband (but not the wife) can declare a talak, 'I divorce thee,' and the woman is divorced." — LKY
 
@@ -120,7 +120,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - マレーシアとシンガポールの分離をイスラム式離婚に喩えている。一方的に切り捨てられた構造の比喩
 - (but not the wife) の括弧で権力の非対称性を冷静に指摘。感情ではなく構造で批判するLKYらしさ
 
-## 50. reconcile / remarry / talak three times (Ch.1, p.14)
+## 50. reconcile / remarry / talak three times (Ch.1, p.14) — 2026-04-05
 
 > "They can reconcile and he can remarry her, but not after he has said talak three times." — LKY
 
@@ -133,7 +133,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "After years of conflict, the two companies finally reconciled."
 - "Some business relationships, once severed, cannot be reconciled."
 
-## 51. predominantly / compatible (Ch.1, p.14)
+## 51. predominantly / compatible (Ch.1, p.14) — 2026-04-05
 
 > "The partners, predominantly Malay in Malaya and predominantly Chinese in Singapore, had not been compatible." — LKY
 
@@ -146,7 +146,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The two companies were not compatible in terms of culture."
 - "The region is predominantly rural."
 
-## 52. marred / conjugal strife / dominated (Ch.1, p.14)
+## 52. marred / conjugal strife / dominated (Ch.1, p.14) — 2026-04-05
 
 > "The union has been marred by increasing conjugal strife over whether the new federation should be a truly multiracial society or one dominated by the Malays." — LKY
 
@@ -159,7 +159,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The partnership was marred by constant disagreements."
 - "Internal strife weakened the organization from within."
 
-## 53. substance / legal formalities (Ch.1, p.14)
+## 53. substance / legal formalities (Ch.1, p.14) — 2026-04-05
 
 > "Singapore went for the substance of the divorce, not its legal formalities." — LKY
 
@@ -172,7 +172,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Let's focus on the substance of the deal, not the formalities."
 - "She always goes for substance over style."
 
-## 54. practical / workable / final (Ch.1, p.14)
+## 54. practical / workable / final (Ch.1, p.14) — 2026-04-05
 
 > "If there was to be separation, I wanted to ensure that the terms were practical, workable, and final." — LKY
 
@@ -184,7 +184,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "We need terms that are practical, workable, and final."
 
-## 55. make certain / finality / gazette (Ch.1, p.14)
+## 55. make certain / finality / gazette (Ch.1, p.14) — 2026-04-05
 
 > "To make certain there could be no doubt as to their finality, the Singapore government published the two proclamations in a special government gazette that morning." — LKY
 
@@ -198,7 +198,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "We need to make certain there can be no doubt about the terms."
 
-## 56. key civil servants / federal jurisdiction / assume control (Ch.1, p.15)
+## 56. key civil servants / federal jurisdiction / assume control (Ch.1, p.15) — 2026-04-05
 
 > "I had started the day Monday, 9 August, with a series of meetings with key civil servants (especially those under federal jurisdiction) to inform them that Singapore ministers would now assume control." — LKY
 
@@ -213,7 +213,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The new CEO assumed control on her first day."
 - "This matter falls outside our jurisdiction."
 
-## 57. diplomatic corps / at short notice (Ch.1, p.15)
+## 57. diplomatic corps / at short notice (Ch.1, p.15) — 2026-04-05
 
 > "I met those members of the diplomatic corps in Singapore who could be gathered at short notice." — LKY
 
@@ -228,7 +228,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She organized the event at short notice."
 - "The diplomatic corps was briefed on the policy change."
 
-## 58. drew aside / Deputy High Commissioner / Consul General (Ch.1, p.15)
+## 58. drew aside / Deputy High Commissioner / Consul General (Ch.1, p.15) — 2026-04-05
 
 > "As the diplomats left, I drew aside the Indian Deputy High Commissioner and the UAR Consul General and gave them letters for Prime Minister Shastri and President Nasser." — LKY
 
@@ -243,7 +243,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "After the meeting, the CEO drew aside two board members for a private conversation."
 
-## 59. sought recognition / coastal defense force (Ch.1, p.15)
+## 59. sought recognition / coastal defense force (Ch.1, p.15) — 2026-04-05
 
 > "In my letters, I sought their recognition and support. From India, I asked for advice to train an army, and from Egypt, an advisor to build a coastal defense force." — LKY
 
@@ -257,7 +257,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "We sought recognition from key industry partners."
 
-## 60. outline / train of events / led to (Ch.1, p.15)
+## 60. outline / train of events / led to (Ch.1, p.15) — 2026-04-05
 
 > "Could you outline for us the train of events that led to this morning's proclamation?" — Reporter
 
@@ -272,7 +272,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Could you outline the train of events that led to this decision?"
 - "A strange train of events brought us here."
 
-## 61. recounted (Ch.1, p.15)
+## 61. recounted (Ch.1, p.15) — 2026-04-05
 
 > "I recounted my meeting with the Tunku in Kuala Lumpur during the previous two days." — LKY
 
@@ -285,7 +285,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "She recounted the events of that evening in detail."
 
-## 62. a great deal of / anguish / merger / ties of kinship (Ch.1, p.15)
+## 62. a great deal of / anguish / merger / ties of kinship (Ch.1, p.15) — 2026-04-05
 
 > "...this is a moment—every time we look back on this moment when we sign this agreement, which separates Singapore from Malaysia—it would be a moment of anguish because all my life I have believed in merger and the unity of these two territories, with the people connected by geography, economics, and ties of kinship."
 > "Would you mind if we stop for a while?"
@@ -299,7 +299,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - **"Would you mind if we stop for a while?"** = LKYが記者会見で泣いた瞬間。泣きながらも礼儀を失わない
 - practical, workable, final の男が初めて感情を見せた。怒りではなく、信じたものを失った苦悶
 
-## 63. regain my composure / resume (Ch.1, p.16)
+## 63. regain my composure / resume (Ch.1, p.16) — 2026-04-05
 
 > "It was only after another 20 minutes that I was able to regain my composure and resume the press conference." — LKY
 
@@ -314,7 +314,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She took a deep breath and regained her composure."
 - "The meeting will resume after a short break."
 
-## 64. footage / breakdown (Ch.1, p.16)
+## 64. footage / breakdown (Ch.1, p.16) — 2026-04-05
 
 > "I asked P.S. Raman to cut the footage of my breakdown." — LKY
 
@@ -328,7 +328,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The security footage captured the incident."
 - "He had a breakdown after months of overwork."
 
-## 65. shrewd / sound advisor (Ch.1, p.16)
+## 65. shrewd / sound advisor (Ch.1, p.16) — 2026-04-05
 
 > "a shrewd and sound advisor." — LKY（P.S. Ramanについて）
 
@@ -342,7 +342,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "She's a shrewd negotiator with sound judgment."
 
-## 66. unbecoming / exhibit / manliness (Ch.1, p.16)
+## 66. unbecoming / exhibit / manliness (Ch.1, p.16) — 2026-04-05
 
 > "Among Chinese, it is unbecoming to exhibit such a lack of manliness." — LKY
 
@@ -356,7 +356,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "Such behavior is unbecoming of a professional."
 
-## 67. consolation / sympathized (Ch.1, p.16)
+## 67. consolation / sympathized (Ch.1, p.16) — 2026-04-06
 
 > "It was some consolation that my viewers in Britain, Australia, and New Zealand sympathized with me and with Singapore." — LKY
 
@@ -369,7 +369,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "It was some consolation that the client appreciated our effort."
 
-## 68. armed confrontation / euphemism / undeclared war / neocolonialist (Ch.1, p.16)
+## 68. armed confrontation / euphemism / undeclared war / neocolonialist (Ch.1, p.16) — 2026-04-06
 
 > "They were interested in Malaysia because their troops were defending it against 'armed confrontation'—the euphemism President Sukarno of Indonesia used to describe his small-scale and undeclared war against the new and expanded neocolonialist federation." — LKY
 
@@ -383,7 +383,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "'Restructuring' is often a euphemism for layoffs."
 
-## 69. overstressed / wrenching (Ch.1, p.16)
+## 69. overstressed / wrenching (Ch.1, p.16) — 2026-04-06
 
 > "I was emotionally overstressed, having gone through three days and nights of a wrenching experience." — LKY
 
@@ -397,7 +397,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The decision was a wrenching experience for the entire team."
 
-## 70. weighted down / a heavy sense of guilt (Ch.1, p.16)
+## 70. weighted down / a heavy sense of guilt (Ch.1, p.16) — 2026-04-06
 
 > "I was weighted down by a heavy sense of guilt." — LKY
 
@@ -410,7 +410,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "He was weighted down by the responsibility of the decision."
 
-## 71. let down (Ch.1, p.16)
+## 71. let down (Ch.1, p.16) — 2026-04-06
 
 > "I felt I had let down several million people in Malaysia." — LKY
 
@@ -423,7 +423,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "I feel like I've let down my team."
 
-## 72. aroused their hopes / hegemony / root cause / dispute (Ch.1, p.16)
+## 72. aroused their hopes / hegemony / root cause / dispute (Ch.1, p.16) — 2026-04-06
 
 > "I had aroused their hopes, and they had joined people in Singapore in resisting Malay hegemony, the root cause of our dispute." — LKY
 
@@ -438,7 +438,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "We need to identify the root cause of the problem."
 - "The company's hegemony in the market is being challenged."
 
-## 73. ashamed / fend for themselves (Ch.1, p.17)
+## 73. ashamed / fend for themselves (Ch.1, p.17) — 2026-04-06
 
 > "I was ashamed that I had left our allies and supporters to fend for themselves." — LKY
 
@@ -452,7 +452,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "After the acquisition, the team was left to fend for themselves."
 - "I'm ashamed that I didn't speak up sooner."
 
-## 74. solidarity / convention / mobilize / stand up for / non-communal (Ch.1, p.17)
+## 74. solidarity / convention / mobilize / stand up for / non-communal (Ch.1, p.17) — 2026-04-06
 
 > "The Malaysian Solidarity Convention, which had been meeting and coordinating our activities to mobilize the people to stand up for a non-communal society." — LKY
 
@@ -468,7 +468,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "We need to mobilize our partners for the launch."
 - "She always stands up for what she believes in."
 
-## 75. coalition / Malaysian Malaysia vs Malay Malaysia (Ch.1, p.17)
+## 75. coalition / Malaysian Malaysia vs Malay Malaysia (Ch.1, p.17) — 2026-04-06
 
 > "We have set out to create a broad coalition that could place the Alliance government in Kuala Lumpur for a Malaysian Malaysia, not a Malay Malaysia."
 > "No easy matter, since the Ruling Alliance itself was dominated by the Tunku's UMNO."
@@ -485,7 +485,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "We set out to build a broad coalition of industry partners."
 - "Changing the company culture was no easy matter."
 
-## 76. filled with remorse / deceive (Ch.1, p.17)
+## 76. filled with remorse / deceive (Ch.1, p.17) — 2026-04-06
 
 > "I was also filled with remorse and guilt for having had to deceive the Prime Ministers of Britain, Australia, and New Zealand." — LKY
 
@@ -499,7 +499,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "He was filled with remorse for not acting sooner."
 
-## 77. preyed on me (Ch.1, p.17)
+## 77. preyed on me (Ch.1, p.17) — 2026-04-06
 
 > "All those thoughts preyed on me during the three weeks of our negotiations with Razak, the Tunku's deputy." — LKY
 
@@ -514,7 +514,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The thought of failing my team preyed on me for months."
 
-## 78. deed was done / got the better of me (Ch.1, p.17)
+## 78. deed was done / got the better of me (Ch.1, p.17) — 2026-04-06
 
 > "But once the deed was done, my feelings got the better of me." — LKY
 
@@ -529,7 +529,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Curiosity got the better of me and I opened the file."
 - "Don't let your emotions get the better of you."
 
-## 79. overawed / jubilant (Ch.1, p.17)
+## 79. overawed / jubilant (Ch.1, p.17) — 2026-04-06
 
 > "While I was thus overawed, the merchants in Singapore's Chinatown were jubilant." — LKY
 
@@ -543,7 +543,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The team was jubilant after winning the contract."
 - "She was overawed by the scale of the responsibility."
 
-## 80. carpeting / debris (Ch.1, p.17)
+## 80. carpeting / debris (Ch.1, p.17) — 2026-04-06
 
 > "carpeting the street with red paper debris." — LKY
 
@@ -557,7 +557,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Cherry blossoms were carpeting the sidewalk."
 - "The debris from the construction was cleared overnight."
 
-## 81. firecrackers / obliqueness (Ch.1, p.17)
+## 81. firecrackers / obliqueness (Ch.1, p.17) — 2026-04-06
 
 > "Reporting that people had firecrackers to mark this good day, said with typical Chinese obliqueness." — LKY
 
@@ -571,7 +571,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "He expressed his displeasure with characteristic obliqueness."
 
-## 82. Chamber of Commerce / publicly welcomed (Ch.1, p.18)
+## 82. Chamber of Commerce / publicly welcomed (Ch.1, p.18) — 2026-04-06
 
 > "The president of the Singapore Chinese Chamber of Commerce, Soon Peng Yan, publicly welcomed the news of Singapore's separation from Malaysia." — LKY
 
@@ -584,7 +584,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "The local Chamber of Commerce organized a networking event."
 
-## 83. turnover / industrial stocks (Ch.1, p.18)
+## 83. turnover / industrial stocks (Ch.1, p.18) — 2026-04-06
 
 > "By the next day, investors had decided independence was good for the economy, and there was an even larger turnover. The value of 25 out of 27 industrial stocks rose." — LKY
 
@@ -599,7 +599,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The annual turnover exceeded 500 million yen."
 - "Staff turnover has been a persistent challenge."
 
-## 84. deserted / by contrast (Ch.1, p.18)
+## 84. deserted / by contrast (Ch.1, p.18) — 2026-04-07
 
 > "In the city center, by contrast, the streets were deserted by the afternoon of 9 August." — LKY
 
@@ -613,7 +613,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The office was deserted after 6 PM on Friday."
 - "Sales surged online; in stores, by contrast, foot traffic dropped."
 
-## 85. impending / commissioner / take his instructions from (Ch.1, p.18)
+## 85. impending / commissioner / take his instructions from (Ch.1, p.18) — 2026-04-07
 
 > "The night before, I had informed John Lee Chan (the Singapore Police Commissioner) of the impending announcement and had handed him a letter from Dato' Dr. Ismail bin Dato' Abdul Rahman, the Federal Minister for Internal Security, telling him to take his instructions from the Singapore Government in the future." — LKY
 
@@ -628,7 +628,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The team prepared for the impending launch."
 - "After the restructuring, the regional offices took their instructions from the new HQ."
 
-## 86. deployed / paramilitary / Gurkhas / went on a rampage (Ch.1, p.18-19)
+## 86. deployed / paramilitary / Gurkhas / went on a rampage (Ch.1, p.18-19) — 2026-04-07
 
 > "Lee Kuan Yew had deployed his police reserve units, paramilitary Gurkhas specially trained to deal with violent rioters, just in case pro-UMNO Malay activists in Singapore went on a rampage to protest against separation." — LKY
 
@@ -644,7 +644,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "We deployed additional engineers to handle the migration."
 - "The fans went on a rampage after the controversial call."
 
-## 87. suitably informal / equivocal (Ch.1, p.19)
+## 87. suitably informal / equivocal (Ch.1, p.19) — 2026-04-07
 
 > "It was a suitably informal welcome, for with independence my relations with him had suddenly become equivocal." — LKY
 
@@ -659,7 +659,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "His response was equivocal — we couldn't tell if he supported the plan."
 - "She gave an unequivocal yes."
 
-## 88. on behalf of (Ch.1, p.19)
+## 88. on behalf of (Ch.1, p.19) — 2026-04-07
 
 > "I reached the porch in time to greet him as he got out of the car and asked him, 'Who are you talking on behalf of?'" — LKY
 
@@ -673,7 +673,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "I'm speaking on behalf of the entire team."
 - "The lawyer acted on behalf of the client."
 
-## 89. accredited to (Ch.1, p.19)
+## 89. accredited to (Ch.1, p.19) — 2026-04-07
 
 > "'Well, of course, you know, I am accredited to a foreign government.'" — Lord Head
 
@@ -687,7 +687,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She was accredited to the UN as the country's permanent representative."
 - "The journalist was accredited to cover the summit."
 
-## 90. specific authority (Ch.1, p.19)
+## 90. specific authority (Ch.1, p.19) — 2026-04-07
 
 > "'Exactly. And have you got specific authority to speak to me about Singapore's relation with Britain?'" — LKY
 
@@ -701,7 +701,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "Do you have specific authority to approve this deal?"
 
-## 91. tête-à-tête / chit-chat (Ch.1, p.19)
+## 91. tête-à-tête / chit-chat (Ch.1, p.19) — 2026-04-07
 
 > "'Then this is the tête-à-tête; it is just a chit-chat.'" — LKY
 
@@ -715,7 +715,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Let's have a tête-à-tête before the board meeting."
 - "It was just chit-chat — nothing was decided."
 
-## 92. foreign correspondents / give the impression / adversaries (Ch.1, p.19)
+## 92. foreign correspondents / give the impression / adversaries (Ch.1, p.19) — 2026-04-07
 
 > "When describing this meeting to a group of British and Australian foreign correspondents last month, I tried to give the impression of an encounter between two adversaries." — LKY
 
@@ -730,7 +730,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She tried to give the impression that everything was under control."
 - "Rivals in business, but not personal adversaries."
 
-## 93. had a heavy head / bearing (Ch.1, p.19)
+## 93. had a heavy head / bearing (Ch.1, p.19) — 2026-04-07
 
 > "In truth, I had a heavy head throughout. His bearing impressed me." — LKY
 
@@ -745,7 +745,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She carried herself with a dignified bearing."
 - "His military bearing was evident even in civilian clothes."
 
-## 94. demeanor / Sandhurst / Life Guards (Ch.1, p.19)
+## 94. demeanor / Sandhurst / Life Guards (Ch.1, p.19) — 2026-04-07
 
 > "His demeanor was that of a Sandhurst-trained officer in the Life Guards." — LKY
 
@@ -760,7 +760,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "His calm demeanor put everyone at ease."
 - "Despite the pressure, she maintained a professional demeanor."
 
-## 95. resigned / debacle (Ch.1, p.20)
+## 95. resigned / debacle (Ch.1, p.20) — 2026-04-08
 
 > "and had resigned, along with Anthony Eden, accepting responsibility for the debacle." — LKY
 
@@ -775,7 +775,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The CEO resigned after the product debacle."
 - "The project turned into a complete debacle."
 
-## 96. upper-class / stiff upper lip (Ch.1, p.20)
+## 96. upper-class / stiff upper lip (Ch.1, p.20) — 2026-04-08
 
 > "He was British upper-class, good at the stiff upper lip." — LKY
 
@@ -789,7 +789,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Keep a stiff upper lip — don't let them see you're worried."
 - "Despite the loss, she maintained a stiff upper lip."
 
-## 97. done his utmost / adopt policies / build up unity (Ch.1, p.20)
+## 97. done his utmost / adopt policies / build up unity (Ch.1, p.20) — 2026-04-08
 
 > "He had done his utmost to get the Tunku and the federal government to adopt policies that could build up unity within Malaysia." — LKY
 
@@ -803,7 +803,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "We did our utmost to meet the deadline."
 - "The board adopted a new policy on remote work."
 
-## 98. unstinting / constitutional solution / dispute (Ch.1, p.20)
+## 98. unstinting / constitutional solution / dispute (Ch.1, p.20) — 2026-04-08
 
 > "Harold Wilson has given me unstinting support for a constitutional solution to the dispute between Kuala Lumpur and Singapore." — LKY
 
@@ -817,7 +817,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She gave unstinting support to the project from day one."
 - "His unstinting generosity helped fund the entire program."
 
-## 99. insisted / force (Ch.1, p.20)
+## 99. insisted / force (Ch.1, p.20) — 2026-04-08
 
 > "They had insisted successfully that force should not be used." — LKY
 
@@ -830,7 +830,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She insisted that the meeting be rescheduled."
 - "The resolution states that force should not be used to resolve territorial disputes."
 
-## 100. despite / prevail / communalism (Ch.1, p.20)
+## 100. despite / prevail / communalism (Ch.1, p.20) — 2026-04-08
 
 > "But despite the presence of some 63,000 British servicemen, two aircraft carriers, 80 warships, and 20 squadrons of aircraft in Southeast Asia to defend the Federation, he could not prevail against the force of Malay communalism." — LKY
 
@@ -845,7 +845,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Despite all our efforts, we could not prevail."
 - "Justice will prevail in the end."
 
-## 101. crux (Ch.1, p.20)
+## 101. crux (Ch.1, p.20) — 2026-04-08
 
 > "That was the crux of the matter." — LKY
 
@@ -858,7 +858,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The crux of the problem is funding, not talent."
 - "Let's get to the crux of the matter."
 
-## 102. recall / friction / rivalry (Ch.1, p.20)
+## 102. recall / friction / rivalry (Ch.1, p.20) — 2026-04-08
 
 > "I could also recall incidents of friction and rivalry between Malays and non-Malays from my past, especially during my student days at Raffles College in 1940 and 1941." — LKY
 
@@ -872,7 +872,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "I can recall the exact moment I heard the news."
 - "There's always some friction between sales and engineering."
 
-## 103. gone down with / shingles / breaking point (Ch.1, p.20)
+## 103. gone down with / shingles / breaking point (Ch.1, p.20) — 2026-04-08
 
 > "I read that the Tunku had gone down with shingles in London. I suspected he was reaching breaking point." — LKY
 
@@ -886,7 +886,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Half the office has gone down with the flu."
 - "After months of overtime, she was reaching breaking point."
 
-## 104. controlled / restrained / exchanges (Ch.1, p.20)
+## 104. controlled / restrained / exchanges (Ch.1, p.20) — 2026-04-08
 
 > "Head and I were both controlled and restrained in our exchanges." — LKY
 
@@ -901,7 +901,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The diplomat was restrained in his criticism."
 - "We had some frank exchanges at the meeting."
 
-## 105. amalgamate / in charge of (Ch.1, p.21)
+## 105. amalgamate / in charge of (Ch.1, p.21) — 2026-04-09
 
 > "I decided to amalgamate the Ministry of Foreign Affairs with the new Ministry of Defense, which he's in charge of." — LKY
 
@@ -916,7 +916,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The company amalgamated its sales and marketing teams."
 - "Who's in charge of this project?"
 
-## 106. in a daze / adjusted to / realities / imponderables (Ch.1, p.21)
+## 106. in a daze / adjusted to / realities / imponderables (Ch.1, p.21) — 2026-04-09
 
 > "We are in a daze, not yet adjusted to the new realities and fearful of the imponderables ahead." — LKY
 
@@ -933,7 +933,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "It takes time to adjust to a new environment."
 - "There are too many imponderables to make a reliable forecast."
 
-## 107. bleak (Ch.1, p.21)
+## 107. bleak (Ch.1, p.21) — 2026-04-09
 
 > "We faced a bleak future." — LKY
 
@@ -947,7 +947,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Without funding, the project faces a bleak future."
 - "The village looked bleak in the winter rain."
 
-## 108. causeway / Straits / governed as one territory (Ch.1, p.21)
+## 108. causeway / Straits / governed as one territory (Ch.1, p.21) — 2026-04-09
 
 > "Singapore and Malaysia, joined by a causeway across the Straits of Johor, had always been governed as one territory by the British." — LKY
 
@@ -963,7 +963,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Ships pass through the straits every day."
 - "The two regions were governed as a single entity for over a century."
 
-## 109. administrative / commercial hub (Ch.1, p.21)
+## 109. administrative / commercial hub (Ch.1, p.21) — 2026-04-09
 
 > "which has Singapore as its administrative and commercial hub." — LKY
 
@@ -978,7 +978,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Singapore became a major commercial hub in Southeast Asia."
 - "The city serves as a hub for international trade."
 
-## 110. on our own / out to teach us a lesson / complying with / fitting into (Ch.1, p.21)
+## 110. on our own / out to teach us a lesson / complying with / fitting into (Ch.1, p.21) — 2026-04-09
 
 > "Now we are on our own, and the Malaysian government was out to teach us a lesson for being difficult and for not complying with their norms and practices and fitting into their setup." — LKY
 
@@ -997,7 +997,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "All employees must comply with company policies."
 - "He never quite fit into the corporate setup."
 
-## 111. cut us off / outlet / provider (Ch.1, p.21)
+## 111. cut us off / outlet / provider (Ch.1, p.21) — 2026-04-09
 
 > "We could expect them to cut us off from our role as their traditional outlet for imports and exports, and as the provider of many other services." — LKY
 
@@ -1013,7 +1013,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The port served as the main outlet for the region's goods."
 - "We are the leading provider of cloud services in the region."
 
-## 112. vividly / reservoirs / demoralizing / defenders (Ch.1, p.21)
+## 112. vividly / reservoirs / demoralizing / defenders (Ch.1, p.21) — 2026-04-09
 
 > "I remember vividly how in early February 1942, the Japanese army had captured our reservoirs there, demoralizing the British defenders by that act, even though there was still some water in the reservoirs in Singapore." — LKY
 
@@ -1029,7 +1029,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The city's reservoirs were running dangerously low."
 - "The series of defeats was demoralizing for the entire team."
 
-## 113. born independent (Ch.1, p.21)
+## 113. born independent (Ch.1, p.21) — 2026-04-09
 
 > "Some countries are born independent." — LKY
 
@@ -1041,7 +1041,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Some people are born leaders."
 - "She was born free and intended to stay that way."
 
-## 114. thrust upon (Ch.1, p.21)
+## 114. thrust upon (Ch.1, p.21) — 2026-04-09
 
 > "Singapore had independence thrust upon it." — LKY
 
@@ -1054,7 +1054,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "He had the responsibility thrust upon him without warning."
 - "Leadership was thrust upon her when the CEO resigned."
 
-## 115. colonies / colorful ceremonies / formalize / sovereign power / indigenous (Ch.1, p.21)
+## 115. colonies / colorful ceremonies / formalize / sovereign power / indigenous (Ch.1, p.21) — 2026-04-09
 
 > "Some forty-five British colonies had held colorful ceremonies to formalize and celebrate the transfer of sovereign power from Imperial Britain to their indigenous government." — LKY
 
@@ -1073,7 +1073,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The transfer of power was peaceful and orderly."
 - "The indigenous population welcomed self-governance."
 
-## 116. referendum / electorate / in favor of / merger (Ch.1, p.21)
+## 116. referendum / electorate / in favor of / merger (Ch.1, p.21) — 2026-04-09
 
 > "In a referendum less than three years ago, we had persuaded 70% of the electorate to vote in favor of merger with Malaya." — LKY
 
@@ -1090,7 +1090,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Nearly half the electorate abstained from voting."
 - "The board voted in favor of the merger."
 
-## 117. part and parcel / Federation (Ch.1, p.21)
+## 117. part and parcel / Federation (Ch.1, p.21) — 2026-04-09
 
 > "Since then, Singapore's need to be part and parcel of the Federation in one political, economic, and social policy had not changed." — LKY
 
@@ -1105,7 +1105,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Criticism is part and parcel of public life."
 - "Debugging is part and parcel of software development."
 
-## 118. nothing had changed — except (Ch.1, p.22)
+## 118. nothing had changed — except (Ch.1, p.22) — 2026-04-10
 
 > "Nothing had changed — except that we were out." — LKY
 
@@ -1115,7 +1115,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - **except that** = 〜を除いて。ダッシュで区切り、except 以降に衝撃を集中させる
 - **we were out** = 追い出された。極めてシンプルな3語で国家追放を表現。cast out (#48) を口語的に言い換えている
 
-## 119. viable (Ch.1, p.22)
+## 119. viable (Ch.1, p.22) — 2026-04-10
 
 > "We had said that an independent Singapore was simply not viable." — LKY
 
@@ -1131,7 +1131,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The project is not financially viable."
 - "Is this a viable alternative?"
 
-## 120. unenviable task / make it work (Ch.1, p.22)
+## 120. unenviable task / make it work (Ch.1, p.22) — 2026-04-10
 
 > "Now it was our unenviable task to make it work." — LKY
 
@@ -1145,7 +1145,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "She faced the unenviable task of laying off half the team."
 - "He was in the unenviable position of having to choose between them."
 
-## 121. polyglot / collection of migrants (Ch.1, p.22)
+## 121. polyglot / collection of migrants (Ch.1, p.22) — 2026-04-10
 
 > "How were we to create a nation out of a polyglot collection of migrants from China, India, Malaysia, Indonesia and several other parts of Asia?" — LKY
 
@@ -1159,7 +1159,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Singapore is a polyglot society with four official languages."
 - "She's a true polyglot — fluent in six languages."
 
-## 122. at low tide (Ch.1, p.22)
+## 122. at low tide (Ch.1, p.22) — 2026-04-10
 
 > "Singapore was a small island of 214 square miles at low tide." — LKY
 
@@ -1172,7 +1172,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The beach extends for miles at low tide."
 - "The tide is coming in — we should move."
 
-## 123. thrived / a heart without a body (Ch.1, p.22)
+## 123. thrived / a heart without a body (Ch.1, p.22) — 2026-04-10
 
 > "It had thrived because it was the heart of the British Empire in Southeast Asia; with separation, it became a heart without a body." — LKY
 
@@ -1186,7 +1186,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The company thrived under her leadership."
 - "Small businesses thrive in this ecosystem."
 
-## 124. archipelago / inhabited (Ch.1, p.22)
+## 124. archipelago / inhabited (Ch.1, p.22) — 2026-04-10
 
 > "Seventy-five per cent of our population of two million were Chinese, a tiny minority in an archipelago of 30,000 islands inhabited by more than 100 million Malay or Indonesian Muslims." — LKY
 
@@ -1200,7 +1200,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Japan is an archipelago of over 6,000 islands."
 - "The island has been inhabited for thousands of years."
 
-## 125. hostility (Ch.1, p.23)
+## 125. hostility (Ch.1, p.23) — 2026-04-10
 
 > "There was no doubt about the hostility." — LKY
 
@@ -1214,7 +1214,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "There was open hostility between the two departments."
 - "He made no attempt to hide his hostility."
 
-## 126. mounted / Confrontation / commandos / infiltrating / incursions / paratroops (Ch.1, p.23)
+## 126. mounted / Confrontation / commandos / infiltrating / incursions / paratroops (Ch.1, p.23) — 2026-04-10
 
 > "To add to our problems, the Indonesians had mounted their aggressive 'Confrontation' against Malaysia when it came into being in September 1963, a low-level war that included an economic boycott, acts of terrorism with commandos infiltrating Singapore to explode bombs and military incursions involving the dropping of paratroops in Johor." — LKY
 
@@ -1233,7 +1233,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Competitors are infiltrating our market."
 - "The incursion into our territory was brief but alarming."
 
-## 127. entrepot trade / dissolved (Ch.1, p.23)
+## 127. entrepot trade / dissolved (Ch.1, p.23) — 2026-04-10
 
 > "Meanwhile, not only did the entrepot trade on which Singapore had depended ever since it was founded in 1819 face a doubtful future, but our strategic value to Britain in holding the empire together was vanishing as the empire dissolved." — LKY
 
@@ -1249,7 +1249,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "Hong Kong was also an entrepot for trade with China."
 - "The partnership dissolved after years of disagreement."
 
-## 128. catered to (Ch.1, p.23)
+## 128. catered to (Ch.1, p.23) — 2026-04-10
 
 > "British defence spending in Singapore accounted for about 20 per cent of our GDP; their military gave employment, directly to 30,000 workers, and indirectly to another 10,000 domestic help, besides those who catered to their other needs." — LKY
 
@@ -1262,7 +1262,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The hotel caters to business travelers."
 - "We cater to a wide range of client needs."
 
-## 129. disturbances (Ch.1, p.23)
+## 129. disturbances (Ch.1, p.23) — 2026-04-10
 
 > "But for the moment, I was grateful and relieved that we had got through the day without disturbances." — LKY
 
@@ -1274,7 +1274,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "The police were deployed to prevent any disturbances."
 - "Sorry for the disturbance."
 
-## 130. disturbed / subconscious / wrestled with (Ch.1, p.24)
+## 130. disturbed / subconscious / wrestled with (Ch.1, p.24) — 2026-04-10
 
 > "It was not until two or three in the morning that I finally dropped off exhausted, still disturbed from time to time as my subconscious wrestled with our problems." — LKY
 
@@ -1289,7 +1289,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 - "I wrestled with the decision for weeks."
 - "Her subconscious was still processing the news."
 
-## 131. sorry pass (Ch.1, p.24)
+## 131. sorry pass (Ch.1, p.24) — 2026-04-10
 
 > "Why had we come to this sorry pass?" — LKY
 
@@ -1301,7 +1301,7 @@ Book: The Singapore Story (Lee Kuan Yew)
 **使用例:**
 - "Things have come to a sorry pass when we can't even agree on basics."
 
-## 132. what did the future hold (Ch.1, p.24)
+## 132. what did the future hold (Ch.1, p.24) — 2026-04-10
 
 > "What did the future hold for Singapore?" — LKY
 

@@ -2,7 +2,7 @@
 
 ## Praise / Endorsements
 
-## 1. ablest
+## 1. ablest — 2026-04-04
 
 > "the ablest man I have ever met" — LKY on George H.W. Bush
 
@@ -14,7 +14,7 @@
 **使用例:**
 - "He is one of the ablest entrepreneurs I've ever met."
 
-## 2. penetrating the fog of propaganda
+## 2. penetrating the fog of propaganda — 2026-04-04
 
 > "He had a way of penetrating the fog of propaganda and expressing with unique clarity the issues of our times and the way to tackle them." — Margaret Thatcher on LKY
 
@@ -29,7 +29,7 @@
 **使用例:**
 - "She has a way of penetrating the fog of complexity and expressing the core issue with clarity."
 
-## 3. seminal figure
+## 3. seminal figure — 2026-04-04
 
 > "Lee is one of the seminal figures of Asia." — Henry Kissinger on LKY
 
@@ -42,7 +42,7 @@
 - "This was a seminal moment in our company's history."
 - "a seminal book"（その分野の方向を決定づけた本）
 
-## 4. candid, informed, forceful, brilliant / sought out
+## 4. candid, informed, forceful, brilliant / sought out — 2026-04-04
 
 > "Candid, informed, forceful, brilliant: these attributes explain why leaders throughout the world have sought out Lee Kuan Yew — and the words apply to his great memoir." — George P. Shultz on LKY
 
@@ -58,7 +58,7 @@
 **使用例:**
 - "These attributes explain why so many partners have sought out Sonoligo."
 
-## 5. intricate
+## 5. intricate — 2026-04-04
 
 > "how to analyse intricate problems" — George P. Shultz on LKY
 
@@ -69,7 +69,7 @@
 **使用例:**
 - "The intricate relationship between local governments and corporate sponsors is what makes our model work."
 
-## 6. strike me as / the normal run of / post hoc justifications
+## 6. strike me as / the normal run of / post hoc justifications — 2026-04-04
 
 > "Your memoirs strike me as excellent stuff, far better than the normal run of autobiographies, which are usually full of post hoc justifications." — Dr Goh Keng Swee on LKY
 
@@ -82,7 +82,7 @@
 - "His presentation struck me as remarkably honest."
 - "We should avoid post hoc justifications and be candid about our mistakes."
 
-## 7. refreshing / accuse A of B / adversaries
+## 7. refreshing / accuse A of B / adversaries — 2026-04-04
 
 > "The treatment of events is refreshing. No one can accuse you of unfairness to your adversaries." — Dr Goh Keng Swee on LKY
 
@@ -94,13 +94,13 @@
 - "His approach to competitor analysis is refreshing — he acknowledges their strengths."
 - "No one can accuse her of cutting corners."
 
-## 8. counsellor
+## 8. counsellor — 2026-04-04
 
 - **counsellor** = 助言者、顧問。信頼関係が深く、個人的に相談を受ける存在
 - advisor より信頼関係の深さがある
 - counsellor（英）/ counselor（米）。シンガポールはイギリス英語
 
-## 9. resoluteness / powerhouse / extends far beyond
+## 9. resoluteness / powerhouse / extends far beyond — 2026-04-04
 
 > "His resoluteness, energy, and vision have left a deep impression on Singapore, making it a political and economic powerhouse whose influence extends far beyond its own region." — Helmut Kohl on LKY
 
@@ -112,7 +112,7 @@
 - "Her resoluteness in building the company from zero is what I admire most."
 - "Sonoligo is becoming a cultural powerhouse whose influence extends far beyond Nagoya."
 
-## 10. challenging thinker / of moment / steer our course
+## 10. challenging thinker / of moment / steer our course — 2026-04-04
 
 > "Lee Kuan Yew is not only a remarkable political figure, but a challenging thinker. He has much of moment to say to us as we steer our course into the future." — Helmut Kohl on LKY
 
@@ -124,7 +124,7 @@
 - "This is a matter of great moment for our company's future."
 - "We need to steer our course carefully as we expand overseas."
 
-## 11. grasp / fabric / profited from
+## 11. grasp / fabric / profited from — 2026-04-04
 
 > "Lee Kuan Yew is fascinating due to his grasp of the world's political and economic fabric. Many American and European readers have profited from his wisdom, particularly by his evaluation of China as a world power and by his analysis and explanation of Asian values." — Helmut Schmidt on LKY
 
@@ -136,7 +136,7 @@
 - "He has a deep grasp of the social fabric of rural Japan."
 - "We have profited greatly from his advice."
 
-## 12. threshold of subsistence / no common achievement
+## 12. threshold of subsistence / no common achievement — 2026-04-04
 
 > "For a country to rise from the threshold of subsistence to one of the highest living standards in the world in 30 years is no common achievement." — Jacques Chirac on LKY/Singapore
 
@@ -171,7 +171,7 @@
 
 ビジネスで使いやすいのは threshold と cusp
 
-## 13. exacting / primacy / cult of / foresee / shortcuts to progress
+## 13. exacting / primacy / cult of / foresee / shortcuts to progress — 2026-04-04
 
 > "Mr. Lee has gathered around himself the most brilliant minds, transforming the most exacting standards into a system of government. Under his leadership, the primacy of the general interest, the cult of education, work, and saving, and the capability to foresee the needs of the city has enabled Singapore to take what I call shortcuts to progress." — Jacques Chirac on LKY
 
@@ -187,7 +187,7 @@
 - "We maintain exacting standards for our partner selection."
 - "The primacy of user experience guides all our decisions."
 
-## 14. singular / gain deep insight into
+## 14. singular / gain deep insight into — 2026-04-04
 
 > "The reader will gain deep insight into the highly singular character of Singapore." — Jacques Chirac on LKY/Singapore
 
@@ -198,7 +198,7 @@
 **使用例:**
 - "Sonoligo has a highly singular business model — no competitor has replicated it."
 
-## 15. pivotal
+## 15. pivotal — 2026-04-04
 
 > "Senior Minister Lee Kuan Yew is one of the pivotal figures in the modern history of Southeast Asia." — Prem Tinsulanonda on LKY
 
@@ -209,7 +209,7 @@
 **使用例:**
 - "The partnership with Nagoya city was a pivotal moment for Sonoligo."
 
-## 16. shaped the course of / enlighten / seminal work / account
+## 16. shaped the course of / enlighten / seminal work / account — 2026-04-04
 
 > "His actions have shaped the course of events in this region. His vision and ideas continue to enlighten international debate and influence policymakers worldwide. This seminal work is an individual account of the history of Singapore and the region." — Prem Tinsulanonda on LKY
 
@@ -222,7 +222,7 @@
 - "Her decisions shaped the course of the company's growth."
 - "This report will enlighten our understanding of the market."
 
-## 17. single-handedly
+## 17. single-handedly — 2026-04-04
 
 > "This is the personal history of a man who almost single-handedly built a great nation from a small island." — Kiichi Miyazawa on LKY
 
@@ -239,7 +239,7 @@
 - "She almost single-handedly transformed the department's culture."
 - "He single-handedly built the sales pipeline from zero."
 
-## 18. astute observer
+## 18. astute observer — 2026-04-04
 
 > "Mr. Lee has also been a great friend and often an astute observer of Japan." — Kiichi Miyazawa on LKY
 
@@ -261,7 +261,7 @@
 - "She is an astute negotiator who always finds the right leverage."
 - "He's an astute businessman."
 
-## 19. present images vs future portrait / penetrating eyes
+## 19. present images vs future portrait / penetrating eyes — 2026-04-04
 
 > "Japanese readers will learn in this book not only about their present images, but also about their future portrait as seen through the penetrating eyes of this great political leader." — Kiichi Miyazawa on LKY
 
@@ -276,7 +276,7 @@
 **使用例:**
 - "Through his penetrating analysis, we could see not just our current challenges, but our future direction."
 
-## 20. immensely
+## 20. immensely — 2026-04-04
 
 > "I'm sure everyone who reads them will enjoy them immensely." — Tony Blair on LKY
 
@@ -298,7 +298,7 @@
 - "We have benefited immensely from this partnership."
 - "I'm immensely grateful for your support."
 
-## 21. commands an attentive audience
+## 21. commands an attentive audience — 2026-04-04
 
 > "He always commands an attentive audience among Western leaders." — James Callaghan on LKY
 
@@ -312,7 +312,7 @@
 - "His presentations always command an attentive audience."
 - "Sonoligo's track record commands respect from potential partners."
 
-## 22. graced the cabinet room
+## 22. graced the cabinet room — 2026-04-04
 
 > "He was fortunate in being supported by a group of ministers of extraordinary ability who would have graced the cabinet room of any major country." — Malcolm Fraser on LKY
 
@@ -327,7 +327,7 @@
 - "She would have graced the boardroom of any Fortune 500 company."
 - "We are fortunate in being supported by partners of extraordinary commitment."
 
-## 23. breadth
+## 23. breadth — 2026-04-04
 
 > "By breadth of its coverage." — Edward Heath on LKY
 
@@ -340,7 +340,7 @@
 - "The breadth of his network across Asia is remarkable."
 - "What impressed me was the breadth and depth of their research."
 
-## 24. equally so
+## 24. equally so — 2026-04-04
 
 > "Equally so, is his account of his first contact with China." — Edward Heath on LKY
 
@@ -352,7 +352,7 @@
 **使用例:**
 - "His sales strategy is impressive. Equally so, is his ability to retain clients."
 
-## 25. trading post / thriving
+## 25. trading post / thriving — 2026-04-04
 
 > "His vision, astute political judgment, and strategy turned Singapore from a trading post into the successful, thriving nation that it is today." — Tun Daim Zainuddin on LKY
 
@@ -366,7 +366,7 @@
 - "We want to turn Sonoligo from a regional platform into a thriving national network."
 - "The local economy is thriving thanks to new investment."
 
-## 26. pragmatism / unique edge / a mine of wisdom / quarry
+## 26. pragmatism / unique edge / a mine of wisdom / quarry — 2026-04-04
 
 > "Combining what is best in the Chinese and British traditions, his penetrating intellect gives political pragmatism a unique edge which has made the city-state of Singapore a model far beyond Asia. The memoirs provide a mine of wisdom and information which politicians should be wise to quarry." — Denis Healey on LKY
 
@@ -382,7 +382,7 @@
 - "This report is a mine of insights that every team member should quarry."
 - "We value pragmatism over ideology."
 
-## 27. rump of empire / geopolitical pivot
+## 27. rump of empire / geopolitical pivot — 2026-04-04
 
 > "He returned to it when it was a rump of empire. He and it are now a critical geopolitical pivot." — David Lange on LKY
 
@@ -395,7 +395,7 @@
 **使用例:**
 - "When I joined, the company was a rump of its former self. Now it's a market leader."
 
-## 28. yield to / in his own image / revered / despised
+## 28. yield to / in his own image / revered / despised — 2026-04-04
 
 > "To yield to objectivity rather than populism; to create a nation in his own image, and having done so, to be revered rather than despised." — David Lange on LKY
 
@@ -410,7 +410,7 @@
 - "A leader who yields to objectivity over short-term popularity earns lasting respect."
 - "She is revered by her team, not despite her high standards, but because of them."
 
-## 29. every bit as / astringent / opinionated / distinguished
+## 29. every bit as / astringent / opinionated / distinguished — 2026-04-04
 
 > "This is a work every bit as insightful, astringent, opinionated, and intelligent as we would have hoped for from its distinguished author." — Paul Keating on LKY
 
@@ -425,7 +425,7 @@
 - "He is every bit as capable as his reputation suggests."
 - "Our distinguished guest needs no introduction."
 
-## 30. proponents / those in disagreement
+## 30. proponents / those in disagreement — 2026-04-04
 
 > "Great reading for both proponents and those in disagreement." — Gerald R. Ford on LKY
 
@@ -436,7 +436,7 @@
 **使用例:**
 - "This proposal will satisfy both proponents and skeptics."
 
-## 31. replete / sagacity / unfolding
+## 31. replete / sagacity / unfolding — 2026-04-04
 
 > "His memoirs, replete with examples of his sagacity and wisdom, are a critical component of the unfolding history of this unique and important nation." — James A. Baker III on LKY
 
@@ -449,7 +449,7 @@
 - "The proposal is replete with innovative ideas."
 - "Her sagacity in navigating the crisis saved the company."
 
-## 32. turbulent / chronicled / trenchant / hallmark / explosive
+## 32. turbulent / chronicled / trenchant / hallmark / explosive — 2026-04-04
 
 > "History of a turbulent half-century in Asia are chronicled in the trenchant style, which is his hallmark, and many of his judgments will be controversial, even explosive." — Charles Powell on LKY
 
@@ -467,7 +467,7 @@
 
 ## Preface (pp.8-9)
 
-## 33. troubled / apparent / overconfidence (Preface, p.8)
+## 33. troubled / apparent / overconfidence (Preface, p.8) — 2026-04-04
 
 > "I was also troubled by the apparent overconfidence of a generation that has only known stability, growth, and prosperity." — LKY
 
@@ -480,7 +480,7 @@
 **使用例:**
 - "I'm troubled by the apparent complacency in our team."
 
-## 34. vulnerable / beset / nearly did not make it (Preface, p.8)
+## 34. vulnerable / beset / nearly did not make it (Preface, p.8) — 2026-04-04
 
 > "I thought our people should understand how vulnerable Singapore was, the dangers that beset us, and how we nearly did not make it." — LKY
 
@@ -493,7 +493,7 @@
 - "Startups are vulnerable in their first two years."
 - "We were beset by supply chain disruptions on every front."
 
-## 35. placid / insurrection / communal riot / intimidation / perils (Preface, p.8)
+## 35. placid / insurrection / communal riot / intimidation / perils (Preface, p.8) — 2026-04-04
 
 > "It is the story of the Singapore I grew up in: the placid years of British colonial rule, the shock of war, the cruel years of Japanese occupation, communist insurrection, and terrorism against the returning British, communal riot, and intimidation during Malaysia and the perils of independence." — LKY
 
@@ -509,7 +509,7 @@
 - "The placid surface of the market hid deep structural risks."
 - "The company faced the perils of rapid expansion."
 
-## 36. hinterland / cut off / nationalistic new states (Preface, p.8)
+## 36. hinterland / cut off / nationalistic new states (Preface, p.8) — 2026-04-04
 
 > "Many not born or too young when I took office in 1959 do not know how a small country with no natural resources was cut off from its national hinterland and had to survive in a tough world of nationalistic new states in Southeast Asia." — LKY
 
@@ -522,7 +522,7 @@
 - "When we lost our largest client, we were effectively cut off from our hinterland."
 - "Startups with no natural advantages have to survive on pure execution."
 
-## 37. revive / long forgotten (Preface, p.8)
+## 37. revive / long forgotten (Preface, p.8) — 2026-04-04
 
 > "To write this book, I had to revive memories of events long forgotten." — LKY
 
@@ -535,7 +535,7 @@
 - "The project revived memories of our early struggles."
 - "This tradition, long forgotten, deserves to be revived."
 
-## 38. conveyancing / by profession (Preface, p.9)
+## 38. conveyancing / by profession (Preface, p.9) — 2026-04-04
 
 > "She is a conveyancing lawyer by profession." — LKY（妻クア・ゲオクチューについて）
 
@@ -545,7 +545,7 @@
 **使用例:**
 - "He is an engineer by profession, but his passion is music."
 
-## 39. drafting / conveyance / scrutinized (Preface, p.9)
+## 39. drafting / conveyance / scrutinized (Preface, p.9) — 2026-04-04
 
 > "I was not drafting a will or a conveyance to be scrutinized by a judge." — LKY
 
@@ -558,7 +558,7 @@
 **使用例:**
 - "The proposal will be scrutinized by the board before approval."
 
-## 40. ample / fulfilling (Preface, p.9)
+## 40. ample / fulfilling (Preface, p.9) — 2026-04-04
 
 > "A Singapore that would offer all citizens equal and ample opportunities for a fulfilling future." — LKY
 
@@ -571,7 +571,7 @@
 - "We provide ample resources for employee development."
 - "She left a high-paying job for a more fulfilling career."
 
-## 41. spurred us on / against all odds (Preface, p.9)
+## 41. spurred us on / against all odds (Preface, p.9) — 2026-04-04
 
 > "It was just life in an immigrant Asian society that spurred us on to fight and win against all odds." — LKY
 
