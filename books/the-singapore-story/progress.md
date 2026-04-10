@@ -7,10 +7,9 @@
 
 ## Reading Progress
 - **Current Chapter:** Chapter 2: Growing Up
-- **Current Page:** p.25
-- **Last sentence read:** "My father had a violent temper, but that evening his rage went through the roof."
-- **Next sentence:** "He took me by the scruff of the neck from the house to this well and held me over it."
-- **Last note entry:** #135
+- **Current Page:** p.27
+- **Next sentence:** "He himself told me he worked as a dispenser (an unqualified pharmacist) when he left school, but after a few years became a purser on board a steamer plying between Singapore and the Dutch East Indies."
+- **Last note entry:** #144
 - **Last session:** 2026-04-10
 
 ## Text Transcribed
@@ -27,7 +26,7 @@
 |---------|---------|--------|
 | Front Matter (Praise + Preface) | #1-41 | Done |
 | Chapter 1 | #42-132 | Done |
-| Chapter 2 | #133-135 | In progress |
+| Chapter 2 | #133-144 | In progress |
 
 ## Workflow
 1. スマホで見開き撮影 → Macに同期 → Claude Codeでテキスト化 → `text/` に保存
