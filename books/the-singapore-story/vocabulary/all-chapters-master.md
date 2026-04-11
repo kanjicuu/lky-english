@@ -4,6 +4,15 @@
 
 | 単語 | 登場章 | 重要度 | 意味 |
 |------|--------|--------|------|
+| **separation** | Ch.1 | ★★★ | 分離。シンガポールのマレーシアからの分離 |
+| **sovereignty** | Ch.1 | ★★★ | 主権。*sovereign state* = 主権国家 |
+| **proclamation** | Ch.1 | ★★★ | 宣言・布告 |
+| **federation** | Ch.1 | ★★★ | 連邦。*Federation of Malaysia* |
+| **communal** | Ch.1 | ★★★ | 民族・宗教集団間の。*communal conflict* |
+| **merger** | Ch.1 | ★★ | 合併・統合 |
+| **hegemony** | Ch.1 | ★★ | 覇権・支配権 |
+| **euphemism** | Ch.1 | ★★ | 婉曲表現 |
+| **viability** | Ch.1 | ★★ | 存続可能性 |
 | **fortunes** | Ch.2 | ★★★ | 運命の浮き沈み・財産。*fortunes rose/declined* |
 | **scholarship** | Ch.2 | ★★★ | 奨学金。社会階層上昇の鍵 |
 | **merit** | Ch.2 | ★★★ | 実力。LKYが生涯掲げた能力主義の根幹概念 |
