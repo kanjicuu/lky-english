@@ -625,3 +625,50 @@ Book: The Singapore Story (Lee Kuan Yew)
 
 - **arts students** = 文科系の学生。*arts*（文系科目）。対義語は *science students*（理系）
 - **command** = 熟達度、運用能力。*command of the language* = 言語を使いこなす能力。「言語を支配するほど使いこなせる」イメージ
+
+## 194. ragging / hazing / preceded / conspicuous / picked on / crawl / quadrangle / maturity / endured (Ch.2, p.40) — 2026-04-11
+
+> "Ragging or hazing was then part of the initiation of freshmen and went on for a whole term. Being the top student, my reputation had preceded me, and I suppose as I was also one of the taller and more conspicuous freshmen, some seniors picked on me. I had to crawl around the quadrangle pushing a marble forward on the ground with my nose... joining an institution that lacked maturity... I strongly disapproved of those who took it out on freshmen for what they had endured when they themselves were 'freshies'." — LKY
+
+**訳:** ラギング（新入生いじめ）が入学の通過儀礼として1学期中続いた。首席学生として評判が先に届いており、背が高く目立つ新入生の一人だったため、上級生に目をつけられた。鼻でビー玉を転がしながら中庭を這い回らされた。成熟に欠けた組織に入る代償として耐えた。自分が「新入り」のときに受けた仕打ちを新入生にぶつける者たちを強く非難した。
+
+- **ragging / hazing** = 新入生いじめ・通過儀礼
+- **preceded** = 先に知れ渡っていた。*my reputation had preceded me* = 私が来る前に評判が届いていた
+- **conspicuous** = 目立つ
+- **picked on** = 標的にした・いじめた
+- **crawl** = 這う
+- **quadrangle** = 四角い中庭（大学のquad）
+- **maturity** = 成熟
+- **endured** = 耐えた
+
+## 195. draught / sopping / disorientation / unappetising (Ch.2, p.40) — 2026-04-11
+
+> "To be caught in a draught when I was sopping wet with sweat was a sure way for me to get coughs and colds. There was also the disorientation from having to live in strange surroundings... and to eat unappetising institutional food." — LKY
+
+**訳:** 汗でびしょ濡れのときに隙間風に当たることが、咳や風邪の確実な原因だった。見知らぬ環境での生活——19人の学生と密集して暮らし、食欲をそそらない施設の食事を食べること——からくる戸惑いもあった。
+
+- **draught** = 隙間風・冷たい風の流れ（英：*draft*）
+- **sopping wet** = びしょ濡れの。*sopping* = 完全に濡れた
+- **disorientation** = 方向感覚の喪失・戸惑い
+- **unappetising** = 食欲をそそらない・まずそうな（英：*unappetizing*）
+
+## 196. disorientation / creditably / stiff competition (Ch.2, p.40) — 2026-04-11
+
+> "But the disorientation must have affected my academic performance... I did creditably, and came in first in pure mathematics... I knew I would face stiff competition for the Queen's scholarship." — LKY
+
+**訳:** 戸惑いは学業成績に影響したはずだ。それでも学年末試験では立派な成績を収め、純粋数学で首位となった。クイーン奨学金をめぐる激しい競争が待ち受けていると分かっていた。
+
+- **disorientation** = 戸惑い・適応できない感覚（再出）
+- **creditably** = 立派に・申し分なく。*creditable*（評価に値する）の副詞形
+- **stiff competition** = 激しい競争。*stiff* = 厳しい・手強い
+
+## 197. retrospect / distinction / accustomed / indigenous (Ch.2, p.41) — 2026-04-11
+
+> "It was only in retrospect that I realised Raffles College was my initiation into the politics of race and religion. In a British colony that made no distinction between the races, Singapore Malays were accustomed to being treated the same as others... indigenous Malays were given special political and economic rights." — LKY
+
+**訳:** 今振り返って初めて気づくのだが、ラッフルズ・カレッジは人種と宗教の政治への入門だった。人種間で区別をしないイギリス植民地では、シンガポールのマレー人は同様に扱われることに慣れていた。先住マレー人には特別な政治的・経済的権利が与えられていた。
+
+- **in retrospect** = 今から振り返ってみると
+- **distinction** = 区別。*made no distinction between the races* = 人種間で区別をしなかった
+- **accustomed** = 慣れている。*accustomed to* = 〜に慣れている
+- **indigenous** = 先住の・土着の
