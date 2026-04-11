@@ -326,3 +326,302 @@ Book: The Singapore Story (Lee Kuan Yew)
 
 - **gourmet** = 美食家、グルメ。食の質にこだわり良いものをよく知っている人。フランス語由来
 - **a treat** = ご馳走、格別の喜び、特別に嬉しいこと。*What a treat!*（なんて素晴らしい！）
+
+## 163. frugal / judicious (Ch.2, p.29) — 2026-04-11
+
+> "He had grown wealthy through hard work and frugal living, saving his money for judicious investments in rubber and property." — LKY
+
+**訳:** 勤勉さと質素な暮らしで富を築き、ゴムと不動産への賢明な投資のために金を貯めた。
+
+- **frugal** = 質素な、倹約的な。無駄遣いをせず必要最低限で生きるスタイル。*frugal living* = 質素な暮らし
+- **judicious** = 賢明な、判断力のある。*judge*（判断する）が語源。感情でなく理性的な判断に基づく。*judicious investments* = 賢明な投資
+
+## 164. brought with / dowry / bathe (Ch.2, p.29) — 2026-04-11
+
+> "She even brought with her, as part of her dowry, a little slave girl whose duty, among other things, was to help bathe her, wash her feet and put on and take off her shoes." — LKY
+
+**訳:** 母は嫁入り道具の一部として、小さな女奴隷まで連れてきた。その子の役割は、とりわけ母の入浴を手伝い、足を洗い、靴の脱ぎ履きを世話することだった。
+
+- **brought with** = 持参した、連れてきた。*bring with*（〜を一緒に持ってくる・連れてくる）の過去形
+- **dowry** = 持参金、嫁入り道具。花嫁が結婚時に夫側に持参する財産・品物
+- **bathe** = 入浴させる、体を洗う。*bath*（名詞）に対して *bathe* は動詞
+
+## 165. infant / pram (Ch.2, p.29) — 2026-04-11
+
+> "But memories of better times survive in old photographs of me — an infant over-dressed in clothes imported from England, or in an expensive pram." — LKY
+
+**訳:** しかし良き時代の記憶は古い写真の中に残っている——イギリスから輸入した服を着込んだ乳幼児の私や、高価な乳母車に乗った私の写真として。
+
+- **infant** = 乳幼児、赤ちゃん。一般的に2歳以下。*baby* より書き言葉的
+- **pram** = 乳母車、ベビーカー。*perambulator* の略。イギリス英語。アメリカ英語では *stroller*
+
+## 166. mischievous / quarrelling (Ch.2, p.29) — 2026-04-11
+
+> "Ours was a large and reasonably happy household, all of us living together harmoniously but for occasional friction, mostly over mischievous and quarrelling grandchildren." — LKY
+
+**訳:** うちは大家族でまずまず幸せな世帯だった。みんな仲良く一緒に暮らしていたが、時々摩擦もあった——主にやんちゃで口げんかばかりする孫たちのせいで。
+
+- **mischievous** = やんちゃな、いたずら好きな。*mischief*（いたずら）の形容詞形。発音は「ミスチヴァス」
+- **quarrelling** = 口げんかをしている。*quarrel*（口論・言い争い）の進行形。*fight* より軽いが繰り返すニュアンス
+
+## 167. pawn (Ch.2, p.34) — 2026-04-11
+
+> "...and demand some of my mother's jewellery to pawn so that he could go back to try his luck again." — LKY
+
+**訳:** もう一度運試しに戻れるよう母の宝石を質に入れるよう要求した。
+
+- **pawn** = 質に入れる。*pawn shop*（質屋）に品物を預けてお金を借りること。チェスの「ポーン」も同じ単語だが別の意味
+
+## 168. resourcefulness / married off (Ch.2, p.34) — 2026-04-11
+
+> "A strong character with great energy and resourcefulness, she had been married off too early." — LKY
+
+**訳:** 強い性格と大きなエネルギー、そして機転の才を持ちながら、彼女はあまりにも早く嫁がされてしまった。
+
+- **resourcefulness** = 機転、臨機応変の才。*resourceful*（機転の利く）の名詞形。困難な状況でも解決策を見つけ出せる能力
+- **married off** = 嫁がせる。親が娘を結婚させる、やや強制的なニュアンス
+
+## 169. safeguard / stood up to (Ch.2, p.34) — 2026-04-11
+
+> "She devoted her life to raising her children to be well-educated and independent professionals, and she stood up to my father to safeguard their future." — LKY
+
+**訳:** 彼女は子どもたちを高い教育を受けた自立した専門家に育てることに人生を捧げ、子どもたちの将来を守るために父に立ち向かった。
+
+- **safeguard** = 守る、保護する。*safe*（安全）+ *guard*（守る）。名詞でも使う：*a safeguard against risk*
+- **stood up to** = 〜に立ち向かう、屈しない。弱い立場から強い相手に抵抗するニュアンス
+
+## 170. de facto / attap hut / compacted clay floor (Ch.2, p.34) — 2026-04-11
+
+> "...while still in my teens, I became de facto head of the family." / "...in a little wood and attap hut with a compacted clay floor." — LKY
+
+**訳①:** 十代のうちに私は事実上の一家の長となった。
+**訳②:** その学校は固く踏み固められた土の床を持つ小さな木造アタップ小屋だった。
+
+- **de facto** = 事実上の、実質的な。ラテン語「事実から」。法的権限はないが実態としてそうなっている状態。対義語：*de jure*（法律上の）
+- **attap hut** = アタップ（ニッパヤシの葉）で葺いた小屋。東南アジアの伝統的な屋根材
+- **compacted clay floor** = 固く踏み固められた土の床。*compacted*（圧縮された）+ *clay*（粘土質の土）
+
+## 171. scrawny / recite (Ch.2, p.34) — 2026-04-11
+
+> "...our scrawny middle-aged Chinese teacher. He made us recite words after him without any comprehension of their meaning." — LKY
+
+**訳:** ひょろひょろとした中年の中国人教師。先生は意味をまったく理解させないまま、自分の後について言葉を繰り返させた。
+
+- **scrawny** = ひょろひょろした、やせ細った。不健康にやせているイメージ。*skinny* に近いが否定的ニュアンスが強い
+- **recite** = 暗唱する、声に出して繰り返す。*recitation*（暗唱）が名詞形
+
+## 172. bitterly / representations (Ch.2, p.35) — 2026-04-11
+
+> "I complained bitterly to my mother, and she made representations to my grandmother." — LKY
+
+**訳:** 私は激しく母に不満を訴え、母は祖母に申し入れをした。
+
+- **bitterly** = 激しく、苦々しく。*bitter*（苦い・つらい）の副詞形。*complain bitterly* = 激しく不満を訴える
+- **representations** = 申し入れ、抗議、陳情。*make representations to someone* = 〜に正式に申し入れる。外交用語でも使う
+
+## 173. pidgin / adulterated / smattering (Ch.2, p.35) — 2026-04-11
+
+> "At home I spoke English to my parents, 'Baba Malay' — a pidgin Malay adulterated with Chinese words — to my grandparents, and Malay with a smattering of Hokkien to my friends, the fishermen's children." — LKY
+
+**訳:** 家では両親には英語を、祖父母には「ババ・マレー」——中国語の語彙が混入したピジン・マレー語——を、友人の漁師の子どもたちにはホッキェン語を少し交えたマレー語を話していた。
+
+- **pidgin** = ピジン語、混成語。異なる言語話者が意思疎通のために作った簡略化された混合言語
+- **adulterated** = 混ぜ物をされた、不純物が混じった。*adulterate*（純粋なものに異物を混ぜる）の過去分詞
+- **smattering** = 少しかじった程度、わずかな知識。*a smattering of* = 〜をほんの少し知っている
+
+## 174. consent (Ch.2, p.35) — 2026-04-11
+
+> "She won my grandmother's consent this time and in January 1930 I joined Telok Kurau English School." — LKY
+
+**訳:** 今度は母が祖母の同意を取り付け、1930年1月に私はトロック・クロー英語学校に入学した。
+
+- **consent** = 同意、承諾。*give consent* = 同意する。動詞としても：*consent to* = 〜に同意する
+
+## 175. attap / zinc-roofed / nurtured / spoilt (Ch.2, p.32) — 2026-04-11
+
+> "We played with fighting kites, tops, marbles and even fighting fish. These games nurtured a fighting spirit and the will to win." / "...a cluster of some 20 or 30 attap or zinc-roofed wooden huts..." — LKY
+
+**訳:** 私たちは喧嘩凧、コマ、ビー玉、さらには闘魚で遊んだ。これらのゲームは闘争心と勝利への意志を培った。
+
+- **attap** = アタップ。ヤシの葉で葺いた屋根材。東南アジアの伝統的な素材（#170でも登場）
+- **zinc-roofed** = 亜鉛板（トタン）葺きの。*zinc*（亜鉛）+ *roofed*。アタップより近代的・安価な屋根材
+- **nurtured** = 育てた、培った。*nurture*（育む）の過去形。*nature vs nurture*（生まれか育ちか）の「育ち」
+- **spoilt** = 甘やかされた。*spoil*の過去分詞。イギリス英語（アメリカ英語は *spoiled*）。*pampered* より否定的
+
+## 176. penny dreadfuls / Greyfriars (Ch.2, p.32) — 2026-04-11
+
+> "I bought the usual penny dreadfuls, and followed the adventures of the boys at Greyfriars — Harry Wharton and Billy Bunter and company." — LKY
+
+**訳:** 私はよくある安い娯楽小説を買い、グレイフライアーズの少年たちの冒険——ハリー・ウォートンやビリー・バンターたち——を追いかけた。
+
+- **penny dreadfuls** = 1ペニーで買える安い娯楽小説、三文小説。19世紀イギリスで流行。今でいう週刊マンガ的存在
+- **Greyfriars** = グレイフライアーズ（架空の寄宿学校）。イギリスの人気少年小説シリーズの舞台
+
+## 177. wharf / pictorials / borrowed / detective thrillers (Ch.2, p.32) — 2026-04-11
+
+> "I waited eagerly for the mail boat from Britain, which arrived at Tanjong Pagar wharf every Friday, bringing British magazines and pictorials...I read eclectically but preferred westerns to detective thrillers." — LKY
+
+**訳:** 私はイギリスから来る郵便船が毎週金曜日にタンジョン・パガー埠頭に到着するのを心待ちにしていた。イギリスの雑誌やグラフ誌を運んできたが、高かった。少し大きくなってからはラッフルズ図書館を使い、2週間ずつ本を借りた。探偵スリラーより西部劇小説を好んだ。
+
+- **wharf** = 波止場、埠頭。船が接岸する場所。*dock* や *pier* に近い
+- **pictorials** = 写真・絵を中心としたグラフ雑誌。*pictorial*（絵・写真の）の名詞形
+- **borrowed** = 借りた。*borrow*（借りる）の過去形。*lend*（貸す）の反対
+- **detective thrillers** = 探偵スリラー小説、推理小説
+
+## 178. bullock / rims / shock absorbers / rutted clay / hilariously bumpy (Ch.2, p.32) — 2026-04-11
+
+> "We rode down a track in a bullock cart...The cart had wooden wheels with metal rims and no shock absorbers, so that half mile ride on the rutted clay track was hilariously bumpy." — LKY
+
+**訳:** 牛車に乗って道を進んだ。木製の車輪に金属の縁が巻かれ、ショックアブソーバーはなかった。轍のついた粘土道を半マイル行く道のりは、笑えるほど激しく揺れた。
+
+- **bullock** = 去勢した雄牛。*bullock cart* = 牛車
+- **rims** = リム、縁。*metal rims* = 木製車輪の外側に巻いた金属の縁取り
+- **shock absorbers** = ショックアブソーバー、緩衝装置。衝撃を吸収するもの
+- **rutted clay** = 轍のついた粘土道。*rutted*（轍が刻まれた）+ *clay*（粘土質の土）
+- **hilariously bumpy** = 笑えるほど激しく揺れる。*hilarious*（爆笑もの）+ *bumpy*（でこぼこの）
+
+## 179. absurd / deputed (Ch.2, p.36) — 2026-04-11
+
+> "Even then I thought how absurd it was that the least scholarly of my uncles should be deputed to see that I did my homework." — LKY
+
+**訳:** その時でさえ、叔父たちの中で最も学問に縁遠い人が私の宿題を見る役に任命されるとは何と馬鹿げたことかと思った。
+
+- **absurd** = 馬鹿げた、不条理な。理屈に合わない状況に使う。*It's absurd!*（馬鹿げている！）
+- **deputed** = 代理として任命された、委任された。*deputy*（代理人）と同語源。*should be deputed to* = 〜する役を任された
+
+## 180. leapfrogging / vie (Ch.2, p.36) — 2026-04-11
+
+> "I was given a double promotion from primary 1 to standard I, leapfrogging primary 2...we all sat an island-wide examination to vie for places in government secondary schools." — LKY
+
+**訳:** 小学1年から2年を飛び越えて標準1年に飛び級した。全員が政府の中学校への入学枠をめぐって島全体の試験を受けた。
+
+- **leapfrogging** = 飛び越える、飛び級する。*leapfrog*（馬跳び）が語源。何かをスキップして先に進む
+- **vie** = 競い合う。*vie for* = 〜をめぐって競争する。*vie for places* = 入学枠をめぐって競い合う
+
+## 181. merit / headmasters / modelled (Ch.2, p.36) — 2026-04-11
+
+> "Admission was on the basis of merit...The early headmasters were Englishmen who modelled the institution on the English public school." — LKY
+
+**訳:** 入学は実力主義だった。初期の校長たちはイギリス人で、イギリスのパブリックスクールをモデルに学校を作り上げた。
+
+- **merit** = 実力、能力。*on the basis of merit* = 実力主義で。*meritocracy*（能力主義社会）はLKYが生涯掲げたシンガポールの根幹理念
+- **headmasters** = 校長（男性）。イギリス英語。現代では *principal* が一般的
+- **modelled** = 〜をモデルにした。*model A on B* = AをBにならって作る
+
+## 182. syllabus / Commonwealth / far-flung (Ch.2, p.36) — 2026-04-11
+
+> "The syllabus prepared students for the empire-wide examinations...whenever I met Commonwealth leaders from far-flung islands in the Caribbean or the Pacific..." — LKY
+
+**訳:** カリキュラムは帝国全土の試験に向けて生徒を準備させるものだった。何年も後、カリブ海や太平洋の遠く離れた島々の英連邦指導者たちと会うたびに、彼らも同じ教科書で同じ訓練を受け、シェイクスピアの同じ箇所を暗唱できることを知った。
+
+- **syllabus** = カリキュラム、授業計画、教育課程
+- **Commonwealth** = 英連邦。イギリスと旧植民地（インド・オーストラリア・カナダ・シンガポールなど）が加盟する国際組織
+- **far-flung** = 遠く離れた、広大な範囲に散らばった。*far*（遠い）+ *flung*（投げ飛ばされた）
+
+## 183. attain (Ch.2, p.37) — 2026-04-11
+
+> "Harry Lee Kuan Yew is a determined worker for a place of distinction. He is likely to attain a high position in life." — M.N. Campos (LKYの担任教師)
+
+**訳:** 「ハリー・リー・クアンユーは卓越した地位を目指して努力する生徒だ。人生で高い地位に到達するだろう」
+
+- **attain** = 達成する、到達する。*achieve* に近いが、より高い目標・地位に「たどり着く」ニュアンス。*attain a high position* = 高い地位に到達する
+
+## 184. form master / approachable / stint / deemed / upheld (Ch.2, p.37) — 2026-04-11
+
+> "The form master, an Englishman called A.T. Grieve...a friendly and approachable manner. He was a bachelor in his late 20s, and doing his first stint overseas. Grieve had no colour prejudice...which was deemed necessary for British dominance to be upheld." — LKY
+
+**訳:** 担任はA.T.グリーブというイギリス人で、親しみやすい態度の持ち主。20代後半の独身で初めての海外勤務をしていた。グリーブは人種偏見がなかった——イギリスの支配を維持するために現地人と距離を保つべきと学ぶ時間がまだなかったからだろう。
+
+- **form master** = 担任教師。イギリスの学校制度で *form*（クラス）を担当する教師
+- **approachable** = 話しかけやすい、親しみやすい。*approachable manner* = 気さくな態度
+- **stint** = 一定期間の勤務、任期。*first stint overseas* = 初めての海外勤務
+- **deemed** = 〜とみなされた。*deem*（みなす）の過去分詞。*was deemed necessary* = 必要とみなされていた
+- **upheld** = 維持された。*uphold*（維持する・守り続ける）の過去分詞
+
+## 185. enormously / yielded / encased / spare (Ch.2, p.37) — 2026-04-11
+
+> "He improved my English language enormously...Together, they yielded the huge sum of 350 Straits dollars...with a three-speed gear and an encased chain box...and still had money to spare." — LKY
+
+**訳:** 彼は私の英語力を飛躍的に向上させた。2つの奨学金を合わせて350海峡ドルという莫大な金額をもたらした。チェーンカバー付き3段変速の自転車を買ってもお金が余った。
+
+- **enormously** = 非常に、莫大に。*enormous*（巨大な）の副詞形
+- **yielded** = もたらした、生み出した。*yield*（産出する）の過去形。農作物の「収穫」にも使う
+- **encased** = 覆われた、ケースに収められた。*encased chain box* = チェーンがケースで覆われた自転車
+- **spare** = 余る、余裕がある。*money to spare* = 余分なお金。*have something to spare* = 〜が余るほどある
+
+## 186. mimicking / mannerisms / ponderous / bald (Ch.2, p.38) — 2026-04-11
+
+> "Too often, I was caught...mimicking some teacher's strange mannerisms. In the case of a rather ponderous Indian science teacher, I was caught in the laboratory drawing the back of his head with its bald patch." — LKY
+
+**訳:** 教師の奇妙な癖を物真似したりして何度も注意を受けた。ある重々しいインド人理科教師の場合は、実験室で彼のはげた後頭部を描いているところを見つかった。
+
+- **mimicking** = 物真似をする。*mimic*（物真似する）の進行形。動作・話し方を誇張して真似る
+- **mannerisms** = 癖、独特の振る舞い。人特有の仕草・習慣的な動作
+- **ponderous** = 重々しい、もったいぶった。動きや話し方が重くてゆっくりな様子
+- **bald** = はげた。*bald patch* = 部分的なはげ。*bald head* = はげ頭
+
+## 187. caned / impartially / an owl more than a lark (Ch.2, p.38) — 2026-04-11
+
+> "Once I was caned by the principal. D.W. McLeod was a fair but strict disciplinarian who enforced rules impartially...I was always a late riser, an owl more than a lark." — LKY
+
+**訳:** かつて校長に棒で打たれたことがある。マクロードは公平だが厳格な規律主義者で、規則をえこひいきなく執行した。私はいつも朝が苦手な夜型人間だった。
+
+- **caned** = 棒で打たれた。*cane*（細い棒）による体罰。イギリスの学校・植民地で広く行われていた
+- **impartially** = 公平に、えこひいきなく。*impartial*（公平な）の副詞形
+- **an owl more than a lark** = 夜型人間（朝型よりも）。*owl*（フクロウ）= 夜型、*lark*（ヒバリ）= 朝型の慣用表現
+
+## 188. let off with an admonition / trousers / corporal punishment (Ch.2, p.38) — 2026-04-11
+
+> "But I was not let off with an admonition. I bent over a chair and was given three of the best with my trousers on...I have never understood why Western educationists are so much against corporal punishment. It did my fellow students and me no harm." — LKY
+
+**訳:** 口頭注意だけでは済まされなかった。ズボンを穿いたまま椅子に身をかがめ、最大限の力で3回打たれた。西洋の教育者がなぜ体罰に反対するのか理解できない。何も害はなかった。
+
+- **let off with an admonition** = 警告だけで許してもらう。*let off*（罰を免除する）+ *admonition*（警告・訓戒）
+- **trousers** = ズボン。イギリス英語（アメリカ英語は *pants*）。*with my trousers on* = ズボンを穿いたまま
+- **corporal punishment** = 体罰。*corporal*（肉体の、ラテン語 *corpus* = 体）+ *punishment*（罰）
+
+## 189. misspent / geared (Ch.2, p.38) — 2026-04-11
+
+> "My father regretted his misspent youth, and they urged me to become a professional. So from my early years I geared myself towards becoming a lawyer." — LKY
+
+**訳:** 父は自分の無駄に過ごした青春を後悔し、両親は私にプロフェッショナルになるよう促した。だから私は幼い頃から弁護士を目指して自分を方向づけた。
+
+- **misspent** = 無駄に使った、無駄に過ごした。*misspend*（時間・才能を無駄にする）の過去分詞。*misspent youth* = 後悔を伴う無駄な青春
+- **geared** = 向けた、方向づけた。*gear oneself towards* = 〜に向けて自分を準備・方向づける。歯車が噛み合って動くイメージ
+
+## 190. severe / best postponed (Ch.2, p.38) — 2026-04-11
+
+> "France was under severe threat, and about to be occupied. Going to London to study law was best postponed." — LKY
+
+**訳:** フランスは深刻な脅威にさらされ、占領されようとしていた。ロンドンへの法律留学は延期するのが最善だった。
+
+- **severe** = 深刻な、激しい、厳しい。*under severe threat* = 深刻な脅威にさらされて
+- **best postponed** = 延期するのが最善。*best*（〜するのが最善）+ *postpone*（延期する）。*was best postponed* = 延期するのが賢明だった
+
+## 191. quadrangles / cloisters / concessions (Ch.2, p.39) — 2026-04-11
+
+> "...with quadrangles and cloisters constructed of concrete with mock stone facing, like those at Oxford and Cambridge but with concessions to the tropical climate." — LKY
+
+**訳:** コンクリートに模造石の外装を施した四角い中庭と回廊を備え、オックスフォード・ケンブリッジのような造りだったが、熱帯気候への配慮も施されていた。
+
+- **quadrangles** = 四角形の中庭。建物に囲まれた四角い中庭。オックスフォード・ケンブリッジの象徴的な建築。*quad* と略す
+- **cloisters** = 回廊、柱廊。中庭を囲む屋根付きの廊下。修道院や大学建築に多い
+- **concessions** = 譲歩、配慮。*with concessions to* = 〜への配慮として
+
+## 192. french windows / partitions (Ch.2, p.39) — 2026-04-11
+
+> "Each was divided into 20 rooms with french windows leading to open verandas. Partitions between rooms were only seven feet high..." — LKY
+
+**訳:** 各寮は20の部屋に分かれており、開放的なベランダに続くフレンチドアが設けられていた。部屋間の仕切りは7フィートしかなく、空気も騒音も自由に循環した。
+
+- **french windows** = フレンチドア。床まで届く大きな両開き窓。テラスやベランダに続くことが多い
+- **partitions** = 仕切り、間仕切り壁。*partition*（部屋を区切る壁・パネル）の複数形
+
+## 193. arts students / command (Ch.2, p.39) — 2026-04-11
+
+> "I read English, which was compulsory for all arts students, and concentrated on it to improve my command of the language." — LKY
+
+**訳:** 文系学生全員に必修の英語を選び、言語運用能力を高めることに集中した。
+
+- **arts students** = 文科系の学生。*arts*（文系科目）。対義語は *science students*（理系）
+- **command** = 熟達度、運用能力。*command of the language* = 言語を使いこなす能力。「言語を支配するほど使いこなせる」イメージ

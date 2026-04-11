@@ -7,9 +7,9 @@
 
 ## Reading Progress
 - **Current Chapter:** Chapter 2: Growing Up
-- **Current Page:** p.29
-- **Next sentence:** "My grandmother was a good cook. She would fry a steak seasoned with freshly grated nutmeg to a succulent, sizzling brown, and serve it with potato chips, also fried to a golden brown but never oily, something Kung was particular about."
-- **Last note entry:** #162
+- **Current Page:** p.40
+- **Next sentence:** "At the end of each of the three terms in the academic year there were examinations, and for the first of these I was the best student in mathematics, scoring over 90 marks. But to my horror, I discovered I was not the best in either English or economics. I was in second place, way behind a certain Miss Kwa Geok Choo."
+- **Last note entry:** #193
 - **Last session:** 2026-04-11
 
 ## Text Transcribed
@@ -26,7 +26,7 @@
 |---------|---------|--------|
 | Front Matter (Praise + Preface) | #1-41 | Done |
 | Chapter 1 | #42-132 | Done |
-| Chapter 2 | #133-162 | In progress |
+| Chapter 2 | #133-193 | In progress |
 
 ## Workflow
 1. スマホで見開き撮影 → Macに同期 → Claude Codeでテキスト化 → `text/` に保存

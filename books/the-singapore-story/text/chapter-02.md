@@ -46,6 +46,18 @@ My mother was the eldest child of this union, and when she was married in 1922 a
 
 <!-- Note: pp.30-31 missing from source -->
 
+## [p.32]
+
+I often played with the children of the Chinese fishermen and of the Malays living in a nearby kampong, a cluster of some 20 or 30 attap or zinc-roofed wooden huts in a lane opposite my grandfather's house. The fishermen worked along Siglap beach, then about 200 yards away.
+
+It was a simpler world altogether. We played with fighting kites, tops, marbles and even fighting fish. These games nurtured a fighting spirit and the will to win. I do not know whether they prepared me for the fights I was to have later in politics. We were not soft, nor were we spoilt.
+
+As a young boy, I had no fancy clothes or shoes like those my grandchildren wear today. We were not poor, but we had no great abundance of toys, and there was no television. So we had to be resourceful, to use our imagination.
+
+We read, and this was good for our literacy, but there were few illustrated books for young children then, and these were expensive. I bought the usual penny dreadfuls, and followed the adventures of the boys at Greyfriars — Harry Wharton and Billy Bunter and company. I waited eagerly for the mail boat from Britain, which arrived at Tanjong Pagar wharf every Friday, bringing British magazines and pictorials. But they too were not cheap. When I was a little older, I used the Raffles Library, where books could be borrowed for two weeks at a time. I read eclectically but preferred westerns to detective thrillers.
+
+For holidays, the family would spend up to a week at a wooden house in my grandfather Chua's rubber estate in Chai Chee. To get to the estate from Changi Road, we rode down a track in a bullock cart, its two bullocks driven by my grandmother's gardener. The cart had wooden wheels with metal rims and no shock absorbers, so that half mile ride on the rutted clay track was hilariously bumpy. Fifty years later, in 1977, as I travelled in a Concorde from London to New York and crossed the Atlantic in three hours, I wondered if any of my fellow passengers had ever experienced the joy of a bullock-cart ride.
+
 ## [pp.34-35]
 
 Life was not all simple pleasures, however. Every now and again my father would come home in a foul mood after losing at blackjack and other card games at the Chinese Swimming Club in Amber Road, and demand some of my mother's jewellery to pawn so that he could go back to try his luck again. There would be fearful quarrels, and he was sometimes violent. But my mother was a courageous woman who was determined to hang on to the jewellery, wedding gifts from her parents.
