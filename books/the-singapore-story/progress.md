@@ -20,6 +20,7 @@
 | Chapter 1: Suddenly, Independence | pp.13-24 | Done |
 | Chapter 2: Growing Up | pp.25-43 | Done |
 | Chapter 3: The Japanese Invaders | pp.44-83 | Done (p.81 missing from source) |
+| Chapter 4: After the Liberation | pp.84-98 | Done (pp.95-96 missing from source) |
 
 ## Notes Completed
 | Section | Entries | Status |
