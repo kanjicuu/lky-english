@@ -7,10 +7,10 @@
 
 ## Reading Progress
 - **Current Chapter:** Chapter 2: Growing Up
-- **Current Page:** p.27
-- **Next sentence:** "He himself told me he worked as a dispenser (an unqualified pharmacist) when he left school, but after a few years became a purser on board a steamer plying between Singapore and the Dutch East Indies."
-- **Last note entry:** #144
-- **Last session:** 2026-04-10
+- **Current Page:** p.29
+- **Next sentence:** "My grandmother was a good cook. She would fry a steak seasoned with freshly grated nutmeg to a succulent, sizzling brown, and serve it with potato chips, also fried to a golden brown but never oily, something Kung was particular about."
+- **Last note entry:** #162
+- **Last session:** 2026-04-11
 
 ## Text Transcribed
 | Section | Pages | Status |
@@ -26,7 +26,7 @@
 |---------|---------|--------|
 | Front Matter (Praise + Preface) | #1-41 | Done |
 | Chapter 1 | #42-132 | Done |
-| Chapter 2 | #133-144 | In progress |
+| Chapter 2 | #133-162 | In progress |
 
 ## Workflow
 1. スマホで見開き撮影 → Macに同期 → Claude Codeでテキスト化 → `text/` に保存

@@ -152,3 +152,177 @@ Book: The Singapore Story (Lee Kuan Yew)
 
 **使用例:**
 - "The paperwork was duly completed."
+
+## 145. dispenser / purser / plying (Ch.2, p.27) — 2026-04-11
+
+> "He himself told me he worked as a dispenser (an unqualified pharmacist) when he left school, but after a few years became a purser on board a steamer plying between Singapore and the Dutch East Indies." — LKY
+
+**訳:** 祖父は学校を出てから調剤師（無資格）として働いたが、数年後にシンガポールとオランダ領東インドを往復する蒸気船の事務長になった。
+
+- **dispenser** = 調剤師見習い・無資格の薬剤師。正式な資格なしに薬を調合・販売する人。植民地時代には資格なしでも従事できた
+- **purser** = 事務長。船上で乗客の荷物管理・会計・書類業務を担当するスタッフ。ホテルのフロントマネージャーに近い役職
+- **plying** = （航路を）定期的に往復する。*ply between A and B* = AとBの間を行き来する
+
+**使用例:**
+- "A ferry plying between the islands."
+
+## 146. fleet (Ch.2, p.27) — 2026-04-11
+
+> "The ship was part of a fleet belonging to the Heap Eng Moh Shipping Line, which was owned by the Chinese millionaire sugar king of Java, Oei Tiong Ham." — LKY
+
+**訳:** その船はジャワの中国人富豪・砂糖王 Oei Tiong Ham が所有する Heap Eng Moh 汽船会社の船団の一隻だった。
+
+- **fleet** = 船団、艦隊。同じ会社・組織が所有する船（または車・飛行機）のまとまり
+
+**使用例:**
+- "A fleet of taxis." / "A naval fleet."
+
+## 147. fortunes rose / attorney / affairs (Ch.2, p.27) — 2026-04-11
+
+> "His fortunes rose as he gained the confidence of Oei Tiong Ham, who appointed him his attorney to manage his affairs in Singapore." — LKY
+
+**訳:** Oei Tiong Ham の信頼を得るにつれて祖父の境遇は上向き、Oei はシンガポールでの自分の業務を取り仕切る代理人に祖父を任命した。
+
+- **fortunes rose** = 運が上がった、境遇・財産が良くなった。反対は *fortunes fell*（没落した）
+- **attorney** = 代理人・弁護士。ここでは法的代理人（本人に代わって財産管理・契約を行う人）の意味
+- **affairs** = 業務、諸事。*manage his affairs* = 彼のビジネス上の諸事を取り仕切る。*foreign affairs*（外交）などにも使う
+
+## 148. princely sum (Ch.2, p.27) — 2026-04-11
+
+> "Kung told me how he was so trusted that in 1926, on his own authority, he donated $150,000, then a princely sum, from Oei's funds towards the foundation of Raffles College." — LKY
+
+**訳:** 祖父は、1926年に自分の判断で Oei の資金から当時としては莫大な額の15万ドルをラッフルズ・カレッジの設立に寄付するほど信頼されていた、と私に話してくれた。
+
+- **princely sum** = 莫大な金額、王侯にふさわしい大金。*princely*（王子・王侯にふさわしい）+ *sum*（金額）
+- *then a princely sum* = 「当時としては」莫大な金額というニュアンス。1926年の$150,000は現在価値で数億円規模
+
+## 149. substance / standing (Ch.2, p.28) — 2026-04-11
+
+> "He was a man of some substance and standing in the community, and that was why my father was sent to Raffles Institution and later to Raffles College." — LKY
+
+**訳:** 祖父はコミュニティの中で財力と地位を持つ人物だった。だからこそ父はラッフルズ・インスティテューションに入り、後にラッフルズ・カレッジへ進んだのだ。
+
+- **substance** = 財力・実力・社会的重み。*a man of substance* は「財産・影響力を持つ実力者」という慣用表現
+- **standing** = 地位、社会的立場。*standing in the community* = コミュニティでの地位
+
+## 150. maternal / paternal (Ch.2, p.28) — 2026-04-11
+
+> "My maternal grandfather, Chua Jim Neo, was a Straits-born Hokkien Chinese." — LKY
+
+**訳:** 私の母方の祖父、Chua Jim Neo は、海峡生まれの福建系中国人だった。
+
+- **maternal** = 母方の。mother から派生。*maternal grandfather* = 母方の祖父
+- **paternal** = 父方の。father から派生。*paternal grandfather* = 父方の祖父（これまで話していた Lee Hoon Leong）
+
+## 151. provisions / well-to-do / calling at (Ch.2, p.28) — 2026-04-11
+
+> "He was a well-to-do merchant who had built up a successful business supplying provisions to ships calling at Singapore." — LKY
+
+**訳:** 彼はシンガポールに寄港する船に物資を供給する商売を築き上げた、裕福な商人だった。
+
+- **provisions** = 食料品・物資・補給品。複数形で「食料・物資」の意味。単数 *provision* は「規定・条項」
+- **well-to-do** = 裕福な。*well off* と同義
+- **calling at** = （港に）寄港する。*call at a port* = 港に立ち寄る
+
+## 152. mission school / Hokkien (Ch.2, p.28) — 2026-04-11
+
+> "She was educated at St Margaret's School, a mission school, and could speak Malay, Hokkien and some English." — LKY
+
+**訳:** 母はミッションスクールの St Margaret's School で教育を受け、マレー語・福建語・多少の英語を話せた。
+
+- **mission school** = ミッションスクール。キリスト教宣教団体が植民地に設立した学校。シンガポールでは英語教育の主要な担い手
+- **Hokkien** = 福建語・閩南語。中国・福建省出身者の言語。シンガポールの中国系で最も多い方言グループ
+
+## 153. clerk / supervisor / self-made man (Ch.2, p.28) — 2026-04-11
+
+> "My father, Lee Chin Koon, was a self-made man who, after leaving Raffles College without graduating, worked his way up from a clerk to a supervisor in the Straits Steamship Company." — LKY
+
+**訳:** 父の Lee Chin Koon は、ラッフルズ・カレッジを卒業せずに中退した後、海峡汽船会社で事務員から監督職まで自力で這い上がった叩き上げの人物だった。
+
+- **clerk** = 事務員、書記。会社や官庁で書類・帳簿を扱う下級事務職
+- **supervisor** = 監督者、係長クラス。*supervise*（監督する）+ *-or*（人）
+- **self-made man** = 自力で成功した人、叩き上げ。親の力や学歴に頼らず成功した人を指す慣用表現
+
+## 154. Straits Settlements / well-assimilated (Ch.2, p.29) — 2026-04-11
+
+> "It was not unusual for Straits Chinese families to use Malay as their home language, since many had been in the Straits Settlements for several generations and had become well-assimilated into the local scene." — LKY
+
+**訳:** 海峡植民地に数世代にわたって住み、現地によく同化していた海峡華人の家庭では、マレー語を家庭言語として使うことは珍しくなかった。
+
+- **Straits Settlements** = 海峡植民地。イギリスが統治した植民地行政単位（シンガポール・ペナン・マラッカ）。1826年設立、1946年解体
+- **well-assimilated** = よく同化した、現地に溶け込んだ。*assimilate*（同化する）+ *well-*（十分に）
+
+## 155. pupil / intervened (Ch.2, p.29) — 2026-04-11
+
+> "I was a bright pupil and my teachers encouraged me to try for a scholarship to study in England. But the war intervened." — LKY
+
+**訳:** 私は優秀な生徒で、先生たちはイギリス留学の奨学金に挑戦するよう励ましてくれた。しかし、戦争が割り込んできた。
+
+- **pupil** = 生徒、児童。主に小中学生を指す。高校生以上は *student* が多い。眼球の「瞳孔」も同じ単語
+- **intervened** = 割り込んだ、介入した。*intervene*（間に入る・妨げる）の過去形。イギリス留学の夢を日本軍侵攻が断ち切った転換を一語で表した印象的な文
+
+## 156. pampered / disciplinarian (Ch.2, p.29) — 2026-04-11
+
+> "My grandfather loved and pampered me. My father, the disciplinarian in the family, was tough with me." — LKY
+
+**訳:** 祖父は私を愛し、甘やかしてくれた。一方、家庭の厳格者である父は私に対して厳しかった。
+
+- **pampered** = 甘やかされた。*pamper*（甘やかす・贅沢にもてなす）の過去分詞。*spoil* に近いが愛情からくる過保護なニュアンス
+- **disciplinarian** = 規律を重んじる人、厳格な人。*discipline*（規律）+ *-arian*（〜を重んじる人）
+
+## 157. speculated / property / shophouses / wiped out (Ch.2, p.29) — 2026-04-11
+
+> "The Chua fortunes also suffered because Chua had invested in rubber estates and had speculated on the rubber market. But he had gone into property as well. He owned markets and shophouses and he was not wiped out, as Kung was." — LKY
+
+**訳:** Chua家の財産もゴム農園への投資とゴム市場への投機で打撃を受けた。しかし Chua は不動産にも手を出していた。市場やショップハウスを所有していたため、Kung のように全財産を失うことはなかった。
+
+- **speculated** = 投機した。*speculate* = 利益を狙って高リスクな投資をする。*invest*（堅実な投資）と対比的
+- **property** = 不動産。ここでは「財産」ではなく不動産の意味。*go into property* = 不動産業に参入する
+- **shophouses** = ショップハウス。1階が店舗・2階以上が住居の建物。東南アジアの植民地都市に特有の建築様式
+- **wiped out** = 全財産を失った、破産した。*wipe out*（完全に消し去る）から
+
+## 158. rigidly (Ch.2, p.29) — 2026-04-11
+
+> "He used to recount to me his experiences, stories of how rigidly discipline was maintained on board a ship." — LKY
+
+**訳:** 祖父はよく私に自身の経験を語って聞かせた。船上でいかに厳格に規律が保たれていたかという話を。
+
+- **rigidly** = 厳格に、硬直的に。*rigid*（硬い・厳格な）の副詞形。*rigidly maintained* = 厳格に維持された
+
+## 159. auspicious (Ch.2, p.29) — 2026-04-11
+
+> "When I was born, the family consulted a friend knowledgeable in these matters for an auspicious name for me." — LKY
+
+**訳:** 私が生まれたとき、家族はこういった事柄に詳しい友人に縁起の良い名前を相談した。
+
+- **auspicious** = 縁起の良い、吉兆の。ラテン語 *auspex*（鳥の飛び方で吉凶を占う人）が語源
+- *an auspicious occasion* = 縁起の良い場、吉日
+- *an auspicious start* = 幸先の良いスタート
+- 反対語：*inauspicious*（縁起の悪い）
+
+## 160. dialect / rendering (Ch.2, p.29) — 2026-04-11
+
+> "He suggested 'Kuan Yew', the dialect rendering of the Mandarin guang yao, meaning 'light and brightness'." — LKY
+
+**訳:** 彼は「Kuan Yew」を提案した。これは北京語の *guang yao*（光耀）を方言読みにしたもので、「光と輝き」を意味する。
+
+- **dialect** = 方言、地域語。ここでは福建語・広東語などの中国方言。標準中国語（Mandarin）に対する各地方の話し言葉
+- **rendering** = 表現、音写。*render*（表現する・変換する）の名詞形。標準語の発音を方言読みにしたもの
+
+## 161. retained / remnants (Ch.2, p.29) — 2026-04-11
+
+> "Although Kung had lost the money that had enabled him to live and dress in style, he still retained remnants of his former wealth, including some handsome solid furniture of the early 1910s imported from England." — LKY
+
+**訳:** Kungは華やかに暮らし着飾ることを可能にしていた財産を失ったが、それでも往時の富のわずかな名残を手元に残していた。1910年代初頭にイギリスから輸入した立派で堅固な家具もその一つだった。
+
+- **retained** = 保持した、手元に残した。*retain*（保ち続ける・手放さない）の過去形
+- **remnants** = 残り物、名残。かつてあった大きなものの断片・痕跡。*remnants of the empire*（帝国の名残）
+
+## 162. gourmet / a treat (Ch.2, p.29) — 2026-04-11
+
+> "He was, moreover, a gourmet. A meal with him was a treat." — LKY
+
+**訳:** しかも彼は美食家だった。彼と食事をすることは格別の喜びだった。
+
+- **gourmet** = 美食家、グルメ。食の質にこだわり良いものをよく知っている人。フランス語由来
+- **a treat** = ご馳走、格別の喜び、特別に嬉しいこと。*What a treat!*（なんて素晴らしい！）
