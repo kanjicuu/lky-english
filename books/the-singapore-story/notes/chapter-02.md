@@ -652,6 +652,93 @@ Book: The Singapore Story (Lee Kuan Yew)
 - **disorientation** = 方向感覚の喪失・戸惑い
 - **unappetising** = 食欲をそそらない・まずそうな（英：*unappetizing*）
 
+## 198. aristocracy / looked up to / commoners (Ch.2, p.41) — 2026-04-11
+
+> "He was a member of the Malay aristocracy of Pahang, and was therefore somewhat distant from the other Malay students, who looked up to him. Those I got on with more easily were commoners." — LKY
+
+**訳:** 彼はパハン州のマレー貴族の出身で、他のマレー人学生から仰ぎ見られていた。私がより気楽に付き合えたのは平民出身の学生たちだった。
+
+- **aristocracy** = 貴族・貴族階級
+- **looked up to** = 尊敬した・仰ぎ見た
+- **commoners** = 平民。貴族（aristocracy）の対語
+
+## 199. determined / solidarity / threatened (Ch.2, p.42) — 2026-04-11
+
+> "The Malays were the owners of the land, yet seemed to be in danger of being displaced from top positions by recent arrivals, who were smarter, more competitive and more determined. Probably because they did better and were self-confident, the Chinese and the Indians lacked this sense of solidarity. There was no unity among them because they did not feel threatened." — LKY
+
+**訳:** マレー人はこの土地の所有者でありながら、より賢く競争力があり意志の強い新参者に上位を奪われる危機にあった。中国人とインド人は実績があり自信があったため連帯感に欠けていた。脅威を感じていなかったから団結がなかった。
+
+- **determined** = 断固とした・意志の強い
+- **solidarity** = 連帯感・団結。*sense of solidarity* = 連帯意識
+- **threatened** = 脅かされた・脅威を感じた
+
+## 200. incensed / cavalier / honorary secretary / censure / deprive / EGM / rallied round / en masse (Ch.2, p.42) — 2026-04-11
+
+> "The non-Malays were incensed at the sharp and cavalier responses of the honorary secretary, Ungku Aziz... A few students started a move for an extraordinary general meeting to censure him and deprive him of office... the Malay students rallied round him, and made it clear that if he were removed, they would resign en masse from the union." — LKY
+
+**訳:** 非マレー人学生たちは名誉幹事の横柄な返答に激怒した。臨時総会で彼を非難し役職を剥奪しようとする動きが起きたが、マレー人学生たちが彼を守るために結集し、解任されれば全員一斉に脱退すると明言した。
+
+- **incensed** = 激怒した
+- **cavalier** = 横柄な・いい加減な・人を小馬鹿にした
+- **honorary secretary** = 名誉幹事（無報酬の役職）
+- **censure** = 公式に非難する・譴責する
+- **deprive** = 剥奪する。*deprive him of office* = 役職を奪う
+- **EGM** = Extraordinary General Meeting（臨時総会）
+- **rallied round** = 〜を守るために結集した
+- **en masse** = 一斉に・全員で（仏語）
+
+## 201. quarrel / unpleasantness / turned up in force (Ch.2, p.42) — 2026-04-11
+
+> "I had no personal quarrel with him. But since nobody wanted to take on this unpleasant job... the Malays turned up in force. The tension was high, and racial feelings strong." — LKY
+
+**訳:** 彼と個人的な恨みはなかったが、誰もやりたがらないため引き受けた。マレー人学生たちは大勢で乗り込んできた。緊張は高く、民族感情は強かった。
+
+- **quarrel** = 口論・争い
+- **unpleasantness** = 不快な状況・いざこざ
+- **turned up in force** = 大勢で現れた・集団で乗り込んできた
+
+## 202. sentiment / firmly / refute / allegations / confrontation / cast / registered their point (Ch.2, p.42-43) — 2026-04-11
+
+> "It was my first experience of Malayism, a deep and intense pro-Malay, anti-immigrant sentiment. I made out the case in measured tones, firmly but... not aggressively. Ungku Aziz spoke up to refute all the allegations of rude behaviour... When the votes were cast, the Malays carried the day... the non-Malays felt they had registered their point." — LKY
+
+**訳:** マレー主義——深く強烈な親マレー・反移民感情——を体験した最初だった。抑えた口調で毅然と主張を述べた。ウンク・アジズは申し立てすべてに反論した。票が投じられるとマレー人が勝利したが、非マレー人は主張を示せたと感じた。
+
+- **sentiment** = 感情・心情。*anti-immigrant sentiment* = 移民排斥感情
+- **firmly** = 毅然と・断固として
+- **refute** = 反論する・論駁する
+- **allegations** = （証拠なき）申し立て・主張
+- **confrontation** = 対立・対決
+- **cast** = （票を）投じた。*votes were cast* = 票が投じられた
+- **registered their point** = 自分たちの主張を示せた・言いたいことは言えた
+
+## 203. rivalry / crisp (Ch.2, p.43) — 2026-04-11
+
+> "But if it was a time of rivalry, it was also a time for forming lasting friendships... Goh Keng Swee, a tutor in economics with a first-class mind, a poor speaker but a crisp writer." — LKY
+
+**訳:** 競争の時代でもあったが、生涯続く友情を育む時代でもあった。ゴー・ケン・スイは一流の頭脳を持ち、演説は苦手だが歯切れのよい文章を書く人物だった。
+
+- **rivalry** = 競争・ライバル関係
+- **crisp** = 切れ味の良い・簡潔明瞭な
+
+## 204. acquaintances / acceptance / animosity / resentment (Ch.2, p.43) — 2026-04-11
+
+> "I already had a network of friends and acquaintances... just sharing the same background made for easy acceptance, and the old school tie worked well... I did not feel any personal animosity or resentment from the upcountry Malays." — LKY
+
+**訳:** 重要なポジションにいる友人・知人のネットワークがあった。同じ背景を共有するだけで受け入れられやすく、学閥ネットワークはうまく機能した。地方出身マレー人から個人的な敵意や恨みを感じることはなかった。
+
+- **acquaintances** = 知り合い・面識のある人（friendより浅い関係）
+- **acceptance** = 受け入れられること・受容
+- **animosity** = 敵意・憎しみ
+- **resentment** = 恨み・不満
+
+## 205. nurtured (Ch.2, p.43) — 2026-04-11
+
+> "It was the easy old-boy network of an elite at the very top of the English-educated group nurtured by the British colonial education system." — LKY
+
+**訳:** イギリス植民地教育制度によって育まれた英語教育エリートの頂点にいる者たちの、気楽なオールドボーイ・ネットワークだった。
+
+- **nurtured** = 育てられた・培われた（再出。Ch.2 p.32でも登場）
+
 ## 196. disorientation / creditably / stiff competition (Ch.2, p.40) — 2026-04-11
 
 > "But the disorientation must have affected my academic performance... I did creditably, and came in first in pure mathematics... I knew I would face stiff competition for the Queen's scholarship." — LKY
