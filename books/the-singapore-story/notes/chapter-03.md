@@ -1564,6 +1564,318 @@
 
 ---
 
+## [p.58]
+
+**#403** **grind** /ɡraɪnd/
+退屈で辛い日々の繰り返し。元は「すり潰す」。*daily grind* = 日々の苦役。毎日すり減らされるような単調な苦労。
+> "the daily grind and the misery of the Japanese occupation"
+> 「日本占領下の日々の苦しみと惨めさ」
+📅 2026-04-13
+
+---
+
+**#404** **misery** /ˈmɪzəri/
+惨めさ、悲惨な状態。ラテン語 miser（哀れな）から。形容詞は miserable。物質的にも精神的にも苦しい状態。
+> "the daily grind and the misery of the Japanese occupation"
+> 「日本占領下の日々の苦しみと惨めさ」
+📅 2026-04-13
+
+---
+
+## [p.59]
+
+**#405** **prostitutes** /ˈprɒstɪtjuːts/
+売春婦。ラテン語 prostituere（公然とさらす）から。pro-（前に）+ statuere（立てる）。
+> "the prostitutes along Waterloo Street soliciting British soldiers"
+> 「ウォータールー・ストリートでイギリス兵に声をかける娼婦たち」
+📅 2026-04-13
+
+---
+
+**#406** **coerced** /koʊˈɜːrst/
+強制した、無理やりさせた。ラテン語 coercere（封じ込める）。force より「脅しや圧力で従わせる」ニュアンス。
+> "the Japanese government had kidnapped and coerced Korean, Chinese and Filipino women"
+> 「日本政府は朝鮮・中国・フィリピンの女性を拉致・強制した」
+📅 2026-04-13
+
+---
+
+**#407** **cater** /ˈkeɪtər/
+（需要に）応える、提供する。*cater to* ～ = 「～のニーズに応じる」。フランス語 acater（買う）から。catering と同根。
+> "coerced Korean, Chinese and Filipino women to cater to the needs of the Japanese troops"
+> 「日本兵のニーズに応えさせるために女性を強制した」
+📅 2026-04-13
+
+---
+
+**#408** **in the flesh**
+実物を、生身で、直接。flesh = 肉体。写真や噂ではなく「この目で直接見た」という意味。
+> "Those of my generation who saw the Japanese soldiers in the flesh"
+> 「日本兵を実際に目にした私の世代」
+📅 2026-04-13
+
+---
+
+**#409** **fearsome** /ˈfɪrsəm/
+恐ろしい、恐るべき。fear + -some（～を引き起こす）。awesome、handsome と同じ -some の形。
+> "They made fearsome enemies"
+> 「彼らは恐るべき敵だった」
+📅 2026-04-13
+
+---
+
+## [p.60]
+
+**#410** **bayonet** /ˈbeɪənɛt/
+銃剣。銃の先端に取り付ける刃。フランスの都市 Bayonne（バヨンヌ）で最初に作られたことが語源。
+> "Japanese soldiers at bayonet practice on open fields"
+> 「広場で銃剣訓練をする日本兵」
+📅 2026-04-13
+
+---
+
+**#411** **perished** /ˈpɛrɪʃt/
+命を落とした、滅びた。ラテン語 perire（完全に去る）。per-（完全に）+ ire（行く）。die より文語的・格調高い。
+> "millions in Japan itself, would have perished"
+> 「日本本土の何百万もの人々が命を落としていただろう」
+📅 2026-04-13
+
+---
+
+**#412** **indoctrination** /ɪnˌdɒktrɪˈneɪʃən/
+教化、洗脳、思想の叩き込み。ラテン語 doctrina（教え）から。教育（education）と違い「批判的思考を許さず一方的に信じ込ませる」ニュアンス。
+> "systematic indoctrination in the cult of emperor worship"
+> 「天皇崇拝の教義への組織的な教化」
+📅 2026-04-13
+
+---
+
+## [p.61]
+
+**#413** **haunted** /ˈhɔːntɪd/
+つきまとった、頭から離れなかった。幽霊（ghost）がとりつくのが元。嫌な記憶が離れない時に使う。haunted house = お化け屋敷。
+> "The sight haunted me for days"
+> 「その光景は何日も頭から離れなかった」
+📅 2026-04-13
+
+---
+
+**#414** **textiles** /ˈtɛkstaɪlz/
+繊維製品、織物。ラテン語 texere（織る）から。text（テキスト）も同根——言葉を「織る」。
+> "No more imports of consumer goods, including textiles"
+> 「繊維製品を含む消費財の輸入はなくなった」
+📅 2026-04-13
+
+---
+
+**#415** **seized** /siːzd/
+押収した、差し押さえた。権力や力で強制的に奪い取ること。seize the opportunity = 「機会をつかむ」でも使う。
+> "what stocks there were had been seized by the Japanese army"
+> 「あった在庫は日本軍に押収されていた」
+📅 2026-04-13
+
+---
+
+**#416** **devoured** /dɪˈvaʊərd/
+むさぼり読んだ、一気に読み尽くした。元は「がつがつ食べる」。de-（完全に）+ vorare（飲み込む）。
+> "I devoured this in a couple of weeks"
+> 「2週間でこれを読み尽くした」
+📅 2026-04-13
+
+---
+
+## [p.62]
+
+**#417** **slovenly** /ˈslʌvənli/
+だらしない、身なりの汚い。sloven（だらしない人）+ -ly。祖父の目に日本兵が「だらしなく」見えた。
+> "how such a slovenly people could defeat straight-backed British officers"
+> 「こんなだらしない連中がどうして背筋の伸びたイギリス士官を打ち負かせたのか」
+📅 2026-04-13
+
+---
+
+**#418** **sobered** /ˈsoʊbərd/
+冷静にさせた、真面目にさせた。sober = しらふの、真面目な。占領の苦難が父を変えた。
+> "The difficulties of the occupation had sobered my father"
+> 「占領の困難が父を冷静にさせた」
+📅 2026-04-13
+
+---
+
+**#419** **regard** /rɪˈɡɑːrd/
+敬意、尊敬。*out of regard for* ～ = 「～への敬意から」。
+> "At his request and out of regard for my grandfather"
+> 「父の頼みと祖父への敬意から」
+📅 2026-04-13
+
+---
+
+## [p.63]
+
+**#420** **tonal** /ˈtoʊnəl/
+声調のある。tone（音調）+ -al。音の上げ下げで意味が変わる言語を tonal language と呼ぶ。
+> "I found Japanese much easier than Mandarin because it was not tonal"
+> 「日本語は声調がないので中国語よりずっと簡単だった」
+📅 2026-04-13
+
+---
+
+**#421** **inflexions** /ɪnˈflɛkʃənz/
+語形変化、活用。ラテン語 inflectere（曲げる）から。語の形を「曲げる」イメージ。米式は inflections。
+> "more complicated in its inflexions and grammar"
+> 「活用や文法はより複雑だった」
+📅 2026-04-13
+
+---
+
+**#422** **seal** /siːl/
+印鑑、印章。signature and seal = 署名と印鑑。蝋で封をする seal（封蝋）が元の意味。
+> "His note with his signature and seal on it"
+> 「署名と印鑑のある彼の書付」
+📅 2026-04-13
+
+---
+
+**#423** **vouched** /vaʊtʃt/
+保証した、太鼓判を押した。*vouch for* ～ = 「～の人柄を保証する」。ラテン語 vocare（呼ぶ）から。
+> "he vouched for your good character"
+> 「彼が人柄を保証した」
+📅 2026-04-13
+
+---
+
+**#424** **sentries** /ˈsɛntriz/
+歩哨、見張りの兵士。特定の場所に立って通行人を検問する兵士。
+> "when you were stopped and checked by sentries"
+> 「哨兵に止められて検問を受けた時」
+📅 2026-04-13
+
+---
+
+**#425** **looting** /ˈluːtɪŋ/
+略奪。混乱に乗じて物を奪うこと。ヒンディー語 lut が語源。loot = 略奪品。
+> "he had been caught looting"
+> 「略奪を行って捕まった」
+📅 2026-04-13
+
+---
+
+**#426** **disobeyed** /ˌdɪsəˈbeɪd/
+背いた、従わなかった。dis-（反対）+ obey（従う）。obey はラテン語 oboedire（耳を傾ける）から。
+> "anybody who disobeyed the law"
+> 「法に背く者は誰でも」
+📅 2026-04-13
+
+---
+
+**#427** **dealt** /dɛlt/
+処された、扱われた。*be dealt with* = 「処罰される、対処される」。deal の過去分詞。
+> "would be dealt with in the same way"
+> 「同じように処される」
+📅 2026-04-13
+
+---
+
+**#428** **medieval** /ˌmɛdiˈiːvəl/
+中世の。ラテン語 medium（中間）+ aevum（時代）。「野蛮な、時代遅れな」のニュアンスでも使う。
+> "this spectacle of medieval punishment"
+> 「この中世的な処刑の光景」
+📅 2026-04-13
+
+---
+
+**#429** **outings** /ˈaʊtɪŋz/
+外出、お出かけ。out + -ing。go on an outing = 外出する。日帰り遠足にも使う。
+> "One of my first outings was into town"
+> 「最初の外出のひとつは街へ出かけることだった」
+📅 2026-04-13
+
+---
+
+## [p.64]
+
+**#430** **intercepted** /ˌɪntərˈsɛptɪd/
+傍受した。inter-（間で）+ capere（つかむ）。敵の通信を途中で盗み聞くこと。
+> "These cables had been intercepted by Malay radio operators"
+> 「これらの電報はマレー人の無線技師が傍受していた」
+📅 2026-04-13
+
+---
+
+**#431** **garbled** /ˈɡɑːrbəld/
+文字化けした、ぐちゃぐちゃになった。アラビア語 gharbala（ふるいにかける）から。情報が伝達中に歪むこと。
+> "many words were garbled or lost"
+> 「多くの単語が文字化けしたり欠落していた」
+📅 2026-04-13
+
+---
+
+**#432** **decipher** /dɪˈsaɪfər/
+解読する。de-（解く）+ cipher（暗号）。暗号や読みにくいものを読み解くこと。
+> "I had to decipher them and fill in the missing bits"
+> 「それらを解読して欠けた部分を埋めなければならなかった」
+📅 2026-04-13
+
+---
+
+**#433** **revamped** /riːˈvæmpt/
+書き直された、刷新された。re-（再び）+ vamp（修繕する）。靴の甲部分を張り替えることが語源。
+> "they would be revamped for broadcasting"
+> 「放送用に書き直された」
+📅 2026-04-13
+
+---
+
+**#434** **rations** /ˈræʃənz/
+配給品、割り当ての食料・物資。軍や非常時に一人あたり決められた量を配ること。
+> "giving the other editor and me a packet of Japanese cigarettes from his rations"
+> 「配給の日本のタバコを一箱くれた」
+📅 2026-04-13
+
+---
+
+**#435** **deteriorated** /dɪˈtɪriəreɪtɪd/
+悪化した。ラテン語 deterior（より悪い）から。状態がだんだん悪くなること。
+> "work until 9 am, when conditions again deteriorated"
+> 「受信状態がまた悪化する午前9時まで働いた」
+📅 2026-04-13
+
+---
+
+**#436** **implications** /ˌɪmplɪˈkeɪʃənz/
+含意、暗に意味すること。imply（暗に示す）の名詞形。ラテン語 implicare（巻き込む）から。
+> "the psychological implications of the work"
+> 「この仕事の心理的な含意」
+📅 2026-04-13
+
+---
+
+**#437** **peril** /ˈpɛrəl/
+危険、生命の危機。*at our peril* = 命がけで。danger より格式高く深刻。ラテン語 periculum（試み、危険）から。
+> "we talked about this to outsiders at our peril"
+> 「外部の人に話せば命の危険があった」
+📅 2026-04-13
+
+---
+
+## [p.65]
+
+**#438** **scarcer** /ˈskɛrsər/
+より希少な、より手に入りにくい。scarce（乏しい）の比較級。scarcer and scarcer = ますます乏しくなる。
+> "food became scarcer and scarcer"
+> 「食料はますます乏しくなった」
+📅 2026-04-13
+
+---
+
+**#439** **tradeable** /ˈtreɪdəbəl/
+取引できる、交換しやすい。trade + -able。タバコが一番の通貨代わりだった。
+> "most tradeable of all, cigarettes"
+> 「最も取引価値の高いタバコ」
+📅 2026-04-13
+
+---
+
 **#216** **spared** /spɛrd/
 免れた。*spare* = 〜を免れさせる。*not to be spared* = 免れることにはならなかった＝被害を受けることになった。
 > "Malaya was not to be spared after all."

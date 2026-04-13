@@ -7,8 +7,8 @@
 
 ## Reading Progress
 - **Current Chapter:** Chapter 3: The Japanese Invaders
-- **Current Page:** p.58
-- **Last note entry:** #402
+- **Current Page:** p.65
+- **Last note entry:** #439
 - **Last session:** 2026-04-13
 
 ## Text Transcribed
