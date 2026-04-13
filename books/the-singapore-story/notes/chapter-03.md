@@ -1532,6 +1532,38 @@
 
 ---
 
+**#399** **sheer** /ʃɪr/
+純粋な・まったくの。強調の形容詞で「紛れもない」というニュアンス。*sheer luck*（まったくの幸運）、*sheer nonsense*（完全なナンセンス）。
+> "it was sheer vengeance"
+> 「それは純粋な報復だった」
+📅 2026-04-13
+
+---
+
+**#400** **vengeance** /ˈvɛndʒəns/
+報復・復讐。*revenge* より格式張った語。*with a vengeance* = 猛烈に、という慣用句もある。
+> "it was sheer vengeance, exacted not in the heat of battle"
+> 「それは戦闘の最中ではなく行われた純粋な報復だった」
+📅 2026-04-13
+
+---
+
+**#401** **mopping-up** /ˈmɒpɪŋ ʌp/
+掃討。モップで残りを拭き取るイメージ → 残った敵を一掃する軍事用語。*mop up* が動詞形。
+> "there were mopping-up operations in the rural areas"
+> 「農村部では掃討作戦が行われた」
+📅 2026-04-13
+
+---
+
+**#402** **prove troublesome**
+厄介だと判明する。*prove* + 形容詞 = 「〜であるとわかる」。*The task proved difficult.*（その仕事は難しいとわかった）。
+> "young and sturdy men who could prove troublesome"
+> 「厄介事を起こしかねない若くたくましい男たち」
+📅 2026-04-13
+
+---
+
 **#216** **spared** /spɛrd/
 免れた。*spare* = 〜を免れさせる。*not to be spared* = 免れることにはならなかった＝被害を受けることになった。
 > "Malaya was not to be spared after all."
