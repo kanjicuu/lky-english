@@ -804,6 +804,734 @@
 
 ---
 
+**#308** **indentured** /ɪnˈdɛntʃərd/
+年季契約の。一定期間（通常3〜7年）労働する契約を結ばされた状態。*indentured labour* = 年季契約労働者。契約書（indenture）をギザギザに切って双方が持ち合ったことが語源。
+> "Many of the Chinese and Indians had been brought in as indentured labour"
+> 「中国人やインド人の多くは年季契約労働者として連れてこられた」
+📅 2026-04-13
+
+---
+
+**#309** **plantation** /plænˈteɪʃən/
+プランテーション・大規模農園。植民地時代に宗主国が単一作物（ゴム・砂糖・茶など）を大量生産するために開いた農園。マラヤではゴムのプランテーションが主力産業。*a plantation economy* = プランテーション経済。
+> "the jobs a commercial and a plantation economy required"
+> 「商業経済やプランテーション経済が必要とする仕事」
+📅 2026-04-13
+
+---
+
+**#310** **curtseying** /ˈkɜːrtsɪɪŋ/
+カーテシーをすること。女性が片足を後ろに引いて膝を曲げる挨拶の動作。王族や高位の人物への敬意を示す。男性の *bow* に対応する女性の作法。
+> "bowing and curtseying before the governor and his lady"
+> 「総督とその夫人の前でお辞儀やカーテシーをし」
+📅 2026-04-13
+
+---
+
+**#311** **duly** /ˈdjuːli/
+きちんと・しかるべく。「当然のこととして、求められた通りに」というニュアンス。*due*（当然の）の副詞形。
+> "the women duly wearing white gloves"
+> 「女性たちはきちんと白い手袋をはめ」
+📅 2026-04-13
+
+---
+
+**#312** **faithful** /ˈfeɪθfəl/
+忠実な・誠実な。*faith*（信頼・信仰）+ *-ful*。植民地政府に対して長年忠実に仕えたという文脈。*faithful service* = 忠実な奉仕・忠勤。
+> "after giving long and faithful service"
+> 「長年にわたる忠実な奉仕の末には」
+📅 2026-04-13
+
+---
+
+**#313** **patronised** /ˈpætrənaɪzd/
+恩着せがましく扱った・見下すように接した。*patronise* には①ひいきにする②上から目線で接する、の2つの意味があり、ここでは②。
+> "They were patronised by the white officials"
+> 「彼らは白人の官僚たちから恩着せがましく扱われていた」
+📅 2026-04-13
+
+---
+
+**#314** **inferior** /ɪnˈfɪriər/
+劣った・下位の。反対語は *superior*。ラテン語由来で比較級の形のため *more inferior* とは言わない。
+> "accepted their inferior status"
+> 「その劣った地位を受け入れていた」
+📅 2026-04-13
+
+---
+
+**#315** **aplomb** /əˈplɒm/
+泰然自若・落ち着き。フランス語 *à plomb*（垂直に）が語源。*with aplomb* = 泰然と・堂々と。
+> "accepted their inferior status with aplomb"
+> 「その劣った地位を泰然と受け入れていた」
+📅 2026-04-13
+
+---
+
+**#316** **tramp** /træmp/
+浮浪者・放浪者。身なりが汚く住所不定でさまよっている人。動詞では「重い足取りで歩く」の意味も。
+> "any British, European or American who misbehaved or looked like a tramp"
+> 「素行の悪い、あるいは浮浪者のような見た目のイギリス人・ヨーロッパ人・アメリカ人」
+📅 2026-04-13
+
+---
+
+**#317** **demean** /dɪˈmiːn/
+品位を落とす・威信を傷つける。*de-*（下へ）+ *mean*（卑しい）。*demeaning* = 屈辱的な。
+> "he would demean the whole white race"
+> 「白人種全体の威信を傷つけることになる」
+📅 2026-04-13
+
+---
+
+**#318** **thrown into doubt** /θroʊn ɪntʊ daʊt/
+疑問視される。*throw X into doubt* = Xに疑いを生じさせる。似た表現に *cast doubt on* がある。
+> "whose superiority must never be thrown into doubt"
+> 「その優越性に疑いを抱かせることは決してあってはならなかった」
+📅 2026-04-13
+
+---
+
+**#319** **inclination** /ˌɪnklɪˈneɪʃən/
+意向・気持ち・傾向。*incline*（傾く）の名詞形。*have no inclination to* = 〜する気が全くない。
+> "None of the English-educated had any inclination to take up the cudgels"
+> 「英語教育を受けた者には戦おうという気概を持つ者は誰もいなかった」
+📅 2026-04-13
+
+---
+
+**#320** **cudgels** /ˈkʌdʒəlz/
+こん棒。*take up the cudgels* = こん棒を手に取る → 誰かのために戦う・擁護するというイディオム。*on behalf of* = 〜のために。
+> "take up the cudgels on behalf of equality for the Asiatics"
+> 「アジア人の平等のために戦おうとする」
+📅 2026-04-13
+
+---
+
+**#321** **indoctrinated** /ɪnˈdɒktrɪneɪtɪd/
+教え込まれた・洗脳された。*doctrine*（教義）が語源。*educate* と並べることで、イギリス式教育が思想の刷り込みでもあったことを示唆。
+> "they had not been educated or indoctrinated into accepting the virtues and the mission of the British Empire"
+> 「イギリス帝国の美徳や使命を受け入れるよう教育されたり教え込まれたりしていなかった」
+📅 2026-04-13
+
+---
+
+**#322** **virtues** /ˈvɜːrtʃuːz/
+美徳・徳目。ここではイギリスが植民地支配を正当化するために掲げた理念（文明化の使命、法の支配など）。反対語は *vice*（悪徳）。
+> "the virtues and the mission of the British Empire"
+> 「イギリス帝国の美徳と使命」
+📅 2026-04-13
+
+---
+
+**#323** **stupidities** /stjuːˈpɪdɪtiz/
+愚行・愚かな行為（複数形）。イギリス軍指揮官たちの数々の戦略的ミスを指す。
+> "70 days of surprises, upsets and stupidities"
+> 「70日間の驚き、番狂わせ、愚行」
+📅 2026-04-13
+
+---
+
+**#324** **shattered** /ˈʃætərd/
+粉々に砕けた。*break* より激しく、修復不能なニュアンス。比喩的に社会・信念の完全崩壊に使う。
+> "British colonial society was shattered"
+> 「イギリス植民地社会は粉々に砕かれた」
+📅 2026-04-13
+
+---
+
+**#325** **assumptions** /əˈsʌmpʃənz/
+前提・思い込み。根拠なく「当然そうだ」と信じていること。*assume*（仮定する）の名詞形。
+> "all the assumptions of the Englishman's superiority"
+> 「イギリス人の優越性にまつわるすべての前提」
+📅 2026-04-13
+
+---
+
+**#326** **stoical** /ˈstoʊɪkəl/
+忍耐強い・感情を表に出さない。古代ギリシャのストア派（Stoics）に由来。苦痛や困難に動じず耐えることを美徳とした。
+> "they were the stoical ones"
+> 「彼らこそが忍耐強い者たちだった」
+📅 2026-04-13
+
+---
+
+**#327** **casualties** /ˈkæʒuəltiz/
+死傷者・犠牲者。戦争・事故で死亡または負傷した人。*take the casualties* = 犠牲を引き受ける。
+> "took the casualties and died without hysteria"
+> 「犠牲を受け入れ、取り乱すことなく死んでいった」
+📅 2026-04-13
+
+---
+
+**#328** **hysteria** /hɪˈstɪriə/
+ヒステリー・極度のパニック・狂乱状態。*without hysteria* = 取り乱すことなく。
+> "died without hysteria"
+> 「取り乱すことなく死んでいった」
+📅 2026-04-13
+
+---
+
+**#329** **ducked** /dʌkt/
+身をかがめた・さっと隠れた。アヒル（duck）が水に頭を突っ込む様子が語源。*duck under* = 〜の下にさっと身を隠す。
+> "the white civilian bosses who ducked under tables"
+> 「テーブルの下に身を隠した白人の民間人上司たち」
+📅 2026-04-13
+
+---
+
+**#330** **demolished** /dɪˈmɒlɪʃt/
+破壊した・取り壊した。建物や施設を意図的に完全に壊すこと。撤退時に敵に利用されないよう自ら破壊した。*demolition* = 解体（名詞形）。
+> "British troops demolished whatever installations they could"
+> 「イギリス軍はできる限りの施設を破壊した」
+📅 2026-04-13
+
+---
+
+**#331** **installations** /ˌɪnstəˈleɪʃənz/
+施設・設備。軍事基地、通信設備、港湾施設など。*install*（設置する）の名詞形。
+> "demolished whatever installations they could"
+> 「できる限りの施設を破壊した」
+📅 2026-04-13
+
+---
+
+**#332** **retreated** /rɪˈtriːtɪd/
+撤退した・退却した。*retreat* は名詞でも使える。別の意味で「隠れ家・静養所」もある（*a mountain retreat*）。
+> "demolished whatever installations they could and then retreated"
+> 「施設を破壊してから撤退した」
+📅 2026-04-13
+
+---
+
+**#333** **scramble** /ˈskræmbəl/
+必死にもがく・先を争って動く。*scramble to save their skins* = 自分の命を守ろうと必死になる。*save one's skin* = 自分の身を守る（他人を見捨てるニュアンス）。
+> "their scramble to save their skins"
+> 「自分の身を守ろうと必死にもがいたこと」
+📅 2026-04-13
+
+---
+
+**#334** **exaggerated** /ɪɡˈzædʒəreɪtɪd/
+誇張された・大げさにされた。*in the retelling* = 語り継がれるうちに。
+> "Many of them were undoubtedly exaggerated in the retelling"
+> 「それらの多くは語り継がれるうちに間違いなく誇張された」
+📅 2026-04-13
+
+---
+
+**#335** **substance** /ˈsʌbstəns/
+実質・中身・根拠。*enough substance to make the point* = 要点を証明するだけの十分な実質があった。誇張はあったが核心は事実だったという意味。
+> "there was enough substance in them to make the point"
+> 「要点を裏付けるだけの実質は十分にあった」
+📅 2026-04-13
+
+---
+
+**#336** **inherent** /ɪnˈhɪrənt/
+生まれながらの・本質的に備わった。後天的ではなく内在しているという意味。*inherent superiority* = 生まれつきの優越性。
+> "the myth of their inherent superiority"
+> 「生まれながらの優越性という神話」
+📅 2026-04-13
+
+---
+
+**#337** **superiority** /suːˌpɪriˈɒrɪti/
+優越性・優位。*superior* の名詞形。イギリス植民地支配の根幹にあった「白人は人種的に優れている」という前提。
+> "the myth of their inherent superiority"
+> 「生まれながらの優越性という神話」
+📅 2026-04-13
+
+---
+
+**#338** **dared** /dɛrd/
+あえて〜した・〜する勇気を持った。普通ならやらない危険なことを思い切ってやるニュアンス。
+> "one Asiatic race had dared to defy them"
+> 「一つのアジア人種が彼らに挑む勇気を持った」
+📅 2026-04-13
+
+---
+
+**#339** **defy** /dɪˈfaɪ/
+反抗する・立ち向かう。権威や支配に公然と逆らうこと。*defiance* = 反抗（名詞形）。
+> "had dared to defy them and smashed that myth"
+> 「彼らに挑む勇気を持ち、その神話を打ち砕いた」
+📅 2026-04-13
+
+---
+
+**#340** **lorded** /lɔːrdɪd/
+君臨した・威張り散らした。*lord over* = 〜の上に立って偉そうに振る舞う。*lord*（領主）の動詞化。傲慢に権力を振りかざすニュアンス。
+> "once the Japanese lorded over us as conquerors"
+> 「日本人が征服者として我々の上に君臨するようになると」
+📅 2026-04-13
+
+---
+
+**#341** **vicious** /ˈvɪʃəs/
+悪辣な・残忍な。*cruel, brutal, unjust* と並べて日本軍支配のひどさを畳み掛けている。*vicious circle* = 悪循環。
+> "more cruel, more brutal, more unjust and more vicious than the British"
+> 「イギリス人よりも残酷で、野蛮で、不公正で、悪辣だった」
+📅 2026-04-13
+
+---
+
+**#342** **tormenting** /tɔːrˈmɛntɪŋ/
+苦しめる・苛む。肉体的にも精神的にも激しい苦痛を与えること。*torment*（名詞）= 激しい苦痛。
+> "some Japanese tormenting, beating or ill-treating one of our people"
+> 「日本人が我々の同胞を苦しめたり、殴ったり、虐待したりしている」
+📅 2026-04-13
+
+---
+
+**#343** **ill-treating** /ˌɪlˈtriːtɪŋ/
+虐待する・ひどい扱いをする。*ill*（悪い）+ *treating*（扱う）。*mistreat* とほぼ同義。
+> "tormenting, beating or ill-treating one of our people"
+> 「苦しめたり、殴ったり、虐待したりしている」
+📅 2026-04-13
+
+---
+
+**#344** **disillusionment** /ˌdɪsɪˈluːʒənmənt/
+幻滅・失望。*illusion*（幻想）を失う（*dis-*）こと。同じアジア人への期待が裏切られた二重の幻滅。
+> "we were filled with disillusionment"
+> 「我々は幻滅で満たされた」
+📅 2026-04-13
+
+---
+
+**#345** **descendants** /dɪˈsɛndənts/
+子孫。*descend*（下りる）+ *-ant*。反対語は *ancestors*（祖先）。
+> "They were descendants of the sun goddess, Amaterasu Omikami Sama"
+> 「彼らは太陽の女神・天照大御神の子孫だった」
+📅 2026-04-13
+
+---
+
+**#346** **benighted** /bɪˈnaɪtɪd/
+無知蒙昧な・啓蒙されていない。*night*（夜）に閉ざされた → 知識の光が届いていない、という比喩。非常に見下した文語的表現。
+> "distinct and separate from the benighted Chinese, Indians and Malays"
+> 「無知蒙昧な中国人・インド人・マレー人とは異なる別格の存在」
+📅 2026-04-13
+
+---
+
+**#347** **sentry** /ˈsɛntri/
+歩哨・見張りの兵士。橋や門など特定の場所に立って警備する兵士。*guard* より軍事的な響き。
+> "I saw a sentry pacing up and down it"
+> 「歩哨が橋の上を行ったり来たりしているのが見えた」
+📅 2026-04-13
+
+---
+
+**#348** **sporting** /ˈspɔːrtɪŋ/
+身につけている・かぶっている。*sport*（動詞）= 見せびらかすようにつける。*wearing* より目立つニュアンス。
+> "I was sporting a broad-brimmed hat"
+> 「私はつば広の帽子をかぶっていた」
+📅 2026-04-13
+
+---
+
+**#349** **of the kind** /əv ðə kaɪnd/
+〜の種類の・〜のような。*of the kind worn by* = 〜がかぶるタイプの。
+> "a broad-brimmed hat of the kind worn by Australian soldiers"
+> 「オーストラリア兵がかぶるようなつば広の帽子」
+📅 2026-04-13
+
+---
+
+**#350** **discarded** /dɪsˈkɑːrdɪd/
+捨てられた・放棄された。不要になったものを投げ捨てること。降伏直前に軍装備が大量に捨てられた。
+> "many of which had been discarded in the days before the surrender"
+> 「降伏の数日前に大量に捨てられたものだ」
+📅 2026-04-13
+
+---
+
+**#351** **inconspicuous** /ˌɪnkənˈspɪkjuəs/
+目立たない・人目を引かない。*conspicuous*（目立つ）の反対。*in-*（否定）+ *conspicuous*。
+> "I tried to look as inconspicuous as possible"
+> 「できるだけ目立たないようにした」
+📅 2026-04-13
+
+---
+
+**#352** **beckoned** /ˈbɛkənd/
+手招きした・身振りで呼び寄せた。*beckon to someone* = 〜に手招きする。
+> "One soldier barked 'Kore, kore!' and beckoned to me"
+> 「一人の兵士が『コレ、コレ！』と怒鳴り、私に手招きした」
+📅 2026-04-13
+
+---
+
+**#353** **thrust** /θrʌst/
+突き刺した・突き出した。力を込めて一気に突く動作。過去形も *thrust*（不規則変化なし）。
+> "he thrust the bayonet on his rifle through the brim of my hat"
+> 「銃剣で帽子のつばを突き刺した」
+📅 2026-04-13
+
+---
+
+**#354** **bayonet** /ˈbeɪənɪt/
+銃剣。ライフル先端に取り付ける刃。フランスのバイヨンヌ（Bayonne）が語源。
+> "the bayonet on his rifle"
+> 「ライフルについた銃剣」
+📅 2026-04-13
+
+---
+
+**#355** **kneel** /niːl/
+ひざまずく。過去形は *knelt*。日本兵が現地住民に強制した典型的な屈辱行為。
+> "motioned me to kneel"
+> 「ひざまずけと身振りで示した」
+📅 2026-04-13
+
+---
+
+**#356** **sprawling** /ˈsprɔːlɪŋ/
+手足を広げて倒れる。*send someone sprawling* = 突き飛ばして地面に転がす。
+> "sent me sprawling on the road"
+> 「私を道路に転がした」
+📅 2026-04-13
+
+---
+
+**#357** **signalled** /ˈsɪɡnəld/
+合図した・身振りで示した。英綴り *signalled*、米綴り *signaled*。
+> "he signalled that I was to go back the way I had come"
+> 「来た道を戻れと合図された」
+📅 2026-04-13
+
+---
+
+**#358** **boulder** /ˈboʊldər/
+大きな岩・巨石。*rock* より大きく、両手で持ち上げるのがやっとなサイズ。
+> "holding a heavy boulder over their heads until their arms gave way"
+> 「腕が力尽きるまで重い岩を頭上に掲げさせられた」
+📅 2026-04-13
+
+---
+
+**#359** **rickshaw puller** /ˈrɪkʃɔː ˈpʊlər/
+人力車の車夫。*rickshaw* は日本語の「人力車」が語源。
+> "I watched a Japanese soldier pay off a rickshaw puller"
+> 「日本兵が人力車の車夫に金を払うのが見えた」
+📅 2026-04-13
+
+---
+
+**#360** **remonstrated** /rɪˈmɒnstreɪtɪd/
+抗議した・異議を唱えた。*protest* より丁寧で、立場の弱い者がお願いする形で抗議するニュアンス。
+> "The rickshaw puller remonstrated, pleading for a little more money"
+> 「車夫は抗議し、もう少し金をくれと懇願した」
+📅 2026-04-13
+
+---
+
+**#361** **pleading** /ˈpliːdɪŋ/
+懇願する・嘆願する。*plead* = 訴える・懇願する。法廷では *plead guilty* = 有罪を認める。
+> "pleading for a little more money"
+> 「もう少し金をくれと懇願した」
+📅 2026-04-13
+
+---
+
+**#362** **heartlessness** /ˈhɑːrtləsnəs/
+無情さ・冷酷さ。*heart*（心）+ *-less*（ない）+ *-ness*。思いやりのかけらもないこと。
+> "I was shocked at the heartlessness"
+> 「私はその無情さに衝撃を受けた」
+📅 2026-04-13
+
+---
+
+**#363** **colonels** /ˈkɜːrnəlz/
+大佐。発音注意：「カーネルズ」。スペルと全く異なる。イタリア語とフランス語が混ざった歴史的経緯による。
+> "red flags were for majors to colonels"
+> 「赤は少佐から大佐用」
+📅 2026-04-13
+
+---
+
+**#364** **lieutenants** /luːˈtɛnənts/
+少尉・中尉。英発音は /lɛfˈtɛnənts/。*lieu*（代わりに）+ *tenant*（保持する者）＝指揮官の代理。
+> "blue flags for lieutenants to captains"
+> 「青は少尉から大尉用」
+📅 2026-04-13
+
+---
+
+**#365** **salute** /səˈluːt/
+敬礼する。*come to attention to salute* = 気をつけの姿勢を取って敬礼する。
+> "The sentry was slow in coming to attention to salute"
+> 「歩哨は気をつけの姿勢で敬礼するのが遅れた」
+📅 2026-04-13
+
+---
+
+**#366** **brutalisation** /ˌbruːtəlaɪˈzeɪʃən/
+残虐化・野蛮化。暴力が連鎖してシステム全体が残虐になるプロセス。*brutal*（野蛮な）の名詞形。
+> "brutalisation was part of the Japanese military system"
+> 「残虐性は日本の軍事システムの一部だった」
+📅 2026-04-13
+
+---
+
+**#367** **inculcated** /ɪnˈkʌlkeɪtɪd/
+叩き込まれた・繰り返し教え込まれた。*in-*（中に）+ *culcare*（踏みつける）が語源。*indoctrinated* より身体的・暴力的な刷り込みのニュアンス。
+> "inculcated through regular beatings"
+> 「日常的な殴打を通じて叩き込まれた」
+📅 2026-04-13
+
+---
+
+**#368** **infringements** /ɪnˈfrɪndʒmənts/
+違反・規則破り。*minor infringements* = 些細な違反。軽微な規則違反に過剰な暴力が振るわれた。
+> "regular beatings for minor infringements"
+> 「些細な違反に対する日常的な殴打」
+📅 2026-04-13
+
+---
+
+**#369** **billet** /ˈbɪlɪt/
+宿営地・兵士の仮宿舎。軍が民間の家を接収して兵士を泊まらせること。
+> "decided it would be a suitable billet for a platoon"
+> 「小隊の宿営地として適していると判断した」
+📅 2026-04-13
+
+---
+
+**#370** **platoon** /pləˈtuːn/
+小隊。通常30〜50人。*squad*（分隊）→ *platoon*（小隊）→ *company*（中隊）→ *battalion*（大隊）。
+> "a suitable billet for a platoon"
+> 「小隊の宿営地として適した」
+📅 2026-04-13
+
+---
+
+**#371** **immaculately** /ɪˈmækjʊlɪtli/
+申し分なく・完璧に。*im-*（否定）+ *macula*（染み）。一点の汚れもなく。
+> "Japanese dentists who were immaculately clean and tidy"
+> 「申し分なく清潔できちんとしていた日本人歯科医」
+📅 2026-04-13
+
+---
+
+**#372** **nauseating** /ˈnɔːzieɪtɪŋ/
+吐き気を催す。*nausea*（吐き気）の形容詞形。生理的に嘔吐しそうなほどの不快さ。
+> "the nauseating stench of the unwashed clothes and bodies"
+> 「洗っていない服と体から放つ吐き気を催す悪臭」
+📅 2026-04-13
+
+---
+
+**#373** **stench** /stɛntʃ/
+悪臭。*smell* → *odour* → *stench* の順に強くなる。最も強烈で不快な臭い。
+> "the nauseating stench of the unwashed clothes and bodies"
+> 「洗っていない服と体の悪臭」
+📅 2026-04-13
+
+---
+
+**#374** **unkempt** /ʌnˈkɛmpt/
+身なりが乱れた・だらしない。*kempt*（整った）の否定形。*comb*（櫛）と同語源。*unshaven* と並べて戦前の清潔な日本人との対比。
+> "strange beings, unshaven and unkempt"
+> 「奇妙な存在——無精ひげで身なりは乱れ」
+📅 2026-04-13
+
+---
+
+**#375** **fitfully** /ˈfɪtfʊli/
+断続的に・途切れ途切れに。*fit*（発作）が語源。*slept fitfully* = 何度も目が覚めながら浅く眠った。
+> "I slept fitfully"
+> 「私は浅い眠りしかとれなかった」
+📅 2026-04-13
+
+---
+
+**#376** **captivity** /kæpˈtɪvɪti/
+捕虜の状態・監禁。*captive*（捕虜）の名詞形。*marched to captivity* = 捕虜として行進させられた。
+> "British, Indian and Australian forces were marched to captivity"
+> 「イギリス・インド・オーストラリア軍は捕虜として行進させられた」
+📅 2026-04-13
+
+---
+
+**#377** **tramped** /træmpt/
+重い足取りで歩いた。*tramp*（#316）の動詞用法。疲弊した行進の様子。
+> "they tramped past the house and over the Red Bridge"
+> 「家の前を通りレッド・ブリッジを越えて重い足取りで歩いていった」
+📅 2026-04-13
+
+---
+
+**#378** **lead** /lɛd/
+鉛。発音注意：「レッド」。*heavy as lead* = 鉛のように重い。悲しみで胸が沈む比喩。
+> "my heart heavy as lead"
+> 「鉛のように重い心で」
+📅 2026-04-13
+
+---
+
+**#379** **dejected** /dɪˈdʒɛktɪd/
+意気消沈した。*de-*（下へ）+ *ject*（投げる）= 気持ちが下に落とされた状態。
+> "Many looked dejected and despondent"
+> 「多くの者は意気消沈し、落胆していた」
+📅 2026-04-13
+
+---
+
+**#380** **despondent** /dɪˈspɒndənt/
+落胆した・希望を失った。*dejected* より深く、希望がないという絶望感。
+> "dejected and despondent"
+> 「意気消沈し、落胆していた」
+📅 2026-04-13
+
+---
+
+**#381** **perplexed** /pərˈplɛkst/
+困惑した・当惑した。何が起きたか理解できず混乱している状態。
+> "perplexed that they had been beaten so decisively and so easily"
+> 「これほどあっさりと完敗したことに困惑していた」
+📅 2026-04-13
+
+---
+
+**#382** **mournful** /ˈmɔːrnfəl/
+悲痛な・悲しみに満ちた。*mourn*（嘆く）+ *-ful*。大きな喪失を悲しむ感情。
+> "The surrendered army was a mournful sight"
+> 「降伏した軍隊は悲痛な光景だった」
+📅 2026-04-13
+
+---
+
+**#383** **erect** /ɪˈrɛkt/
+直立した・背筋をまっすぐ伸ばした。*held themselves erect* = 堂々とした姿勢を保った。
+> "they held themselves erect and marched in time"
+> 「背筋を伸ばし、足並みを揃えて行進した」
+📅 2026-04-13
+
+---
+
+**#384** **sergeant** /ˈsɑːrdʒənt/
+軍曹。発音注意：「サージェント」。*sergeant major* = 曹長（下士官の最上位）。
+> "'Left Right, Left Right!' shouted the sergeant major"
+> 「『レフト・ライト！』と曹長が叫んだ」
+📅 2026-04-13
+
+---
+
+**#385** **cubicle** /ˈkjuːbɪkəl/
+小部屋・仕切られた小さなスペース。*cube*（立方体）が語源。オフィスの仕切り区画にも使う。
+> "his cubicle in his coolie-keng"
+> 「苦力宿の小部屋」
+📅 2026-04-13
+
+---
+
+**#386** **perimeter** /pəˈrɪmɪtər/
+外周・周囲の境界線。*peri-*（周り）+ *meter*（測る）。軍事用語で「囲い込みの境界」。
+> "within the perimeter enclosed by barbed wire"
+> 「有刺鉄線で囲まれた区域の中」
+📅 2026-04-13
+
+---
+
+**#387** **hooded** /ˈhʊdɪd/
+頭巾をかぶせられた。*hood*（フード）の形容詞形。密告者の身元を隠すため。
+> "many of them were hooded"
+> 「その多くは頭巾をかぶせられていた」
+📅 2026-04-13
+
+---
+
+**#388** **ominous** /ˈɒmɪnəs/
+不吉な・嫌な予感がする。*omen*（前兆）が語源。リー・クアンユーの直感が命を救った場面。
+> "I felt instinctively that this was ominous"
+> 「直感的にこれは不吉だと感じた」
+📅 2026-04-13
+
+---
+
+**#389** **indelible** /ɪnˈdɛlɪbəl/
+消えない・消すことができない。*in-*（否定）+ *delible*（消せる）。*indelible ink* = 消えないインク。比喩的に *indelible impression* = 消えない印象。
+> "printed on me in indelible ink"
+> 「消えないインクで押された」
+📅 2026-04-13
+
+---
+
+**#390** **capriciously** /kəˈprɪʃəsli/
+気まぐれに。論理や基準に基づかず気分で決定されること。*capra*（山羊）が語源——山羊の予測不能な動きから。
+> "decisions affecting life and death could be taken so capriciously"
+> 「生死に関わる決定がこれほど気まぐれに下されうる」
+📅 2026-04-13
+
+---
+
+**#391** **herded** /ˈhɜːrdɪd/
+群れのように追い込まれた。*herd* = 家畜の群れ。人間を動物扱いで追い込むニュアンス。
+> "women, children and old men were also herded"
+> 「女性、子供、老人も追い込まれていた」
+📅 2026-04-13
+
+---
+
+**#392** **disembark** /ˌdɪsɪmˈbɑːrk/
+降りる・下車する。*dis-*（離れる）+ *embark*（乗り込む）。通常は船から降りるときに使う。
+> "they were made to disembark"
+> 「降ろされた」
+📅 2026-04-13
+
+---
+
+**#393** **massacred** /ˈmæsəkərd/
+虐殺した。大量の無抵抗な人々を一方的に殺すこと。*kill* より政治的・歴史的に重い言葉。
+> "Japanese machine-gunners massacred them"
+> 「日本軍の機関銃手が彼らを虐殺した」
+📅 2026-04-13
+
+---
+
+**#394** **bayoneted** /ˈbeɪənɪtɪd/
+銃剣で突いた。*bayonet*（#354）の動詞用法。
+> "each corpse was kicked, bayoneted and abused"
+> 「一体一体の死体が蹴られ、銃剣で突かれ、辱められた」
+📅 2026-04-13
+
+---
+
+**#395** **shore** /ʃɔːr/
+岸辺・海岸線。*beach*（砂浜）より広い概念で、波が打ち寄せる一帯。
+> "decomposed as they were washed up and down the shore"
+> 「波に打たれながら岸辺で腐敗していった」
+📅 2026-04-13
+
+---
+
+**#396** **miraculously** /mɪˈrækjʊləsli/
+奇跡的に。*miracle*（奇跡）の副詞形。この生存者がいなければ虐殺の詳細は闇の中だった。
+> "A few survivors miraculously escaped"
+> 「奇跡的に生き延びた数人」
+📅 2026-04-13
+
+---
+
+**#397** **exhumed** /ɪɡˈzjuːmd/
+掘り起こした。*ex-*（外へ）+ *humare*（埋める）。埋葬された遺体を地中から掘り出すこと。
+> "exhumed many mass graves"
+> 「多くの集団墓地を掘り起こした」
+📅 2026-04-13
+
+---
+
+**#398** **suppress** /səˈprɛs/
+鎮圧する・抑え込む。*sub-*（下へ）+ *press*（押す）。力で押さえつけること。*suppress resistance* = 抵抗を鎮圧する。
+> "to suppress anti-Japanese resistance"
+> 「抗日抵抗を鎮圧する」
+📅 2026-04-13
+
+---
+
 **#216** **spared** /spɛrd/
 免れた。*spare* = 〜を免れさせる。*not to be spared* = 免れることにはならなかった＝被害を受けることになった。
 > "Malaya was not to be spared after all."
