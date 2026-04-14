@@ -1876,10 +1876,160 @@
 
 ---
 
-**#216** **spared** /spɛrd/
-免れた。*spare* = 〜を免れさせる。*not to be spared* = 免れることにはならなかった＝被害を受けることになった。
-> "Malaya was not to be spared after all."
-> 「結局、マレーも免れることにはならなかった」
-📅 2026-04-11
+## [p.65]
+
+**#440** **maize** /meɪz/
+トウモロコシ。イギリス英語で使う。アメリカ英語では corn。スペイン語 maíz から（中南米先住民語が起源）。
+> "stretched what little we could get with maize and millet"
+> 「わずかな食料にトウモロコシやキビを混ぜて量を増やした」
+📅 2026-04-14
+
+---
+
+**#441** **palatable** /ˈpælətəbəl/
+食べられる味の、まあまあいける。palate（味覚、口蓋）+ -able。「美味しい」ではなく「まずくはない」程度。
+> "They could be quite palatable"
+> 「それなりに食べられる味だった」
+📅 2026-04-14
+
+---
+
+**#442** **mutton** /ˈmʌtən/
+羊肉。大人の羊の肉。子羊は lamb。フランス語 mouton（羊）から。beef、pork と同じくフランス語由来。
+> "There was little beef or mutton"
+> 「牛肉や羊肉はほとんどなかった」
+📅 2026-04-14
+
+---
+
+**#443** **resourcefulness** /rɪˈsɔːrsfəlnəs/
+機転、工夫する力。resource（資源）+ -ful + -ness。限られた状況で知恵を絞って切り抜ける能力。
+> "My mother's resourcefulness was sorely tested"
+> 「母の機転は大いに試された」
+📅 2026-04-14
+
+---
+
+**#444** **sorely** /ˈsɔːrli/
+大いに、ひどく。sore（痛い）+ -ly。「痛いほど」→「厳しく」。
+> "My mother's resourcefulness was sorely tested"
+> 「母の機転は大いに試された」
+📅 2026-04-14
+
+---
+
+**#445** **negligible** /ˈnɛɡlɪdʒəbəl/
+取るに足らない、無視できるほど小さい。ラテン語 neglegere（無視する）から。neglect と同根。
+> "the combined salaries... became negligible because of inflation"
+> 「給料を合わせても取るに足らない額になった」
+📅 2026-04-14
+
+---
+
+**#446** **unobtainable** /ˌʌnəbˈteɪnəbəl/
+入手不可能な。un-（不）+ obtain（手に入れる）+ -able。
+> "Wheat flour and butter were soon unobtainable"
+> 「小麦粉とバターはすぐに手に入らなくなった」
+📅 2026-04-14
+
+---
+
+**#447** **sweetened** /ˈswiːtənd/
+甘くした、加糖の。sweet + -en + -ed。sweetened condensed milk = 加糖練乳。
+> "She also made sweetened condensed milk from fresh milk"
+> 「生乳から加糖練乳も作った」
+📅 2026-04-14
+
+---
+
+**#448** **expatriate** /ˌɛksˈpætriət/
+駐在員、海外在住者。ex-（外へ）+ patria（祖国）。略して expat。
+> "teaching Straits Chinese cooking to expatriate wives"
+> 「駐在員の妻たちに海峡華人料理を教えた」
+📅 2026-04-14
+
+---
+
+**#449** **petrol** /ˈpɛtrəl/
+ガソリン。イギリス英語。アメリカ英語では gasoline。
+> "could not get petrol for them"
+> 「ガソリンが手に入らなかった」
+📅 2026-04-14
+
+---
+
+**#450** **charcoal** /ˈtʃɑːrkoʊl/
+木炭。木を蒸し焼きにしたもの。ガソリン代替燃料として使われた。
+> "Taxis were converted to run on charcoal and firewood"
+> 「タクシーは木炭や薪で走るように改造された」
+📅 2026-04-14
+
+---
+
+**#451** **bumpy** /ˈbʌmpi/
+ガタガタの、揺れる。bump（衝撃、でこぼこ）+ -y。空気なしのソリッドタイヤの乗り心地。
+> "solid bicycle tyres, which made for bumpy going"
+> 「ソリッドタイヤで乗り心地はガタガタだった」
+📅 2026-04-14
+
+---
+
+**#452** **rims** /rɪmz/
+リム、車輪の外縁。タイヤがなくなると金属のリムだけで走ることになる。
+> "better than riding on steel rims"
+> 「鉄のリムで走るよりましだった」
+📅 2026-04-14
+
+---
+
+**#453** **hoarded** /hɔːrdɪd/
+買いだめした、溜め込んだ。hoard = 物資を大量に隠し持つこと。戦時中や危機の時に使う。
+> "pre-war stocks that had been hoarded"
+> 「戦前から買いだめされていた在庫」
+📅 2026-04-14
+
+---
+
+## [p.66]
+
+**#454** **commodities** /kəˈmɒdɪtiz/
+商品、物資。ラテン語 commoditas（便利さ）から。特に取引される物資・原材料。
+> "Other profitable commodities were spirits like Johnnie Walker whisky"
+> 「その他の利益の出る商品はジョニーウォーカーのウイスキーなどの蒸留酒」
+📅 2026-04-14
+
+---
+
+**#455** **hermetically** /hɜːrˈmɛtɪkli/
+密封して、気密に。錬金術師ヘルメス（Hermes）が瓶を魔法で封じた伝説が語源。hermetically sealed = 完全に密封された。
+> "British cigarettes in hermetically sealed tins of 50"
+> 「50本入りの密封缶に入ったイギリスのタバコ」
+📅 2026-04-14
+
+---
+
+**#456** **inevitably** /ɪnˈɛvɪtəbli/
+必然的に、避けられず。in-（不）+ evitable（避けられる）。インフレ下では物の値段は必ず上がる。
+> "sell them as prices inevitably went up"
+> 「必然的に上がる価格で売った」
+📅 2026-04-14
+
+---
+
+**#457** **heirlooms** /ˈɛrluːmz/
+家宝、代々伝わる品。heir（相続人）+ loom（古英語で道具）。世代を超えて受け継がれる品物。
+> "parting with family heirlooms in order to stay alive"
+> 「生き延びるために家宝を手放す」
+📅 2026-04-14
+
+---
+
+## [p.67]
+
+**#458** **improvisation** /ˌɪmprəvaɪˈzeɪʃən/
+即興、臨機応変の工夫。ラテン語 improvisus（予見しない）から。im-（不）+ pro-（前に）+ videre（見る）。
+> "The key to survival was improvisation"
+> 「生き延びる鍵は即興だった」
+📅 2026-04-14
 
 ---
