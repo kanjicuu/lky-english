@@ -2033,3 +2033,197 @@
 📅 2026-04-14
 
 ---
+
+**#459** **frequented** /frɪˈkwɛntɪd/
+頻繁に通った。動詞 frequent（しばしば訪れる）の過去形。形容詞とはアクセント位置が違う（動詞は第2音節）。
+> "Nyuk Lin and I both frequented a goldsmith's shop in High Street"
+> 「ニュッリンと私はハイストリートの金細工店によく通った」
+📅 2026-04-15
+
+---
+
+**#460** **goldsmith** /ˈɡoʊldsmɪθ/
+金細工師。gold + smith（鍛冶屋）。
+> "a goldsmith's shop in High Street run by two Hakkas"
+> 「二人の客家人が経営するハイストリートの金細工店」
+📅 2026-04-15
+
+---
+
+**#461** **brokers** /ˈbroʊkərz/
+仲買人、ブローカー。売り手と買い手の間を取り持つ人。
+> "a meeting place for brokers like myself who traded in little bits of jewellery"
+> 「小さな宝飾品を取引するブローカーたちの集まる場所」
+📅 2026-04-15
+
+---
+
+**#462** **wok** /wɒk/
+中華鍋。広東語「鑊」が英語に入った言葉。底が丸く高温調理に適した形状。
+> "place the pot in a big wok of boiling oil"
+> 「煮えたぎる油を張った大きな中華鍋にその鍋を置く」
+📅 2026-04-15
+
+---
+
+**#463** **stirred** /stɜːrd/
+かき混ぜた。stir の過去分詞。料理や化学実験で液体・粉を混ぜる動作。
+> "needed to be stirred all the while until it became a deep golden brown dextrine"
+> 「深い黄金色のデキストリンになるまでずっとかき混ぜ続ける必要があった」
+📅 2026-04-15
+
+---
+
+**#464** **dextrine** /ˈdɛkstrɪn/
+デキストリン。デンプンを加熱・酸処理して作る水溶性の粘着性物質。接着剤や糊の原料。ラテン語 dexter（右）から。
+> "until it became a deep golden brown dextrine"
+> 「深い黄金色のデキストリンになるまで」
+📅 2026-04-15
+
+---
+
+**#465** **dissolved** /dɪˈzɒlvd/
+溶かした。dis-（離れて）+ solve（解く）。固体を液体に溶かすこと。
+> "which dissolved it into mucilage or gum"
+> 「それを粘液質の糊に溶かした」
+📅 2026-04-15
+
+---
+
+**#466** **mould** /moʊld/
+カビ。イギリス英語の綴り（アメリカ英語では mold）。
+> "carbolic acid as a preservative to prevent mould from setting in"
+> 「カビが発生するのを防ぐ防腐剤として石炭酸」
+📅 2026-04-15
+
+---
+
+**#467** **plentiful** /ˈplɛntɪfəl/
+豊富な、たくさんある。plenty + -ful。
+> "empty Scotts Emulsion bottles, which I discovered were plentiful and cheap"
+> 「スコッツ・エマルジョンの空き瓶は豊富にあって安いことがわかった」
+📅 2026-04-15
+
+---
+
+**#468** **chore** /tʃɔːr/
+雑用、日常的な仕事。特に家事や退屈なルーティン作業。古英語 cerr（仕事）が由来。
+> "Making gum was one chore that gave her pin money"
+> 「糊作りは小遣い稼ぎになる雑用の一つだった」
+📅 2026-04-15
+
+---
+
+**#469** **standstill** /ˈstændstɪl/
+停止、行き詰まり。stand + still。"at a standstill" = 完全に止まっている状態。
+> "trade was at a standstill"
+> 「貿易は停滞していた」
+📅 2026-04-15
+
+---
+
+**#470** **dwindled** /ˈdwɪndld/
+徐々に減少した、先細りになった。古英語 dwīnan（衰える）から。じわじわと縮小していくニュアンス。
+> "business dwindled and offices did not need gum"
+> 「商売は縮小し、事務所は糊を必要としなくなった」
+📅 2026-04-15
+
+---
+
+**#471** **discontinued** /ˌdɪskənˈtɪnjuːd/
+中止した、やめた。dis-（否定）+ continue（続ける）。
+> "I discontinued gum-making"
+> 「糊作りをやめた」
+📅 2026-04-15
+
+---
+
+**#472** **tenaciously** /tɪˈneɪʃəsli/
+粘り強く、しぶとく。ラテン語 tenax（しっかり掴む）から。
+> "They fought tenaciously and ferociously even as they retreated"
+> 「退却しながらも粘り強く獰猛に戦った」
+📅 2026-04-15
+
+---
+
+**#473** **ferociously** /fəˈroʊʃəsli/
+獰猛に、凶暴に。ラテン語 ferox（野生の、荒々しい）から。
+> "They fought tenaciously and ferociously even as they retreated"
+> 「退却しながらも粘り強く獰猛に戦った」
+📅 2026-04-15
+
+---
+
+**#474** **dispatches** /dɪˈspætʃɪz/
+公式報告、急報。戦地から送られる戦況報告。
+> "I read dispatches of the stubborn resistance they put up"
+> 「頑強な抵抗の報告を読んだ」
+📅 2026-04-15
+
+---
+
+**#475** **stubborn** /ˈstʌbərn/
+頑固な、頑強な。ここでは「容易に屈しない抵抗」の意味。
+> "the stubborn resistance they put up"
+> 「彼らが見せた頑強な抵抗」
+📅 2026-04-15
+
+---
+
+**#476** **casualties** /ˈkæʒuəltiz/
+死傷者。ラテン語 casualis（偶然の）から。軍事用語で死者・負傷者・行方不明者をまとめて指す。
+> "with enormous civilian casualties"
+> 「民間人に莫大な犠牲が出る」
+📅 2026-04-15
+
+---
+
+**#477** **reconnoitre** /ˌrɛkəˈnɔɪtər/
+偵察する、下見する。フランス語 reconnaître（認識する）から。アメリカ英語では reconnoiter。
+> "went up to Malaya to reconnoitre Penang and the Cameron Highlands"
+> 「ペナンとキャメロンハイランドを偵察しにマラヤに上がった」
+📅 2026-04-15
+
+---
+
+**#478** **lorry** /ˈlɒri/
+トラック。イギリス英語（アメリカ英語では truck）。
+> "I got a lift in a vegetable lorry"
+> 「野菜運搬トラックに乗せてもらった」
+📅 2026-04-15
+
+---
+
+## [p.69]
+
+**#479** **paltry** /ˈpɔːltri/
+取るに足らない、わずかな。金額が少なすぎて話にならないニュアンス。
+> "his government pay was paltry"
+> 「政府からの給与は雀の涙だった」
+📅 2026-04-15
+
+---
+
+**#480** **rations** /ˈræʃənz/
+配給品、食料の割り当て。戦時中に政府が食料を制限して配ること。
+> "his rations were inadequate"
+> 「配給が不十分だった」
+📅 2026-04-15
+
+---
+
+**#481** **hoes** /hoʊz/
+鍬（くわ）。土を掘り起こしたり雑草を取る農具。
+> "half a dozen steel hoes purchased in Singapore"
+> 「シンガポールで買った鋼鉄の鍬を半ダース」
+📅 2026-04-15
+
+---
+
+**#482** **tenancy** /ˈtɛnənsi/
+借家権、賃借権。tenant（借家人）の名詞形。ラテン語 tenere（保持する）から。
+> "we sold the tenancy of the house at Norfolk Road"
+> 「ノーフォーク・ロードの家の借家権を売った」
+📅 2026-04-15
+
+---
