@@ -2227,3 +2227,659 @@
 📅 2026-04-15
 
 ---
+
+## [p.70]
+
+**#483** **befriended** /bɪˈfrɛndɪd/
+友人になった、親しくなった。be-（〜にする）+ friend。自分から積極的に親しくなるニュアンス。
+> "the lift attendant, whom I had befriended"
+> 「親しくなっていたエレベーター係」
+📅 2026-04-15
+
+---
+
+**#484** **provoked** /prəˈvoʊkt/
+引き起こした、挑発した。ラテン語 provocare から。pro-（前に）+ vocare（呼ぶ）。
+> "I wondered what could have provoked this"
+> 「何がこれを引き起こしたのか」
+📅 2026-04-15
+
+---
+
+**#485** **interrogation** /ɪnˌtɛrəˈɡeɪʃən/
+尋問、取り調べ。ラテン語 interrogare（問いただす）から。inter-（間で）+ rogare（尋ねる）。
+> "braced myself for the coming interrogation"
+> 「来るべき尋問に覚悟を決めた」
+📅 2026-04-15
+
+---
+
+**#486** **station** /ˈsteɪʃən/
+配置する、陣取らせる。名詞（駅・持ち場）が有名だが動詞用法。
+> "I asked my brothers Dennis and Fred to station themselves at the upstairs windows"
+> 「弟たちに二階の窓に陣取ってもらった」
+📅 2026-04-15
+
+---
+
+**#487** **endured** /ɪnˈdjʊərd/
+耐えた、耐え忍んだ。ラテン語 indurare（硬くする）から。長期間の苦痛に耐え抜くニュアンス。
+> "I endured this cat-and-mouse game for some eight weeks"
+> 「この猫と鼠のゲームを約8週間耐えた」
+📅 2026-04-15
+
+---
+
+**#488** **seized** /siːzd/
+掴んだ、襲った。恐怖が人を鷲掴みにするイメージ。
+> "the cold fear that seized me"
+> 「襲ってくる冷たい恐怖」
+📅 2026-04-15
+
+---
+
+**#489** **torture** /ˈtɔːrtʃər/
+拷問。ラテン語 torquere（ねじる）から。
+> "the horrors of the torture inflicted by the Kempeitai"
+> 「憲兵隊が行う拷問の恐ろしさ」
+📅 2026-04-15
+
+---
+
+**#490** **inflicted** /ɪnˈflɪktɪd/
+加えた、与えた。ラテン語 infligere（打ちつける）から。苦痛・罰など悪いものを与える時に使う。
+> "the torture inflicted by the Kempeitai"
+> 「憲兵隊が加える拷問」
+📅 2026-04-15
+
+---
+
+## [p.71]
+
+**#491** **howls** /haʊlz/
+叫び声、遠吠え。長く響く苦痛の叫び。
+> "their victims' howls of pain"
+> 「犠牲者の苦痛の叫び声」
+📅 2026-04-15
+
+---
+
+**#492** **deliberate** /dɪˈlɪbərət/
+意図的な、故意の。ラテン語 deliberare（よく考える）から。偶然ではなく計算してやっていること。
+> "It was a deliberate method to terrorise the locals"
+> 「地元民を恐怖に陥れるための意図的な手法」
+📅 2026-04-15
+
+---
+
+**#493** **detention** /dɪˈtɛnʃən/
+拘束、拘留。ラテン語 detinere（引き留める）から。de-（離れて）+ tenere（保持する）。
+> "to leave was still to invite detention and interrogation"
+> 「去ることは拘束と尋問を招くこと」
+📅 2026-04-15
+
+---
+
+**#494** **surveillance** /sərˈveɪləns/
+監視、尾行。フランス語 surveiller（見張る）から。sur-（上から）+ veiller（見る）。
+> "the surveillance ceased"
+> 「監視が止んだ」
+📅 2026-04-15
+
+---
+
+**#495** **ceased** /siːst/
+止んだ、終わった。ラテン語 cessare（やめる）から。完全に停止するニュアンス。
+> "the surveillance ceased"
+> 「監視が止んだ」
+📅 2026-04-15
+
+---
+
+**#496** **unnerving** /ʌnˈnɜːrvɪŋ/
+神経をすり減らす、不安にさせる。un-（否定）+ nerve（神経・勇気）。
+> "It was an unnerving experience"
+> 「神経をすり減らす経験だった」
+📅 2026-04-15
+
+---
+
+**#497** **contractor** /ˈkɒntræktər/
+請負業者。contract（契約）+ -or（する人）。
+> "He was a small contractor in the construction business"
+> 「建設業の小さな請負業者だった」
+📅 2026-04-15
+
+---
+
+**#498** **regiments** /ˈrɛdʒɪmənts/
+連隊。ラテン語 regimentum（支配）から。軍隊の編成単位。
+> "the butai, the regiments that garrisoned Singapore"
+> 「シンガポールに駐屯する部隊」
+📅 2026-04-15
+
+---
+
+**#499** **garrisoned** /ˈɡærɪsənd/
+駐屯した。要塞や都市に配置された守備部隊。
+> "the regiments that garrisoned Singapore"
+> 「シンガポールに駐屯していた連隊」
+📅 2026-04-15
+
+---
+
+**#500** **scarce** /skɛrs/
+乏しい、不足している。ラテン語 excerpere（選び出す）から。
+> "commodities became scarce"
+> 「物資が乏しくなった」
+📅 2026-04-15
+
+---
+
+**#501** **middleman** /ˈmɪdlmæn/
+仲介人、中間業者。買い手と売り手の間に立って取引を仲介する人。
+> "strike out on his own as a middleman"
+> 「独立して仲介人として道を切り開く」
+📅 2026-04-15
+
+---
+
+## [p.72]
+
+**#502** **carpenters** /ˈkɑːrpəntərz/
+大工。ラテン語 carpentum（馬車）から。木材を使う建築職人。
+> "the connections with the subcontractors, carpenters, masons and bricklayers"
+> 「下請け業者・大工・石工・レンガ職人との繋がり」
+📅 2026-04-15
+
+---
+
+**#503** **masons** /ˈmeɪsənz/
+石工。フランス語 maçon から。石を切り積む職人。
+> "carpenters, masons and bricklayers"
+> 「大工・石工・レンガ職人」
+📅 2026-04-15
+
+---
+
+**#504** **bricklayers** /ˈbrɪkleɪərz/
+レンガ職人。brick（レンガ）+ layer（置く人）。
+> "carpenters, masons and bricklayers"
+> 「大工・石工・レンガ職人」
+📅 2026-04-15
+
+---
+
+**#505** **accumulated** /əˈkjuːmjəleɪtɪd/
+蓄積した、貯めた。ラテン語 accumulare から。ad-（〜に向かって）+ cumulus（山）。少しずつ増やすイメージ。
+> "I was able to raise some money and quickly accumulated more"
+> 「いくらかの資金を調達し、すぐにさらに増やした」
+📅 2026-04-15
+
+---
+
+**#506** **revarnished** /riːˈvɑːrnɪʃt/
+ニスを塗り直した。re-（再び）+ varnish（ニス）。
+> "had it restored and revarnished"
+> 「修復してニスを塗り直した」
+📅 2026-04-15
+
+---
+
+**#507** **baize** /beɪz/
+ラシャ、フェルト状の布。ビリヤード台の表面に張る緑色の布。
+> "the green baize top re-covered"
+> 「緑のラシャを張り替えた」
+📅 2026-04-15
+
+---
+
+**#508** **recreation** /ˌrɛkriˈeɪʃən/
+娯楽、気晴らし。ラテン語 recreare（再び作る、回復する）から。
+> "I was able to use Victoria Street for business and recreation"
+> 「仕事と娯楽に使えた」
+📅 2026-04-15
+
+---
+
+**#509** **confectionery** /kənˈfɛkʃənəri/
+菓子店、製菓。ラテン語 conficere（作り上げる）から。
+> "a red-brick corner building, a confectionery and bakery"
+> 「赤レンガ造りの角の菓子・パン屋」
+📅 2026-04-15
+
+---
+
+**#510** **existentialist** /ˌɛɡzɪˈstɛnʃəlɪst/
+実存主義的な。明日どうなるかわからないが今を生きるしかないという哲学。
+> "It was an existentialist life"
+> 「実存主義的な生活だった」
+📅 2026-04-15
+
+---
+
+**#511** **spelt** /spɛlt/
+spell の過去形（英）。ここでは「意味する、もたらす」の意味。
+> "a re-invasion that spelt danger for the locals"
+> 「地元民に危険をもたらす再侵攻」
+📅 2026-04-15
+
+---
+
+**#512** **civilians** /sɪˈvɪljənz/
+民間人、一般市民。ラテン語 civilis（市民の）から。軍人の対義語。
+> "I was fearful of the price civilians would pay"
+> 「市民が払う代償が恐ろしかった」
+📅 2026-04-15
+
+---
+
+## [p.73]
+
+**#513** **masthead** /ˈmæsthɛd/
+新聞の題字部分、紙面の一番上。mast（帆柱）+ head。
+> "in the form of a masthead report"
+> 「見出し記事の形で」
+📅 2026-04-15
+
+---
+
+**#514** **protests** /prəˈtɛsts/
+抗議する。
+> "Nippon protests against the attack on Hiroshima"
+> 「日本、広島への攻撃に抗議」
+📅 2026-04-15
+
+---
+
+**#515** **subjects** /ˈsʌbdʒɪkts/
+臣民、臣下。ラテン語 subjectus（下に置かれた）から。君主に対する国民。
+> "the Japanese emperor broadcast to his subjects"
+> 「天皇が臣民に向けて放送した」
+📅 2026-04-15
+
+---
+
+**#516** **Rescript** /ˈriːskrɪpt/
+勅書、詔書。ラテン語 rescriptum（書き返されたもの）から。君主が発する公式文書。
+> "it published the whole 'Imperial Rescript'"
+> 「終戦の詔書の全文を掲載した」
+📅 2026-04-15
+
+---
+
+**#517** **spared** /spɛərd/
+免れた、免除された。本来受けるはずだった苦しみを受けずに済んだ。
+> "We were spared the fiery ordeal"
+> 「焼け野原の試練を免れた」
+📅 2026-04-15
+
+---
+
+**#518** **fate** /feɪt/
+運命、末路。ラテン語 fatum（神が語ったこと）から。
+> "the fiery ordeal that had been the fate of Rangoon and Mandalay"
+> 「ラングーンやマンダレーが辿った末路」
+📅 2026-04-15
+
+---
+
+**#519** **unnatural** /ʌnˈnætʃərəl/
+不自然な。戦争は終わったのに負けた側がまだ支配しているという宙ぶらりんの状態。
+> "It was an unnatural situation"
+> 「不自然な状況だった」
+📅 2026-04-15
+
+---
+
+**#520** **demoralised** /dɪˈmɒrəlaɪzd/
+士気を失った、意気消沈した。de-（除去）+ moral（士気）。
+> "the Japanese troops had not been defeated and demoralised in battle"
+> 「日本軍は戦闘で敗北し士気を失ったわけではなかった」
+📅 2026-04-15
+
+---
+
+**#521** **despondent** /dɪˈspɒndənt/
+落胆した、意気消沈した。ラテン語 despondere（希望を捨てる）から。
+> "They were despondent and confused"
+> 「落胆し混乱していた」
+📅 2026-04-15
+
+---
+
+**#522** **elation** /ɪˈleɪʃən/
+歓喜、大喜び。ラテン語 elatus（持ち上げられた）から。
+> "locals who could not contain their elation"
+> 「喜びを抑えきれない地元民」
+📅 2026-04-15
+
+---
+
+**#523** **merrymakers** /ˈmɛriˌmeɪkərz/
+騒いで楽しんでいる人たち。merry（陽気な）+ maker。
+> "slap the merrymakers"
+> 「騒いでいる者を平手打ちした」
+📅 2026-04-15
+
+---
+
+**#524** **misdeeds** /mɪsˈdiːdz/
+悪行、非行。mis-（悪い）+ deed（行為）。
+> "punished for its misdeeds"
+> 「悪行を罰せられる」
+📅 2026-04-15
+
+---
+
+**#525** **resentful** /rɪˈzɛntfəl/
+恨みを抱いた、憤慨した。re-（再び）+ sentire（感じる）。
+> "it was also resentful and apprehensive"
+> 「恨みと不安を抱いていた」
+📅 2026-04-15
+
+---
+
+**#526** **apprehensive** /ˌæprɪˈhɛnsɪv/
+不安な、心配な。ラテン語 apprehendere（掴む）から。これから起こる悪いことへの怯え。
+> "resentful and apprehensive that the population would turn on its officers"
+> 「住民が将校たちに襲いかかるのではと不安」
+📅 2026-04-15
+
+---
+
+**#527** **messes** /ˈmɛsɪz/
+将校食堂、兵員食堂。軍事用語。「散らかった状態」とは別の意味。
+> "Shots were reported to have been heard from Japanese officers' messes"
+> 「将校食堂から銃声が聞こえた」
+📅 2026-04-15
+
+---
+
+**#528** **preferred** /prɪˈfɜːrd/
+〜を選んだ、〜の方を好んだ。ラテン語 praeferre（前に運ぶ）から。
+> "preferred to commit hara-kiri"
+> 「切腹することを選んだ」
+📅 2026-04-15
+
+---
+
+## [p.74]
+
+**#529** **appreciation** /əˌpriːʃiˈeɪʃən/
+理解、認識。ラテン語 appretiare（値を付ける）から。ここでは「感謝」ではなく「深い理解」。
+> "My appreciation of governments"
+> 「政府というものへの理解」
+📅 2026-04-15
+
+---
+
+**#530** **crumble** /ˈkrʌmbl/
+崩れ落ちる、ぼろぼろになる。社会秩序が一気に崩壊したイメージ。
+> "I saw a whole social system crumble suddenly"
+> 「社会システム全体が突然崩れ落ちるのを見た」
+📅 2026-04-15
+
+---
+
+**#531** **merciless** /ˈmɜːrsɪləs/
+容赦のない、無慈悲な。mercy（慈悲）+ -less（〜がない）。
+> "an occupying army that was absolutely merciless"
+> 「まったく容赦のない占領軍」
+📅 2026-04-15
+
+---
+
+**#532** **demanded** /dɪˈmændɪd/
+要求した。拒否を許さない命令的な要求。
+> "The Japanese demanded total obedience"
+> 「日本軍は完全な服従を要求した」
+📅 2026-04-15
+
+---
+
+**#533** **obedience** /əˈbiːdiəns/
+服従。ラテン語 obedire（従う）から。ob-（〜に向かって）+ audire（聞く）。
+> "demanded total obedience and got it from nearly all"
+> 「完全な服従を要求し、ほぼ全員から得た」
+📅 2026-04-15
+
+---
+
+**#534** **margins** /ˈmɑːrdʒɪnz/
+周縁、端。ラテン語 margo（縁）から。社会の主流から外れた端。
+> "They lived on the margins of the new society"
+> 「新しい社会の周縁で暮らした」
+📅 2026-04-15
+
+---
+
+**#535** **stagnated** /ˈstæɡneɪtɪd/
+停滞した。ラテン語 stagnare（水たまりになる）から。
+> "their fortunes stagnated or declined"
+> 「財産は停滞あるいは減少した」
+📅 2026-04-15
+
+---
+
+**#536** **assessing** /əˈsɛsɪŋ/
+見極める、評価する。ラテン語 assidere（そばに座る）から。
+> "quick off the mark in assessing the new situation"
+> 「新しい状況を素早く見極めて」
+📅 2026-04-15
+
+---
+
+**#537** **misfortune** /mɪsˈfɔːrtʃuːn/
+不幸、災難。mis-（悪い）+ fortune（運）。
+> "made fortunes out of the terrible misfortune"
+> 「ひどい不幸から財を築いた」
+📅 2026-04-15
+
+---
+
+**#538** **befallen** /bɪˈfɔːlən/
+降りかかった。befall の過去分詞。be-（上に）+ fall（落ちる）。
+> "the terrible misfortune that had befallen all in Singapore"
+> 「シンガポールの全員に降りかかった不幸」
+📅 2026-04-15
+
+---
+
+**#539** **pretence** /prɪˈtɛns/
+見せかけ、ふり。ラテン語 praetendere（前に伸ばす）から。
+> "It put up no pretence of civilised behaviour"
+> 「文明的なふるまいの見せかけすらしなかった」
+📅 2026-04-15
+
+---
+
+**#540** **severe** /sɪˈvɪər/
+厳しい、過酷な。ラテン語 severus（厳格な）から。
+> "Punishment was so severe that crime was very rare"
+> 「刑罰があまりに厳しく犯罪は非常にまれだった」
+📅 2026-04-15
+
+---
+
+**#541** **deprivation** /ˌdɛprɪˈveɪʃən/
+窮乏、欠乏。ラテン語 deprivare（奪う）から。生活必需品が奪われた状態。
+> "In the midst of deprivation"
+> 「窮乏の中で」
+📅 2026-04-15
+
+---
+
+**#542** **mere** /mɪər/
+単なる、ほんの。ラテン語 merus（純粋な）から。それ以上でもない。
+> "it was a mere formality"
+> 「形だけのものだった」
+📅 2026-04-15
+
+---
+
+## [p.75]
+
+**#543** **advocate** /ˈædvəkeɪt/
+唱える、主張する。ラテン語 advocare（呼び寄せる）から。政策を積極的に推進すること。
+> "those who advocate a soft approach to crime and punishment"
+> 「犯罪と罰に甘いアプローチを唱える者たち」
+📅 2026-04-15
+
+---
+
+**#544** **claiming** /ˈkleɪmɪŋ/
+主張する。ラテン語 clamare（叫ぶ）から。〜だと断言すること。
+> "claiming that punishment does not reduce crime"
+> 「罰は犯罪を減らさないと主張する」
+📅 2026-04-15
+
+---
+
+**#545** **subsequently** /ˈsʌbsɪkwəntli/
+その後。ラテン語 subsequi（後に続く）から。sub-（下に）+ sequi（続く）。
+> "during the Japanese occupation or subsequently"
+> 「日本占領期、そしてその後」
+📅 2026-04-15
+
+---
+
+**#546** **anaesthetics** /ˌænəsˈθɛtɪks/
+麻酔薬。ギリシャ語 an-（無い）+ aisthesis（感覚）。感覚を無くす薬。
+> "they prospered despite shortages of medicines and anaesthetics"
+> 「薬や麻酔薬の不足にもかかわらず繁盛した」
+📅 2026-04-15
+
+---
+
+**#547** **confinement** /kənˈfaɪnmənt/
+監禁、閉じ込め。confine（閉じ込める）+ -ment。
+> "looked the worse for their confinement"
+> 「監禁生活でみすぼらしくなっていた」
+📅 2026-04-15
+
+---
+
+**#548** **tattered** /ˈtætərd/
+ぼろぼろの、ぼろ切れになった。布が破れて切れ端だらけの状態。
+> "Their uniforms, usually shorts and shirts, were tattered"
+> 「軍服はぼろぼろだった」
+📅 2026-04-15
+
+---
+
+**#549** **ulcers** /ˈʌlsərz/
+潰瘍。皮膚や粘膜が深くえぐれた傷。栄養不足や不衛生な環境で悪化する。
+> "with sores, ulcers, scars and scabies all over their bodies"
+> 「ただれ、潰瘍、傷跡、疥癬が体中に」
+📅 2026-04-15
+
+---
+
+**#550** **scabies** /ˈskeɪbiːz/
+疥癬（かいせん）。ダニが皮膚に寄生して激しいかゆみを起こす感染症。
+> "sores, ulcers, scars and scabies all over their bodies"
+> 「ただれ、潰瘍、傷跡、疥癬が体中に」
+📅 2026-04-15
+
+---
+
+**#551** **grave** /ɡreɪv/
+深刻な、重大な。ラテン語 gravis（重い）から。名詞の「墓」とは別の意味。
+> "put the old at a grave disadvantage"
+> 「年配者を深刻に不利な立場に置いた」
+📅 2026-04-15
+
+---
+
+## [p.76]
+
+**#552** **opportunistic** /ˌɒpərtjuːˈnɪstɪk/
+日和見的な、機会主義の。ラテン語 opportunus（好都合な）から。
+> "the smart and the opportunistic"
+> 「抜け目なく日和見的な者たち」
+📅 2026-04-15
+
+---
+
+**#553** **ingratiate** /ɪnˈɡreɪʃieɪt/
+取り入る、気に入られようとする。ラテン語 in gratiam（好意の中に）から。
+> "went out of their way to ingratiate themselves"
+> 「わざわざ取り入ろうとした」
+📅 2026-04-15
+
+---
+
+**#554** **deprived** /dɪˈpraɪvd/
+窮乏した、奪われた。deprivation（#541）の形容詞形。
+> "For a deprived, depressed population"
+> 「窮乏し、落ち込んだ住民にとって」
+📅 2026-04-15
+
+---
+
+**#555** **opiate** /ˈoʊpiət/
+麻薬、アヘン剤。比喩的に「苦しみを忘れさせてくれるもの」。
+> "gambling was a wonderful opiate"
+> 「ギャンブルは素晴らしい麻薬だった」
+📅 2026-04-15
+
+---
+
+**#556** **patronised** /ˈpætrənaɪzd/
+ひいきにした、足を運んだ。ラテン語 patronus（保護者）から。
+> "The locals patronised these farms"
+> 「地元民はこれらの賭博場に足を運んだ」
+📅 2026-04-15
+
+---
+
+**#557** **existence** /ɪɡˈzɪstəns/
+存在、生存。ラテン語 existere（現れ出る）から。
+> "As existence was uncertain"
+> 「存在そのものが不確かだったので」
+📅 2026-04-15
+
+---
+
+## [p.77]
+
+**#558** **tangible** /ˈtændʒɪbl/
+有形の、手で触れられる。ラテン語 tangere（触れる）から。
+> "changing it into tangible goods"
+> 「有形の品物に換える」
+📅 2026-04-15
+
+---
+
+**#559** **bulky** /ˈbʌlki/
+かさばる、大きくて場所をとる。bulk（かさ）+ -y。
+> "Grains and other foodstuffs were bulky"
+> 「穀物やその他の食料品はかさばった」
+📅 2026-04-15
+
+---
+
+**#560** **sought** /sɔːt/
+seek（探す、求める）の過去分詞。"most sought after" = 最も求められた。
+> "The items most sought after"
+> 「最も求められた品物」
+📅 2026-04-15
+
+---
+
+**#561** **flaws** /flɔːz/
+傷、欠陥。宝石では石の中の不純物やひび割れ。一般的にも「欠点」の意味。
+> "good diamonds with good colour and few or no flaws"
+> 「色が良く傷がほとんどないダイヤモンド」
+📅 2026-04-15
+
+---
+
+**#562** **virtues** /ˈvɜːrtʃuːz/
+美点、長所。ラテン語 virtus（力、美徳）から。ここでは宝石の良い特徴。
+> "to learn the virtues of rubies, sapphires, aquamarines"
+> 「ルビー、サファイア、アクアマリンの良し悪しを学ぶ」
+📅 2026-04-15
+
+---
