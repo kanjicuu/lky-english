@@ -2883,3 +2883,397 @@ seek（探す、求める）の過去分詞。"most sought after" = 最も求め
 📅 2026-04-15
 
 ---
+
+**#563** **immovable** /ɪˈmuːvəbl/
+動かせない。im-（不）+ movable。不動産は動かせないので爆撃や無効化のリスクがあった。
+> "their value did not escalate as much... because they were immovable"
+> 「不動産は動かせないので値上がりしなかった」
+📅 2026-04-16
+
+---
+
+**#564** **repudiated** /rɪˈpjuːdieɪtɪd/
+否認した、拒否した。ラテン語 repudiare（拒絶する）から。契約や取引を無効だと突き返すこと。
+> "the conveyance would be repudiated or annulled"
+> 「譲渡が否認または無効にされる」
+📅 2026-04-16
+
+---
+
+**#565** **annulled** /əˈnʌld/
+無効にした、取り消した。ラテン語 annullare から。ad-（〜に）+ nullus（無）。法的に「なかったこと」にする。
+> "conveyances were not annulled"
+> 「譲渡は無効にされなかった」
+📅 2026-04-16
+
+---
+
+**#566** **dictum** /ˈdɪktəm/
+格言、名言。ラテン語 dictum（言われたこと）から。権威ある人物の有名な言葉。
+> "Mao's dictum that 'power grows out of the barrel of a gun'"
+> 「毛沢東の『権力は銃口から生まれる』という格言」
+📅 2026-04-16
+
+---
+
+**#567** **bayonets** /ˈbeɪənɛts/
+銃剣。フランスの都市 Bayonne が語源。銃の先に取り付ける刃物。
+> "Japanese guns, Japanese bayonets and swords"
+> 「日本軍の銃、銃剣と刀」
+📅 2026-04-16
+
+---
+
+**#568** **terror** /ˈtɛrər/
+恐怖、テロ。ラテン語 terrere（怖がらせる）から。心理的な恐怖。
+> "Japanese terror and torture settled the argument"
+> 「日本軍の恐怖と拷問が議論に決着をつけた」
+📅 2026-04-16
+
+---
+
+## [p.78]
+
+**#569** **irrelevant** /ɪˈrɛləvənt/
+無関係な、的外れな。ir-（不）+ relevant（関連する）。
+> "Morality and fairness were irrelevant"
+> 「道徳や公正さは関係なかった」
+📅 2026-04-16
+
+---
+
+**#570** **extol** /ɪkˈstoʊl/
+称賛する、褒めたたえる。ラテン語 extollere（持ち上げる）から。大げさに持ち上げるニュアンス。
+> "extol their culture"
+> 「彼らの文化を称賛する」
+📅 2026-04-16
+
+---
+
+**#571** **emulate** /ˈɛmjəleɪt/
+見習う、模倣する。ラテン語 aemulari（匹敵しようとする）から。
+> "emulate their behaviour"
+> 「彼らの行動を見習う」
+📅 2026-04-16
+
+---
+
+**#572** **suppress** /səˈprɛs/
+抑え込む、鎮圧する。ラテン語 suppressus から。sub-（下に）+ pressare（押す）。
+> "They tried to suppress the instincts and habits of a people"
+> 「民族の本能と習慣を抑え込もうとした」
+📅 2026-04-16
+
+---
+
+**#573** **barbaric** /bɑːrˈbærɪk/
+野蛮な、残忍な。ギリシャ語 barbaros（外国人、野蛮人）から。
+> "their new barbaric oppressors"
+> 「新しい野蛮な抑圧者」
+📅 2026-04-16
+
+---
+
+**#574** **hatred** /ˈheɪtrɪd/
+憎しみ、憎悪。hate + -red（状態を表す接尾辞）。hate より強く深い感情。
+> "In Taiwan... there was no hatred"
+> 「台湾では憎しみはなかった」
+📅 2026-04-16
+
+---
+
+**#575** **conviction** /kənˈvɪkʃən/
+信念、確信。ラテン語 convincere（完全に証明する）から。揺るがない信念。
+> "the courage and conviction to stand up to the invaders"
+> 「侵略者に立ち向かう勇気と信念」
+📅 2026-04-16
+
+---
+
+## [p.79]
+
+**#576** **tormentors** /tɔːrˈmɛntərz/
+虐待者、苦しめる人。ラテン語 tormentum（拷問器具）から。日常的に虐待する人。
+> "informers, torturers, tormentors and accomplices"
+> 「密告者、拷問者、虐待者、協力者」
+📅 2026-04-16
+
+---
+
+**#577** **manhandled** /ˈmænhændld/
+乱暴に扱った。man + handle。人を物のように力ずくで扱うこと。
+> "I was flogged with a rope, kicked and manhandled"
+> 「ロープで鞭打ちにされ、蹴られ、乱暴に扱われた」
+📅 2026-04-16
+
+---
+
+## [p.80]
+
+**#578** **imprisoned** /ɪmˈprɪzənd/
+閉じ込められた、投獄された。im-（中に）+ prison（牢獄）。
+> "I found myself imprisoned in a room about 15 feet by 10 feet"
+> 「約4.5m×3mの部屋に閉じ込められていた」
+📅 2026-04-16
+
+---
+
+**#579** **squatting** /ˈskwɒtɪŋ/
+しゃがむ。squatting type = 和式トイレのようなしゃがんで使うタイプ。
+> "a lavatory... a squatting type"
+> 「しゃがむタイプのトイレ」
+📅 2026-04-16
+
+---
+
+**#580** **gushing** /ˈɡʌʃɪŋ/
+噴き出す、勢いよく流れ出る。
+> "collected from the gushing outlets in the toilet bowl"
+> 「便器の噴き出し口から水を集めた」
+📅 2026-04-16
+
+---
+
+**#581** **menstruating** /ˈmɛnstruːeɪtɪŋ/
+月経中の。ラテン語 menstruus（月ごとの）から。
+> "flowing blood from a woman menstruating"
+> 「月経中の女性から流れる血」
+📅 2026-04-16
+
+---
+
+**#582** **discarded** /dɪsˈkɑːrdɪd/
+捨てられた、廃棄された。dis-（離れて）+ card（捨てる）。
+> "rice gruel mixed with discarded vegetables"
+> 「捨てられた野菜を混ぜた粥」
+📅 2026-04-16
+
+---
+
+**#583** **kerosene tin** /ˈkɛrəsiːn tɪn/
+灯油缶。食器ではなく灯油の缶で食事を出された。
+> "discarded vegetables from an old kerosene tin"
+> 「古い灯油缶に入った捨てられた野菜」
+📅 2026-04-16
+
+---
+
+**#584** **retched** /rɛtʃt/
+吐き気を催した、えずいた。実際に吐く vomit とは違い、吐きそうになる動作。
+> "I could not stomach it and retched every time I tried to eat"
+> 「食べようとするたびに吐き気を催した」
+📅 2026-04-16
+
+---
+
+**#585** **prone** /proʊn/
+うつ伏せの。ラテン語 pronus（前に傾いた）から。
+> "he could only move in a prone position"
+> 「うつ伏せの姿勢で移動するしかできなかった」
+📅 2026-04-16
+
+---
+
+**#586** **fetch** /fɛtʃ/
+取ってくる。行って何かを持って戻ること。
+> "drag himself... to fetch the stick and return it"
+> 「棒を取りに行き返さなければならなかった」
+📅 2026-04-16
+
+---
+
+**#587** **deserted** /dɪˈzɜːrtɪd/
+脱走した。軍隊から無断で逃げ出すこと。desert（砂漠）とは別の意味。
+> "a gunpo who was caught after he deserted"
+> 「脱走して捕まった軍報」
+📅 2026-04-16
+
+---
+
+**#588** **beam** /biːm/
+梁（はり）。建物の天井を支える横木。
+> "the rope attached to a beam"
+> 「ロープを梁に結びつけた」
+📅 2026-04-16
+
+---
+
+**#589** **profanities** /prəˈfænɪtiz/
+罵詈雑言、冒涜的な言葉。ラテン語 profanus（神殿の外の）から。
+> "He yelled profanities and cursed the Japanese"
+> 「罵詈雑言を叫び日本人を呪った」
+📅 2026-04-16
+
+---
+
+**#590** **cursed** /kɜːrst/
+呪った、罵った。相手に災いが降りかかるよう言うこと。
+> "cursed the Japanese in a strong voice in Teochew"
+> 「潮州語で大声で日本人を呪った」
+📅 2026-04-16
+
+---
+
+## [p.82]
+
+**#591** **vomited** /ˈvɒmɪtɪd/
+嘔吐した。ラテン語 vomere（吐く）から。retched は吐きそうになる、vomit は実際に吐く。
+> "The man vomited and passed out"
+> 「男は嘔吐して気を失った」
+📅 2026-04-16
+
+---
+
+**#592** **shivered** /ˈʃɪvərd/
+震えた。寒さや恐怖で体が小刻みに震えること。
+> "we shivered when we heard the sound of heavy boots"
+> 「重い軍靴の音が聞こえると震えた」
+📅 2026-04-16
+
+---
+
+**#593** **intercession** /ˌɪntərˈsɛʃən/
+とりなし、仲裁。ラテン語 intercedere（間に入る）から。
+> "released on the intercession of the top Taiwanese liaison officer"
+> 「台湾人の最高連絡将校のとりなしで釈放された」
+📅 2026-04-16
+
+---
+
+**#594** **liaison** /liˈeɪzɒn/
+連絡、仲介。フランス語から。日本軍と現地人の間をつなぐ連絡役。
+> "the top Taiwanese liaison officer"
+> 「台湾人の最高連絡将校」
+📅 2026-04-16
+
+---
+
+**#595** **veneer** /vəˈnɪər/
+表面の薄い板、うわべの飾り。薄い化粧板。
+> "The civility and the bowings are a thin veneer"
+> 「礼儀正しさとお辞儀は薄い表面にすぎない」
+📅 2026-04-16
+
+---
+
+**#596** **poignant** /ˈpɔɪnjənt/
+痛切な、胸を突くような。フランス語 poindre（刺す）から。
+> "A poignant summation of Japanese bestiality"
+> 「日本の獣性についての痛切な要約」
+📅 2026-04-16
+
+---
+
+**#597** **summation** /sʌˈmeɪʃən/
+要約、まとめ。sum（合計）から。すべてを凝縮した総括。
+> "A poignant summation of Japanese bestiality"
+> 「日本の獣性についての痛切な要約」
+📅 2026-04-16
+
+---
+
+**#598** **bestiality** /ˌbɛstiˈælɪti/
+獣性、残忍さ。ラテン語 bestia（獣）から。人間が獣のように振る舞うこと。
+> "the level of pure horror and bestiality"
+> 「純粋な恐怖と獣性のレベル」
+📅 2026-04-16
+
+---
+
+**#599** **plumb** /plʌm/
+測る、底まで達する。鉛の重りで水深を測ることから。
+> "actions which plumb the very depths of human depravity"
+> 「人間の堕落の最深部まで届く行為」
+📅 2026-04-16
+
+---
+
+**#600** **depravity** /dɪˈprævɪti/
+堕落、邪悪さ。ラテン語 depravare（歪める）から。道徳的に完全に腐敗した状態。
+> "the very depths of human depravity and degradation"
+> 「人間の堕落と退廃の最も深い底」
+📅 2026-04-16
+
+---
+
+**#601** **degradation** /ˌdɛɡrəˈdeɪʃən/
+退廃、品位の低下。de-（下に）+ gradus（段階）。
+> "human depravity and degradation"
+> 「人間の堕落と退廃」
+📅 2026-04-16
+
+---
+
+**#602** **permeates** /ˈpɜːrmieɪts/
+浸透する、染み渡る。ラテン語 permeare から。per-（通して）+ meare（行く）。
+> "Horror... permeates every corner and angle of the case"
+> 「恐怖が事件の隅々まで浸透している」
+📅 2026-04-16
+
+---
+
+**#603** **devoid** /dɪˈvɔɪd/
+まったくない、欠いている。完全にゼロというニュアンス。
+> "devoid of relief or palliation"
+> 「救いも緩和も一切ない」
+📅 2026-04-16
+
+---
+
+**#604** **palliation** /ˌpæliˈeɪʃən/
+緩和、軽減。ラテン語 palliare（覆い隠す）から。苦しみを和らげること。
+> "devoid of relief or palliation"
+> 「救いも緩和もない」
+📅 2026-04-16
+
+---
+
+**#605** **diligently** /ˈdɪlɪdʒəntli/
+懸命に、勤勉に。ラテン語 diligere（大切にする）から。
+> "I have searched diligently"
+> 「懸命に探した」
+📅 2026-04-16
+
+---
+
+**#606** **elevate** /ˈɛlɪveɪt/
+引き上げる、高める。ラテン語 elevare から。e-（上に）+ levare（持ち上げる）。
+> "elevate the story from the level of pure horror"
+> 「純粋な恐怖のレベルから話を引き上げる」
+📅 2026-04-16
+
+---
+
+**#607** **ennoble** /ɪnˈnoʊbl/
+高める、気高くする。en-（〜にする）+ noble（高貴な）。
+> "ennoble it, at least, upon the plane of tragedy"
+> 「せめて悲劇の次元にまで高める」
+📅 2026-04-16
+
+---
+
+**#608** **tragedy** /ˈtrædʒɪdi/
+悲劇。ギリシャ語 tragoidia から。この事件は悲劇にすら届かない純粋な恐怖だった。
+> "ennoble it, at least, upon the plane of tragedy"
+> 「せめて悲劇の次元にまで高める」
+📅 2026-04-16
+
+---
+
+## [p.83]
+
+**#609** **deeds** /diːdz/
+行為、行い。良い意味でも悪い意味でも使う。
+> "chosen not to talk about these evil deeds"
+> 「これらの悪行について語らないことを選んだ」
+📅 2026-04-16
+
+---
+
+**#610** **unqualified** /ʌnˈkwɒlɪfaɪd/
+無条件の、完全な。un-（否定）+ qualified（条件付きの）。一切の留保のない。
+> "gave an unqualified apology"
+> 「無条件の謝罪を行った」
+📅 2026-04-16
+
+---

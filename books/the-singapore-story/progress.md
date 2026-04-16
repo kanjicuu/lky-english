@@ -7,9 +7,9 @@
 
 ## Reading Progress
 - **Current Chapter:** Chapter 3: The Japanese Invaders
-- **Current Page:** p.77
-- **Last note entry:** #562
-- **Last session:** 2026-04-15
+- **Current Page:** p.83 (Chapter 3 complete)
+- **Last note entry:** #610
+- **Last session:** 2026-04-16
 
 ## Text Transcribed
 | Section | Pages | Status |
@@ -27,7 +27,7 @@
 | Front Matter (Praise + Preface) | #1-41 | Done |
 | Chapter 1 | #42-132 | Done |
 | Chapter 2 | #133-205 | Done |
-| Chapter 3 | #206-307 | In progress |
+| Chapter 3 | #206-610 | Done |
 
 ## Workflow
 1. スマホで見開き撮影 → Macに同期 → Claude Codeでテキスト化 → `text/` に保存
