@@ -37,6 +37,20 @@
 
 ---
 
+| **guerrilla(s)** | Ch.4 | ★★★ | ゲリラ・遊撃兵。*MPAJA guerrillas* |
+| **surrender** | Ch.3-4 | ★★★ | 降伏。Ch.4では降伏式典の場面 |
+| **collaborators** | Ch.3-4 | ★★★ | 対日協力者。Ch.4では人民裁判の対象 |
+| **hartal** | Ch.4 | ★★★ | ハルタル。インド由来の同盟罷業 |
+| **demobilised** | Ch.4 | ★★ | 復員した・除隊した |
+| **internment** | Ch.4 | ★★ | 抑留・収容 |
+| **assimilated** | Ch.4 | ★★ | 同化した。海峡華人と中国語系華人の対比 |
+| **extortion** | Ch.4 | ★★ | 恐喝。MPAJA の資金集め |
+| **intimidation** | Ch.4 | ★★ | 脅迫・威嚇。ハルタル強制の手段 |
+| **exhilaration** | Ch.4 | ★★ | 高揚感。解放の瞬間 |
+| **inveigled** | Ch.4 | ★ | 言いくるめた。MDU設立の経緯 |
+
+---
+
 *Chapter 2 完了: 2026-04-11*
 *Chapter 3 完了: 2026-04-11*
-*Chapter 4 以降：随時追加*
+*Chapter 4 完了: 2026-04-16*
