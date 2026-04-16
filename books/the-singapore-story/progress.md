@@ -6,10 +6,11 @@
 - **Published:** 1998
 
 ## Reading Progress
-- **Current Chapter:** Chapter 3: The Japanese Invaders
-- **Current Page:** p.83 (Chapter 3 complete)
-- **Last note entry:** #610
-- **Last session:** 2026-04-16
+- **Current Chapter:** Chapter 4: After the Liberation
+- **Current Page:** p.89
+- **Last note entry:** #647
+- **Last session:** 2026-04-17
+- **Next session start:** "Before that happened, however, there was plenty of action..." (p.89)
 
 ## Text Transcribed
 | Section | Pages | Status |
@@ -28,6 +29,7 @@
 | Chapter 1 | #42-132 | Done |
 | Chapter 2 | #133-205 | Done |
 | Chapter 3 | #206-610 | Done |
+| Chapter 4 | #611-647 | In progress |
 
 ## Workflow
 1. スマホで見開き撮影 → Macに同期 → Claude Codeでテキスト化 → `text/` に保存
