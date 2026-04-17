@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>4カ国ロールプレイ「国際会議」ワークショップ資料</title>
+<style>
+  @page {
+    size: A4;
+    margin: 15mm 18mm;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #fff;
+  }
+
+  /* ---------- page break helpers ---------- */
+  .page-break { page-break-before: always; }
+  .no-break   { page-break-inside: avoid; }
+
+  /* ---------- cover ---------- */
+  .cover {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    min-height: 90vh; text-align: center;
+  }
+  .cover h1 { font-size: 26pt; margin-bottom: 8px; letter-spacing: .05em; }
+  .cover .sub { font-size: 14pt; color: #555; margin-bottom: 32px; }
+  .cover .meta { font-size: 10pt; color: #888; }
+
+  /* ---------- section headers ---------- */
+  h2 {
+    font-size: 15pt; color: #0d47a1;
+    border-bottom: 3px solid #0d47a1;
+    padding-bottom: 4px; margin: 28px 0 14px;
+  }
+  h3 {
+    font-size: 12pt; color: #1565c0;
+    margin: 18px 0 8px;
+  }
+  h4 {
+    font-size: 10.5pt; color: #333;
+    margin: 12px 0 6px;
+    border-left: 4px solid #42a5f5;
+    padding-left: 8px;
+  }
+
+  /* ---------- tables ---------- */
+  table {
+    width: 100%; border-collapse: collapse;
+    margin: 8px 0 14px; font-size: 10pt;
+  }
+  th, td {
+    border: 1px solid #bbb; padding: 5px 8px; text-align: left;
+  }
+  th { background: #e3f2fd; font-weight: 600; }
+  tr:nth-child(even) td { background: #fafafa; }
+
+  /* ---------- cards ---------- */
+  .card {
+    border: 1px solid #ccc; border-radius: 6px;
+    padding: 12px 16px; margin: 10px 0;
+    page-break-inside: avoid;
+  }
+  .card.japan      { border-left: 5px solid #c62828; }
+  .card.singapore  { border-left: 5px solid #e65100; }
+  .card.malaysia   { border-left: 5px solid #2e7d32; }
+  .card.britain    { border-left: 5px solid #1565c0; }
+
+  .card-title {
+    font-weight: 700; font-size: 11pt; margin-bottom: 6px;
+  }
+  .card.japan .card-title      { color: #c62828; }
+  .card.singapore .card-title  { color: #e65100; }
+  .card.malaysia .card-title   { color: #2e7d32; }
+  .card.britain .card-title    { color: #1565c0; }
+
+  /* ---------- misc ---------- */
+  ul, ol { margin: 6px 0 10px 20px; }
+  li { margin-bottom: 3px; }
+  blockquote {
+    border-left: 3px solid #90caf9;
+    padding: 6px 12px; margin: 8px 0;
+    background: #f5f9ff; font-style: italic;
+    font-size: 10pt;
+  }
+  .badge {
+    display: inline-block; padding: 2px 10px;
+    border-radius: 12px; font-size: 9pt;
+    font-weight: 600; color: #fff; margin-right: 4px;
+  }
+  .badge-purpose  { background: #0d47a1; }
+  .badge-setup    { background: #00695c; }
+  .badge-program  { background: #4a148c; }
+  .badge-round    { background: #bf360c; }
+
+  .hint {
+    background: #fff8e1; border: 1px solid #ffe082;
+    border-radius: 4px; padding: 8px 12px;
+    margin: 8px 0; font-size: 10pt;
+  }
+  .expect {
+    background: #e8f5e9; border: 1px solid #a5d6a7;
+    border-radius: 4px; padding: 8px 12px;
+    margin: 8px 0; font-size: 10pt;
+  }
+  .facilitate {
+    background: #e3f2fd; border: 1px solid #90caf9;
+    border-radius: 4px; padding: 8px 12px;
+    margin: 8px 0; font-size: 10pt;
+  }
+
+  .legend { display: flex; gap: 16px; margin: 10px 0 16px; font-size: 9.5pt; }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+
+  .toc { list-style: none; padding: 0; }
+  .toc li { padding: 4px 0; border-bottom: 1px dotted #ccc; }
+  .toc li span.num { font-weight: 700; color: #0d47a1; margin-right: 6px; }
+
+  .comparison-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 8px; margin: 8px 0;
+  }
+  @media print {
+    .page-break { page-break-before: always; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ====== COVER ====== -->
+<div class="cover">
+  <h1>4カ国ロールプレイ<br>「国際会議」</h1>
+  <div class="sub">ワークショップ全体資料</div>
+  <p style="font-size:11pt; color:#333; max-width:480px; margin-bottom:24px;">
+    シンガポールの歴史を4つの国の視点から体験する<br>
+    参加型ロールプレイ・ワークショップ
+  </p>
+  <div class="meta">
+    対象: 小中学生（10〜15歳）｜所要時間: 約130分（短縮版80分）<br>
+    実施タイミング: シンガポール国立博物館 見学後
+  </div>
+</div>
+
+<!-- ====== TOC ====== -->
+<div class="page-break"></div>
+<h2>目次</h2>
+<ol class="toc">
+  <li><span class="num">1</span> ワークショップの目的</li>
+  <li><span class="num">2</span> 当日の準備
+    <ul style="margin-top:4px;">
+      <li>2-a. 会場配置とチーム分け</li>
+      <li>2-b. 配布カードの種類と概要</li>
+    </ul>
+  </li>
+  <li><span class="num">3</span> プログラム進行
+    <ul style="margin-top:4px;">
+      <li>3-a. タイムテーブル</li>
+      <li>3-b. 各ラウンドの進め方</li>
+      <li>Round 1 — 日本軍侵略（1941-42）</li>
+      <li>Round 2 — 日本軍支配（1942-45）</li>
+      <li>Round 3 — 原爆と終戦（1945）</li>
+      <li>Round 4 — イギリス再支配（1945-50s）</li>
+      <li>Round 5 — 東南アジア独立（1950s-1965）</li>
+    </ul>
+  </li>
+  <li><span class="num">4</span> 振り返りと閉会</li>
+</ol>
+
+<div class="legend" style="margin-top:20px;">
+  <div><strong>カード色の凡例:</strong></div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#c62828;"></div> 日本</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#e65100;"></div> シンガポール</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#2e7d32;"></div> マレーシア</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#1565c0;"></div> イギリス</div>
+</div>
+<div class="legend">
+  <div><strong>ボックス色の凡例:</strong></div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#fff8e1; border:1px solid #ffe082;"></div> ディスカッションの問い</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#e8f5e9; border:1px solid #a5d6a7;"></div> 期待する反応</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:#e3f2fd; border:1px solid #90caf9;"></div> ファシリテーターの働きかけ</div>
+</div>
+
+<!-- ====== 1. PURPOSE ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-purpose">1</span> ワークショップの目的</h2>
+
+<h3>3つのゴール</h3>
+<ol>
+  <li><strong>歴史に「100:0」はないことを体感する</strong><br>
+    どの国にも理由があり、どの国にも傷がある。善悪の二項対立を超える。</li>
+  <li><strong>同じ出来事でも立場によって見え方が全く違うことを知る</strong><br>
+    4カ国が同じ歴史的事件をそれぞれの視点で語り、違いを可視化する。</li>
+  <li><strong>相手の視点を理解した上で自分の立場を語れるようになる</strong><br>
+    これがグローバル人材の第一歩。「わかってくれ」ではなく「わかった上で伝える」力。</li>
+</ol>
+
+<h3>なぜシンガポールの歴史なのか</h3>
+<ul>
+  <li>日本・イギリス・マレーシア・シンガポールの4カ国が直接関わる歴史</li>
+  <li>日本の子どもたちにとって「加害」と「被害」の両面を学べる</li>
+  <li>シンガポール国立博物館の見学と直結し、体験を深められる</li>
+</ul>
+
+<!-- ====== 2. SETUP ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-setup">2</span> 当日の準備</h2>
+
+<h3>2-a. 会場配置とチーム分け</h3>
+
+<table>
+  <tr><th>項目</th><th>内容</th></tr>
+  <tr><td>参加人数</td><td>16〜32人（4チーム × 4〜8人）</td></tr>
+  <tr><td>チーム</td><td>日本 / シンガポール / マレーシア / イギリス</td></tr>
+  <tr><td>分け方</td><td>ランダム（友達同士で固まらない）</td></tr>
+  <tr><td>会場</td><td>教室・会議室・ホテルの広めの部屋など</td></tr>
+</table>
+
+<h4>会場レイアウト</h4>
+<ul>
+  <li><strong>4つの島</strong>（テーブルクラスター）を配置。各島に国旗プリントを立てる</li>
+  <li><strong>中央</strong>にファシリテーター用スペース</li>
+  <li>全チームが他チームの発表を<strong>聞ける配置</strong>にする（扇形や四角形）</li>
+</ul>
+
+<h4>チーム分けの注意点</h4>
+<ul>
+  <li><strong>日本チーム:</strong> 自国の加害を知ることになるため、歴史に興味がある子や冷静に考えられる子を入れると安定する</li>
+  <li><strong>役の交換（推奨）:</strong> 休憩後（ラウンド3の前）に対角で交換（例: 日本⇄シンガポール）。「さっきまで相手だった国を、今度は自分が語る」体験が核心</li>
+</ul>
+
+<h3>2-b. 配布カードの種類</h3>
+
+<p>ワークショップで使用する配布物は大きく<strong>3種類</strong>です:</p>
+
+<table>
+  <tr><th>種類</th><th>内容</th><th>配布タイミング</th><th>部数</th></tr>
+  <tr>
+    <td><strong>初期設定カード</strong><br>（4種）</td>
+    <td>各国の1940年時点の状況、立場、気持ちを説明</td>
+    <td>開始時に各チームへ</td>
+    <td>各1部</td>
+  </tr>
+  <tr>
+    <td><strong>ラウンドカード</strong><br>（5種 × 4カ国分）</td>
+    <td>各ラウンドの共通事実 + 国別ヒント</td>
+    <td>各ラウンド開始時</td>
+    <td>各ラウンド4部</td>
+  </tr>
+  <tr>
+    <td><strong>振り返りシート</strong></td>
+    <td>6つの設問（前後の変化、印象、立場の違い、他国視点、帰国後、自由記述）</td>
+    <td>最後の振り返り時</td>
+    <td>人数分</td>
+  </tr>
+</table>
+
+<h4>初期設定カードの概要（4カ国）</h4>
+
+<div class="comparison-grid">
+  <div class="card japan">
+    <div class="card-title">日本</div>
+    <ul>
+      <li>アジア唯一の列強。日清・日露戦争に勝利</li>
+      <li>石油自給率10%、備蓄2年分</li>
+      <li>アメリカの石油全面禁輸で追い詰められている</li>
+      <li>「大東亜共栄圏」— アジア解放のスローガン</li>
+    </ul>
+  </div>
+  <div class="card singapore">
+    <div class="card-title">シンガポール</div>
+    <ul>
+      <li>イギリスの直轄植民地（120年間）</li>
+      <li>人口約80万人（中華系75%）</li>
+      <li>17歳のLKY: イギリスが上にいるのは「当然の事実」</li>
+      <li>自治の発想がまだない</li>
+    </ul>
+  </div>
+  <div class="card malaysia">
+    <div class="card-title">マレーシア（マラヤ）</div>
+    <ul>
+      <li>ゴム世界シェア40%、錫の世界最大生産地</li>
+      <li>イギリスの「分割統治」で3民族が分断</li>
+      <li>マレー人は「土地の本来の持ち主」という意識</li>
+      <li>中華系の増加に脅威を感じている</li>
+    </ul>
+  </div>
+  <div class="card britain">
+    <div class="card-title">イギリス</div>
+    <ul>
+      <li>地球の陸地24%を支配する世界最大の帝国</li>
+      <li>シンガポールに「東洋のジブラルタル」海軍基地</li>
+      <li>しかし本国はナチスとの戦争で手一杯</li>
+      <li>日本を見くびっている</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ====== 3. PROGRAM ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-program">3</span> プログラム進行</h2>
+
+<h3>3-a. タイムテーブル（通常版 約130分）</h3>
+<table>
+  <tr><th>時間</th><th>フェーズ</th><th>内容</th></tr>
+  <tr><td>0:00</td><td>オープニング</td><td>ルール説明・チーム分け</td></tr>
+  <tr><td>0:10</td><td>初期設定</td><td>各チームが自国カードを読み、理解する</td></tr>
+  <tr><td>0:20</td><td>自己紹介ラウンド</td><td>「うちの国はこういう国です」と発表（各2分）</td></tr>
+  <tr><td>0:30</td><td>Round 1</td><td>日本軍侵略（1941-42）</td></tr>
+  <tr><td>0:50</td><td>Round 2</td><td>日本軍支配（1942-45）</td></tr>
+  <tr><td>1:10</td><td style="color:#888;">休憩 10分</td><td style="color:#888;">（役の交換をする場合はここで）</td></tr>
+  <tr><td>1:20</td><td>Round 3</td><td>原爆と終戦（1945）</td></tr>
+  <tr><td>1:45</td><td>Round 4</td><td>イギリス再支配（1945-50s）</td></tr>
+  <tr><td>2:05</td><td>Round 5</td><td>東南アジア独立（1950s-1965）</td></tr>
+  <tr><td>2:25</td><td>振り返り</td><td>個人記入 → 全体共有</td></tr>
+  <tr><td>2:40</td><td>クロージング</td><td>ファシリテーターまとめ</td></tr>
+</table>
+
+<h3>3-b. 各ラウンドの進め方（1ラウンド約20分）</h3>
+<table>
+  <tr><th>Step</th><th>時間</th><th>内容</th></tr>
+  <tr><td>1</td><td>1分</td><td><strong>カード配布:</strong> 全チーム共通の「何が起きたか」を読む。ファシリテーターが一言で状況を説明</td></tr>
+  <tr><td>2</td><td>2分</td><td><strong>国別ヒント:</strong> カード内の「あなたの国では」セクションを読む</td></tr>
+  <tr><td>3</td><td>5分</td><td><strong>作戦会議:</strong> 「うちの国はどう感じた？」を話し合い、模造紙にメモ。発表者を決める</td></tr>
+  <tr><td>4</td><td>10分</td><td><strong>国際会議:</strong> 各チーム発表（2分×4カ国）+ 他チームからの質問（2分）</td></tr>
+  <tr><td>5</td><td>2分</td><td><strong>ファシリテーターの一言:</strong> 「同じ出来事なのに見え方が違う」を整理、次への橋渡し</td></tr>
+</table>
+
+<!-- ====== ROUND 1 ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-round">R1</span> 日本軍侵略 — 1941年12月〜1942年2月</h2>
+
+<h3>提示する事実（全チーム共通）</h3>
+<table>
+  <tr><th>日付</th><th>出来事</th></tr>
+  <tr><td>1941年12月8日</td><td>マラヤ北東コタバルに日本軍上陸、シンガポール空爆開始</td></tr>
+  <tr><td>12月10日</td><td>英海軍主力艦「プリンス・オブ・ウェールズ」「レパルス」が航空攻撃で撃沈（世界史上初）</td></tr>
+  <tr><td>12月〜2月</td><td>日本軍が自転車でマレー半島1,100kmを70日で南下</td></tr>
+  <tr><td>1942年2月15日</td><td>シンガポール陥落。イギリス軍降伏（日本軍3.6万 vs 英軍8.5万）</td></tr>
+</table>
+
+<h3>各チームに提示する情報</h3>
+
+<div class="card japan">
+  <div class="card-title">日本チーム</div>
+  山下奉文「マレーの虎」率いる第25軍が進撃。自転車部隊（銀輪部隊）がジャングルを駆け抜け、パンクしたリムの音を英兵が「戦車」と勘違い。英軍の見積もり「最低5ヶ月」を70日で達成。
+</div>
+<div class="card singapore">
+  <div class="card-title">シンガポールチーム</div>
+  LKY（18歳）: 12月8日午前4時、爆弾の音で目覚め。最初は「恐怖より興奮」。コーズウェイ爆破の音に "That's the end of the British Empire!" と叫ぶ。2月15日、「イギリスは最強」という世界観が崩壊。
+</div>
+<div class="card malaysia">
+  <div class="card-title">マレーシアチーム</div>
+  最初の戦場はマラヤ北東コタバル。ペナン島でイギリス人が夜のうちにアジア人を置き去りにして逃亡。「白人至上主義の神話が崩壊した瞬間」。
+</div>
+<div class="card britain">
+  <div class="card-title">イギリスチーム</div>
+  チャーチル: "The fall of Singapore was the worst disaster and largest capitulation in British history." 15インチ砲は海（南）向き、日本は陸（北）から。85,000人が36,000人に敗北。
+</div>
+
+<div class="hint">
+  <strong>ディスカッションの問い</strong>
+  <ol>
+    <li>日本軍の勝利は「すごいこと」？「怖いこと」？ — 立場によって違うか</li>
+    <li>「イギリスが負けた」ことは、シンガポールやマラヤの人にとって良いこと？悪いこと？</li>
+    <li>もしあなたがシンガポールの18歳の学生だったら、何を感じる？</li>
+  </ol>
+</div>
+
+<div class="expect">
+  <strong>参加者に期待する反応</strong>
+  <ul>
+    <li>日本チーム: 自国の軍事力に驚き、同時にこの先何が起きるか不安を感じ始める</li>
+    <li>シンガポール・マレーシアチーム: 「守ってくれるはずのイギリスが負けた」衝撃</li>
+    <li>イギリスチーム: 「なぜ負けた？」と自問し、慢心に気づく</li>
+    <li>全体: 同じ「日本の勝利」が立場によって全く違う意味を持つことに気づき始める</li>
+  </ul>
+</div>
+
+<div class="facilitate">
+  <strong>ファシリテーターの働きかけ</strong>
+  <ul>
+    <li>「人数で2倍以上の兵力がありながら負けた。なぜだと思う？」と全体に問いかけ</li>
+    <li>議論が止まったら「もしあなたがその時代のその国に住んでいたら？」と促す</li>
+    <li>まとめ: 「イギリスの敗北」が植民地の人々に与えた心理的インパクトを整理し、ラウンド2へ橋渡し</li>
+  </ul>
+</div>
+
+<!-- ====== ROUND 2 ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-round">R2</span> 日本軍支配 — 1942年2月〜1945年8月</h2>
+
+<h3>提示する事実（全チーム共通）</h3>
+<p>シンガポールは「昭南島」（Syonan-to）に改名。3年半の占領が始まる。</p>
+<table>
+  <tr><th>出来事</th><th>内容</th></tr>
+  <tr><td>Sook Ching（粛清）</td><td>中華系男性を集め「反日的」とみなした人々を銃殺。日本側6,000人 / シンガポール側推定5万〜10万人</td></tr>
+  <tr><td>憲兵隊（Kempeitai）</td><td>軍事警察による恐怖政治。拷問、密告の奨励</td></tr>
+  <tr><td>飢餓</td><td>物資不足。人口が約80万→60万に減少</td></tr>
+  <tr><td>軍票（バナナ・ノート）</td><td>シリアル番号なしの紙幣。価値が急落</td></tr>
+</table>
+
+<h3>各チームに提示する情報</h3>
+
+<div class="card japan">
+  <div class="card-title">日本チーム</div>
+  「大東亜共栄圏」を掲げたが、実際はSook Ching、慰安所、見せしめの処刑。「暴力は日本の軍隊システムの一部だった」。辛い事実だが、事実を知ることが多面的な視点を持つ第一歩。
+</div>
+<div class="card singapore">
+  <div class="card-title">シンガポールチーム</div>
+  LKYはSook Chingの検問をぎりぎり通過。日本語を学び、闇市で商売し、生き延びた。LKY: "The three and a half years of Japanese occupation were the most important of my life."（人生で最も重要な時期）
+</div>
+<div class="card malaysia">
+  <div class="card-title">マレーシアチーム</div>
+  捕虜はタイ-ビルマ鉄道に送られ過酷な強制労働。抗日ゲリラ（MPAJA）がジャングルでゲリラ戦。マレー人は「日本が新たな保護者になるかも」と期待する者も。民族により態度が分かれた。
+</div>
+<div class="card britain">
+  <div class="card-title">イギリスチーム</div>
+  兵士は捕虜として「世界中のどこの捕虜よりもひどい」扱い。チャンギ刑務所、泰緬鉄道。イギリスの威信は完全に崩壊。ヨーロッパ戦線で手一杯、東南アジア奪還は最終段階まで不可能。
+</div>
+
+<div class="hint">
+  <strong>ディスカッションの問い</strong>
+  <ol>
+    <li>日本軍はなぜ降伏直後にSook Chingを行ったのか？</li>
+    <li>LKYは占領を「人生で最も重要な時期」と呼んだ — つらい経験から何かを学ぶことはできるか？</li>
+    <li>もし占領下のシンガポールに住んでいたら、生き延びるために何をする？</li>
+  </ol>
+</div>
+
+<div class="expect">
+  <strong>参加者に期待する反応</strong>
+  <ul>
+    <li>日本チーム: 「解放」のスローガンと実態のギャップに動揺。個人vs組織の問題を考え始める</li>
+    <li>シンガポールチーム: 極限状態での生存本能、LKYの強さに感嘆</li>
+    <li>マレーシアチーム: 同じ占領下でも民族により立場が違うことに気づく</li>
+    <li>イギリスチーム: 自国兵士の惨状、そして「守れなかった」責任を感じ始める</li>
+  </ul>
+</div>
+
+<div class="facilitate">
+  <strong>ファシリテーターの働きかけ</strong>
+  <ul>
+    <li>日本チームが感情的になったら: 「つらいよね。でも今感じていること自体がすごく大事。それが相手の視点を知るということ」</li>
+    <li>「個々の日本兵は『悪い人』だったか？ それとも軍隊のシステムの問題か？」と構造的に考えるよう促す</li>
+    <li>まとめ: 「加害と被害は一面的ではない」ことを確認し、休憩（＋役の交換）へ</li>
+  </ul>
+</div>
+
+<!-- ====== ROUND 3 ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-round">R3</span> 原爆と終戦 — 1945年8月〜9月</h2>
+
+<h3>提示する事実（全チーム共通）</h3>
+<table>
+  <tr><th>日付</th><th>出来事</th></tr>
+  <tr><td>8月6日</td><td>広島に原子爆弾投下（死者約14万人）</td></tr>
+  <tr><td>8月9日</td><td>長崎に原子爆弾投下（死者約7万人）</td></tr>
+  <tr><td>8月15日</td><td>天皇が降伏を発表（玉音放送）</td></tr>
+  <tr><td>8/15〜9/5</td><td>約3週間の権力の空白 — 復讐・リンチが横行</td></tr>
+  <tr><td>9月12日</td><td>シンガポール市庁舎で正式な降伏式典</td></tr>
+</table>
+
+<h3>各チームに提示する情報</h3>
+
+<div class="card japan">
+  <div class="card-title">日本チーム</div>
+  広島・長崎で一般市民約21万人が犠牲。降伏式典でLKYは日本人将校を見た: "They represented an army that had not been routed in battle." 日本にとって原爆は — 市民への大量虐殺であり、「被害者」でもあることの象徴。
+</div>
+<div class="card singapore">
+  <div class="card-title">シンガポールチーム</div>
+  3年半の占領からの解放のきっかけ。LKY: "I have no doubts about whether the two atom bombs were necessary."（疑いがない）。ただし権力の空白期間に協力者への復讐が横行。イギリス軍到着後も、もう以前のようには尊敬できない。
+</div>
+<div class="card malaysia">
+  <div class="card-title">マレーシアチーム</div>
+  抗日ゲリラ（MPAJA）が姿を現し「人民法廷」を設置。即決処刑やリンチ。日本軍がいなくなった途端に別の武装集団が街を支配。「解放」≠「平和」。
+</div>
+<div class="card britain">
+  <div class="card-title">イギリスチーム</div>
+  捕虜にとって原爆は文字通り命を救った。マウントバッテン卿が「勝者」として降伏式典を主導。しかしアジアの人々の尊敬はもう得られない。アメリカが原爆という圧倒的な力を持ち、世界一の座を明け渡しつつある。
+</div>
+
+<div style="margin:12px 0;">
+  <strong>核心: 同じ「原爆」の見え方が4カ国で全く違う</strong>
+  <table>
+    <tr><th>立場</th><th>原爆の見え方</th></tr>
+    <tr><td>日本</td><td>民間人の大量虐殺。絶対に許されない</td></tr>
+    <tr><td>シンガポール</td><td>解放のきっかけ。LKY: "I have no doubts"</td></tr>
+    <tr><td>マレーシア</td><td>さらなる苦しみを止めた。しかし終戦後の混乱も</td></tr>
+    <tr><td>イギリス</td><td>捕虜の命を救った。しかし威信は戻らなかった</td></tr>
+  </table>
+</div>
+
+<div class="hint">
+  <strong>ディスカッションの問い</strong>
+  <ol>
+    <li>同じ出来事なのに4つの国でこんなに見え方が違う。なぜだろう？</li>
+    <li>「原爆は正しかったか？」— この問いに「正解」はあるのか？</li>
+    <li>「戦争が終わった」のに、すぐには平和にならなかった。なぜ？</li>
+    <li>大事なのは「正解を出すこと」ではなく「いろんな立場があると知ること」。それはなぜ大事か？</li>
+  </ol>
+</div>
+
+<div class="expect">
+  <strong>参加者に期待する反応</strong>
+  <ul>
+    <li>日本チーム: 自国の被害と加害の両面に向き合う。被爆者の苦しみと、占領された側の「必要だった」という見方の落差に戸惑う</li>
+    <li>シンガポール・マレーシアチーム: 「解放」と「復讐の連鎖」のジレンマを感じる</li>
+    <li>イギリスチーム: 「勝ったはず」なのに地位が戻らない矛盾に気づく</li>
+    <li><strong>全体:</strong> 「正解がない」ことに初めて本気でぶつかる。ワークショップの核心的な瞬間</li>
+  </ul>
+</div>
+
+<div class="facilitate">
+  <strong>ファシリテーターの働きかけ</strong>
+  <ul>
+    <li>役の交換を実施した場合: 「さっきまでとは逆の国を語っている感覚はどう？」と問う</li>
+    <li>正解を出そうとする議論には: 「今日は答えを出さなくていい。いろんな見え方があるということ自体が学び」</li>
+    <li>泣く子がいてもOK。無理に止めず見守る。「それだけ真剣に考えた証拠」</li>
+  </ul>
+</div>
+
+<!-- ====== ROUND 4 ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-round">R4</span> イギリス再支配 — 1945年〜1950年代</h2>
+
+<h3>提示する事実（全チーム共通）</h3>
+<table>
+  <tr><th>年</th><th>出来事</th></tr>
+  <tr><td>1945年9月</td><td>BMA（イギリス軍政）開始。運営混乱、汚職横行</td></tr>
+  <tr><td>1946年1月</td><td>シンガポールで大規模ストライキ（17万人参加）</td></tr>
+  <tr><td>1946年</td><td>マラヤ連合案 → マレー人猛反対 → UMNO結成</td></tr>
+  <tr><td>1947年</td><td>インドがイギリスから独立</td></tr>
+  <tr><td>1948年</td><td>マラヤ連邦発足。マラヤ非常事態（共産ゲリラとの戦い）開始</td></tr>
+  <tr><td>1956年</td><td>スエズ危機 — 大英帝国の終わりを象徴</td></tr>
+</table>
+
+<h3>各チームに提示する情報</h3>
+
+<div class="card japan">
+  <div class="card-title">日本チーム</div>
+  アメリカ占領下で非軍事化・民主化・新憲法（第9条）。シンガポールでの戦犯裁判: Sook Chingを計画した辻政信は逃亡し一度も裁かれず。LKY: 「歴代の日本政府はこれらの悪行について語ることを選ばなかった。ドイツとは違い、世代が替われば忘れ去られることを期待している」
+</div>
+<div class="card singapore">
+  <div class="card-title">シンガポールチーム</div>
+  BMAの汚職、17万人ストライキ。LKYは23歳でイギリスへ留学。しかし胸の中には「イギリスに支配され続けるのはもうおかしい」という思いが芽生えている。
+</div>
+<div class="card malaysia">
+  <div class="card-title">マレーシアチーム</div>
+  マラヤ連合案（全民族平等）にマレー人が猛反対。UMNO結成。「この土地の本来の持ち主」vs「後から来た移民」の構図。1948年、共産党が武装蜂起しマラヤ非常事態（12年間）が開始。
+</div>
+<div class="card britain">
+  <div class="card-title">イギリスチーム</div>
+  BMAは素人の軍人が運営。インド独立（1947）、スエズ危機（1956）で帝国が崩壊し始める。シンガポール防衛費はGDPの約20%、3万人が軍関連雇用 — イギリスが去れば経済は大打撃。
+</div>
+
+<div class="hint">
+  <strong>ディスカッションの問い</strong>
+  <ol>
+    <li>イギリスは「戻ってきた」けど、もう以前のイギリスではなかった。何が変わった？</li>
+    <li>マラヤの「全民族平等」問題 — 今の日本にも同じ問題はあるか？（移民、在日外国人の権利）</li>
+    <li>日本は経済復興に全力を注いだ。しかし戦争の歴史とどう向き合ったか？</li>
+  </ol>
+</div>
+
+<div class="expect">
+  <strong>参加者に期待する反応</strong>
+  <ul>
+    <li>日本チーム: 戦後の歴史認識の問題に直面。ドイツとの比較で考えが深まる</li>
+    <li>シンガポールチーム: 植民地支配への疑問が自然と芽生え、独立への伏線を感じる</li>
+    <li>マレーシアチーム: 「平等」が必ずしも全員に歓迎されない複雑さを体感</li>
+    <li>イギリスチーム: 帝国の崩壊は「時代の必然」だったのか考え始める</li>
+  </ul>
+</div>
+
+<div class="facilitate">
+  <strong>ファシリテーターの働きかけ</strong>
+  <ul>
+    <li>「全民族平等」の議論を現代に引きつける: 「日本にも外国人が増えている。同じ問題はある？」</li>
+    <li>日本の歴史認識については結論を押しつけない。「ドイツと日本のアプローチの違い」を材料として提示</li>
+    <li>まとめ: 「戦後は終わりではなく、新しい問題の始まりだった」とラウンド5へ橋渡し</li>
+  </ul>
+</div>
+
+<!-- ====== ROUND 5 ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-round">R5</span> 東南アジア独立 — 1950年代〜1965年</h2>
+
+<h3>提示する事実（全チーム共通）</h3>
+<table>
+  <tr><th>年</th><th>出来事</th></tr>
+  <tr><td>1957年</td><td>マラヤ独立</td></tr>
+  <tr><td>1963年</td><td>マレーシア連邦結成（マラヤ+シンガポール+サバ+サラワク）</td></tr>
+  <tr><td>1964年</td><td>シンガポールで人種暴動が2回発生</td></tr>
+  <tr><td>1965年8月9日</td><td>マレーシアがシンガポールを追放。望まない独立</td></tr>
+  <tr><td>1968年</td><td>イギリス「スエズ以東からの撤退」宣言</td></tr>
+</table>
+
+<h3>各チームに提示する情報</h3>
+
+<div class="card japan">
+  <div class="card-title">日本チーム</div>
+  敗戦から23年で世界第2位のGDP（1968年）。東南アジアに積極投資。しかしLKYの日本への姿勢は「尊敬、しかし許しではない」— 投資は歓迎するが靖国参拝・教科書問題には一貫して批判的。
+</div>
+<div class="card singapore">
+  <div class="card-title">シンガポールチーム</div>
+  LKY: "Singapore had independence thrust upon it."（独立を押し付けられた）。記者会見で泣き崩れた。面積214平方マイル、天然資源ゼロ、水すらマレーシアから輸入。しかしチャイナタウンでは爆竹で祝い、株式市場は上昇。
+</div>
+<div class="card malaysia">
+  <div class="card-title">マレーシアチーム</div>
+  LKYの「マレーシア人のマレーシア」（全民族平等）主張にUMNO反発。人種暴動を経てトゥンクが最終決断 — シンガポール追放。法案は数時間で両院通過。
+</div>
+<div class="card britain">
+  <div class="card-title">イギリスチーム</div>
+  帝国解体が加速。シンガポール独立をわずか17時間で承認。1968年「スエズ以東からの撤退」宣言。かつて地球の24%を支配した帝国が、わずか20年で崩壊。
+</div>
+
+<div class="hint">
+  <strong>ディスカッションの問い</strong>
+  <ol>
+    <li>シンガポールは「独立を押し付けられた」国。資源もない。でも今は世界有数の豊かな国。なぜ可能だった？</li>
+    <li>日本の経済的成功と歴史への向き合い方 — 別の問題か？</li>
+    <li>全体を振り返って — この歴史の流れの中で「完全に正しかった国」はあるか？</li>
+  </ol>
+</div>
+
+<div class="expect">
+  <strong>参加者に期待する反応</strong>
+  <ul>
+    <li>全体: 5ラウンドを通じて「どの国にも理由がある」ことを実感</li>
+    <li>日本チーム: 経済復興の誇りと歴史認識の課題を同時に抱える複雑さを感じる</li>
+    <li>シンガポールチーム: 逆境から国を作ったLKYのリーダーシップに感銘</li>
+    <li>「完全に正しかった国はない」という結論に自然と辿り着く</li>
+  </ul>
+</div>
+
+<div class="facilitate">
+  <strong>ファシリテーターの働きかけ</strong>
+  <ul>
+    <li>「5つのラウンドを通じて、一番印象に残ったのは？」と個人に短く聞く</li>
+    <li>「完全に正しかった国」がないことを確認しつつ、それでも「知ることに意味がある」と伝える</li>
+    <li>振り返りシートの記入へスムーズに移行</li>
+  </ul>
+</div>
+
+<!-- ====== 4. REFLECTION ====== -->
+<div class="page-break"></div>
+<h2><span class="badge badge-purpose">4</span> 振り返りと閉会</h2>
+
+<h3>振り返りシート（6つの設問）</h3>
+<table>
+  <tr><th>#</th><th>設問</th><th>意図</th></tr>
+  <tr><td>1</td><td>ワークショップの前と後で、「シンガポールと日本の関係」のイメージはどう変わった？</td><td>before/afterの変化を自覚させる</td></tr>
+  <tr><td>2</td><td>5つのラウンドで一番驚いたこと・心に残ったことは？</td><td>最も印象深い学びを定着させる</td></tr>
+  <tr><td>3</td><td>同じ出来事なのに「国によって見え方が違う」と感じた場面は？</td><td>多角的視点の核心に触れる</td></tr>
+  <tr><td>4</td><td>もし別の国のチームだったら、一番違っていたと思う場面は？</td><td>他者の立場への想像力を鍛える</td></tr>
+  <tr><td>5</td><td>日本の友達や家族に一つだけ伝えるとしたら？</td><td>学びを言語化・持ち帰りを促す</td></tr>
+  <tr><td>6</td><td>自由記述（感想、疑問、モヤモヤ）</td><td>未消化の思いを受け止める</td></tr>
+</table>
+
+<h3>クロージング — ファシリテーターのメッセージ</h3>
+<blockquote style="font-size:11pt; font-style:normal; background:#f0f4ff; border-left:4px solid #0d47a1;">
+  5つのラウンドを通じて、同じ出来事が4つの国でまったく違う意味を持つことを体験しました。<br><br>
+  <strong>歴史に100:0はありません。</strong><br><br>
+  どの国にも理由があり、どの国にも傷があります。大事なのは「どっちが正しいか」を決めることではなく、<strong>「相手がなぜそう思うのか」を理解しようとすること</strong>です。<br><br>
+  それができる人が、グローバルで信頼される人です。<br><br>
+  今日の体験を、忘れないでください。
+</blockquote>
+
+<h3>フォローアップ</h3>
+<ol>
+  <li><strong>当日の夜:</strong> 振り返りシートを元にグループで感想共有（夕食時など）</li>
+  <li><strong>翌日:</strong> 街歩きで「今日見たものは、どの時代の名残か？」を意識して歩く</li>
+  <li><strong>帰国後:</strong> 学校で発表 — 「シンガポールで学んだこと」</li>
+</ol>
+
+</body>
+</html>
