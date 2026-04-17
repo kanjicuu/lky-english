@@ -6,11 +6,11 @@
 - **Published:** 1998
 
 ## Reading Progress
-- **Current Chapter:** Chapter 4: After the Liberation
-- **Current Page:** p.94
-- **Last note entry:** #682
+- **Current Chapter:** Chapter 5: My Cambridge Days
+- **Current Page:** p.99 (start)
+- **Last note entry:** #691
 - **Last session:** 2026-04-18
-- **Next session start:** "Before I sailed, she also did her best to make sure I would leave Singapore committed to some Chinese girl..." (p.94)
+- **Next session start:** Chapter 5 の冒頭から (p.99)
 
 ## Text Transcribed
 | Section | Pages | Status |
@@ -21,6 +21,7 @@
 | Chapter 2: Growing Up | pp.25-43 | Done |
 | Chapter 3: The Japanese Invaders | pp.44-83 | Done (p.81 missing from source) |
 | Chapter 4: After the Liberation | pp.84-98 | Done (pp.95-96 missing from source) |
+| Chapter 5: My Cambridge Days | pp.99-123 | Partial (p.109 missing, pp.114-123 body not yet input in Apple Notes) |
 
 ## Notes Completed
 | Section | Entries | Status |
@@ -29,7 +30,7 @@
 | Chapter 1 | #42-132 | Done |
 | Chapter 2 | #133-205 | Done |
 | Chapter 3 | #206-610 | Done |
-| Chapter 4 | #611-682 | In progress |
+| Chapter 4 | #611-691 | Done |
 
 ## Workflow
 1. スマホで見開き撮影 → Macに同期 → Claude Codeでテキスト化 → `text/` に保存

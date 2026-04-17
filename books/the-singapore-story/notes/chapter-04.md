@@ -455,3 +455,57 @@
 > "items pilfered or bought from British troops"
 > 「英兵から盗まれたり買い取られた品々」
 📅 2026-04-18
+
+**#683** **patronise** /ˈpætrənaɪz/
+見下したように接する、恩着せがましく扱う。米綴りはpatronize。patron（後援者）から。
+> "they were patronised if not publicly ostracised"
+> 「あからさまに村八分にされないまでも見下されていた」
+📅 2026-04-18
+
+**#684** **ostracised** /ˈɒstrəsaɪzd/
+仲間外れにされた、村八分にされた、追放された。古代ギリシャの陶片追放（ostracism）が語源。
+> "patronised if not publicly ostracised"
+> 「あからさまに村八分にされないまでも」
+📅 2026-04-18
+
+**#685** **eligible** /ˈelɪdʒəbl/
+資格のある、（結婚相手として）ふさわしい。"eligible bachelor" = 有望な独身男性。
+> "three eligible young ladies of suitable background"
+> 「ふさわしい家柄の結婚適齢期の女性3人」
+📅 2026-04-18
+
+**#686** **presentable** /prɪˈzentəbl/
+人前に出しても恥ずかしくない、見た目が整っている。present + -able。
+> "their families were comfortably off and they were presentable"
+> 「家は裕福で、見た目も申し分なかった」
+📅 2026-04-18
+
+**#687** **shrewd** /ʃruːd/
+抜け目ない、賢明な、鋭い。現実的な判断力に優れている。cleverより実践的な賢さ。
+> "She was a shrewd woman"
+> 「彼女は賢明な女性だった」
+📅 2026-04-18
+
+**#688** **norms** /nɔːmz/
+規範、基準、標準。"social norms" = 社会規範（暗黙のルール）。normalの名詞形。
+> "shared the same social norms"
+> 「同じ社会的価値観を共有していた」
+📅 2026-04-18
+
+**#689** **cooped up** /kuːpt ʌp/
+（狭い場所に）閉じ込められた、缶詰状態にされた。coop = 鶏小屋。
+> "Choo cooped up in a flat doing housework"
+> 「チューはアパートに閉じこもって家事をしていた」
+📅 2026-04-18
+
+**#690** **keen** /kiːn/
+鋭い、熱心な、強い。"keen sense of ~" = 〜の鋭い感覚、"keen on ~" = 〜に熱心。
+> "They also had a keen sense of propriety"
+> 「礼節に対する強い感覚を持っていた」
+📅 2026-04-18
+
+**#691** **rebuked** /rɪˈbjuːkt/
+叱責された、きつく叱られた。scoldより厳しくフォーマル。
+> "She was roundly rebuked for such improper behaviour"
+> 「彼女はそのような不作法な振る舞いをきつく叱責された」
+📅 2026-04-18
